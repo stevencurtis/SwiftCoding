@@ -96,3 +96,5 @@ Xcode has great tools in instruments, and some prefer to use those. However, the
 This is another great tool to have at our disposal!
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
+
+Why not sign up to my [newsletter](https://subscribe.to/swiftcodingblog/)
