@@ -4,7 +4,7 @@ I hope this set of articles is of use to you!
 
 ### Beginnner
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)
-
+[Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)
 
 ### Tips
 
