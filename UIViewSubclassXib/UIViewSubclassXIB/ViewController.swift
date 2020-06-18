@@ -14,14 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let subclassedView = SubclassedView(frame: .zero)
         self.view.addSubview(subclassedView)
-        
         subclassedView.translatesAutoresizingMaskIntoConstraints = false
         subclassedView.heightAnchor.constraint(equalToConstant: 100).isActive = true
         subclassedView.widthAnchor.constraint(equalToConstant: 100).isActive = true
         subclassedView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
-        subclassedView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true 
+        subclassedView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
     }
 
-
 }
-

@@ -9,8 +9,6 @@ An in-depth look into the two types of [closures](https://medium.com/swift-codin
 Difficulty: **Beginner** | Easy | Normal | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
 
-
-
 # What are escaping and non-escaping closures
 * A non-escaping closure is a closure that is called within the function it is passed into. The execution of the closure will be before the function returns
 * An escaping closure is a closure that executes after the function it is passed into returns. The closure outlives the function that it is passed into, and this is known as `escaping`. escaping closures are frequently used for asynchronous execution or storage.
@@ -88,7 +86,6 @@ So this can be practically implemented with the following code:
 
 
 # Conclusion
-
 The idea of @escaping and non-escaping closures can be a little tricky. We didn't even get into [capture lists](https://medium.com/@stevenpcurtis.sc/using-capture-lists-in-swift-19f408f986d) that might be the next article you'd like to read.
 
 Some of these concepts in Swift can be a little tricky, but it is important to try to get there in the end and put all of these tools into your programming toolbag.

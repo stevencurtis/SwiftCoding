@@ -6,7 +6,7 @@
 
 It can be difficult tracking down retain cycles in Xcode. This is the article (with example) to help you to use this great feature!
 
-Difficulty: **Beginner** | Easy | Normal | Challenging<br/>
+Difficulty: Beginner | **Easy** | Normal | Challenging<br/>
 This article has been developed using Xcode 11.5, and Swift 5.2.4
 
 ## Prerequisites: 
@@ -43,7 +43,7 @@ The retain cycle is between the parent and the child - neither of them can be re
 
 So the `UIViewController` creates a `Parent` and `Child`, which will be retained even if the `ViewController` no longer exists because the `Child` holds onto the `Parent` (and vice-versa) with strong references. 
 
-This is all downloadable from the [repo](https://github.com/stevencurtis/VisualMemoryDebugger) so you can see it in practice.
+This is all downloadable from the [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger) so you can see it in practice.
 
 ## Viewing the retain cycle
 When we run the project, nothing bad happens. Great!
