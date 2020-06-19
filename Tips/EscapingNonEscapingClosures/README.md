@@ -19,7 +19,6 @@ Closures risk creating a [retain cycle](https://medium.com/@stevenpcurtis.sc/see
 Let us look at some real-life examples
 
 ## The real-life example
-
 Now a closure can be thought of a set of instructions that are passed to a function that are executed by that function. The function has no information about what these instructions (the closure) might do, other than the parameters it is given and the return type. The closure will have a reference to an object - and it is this reference that can cause problems with a possible [retain cycle](https://medium.com/@stevenpcurtis.sc/see-retain-cycles-in-xcode-70eb150ce7d1) and memory leak.
 
 The *flow* of the two situations in hand look like the following
@@ -91,3 +90,5 @@ The idea of @escaping and non-escaping closures can be a little tricky. We didn'
 Some of these concepts in Swift can be a little tricky, but it is important to try to get there in the end and put all of these tools into your programming toolbag.
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
+
+Why not sign up to my [newsletter](https://subscribe.to/swiftcodingblog/)
