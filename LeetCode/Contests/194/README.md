@@ -1,11 +1,10 @@
 # LeetCode Weekly Contest 194 Swift solutions
 ## Serial
 
-
 ![Photo by Abigail Miller on Unsplash](Images/photo-1532636653654-e243fbe850b1.jpeg)<br/>
 <sub>Photo by Abigail Miller on Unsplash<sub>
 
-This article is about the 4 challenes in the LeetCode Weekly Contest 194. That is
+This article is about the 4 challenges in the LeetCode Weekly Contest 194. That is
 * 1486 XOR Operation in an Array
 * 1487 Making File Names Unique
 * 1488 Avoid Flood in The City
@@ -21,7 +20,7 @@ Let us get started!
 ## 1486. XOR Operation in an Array
 This is a task around [logical operators](https://medium.com/@stevenpcurtis.sc/logical-operators-in-swift-b20a1e9b53af).
 
-You are asked to return the bitwise `XOR` (which in Swfit is ^) of an array where each element is defined by `nums[i] = start + 2 * i` where start is the initial element in the array, and i is the index of the array.
+You are asked to return the bitwise `XOR` (which in Swift is ^) of an array where each element is defined by `nums[i] = start + 2 * i` where start is the initial element in the array, and i is the index of the array.
 
 ![xoroperation](Images/xoroperation.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/7f3e915c2b5b7838df10c4a02d475707)<sub>
@@ -29,7 +28,7 @@ You are asked to return the bitwise `XOR` (which in Swfit is ^) of an array wher
 You could of course rewrite this as a recursive function. 
 
 ## 1487. Making File Names Unique
-Given an array of strings called `names` posessing size n there will be n unique `names`.
+Given an array of strings called `names` possessing size n there will be n unique `names`.
 
 To ensure that each unique name is unique where there is a collision `(k)` is appended to the name of the file, using the smallest possible integer `k` to ensure that the solution is unique. 
 
@@ -54,7 +53,7 @@ This problem must be completed quick enough to not get the dreaded "Time Limit E
 
 Now it makes sense  that each lake can only be filled once - if this is not true we return the empty array.
 
-It is tricky because you need to use an array for dryDays rather than a set because the "soonest" avalible dry day must be picked for any particular lake in order to avoid floods.
+It is tricky because you need to use an array for dryDays rather than a set because the "soonest" available dry day must be picked for any particular lake in order to avoid floods.
 
 ![avoidflood](Images/avoidflood.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/b3553c4d18982b70a226ce8f3401f5f3)<sub>
@@ -65,7 +64,7 @@ This last problem is given a weighting of 7 by LeetCode - meaning that it is qui
 
 The solution requires looking at [Kruskal’s Algorithm in Swift](ttps://medium.com/@stevenpcurtis.sc/kruskals-algorithm-in-swift-717ec98a7245?sk=662a888b2b3293ad3af12a0ad83d120a).
 
-The graph is given to us as a set of Edges (startNode, weight, endNode) represeting a weighted undirected connected graph with n verticies. 
+The graph is given to us as a set of Edges (startNode, weight, endNode) representing a weighted undirected connected graph with n vertices. 
 
 We must calculate the Minimum Spanning Tree (MST) of this undirected graph (the algorithm here relies on a sorted array of edges), and make sure that the original index is used of the array (even though, as stated, they are sorted).
 
