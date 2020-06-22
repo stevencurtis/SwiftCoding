@@ -14,6 +14,9 @@ I hope this set of articles is of use to you!
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)
 
+### Theory
+[Kruskal's Algorithm](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)
+
 ## Get in touch
 I'm usually around on [Twitter](https://twitter.com/stevenpcurtis) 
 
