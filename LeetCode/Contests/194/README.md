@@ -60,11 +60,12 @@ It is tricky because you need to use an array for dryDays rather than a set beca
 
 ## 1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 
-This last problem is given a weighting of 7 by LeetCode - meaning that it is quite tricky.
-
-The solution requires looking at [Kruskal’s Algorithm in Swift](ttps://medium.com/@stevenpcurtis.sc/kruskals-algorithm-in-swift-717ec98a7245?sk=662a888b2b3293ad3af12a0ad83d120a).
-
-The graph is given to us as a set of Edges (startNode, weight, endNode) representing a weighted undirected connected graph with n vertices. 
+This last problem is given a weighting of 7 by LeetCode - meaning that it is quite tricky.
+The solution requires looking at Kruskal's Algorithm in Swift.
+The graph is given to us as a set of Edges (startNode, weight, endNode) representing a weighted undirected connected graph with n verticies.
+The basic algorithm is:
+* Find the minimum using Kruskal's algorithm (using union-find to detect cycles)
+* For each edge, if the the MST excluding this edge result in a higher weight, that edge is a critical edge. If the MST including the edge is the same weight as the minimum, it is added to the pseudo-critical edge list
 
 We must calculate the Minimum Spanning Tree (MST) of this undirected graph (the algorithm here relies on a sorted array of edges), and make sure that the original index is used of the array (even though, as stated, they are sorted).
 
