@@ -17,6 +17,9 @@ I hope this set of articles is of use to you!
 ### Theory
 [Kruskal's Algorithm](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)
 
+### LeetCode
+[Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)
+
 ## Get in touch
 I'm usually around on [Twitter](https://twitter.com/stevenpcurtis) 
 
