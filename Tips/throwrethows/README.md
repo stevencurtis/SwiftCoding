@@ -64,8 +64,7 @@ Apple have this covered off in their [documentation](https://docs.swift.org/swif
 # Why it matters
 It's not just your code. At all. Apple use `rethrows` in their higher-order functions like [filter](https://developer.apple.com/documentation/swift/sequence/3018365-filter) where the function signature is
 
-`func filter(_ isIncluded: (Self.Element) throws -> Bool) rethrows -> [Self.Element]
-`
+`func filter(_ isIncluded: (Self.Element) throws -> Bool) rethrows -> [Self.Element]`
 Now why would that be important?
 
 ![luckynums](Images/luckynums.png)<br>
