@@ -6,10 +6,10 @@
 <sub>Photo by Abigail Miller on Unsplash<sub>
 
 This article is about the 4 challenes in the LeetCode Weekly Contest 194. That is
-* 1486. XOR Operation in an Array
-* 1487. Making File Names Unique
-* 1488. Avoid Flood in The City
-* 1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
+* 1486 XOR Operation in an Array
+* 1487 Making File Names Unique
+* 1488 Avoid Flood in The City
+* 1489 Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree
 
 The solutions assume some knowledge of [Big O notation](https://medium.com/@stevenpcurtis.sc/beginners-big-o-for-swift-developers-c1ca94f2520)
 
