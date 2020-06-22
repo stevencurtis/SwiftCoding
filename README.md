@@ -2,6 +2,9 @@
 ## A collection of blog posts about Swift coding
 I hope this set of articles is of use to you!
 
+![Photo by Drew Hays on Unsplash](mad-rabbit-tattoo-tn1yJqxNj-8-unsplash.jpg)<br/>
+<sub>Photo by Mad Rabbit Tattoo on Unsplash<sub>
+
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)
 
