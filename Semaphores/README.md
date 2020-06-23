@@ -1,7 +1,6 @@
 # Avoid Deadlock with Semaphores
 ## Stop-Wait-Go
 
-
 ![Photo by Drew Hays on Unsplash](0*z4aBupDI_gf6M0uO.jpeg)<br/>
 <sub>Photo by Drew Hays on Unsplash<sub>
 
@@ -27,7 +26,6 @@ Sarah Kilian on Unsplash](photo-1555861496-0666c8981751.jpeg)
 
 
 # The practical example
-
 For each of these examples two `queues` are going to be used as follows:
 
 ![dispatchqueues](Images/dispatchqueues.png)<br>
