@@ -1,6 +1,5 @@
-# How Implicit Return Types Removed that Annoying Swift Inconsistency
-## Deal with that Error
-
+# New Features for iOS 14: SwiftUI
+## There’s quite a few!
 
 ![Photo by Ilyuza Mingazova on Unsplash](Images/0*kGYTVxAX9Ce2t3Vp.jpeg)<br/>
 <sub>Photo by Ilyuza Mingazova on Unsplash<sub>
