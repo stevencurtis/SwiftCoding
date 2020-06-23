@@ -6,7 +6,7 @@
 
 SwiftUI has been around for over a year. Now we have had longer than a *Year* to start working with SwiftUI. Isn't it time we got started?
 
-Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
+Difficulty: **Beginner** | Easy | Normal | Challenging<br/>
 This article has been developed using Xcode 11.5, and Swift 5.2.4
 
 # Prerequisites:
@@ -29,8 +29,8 @@ We are going to display “Hello,World!” on a label displayed on the phone scr
 # The step-by-step
 ## Creating a new Project in Xcode
 You need to have Xcode installed on your Mac. This can be downloaded from [HERE](https://developer.apple.com/xcode/). If you don’t already have this installed, do so now.
-Once you have done that, you can click on the Xcode icon
-![XcodeIcon](Images/1*l_4ZWA3V_eY4mSmPnwIQiA.png)
+Once you have done that, you can click on the Xcode icon <br>
+![XcodeIcon](Images/1*l_4ZWA3V_eY4mSmPnwIQiA.png)<br>
 
 This opens up the IDE, and the first thing we are going to do is create a new project.
 
@@ -82,7 +82,7 @@ We can then change the text on the left hand side on the `ContentView.swift` fil
 
 The result will look something like this:
 
-![finishedcode](Movies/finishedcode.gif)
+![finishedcode](Images/finishedcode.gif)
 
 If you want the finished code you can download it from [https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld)
 
