@@ -1,7 +1,7 @@
 # Avoid Deadlock with Semaphores
 ## Stop-Wait-Go
 
-![Photo by Drew Hays on Unsplash](0*z4aBupDI_gf6M0uO.jpeg)<br/>
+![Photo by Drew Hays on Unsplash](Images/0*z4aBupDI_gf6M0uO.jpeg)<br/>
 <sub>Photo by Drew Hays on Unsplash<sub>
 
 You might well be familar with [GCD](https://medium.com/swift-coding/concurrency-and-grand-central-dispatch-in-swift-gcd-f0ae063973c2), but what if you wish to make sure that you never enter a deadlocked state?
