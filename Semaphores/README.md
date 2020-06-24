@@ -17,12 +17,12 @@ The [Readers-Writers Problem](https://medium.com/@stevenpcurtis.sc/the-readers-w
 
 In your iOS application you may have several threads that wish to access a shared resource (the cannonical example for this is a file).
 
-![Photo by Maksym Kaharlytskyi on Unsplash](maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg)
+![Photo by Maksym Kaharlytskyi on Unsplash](Images/maksym-kaharlytskyi-Q9y3LRuuxmg-unsplash.jpg)
 
 You would not want to be in a situation where the file can be written on at the same time as it is being read - imagine that *during* the reading process the file is written. This would mean that we couldn't be certain of what we were reading; perhaps half of the original file and half of the updated file - what a disaster!
 
 ![Photo by 
-Sarah Kilian on Unsplash](photo-1555861496-0666c8981751.jpeg)
+Sarah Kilian on Unsplash](Images/photo-1555861496-0666c8981751.jpeg)
 
 
 # The practical example

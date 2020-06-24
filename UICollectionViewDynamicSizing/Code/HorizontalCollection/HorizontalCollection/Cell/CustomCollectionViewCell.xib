@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="CustomCollectionViewCell" customModule="HorizontalCollection">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZTl-z8-2vU">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CEg-f7-hUa">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qsJ-kU-iCN">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="129.5"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="129.5" id="Zl3-tA-vjH"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzB-Sy-11c">
+                                        <rect key="frame" x="0.0" y="129.5" width="150" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="CEg-f7-hUa" firstAttribute="top" secondItem="ZTl-z8-2vU" secondAttribute="top" id="IFJ-OV-7We"/>
+                            <constraint firstAttribute="trailing" secondItem="CEg-f7-hUa" secondAttribute="trailing" id="Pch-Fa-zHP"/>
+                            <constraint firstItem="CEg-f7-hUa" firstAttribute="leading" secondItem="ZTl-z8-2vU" secondAttribute="leading" id="Q04-NT-0WY"/>
+                            <constraint firstAttribute="bottom" secondItem="CEg-f7-hUa" secondAttribute="bottom" id="Yb3-HH-X3M"/>
+                            <constraint firstItem="RzB-Sy-11c" firstAttribute="width" secondItem="ZTl-z8-2vU" secondAttribute="width" id="e9M-HD-2P9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZTl-z8-2vU" secondAttribute="trailing" id="Ovf-lC-JUU"/>
+                <constraint firstAttribute="bottom" secondItem="ZTl-z8-2vU" secondAttribute="bottom" id="cF3-Ru-Wry"/>
+                <constraint firstItem="ZTl-z8-2vU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="etq-is-xUK"/>
+                <constraint firstItem="ZTl-z8-2vU" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zX2-TX-Lzs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="165" height="139"/>
+            <connections>
+                <outlet property="txtLab" destination="RzB-Sy-11c" id="nGv-60-2cD"/>
+            </connections>
+            <point key="canvasLocation" x="61.594202898550726" y="76.674107142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -12,6 +12,10 @@ I hope this set of articles is of use to you!
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
 [New Features for iOS 14: SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/Tips/NewIniOS14)<br>
 [|Hello, World" SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld)<br>
+[|Create a Horizontally Scrolling UICollectionView with Dynamic Cell Sizes](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDynamicSizing)<br>
+
+## Normal
+[Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
