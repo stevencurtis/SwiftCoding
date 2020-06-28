@@ -13,6 +13,7 @@ I hope this set of articles is of use to you!
 [New Features for iOS 14: SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/Tips/NewIniOS14)<br>
 [|Hello, World" SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld)<br>
 [|Create a Horizontally Scrolling UICollectionView with Dynamic Cell Sizes](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDynamicSizing)<br>
+[Text Scroll with SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/TextScroll)<br>
 
 ## Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
