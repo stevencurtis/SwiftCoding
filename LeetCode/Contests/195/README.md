@@ -39,10 +39,10 @@ directions[87] = Pair(x: -1, y: 0)`
 
 The logic of the code then becomes traverse the input `String` (say "NES" Nintendo fans) and check to see if each coordinate has previously been visited coordinate using a [`Set`](https://medium.com/@stevenpcurtis.sc/sets-in-swift-94cea4dd7c9f) 
 
-![pathcrossingsolution](Images/pathcrossingsolution)
+![pathcrossingsolution](Images/pathcrossingsolution.png)
 
 which gave the result 
-![pathcrossingresult](images/pathcrossingresult)
+![pathcrossingresult](images/pathcrossingresult.png)
 
 ## 1497 Check If Array Pairs Are Divisible by k
 Split an array of `Integer` `arr` into pairs, such that each pair is divisible by `k`. If the whole array can be split into such pairs, `True` should be returned (if not `False` should be returned).
@@ -55,11 +55,11 @@ So using [%](https://medium.com/@stevenpcurtis.sc/the-swifts-remainder-operator-
 
 With the main part of the equation `((num % k) + k) % k` being so as `num % k` is not sufficient for negative `k`, so we add `k` and `%k` again as in the equation - making this correct for both positive and negative numbers.
 
-![divisiblearrayssolution](Images/divisiblearrayssolution)
+![divisiblearrayssolution](Images/divisiblearrayssolution.png)
 
 Which gives the result
 
-![divisiblearraysresult](Images/divisiblearraysresult)
+![divisiblearraysresult](Images/divisiblearraysresult.png)
 
 
 ## 1498 Number of Subsequences That Satisfy the Given Sum Condition
@@ -85,11 +85,11 @@ I've gone for Swift's internal sort here
 
 Now we can use a two-pointer solution to find the maxium array length with the answer - and keep moving that left pointer until the pointers cross. The solution is as follows:
 
-![numsubsetssolution](Images/numsubsetssolution)
+![numsubsetssolution](Images/numsubsetssolution.png)
 
 Giving the following result:
 
-![numsubsetsresult](Images/numsubsetsresult)
+![numsubsetsresult](Images/numsubsetsresult.png)
 
 ## 1499 Max Value of Equation
 We are given an array of `points` that represent the coordinates of points on a 2D plane (which is sorted on the x value).
@@ -98,11 +98,11 @@ The task is to find the maximum value of y<sub>i<sub> + y<sub>j<sub> + |x<sub>i<
 
 So given an array of points (x, y) there will be a set of pairs (1 element or more) where the difference between x₁ and x₂ is less than k - but which of these pairs will have the maximum  value yᵢ + yⱼ + |xᵢ - xⱼ|… out of all of the possible values?
 
-![maxvaluesolution](Images/maxvaluesolution)
+![maxvaluesolution](Images/maxvaluesolution.png)
 
 Giving the following result:
 
-![maxvalueresult](Images/maxvalueresult)
+![maxvalueresult](Images/maxvalueresult.png)
 
 
 
