@@ -10,6 +10,7 @@ Read on!
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
+Updated for Xcode 11.5
 
 # The importance
 The [Readers-Writers Problem](https://medium.com/@stevenpcurtis.sc/the-readers-writers-problem-995a2a89d0ab
@@ -33,12 +34,12 @@ For each of these examples two `queues` are going to be used as follows:
 
 now if you wish to follow along in [Playgrounds](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089) you'll need to `import PlaygroundSupport` and add the indefiniteExecution line `PlaygroundPage.current.needsIndefiniteExecution = true`.
 
-with that said, we can then create a naive function that attempts to write to the console from both queues (which usually use a single thread each, but this is not guarenteed):
+With that said, we can then create a naive function that attempts to write to the console from both queues (which usually use a single thread each, but this is not guarenteed):
 
 ![naivework](Images/naivework.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/36e46d268afcdaf3b15c40d9d08c81bd)<sub>
 
-now depending on your machine, what is going on in the world and other indecipherable variables you "might" get all of the `userInteractive` work items complete before the `default` priority items.
+Now depending on your machine, what is going on in the world and other indecipherable variables you "might" get all of the `userInteractive` work items complete before the `default` priority items.
 
 ![naiveoutput](Images/naiveoutput.png)<br>
 <sub>A sample output<sub>
@@ -72,7 +73,7 @@ A `semaphore` simply keeps a count (positive) and contains two operations which 
 When we set up a semaphore we pass a an initial value to the Semaphone - in this example we will use 1. 
 
 ![performwork](Images/performwork.png)<br>
-<sub>[Click for Gist](performwork)<sub>
+<sub>[Click for Gist](https://gist.github.com/stevencurtis/e5b7245b40e354fc2bf2fe8e873ca55b)<sub>
 
 So `semaphore.wait` enables waiting for the resource to become avaliable, and then releases with `semaphore.signal()`
 
@@ -82,6 +83,9 @@ That's more like it!
 
 # Conclusion
 
+So a `semaphore` provides nothing more than a variable that can be incremented and decremented in a thread-safe manner. By helping you manage a multithreaded environment, a `semaphore` helps you manage complexity - and even provide an easy to use public API to build. 
+
+Now you've got the tool, what are you waiting for?
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
 
