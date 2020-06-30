@@ -1,12 +1,13 @@
 # Throw Inside a Closure
 ## Closures CAN throw!
 
-
 ![Photo by MIKHAIL VASILYEV on Unsplash](Images/0*rhklgLy_7RgZ-7Jz.jpeg)<br/>
 <sub>Photo by MIKHAIL VASILYEV on Unsplash<sub>
 
 Difficulty: Beginner | **Easy** | Normal | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
+
+This article is tested on Xcode 12
 
 ## Prerequisites: 
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift
@@ -21,7 +22,7 @@ Closures: A combination of functions and references to the surrounding context
 One of the important things in swift is using [*closures*](https://medium.com/swift-coding/swift-closures-c14cb7aa2170) to make functions return and good practice for Swift coders.
 
 ## The ordinary use of closures
-One of the uses of `closures` is to 
+One of the uses of `closures` is to do something, and then something else (clear, right?)
 
 ![doThis](Images/doThis.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/ba8ef46546d7847e9f9285589e8f2461)<sub>
@@ -42,7 +43,7 @@ Awesome - we are passing a closure to a function as a function- Most excellent n
 
 We'll expand this *second example* as we move forwards in this tutorial.
 
-![mostexcellent](Images/mostexcellent.png)<br>
+![mostexcellent](Images/mostexcellent.jpeg)<br>
 
 ## The use of async closures
 Network calls can return at any time after they are called. I'm pretending to have a network call here, but you could actually do it with the following [network manager](https://medium.com/@stevenpcurtis.sc/my-basic-httpmanager-in-swift-db2be1e340c2) if you'd like).
@@ -52,7 +53,7 @@ So imagine that you need to need to go to the network to do some work. You make 
 ![fakenetworkcall](Images/fakenetworkcall.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/3f02ba5d920c83e31aad1ea282f451e3)<sub>
 
-![notreal](Images/notreal.png)<br>
+![notreal](Images/notreal.jpeg)<br>
 
 I know there are some tricky parts to this -  we are using a trailing closure which can be tricky. Assuming you're OK with all that let us move on. 
 
