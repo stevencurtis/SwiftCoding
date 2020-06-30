@@ -4,7 +4,7 @@
 ![Photo by MIKHAIL VASILYEV on Unsplash](Images/0*rhklgLy_7RgZ-7Jz.jpeg)<br/>
 <sub>Photo by MIKHAIL VASILYEV on Unsplash<sub>
 
-Difficulty: Beginner | **Easy** | Normal | Challenging<br/>
+Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
 
 This article is tested on Xcode 12

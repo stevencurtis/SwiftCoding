@@ -14,10 +14,10 @@ I hope this set of articles is of use to you!
 [|Hello, World" SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld)<br>
 [|Create a Horizontally Scrolling UICollectionView with Dynamic Cell Sizes](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDynamicSizing)<br>
 [Text Scroll with SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/TextScroll)<br>
-[Throw inside a closure](https://github.com/stevencurtis/SwiftCoding/tree/master/ThrowInsideAClosure)<br>
 
 ## Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
+[Throw inside a closure](https://github.com/stevencurtis/SwiftCoding/tree/master/ThrowInsideAClosure)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
