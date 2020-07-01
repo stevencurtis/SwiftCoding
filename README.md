@@ -19,11 +19,11 @@ I hope this set of articles is of use to you!
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
 [Throw inside a closure](https://github.com/stevencurtis/SwiftCoding/tree/master/ThrowInsideAClosure)<br>
 [A Networking Manager with Alamofire](https://github.com/stevencurtis/SwiftCoding/tree/master/AlamofireNetworking)<br>
-[Throw or Rethrow that Error?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/throwrethows)<br>
-[How Implicit Return Types Removed that Annoying Swift Inconsistency](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
+[Throw or Rethrow that Error?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/throwrethows)<br>
+[How Implicit Return Types Removed that Annoying Swift Inconsistency](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips)<br>
 
 ### Theory
 [Kruskal's Algorithm](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
