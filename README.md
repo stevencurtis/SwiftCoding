@@ -12,13 +12,15 @@ I hope this set of articles is of use to you!
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
 [New Features for iOS 14: SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/Tips/NewIniOS14)<br>
 [|Hello, World" SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld)<br>
-[|Create a Horizontally Scrolling UICollectionView with Dynamic Cell Sizes](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDynamicSizing)<br>
 [Text Scroll with SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/TextScroll)<br>
+[|Create a Horizontally Scrolling UICollectionView with Dynamic Cell Sizes](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDynamicSizing)<br>
 
 ## Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
 [Throw inside a closure](https://github.com/stevencurtis/SwiftCoding/tree/master/ThrowInsideAClosure)<br>
 [A Networking Manager with Alamofire](https://github.com/stevencurtis/SwiftCoding/tree/master/AlamofireNetworking)<br>
+[Throw or Rethrow that Error?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/throwrethows)<br>
+[How Implicit Return Types Removed that Annoying Swift Inconsistency](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
@@ -27,13 +29,11 @@ I hope this set of articles is of use to you!
 [Kruskal's Algorithm](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
 [WWDC Notes: Keynote](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/WWDCNotes/Keynote)<br>
 [WWDC Notes: Platforms](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal/WWDCNotes/Platforms)<br>
+[Semantic Versioning](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/semver)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
 [Leetcode Weekly Contest 195 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/195)<br>
-
-
-
 
 ## Get in touch
 I'm usually around on [Twitter](https://twitter.com/stevenpcurtis) 
