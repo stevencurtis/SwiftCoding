@@ -5,6 +5,7 @@ I hope this set of articles is of use to you!
 ![Photo by Drew Hays on Unsplash](mad-rabbit-tattoo-tn1yJqxNj-8-unsplash.jpg)<br/>
 <sub>Photo by Mad Rabbit Tattoo on Unsplash<sub>
 
+## Articles
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
 
@@ -15,7 +16,7 @@ I hope this set of articles is of use to you!
 [Text Scroll with SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/TextScroll)<br>
 [|Create a Horizontally Scrolling UICollectionView with Dynamic Cell Sizes](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDynamicSizing)<br>
 
-## Normal
+### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
 [Throw inside a closure](https://github.com/stevencurtis/SwiftCoding/tree/master/ThrowInsideAClosure)<br>
 [A Networking Manager with Alamofire](https://github.com/stevencurtis/SwiftCoding/tree/master/AlamofireNetworking)<br>
