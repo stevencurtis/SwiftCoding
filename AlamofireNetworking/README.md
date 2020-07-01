@@ -32,14 +32,14 @@ So let us get started!
 
 # The approach
 ## The Alamofire dependency
-There are many ways to add Alamofire as a dependency. I've created a full guide to this [HERE](https://medium.com/@stevenpcurtis.sc/use-swift-package-manager-to-add-dependencies-b605f91a4990) but the short version is that I've whacked [https://github.com/Alamofire/Alamofire.git](https://github.com/Alamofire/Alamofire.git) to import a new package up to next major.
+There are many ways to add Alamofire as a dependency. I've created a full guide to this [HERE](https://medium.com/@stevenpcurtis.sc/use-swift-package-manager-to-add-dependencies-b605f91a4990) but the short version is that I've whacked [https://github.com/Alamofire/Alamofire.git](https://github.com/Alamofire/Alamofire.git) to import a new package up to next major (using [Semantic Versioning](https://medium.com/@stevenpcurtis.sc/upgrade-to-semantic-versioning-31342b11ce97).
 
 ## The Alamofire router
 Alamofire has a router in order to compile URL Strings and apply headers. The advantage to using this router is  that headers can be put in-place. It sounds fantastic, but I think of this as roughly equivalent to my method of [building URLs in Swift](https://medium.com/swlh/building-urls-in-swift-51f21240c537). 
 
 Like a good Swift progammer I'm going to make this conform to a [protocol](https://medium.com/@stevenpcurtis.sc/protocols-in-swift-f46c31283b18)
 
-so let us see this protocol, which I've called `APIRouter`: note that this file needs to import `Alamofire` as it uses several types included in the third-party framework
+so let us see this protocol, which I've called `APIRouter`: note that this file needs to import `Alamofire` as it uses several types included in the third-party framework.
 
 ![URLProtocolMock](Images/APIRouter.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/588bec50335625eb9bca18e1aea7416b)<sub>
@@ -86,7 +86,7 @@ Yes, you would never do this in production. Yes, you need to handle the errors t
 
 In any case, here is my method of creating a View Controller.
 
-![ViewController]()Images/ViewController.png)<br>
+![ViewController](Images/ViewController.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/36694bb54776956844cf24074b268b6c)<sub>
 
 ### Testing
@@ -96,7 +96,7 @@ In practice the two are the same because we set the result in a `URLProtocolMock
 
 How does that look?
 
-Let us take a break for the `URLProtocolMock` instance
+Let us take a break for the `URLProtocolMock` instance.
 
 ## The URLProtocolMock
 ![URLProtocolMock](Images/URLProtocolMock.png)<br>
@@ -111,7 +111,7 @@ which gives us the session that can then be injected into our `NetworkManager` i
 
 Awesome.
 
-### Beck to testing
+### Back to testing
 We can inject the `URLProtocolMock` using the `ViewController` - no problem - here is the excerpt of the test:
 
 ![testViewControllerSuccess](Images/testViewControllerSuccess.png)<br>
