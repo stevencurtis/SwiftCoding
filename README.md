@@ -20,6 +20,7 @@ I hope this set of articles is of use to you!
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
 [Throw inside a closure](https://github.com/stevencurtis/SwiftCoding/tree/master/ThrowInsideAClosure)<br>
 [A Networking Manager with Alamofire](https://github.com/stevencurtis/SwiftCoding/tree/master/AlamofireNetworking)<br>
+[Use OperationQueue to Chain API Calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/OperationQueueDependentAPICalls)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
