@@ -7,11 +7,11 @@
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12 (beta), and Swift 5.2.4
 
-`UICollectionView` could never compete with a `UITableView` for ease of use, reordering and deletion. That's never going to change. Wait. What? `UICollectionViewCompositionalLayout`.list(using: config). Can you speak English?
+`UICollectionView` could never compete with a `UITableView` for ease of use, reordering and deletion. That's never going to change. Wait. What? `UICollectionViewCompositionalLayout.list(using: config)`. Can you speak English?
 
 ## Prerequisites: 
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift.
-* You will need to have installed the Xcode 12 (beta) if you are going to create or download the repo and run it - this uses features of iOS14!
+* You will need to have installed the Xcode 12 (beta) if you are going to create or download the [Repo](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLists) and run it - this uses features of iOS14!
 
 ## Terminology:
 UICollectionView: An object that manages an ordered collection of data items and presents them using customizable layouts
@@ -83,6 +83,6 @@ For this article, the question is do we ever need to use `UITableView` again? Yo
 
 If you want more information about UICollectionView I'd recommend you watch [this](https://developer.apple.com/wwdc20/10097) WWDC video
 
-The code from this is included in the attached [Repo](). 
+The code from this is included in the attached [Repo](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLists). 
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
