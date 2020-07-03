@@ -21,6 +21,7 @@ I hope this set of articles is of use to you!
 [Throw inside a closure](https://github.com/stevencurtis/SwiftCoding/tree/master/ThrowInsideAClosure)<br>
 [A Networking Manager with Alamofire](https://github.com/stevencurtis/SwiftCoding/tree/master/AlamofireNetworking)<br>
 [Use OperationQueue to Chain API Calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/OperationQueueDependentAPICalls)<br>
+[Did Apple Kill UITableView? - UICollectionView Lists](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLists)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
