@@ -1,9 +1,6 @@
 # LeetCode Weekly Contest 196 Swift Solutions
 ## That weekly contest!
 
-![Photo by Art Lasovsky on Unsplash](Images/0*S2uTe8Z4zYqZjrqg.jpeg)<br/>
-<sub>Photo by Art Lasovsky on Unsplash<sub>
-
 This article is about the 4 challenges in the LeetCode Weekly Contest 195. That is
 * 1502 Can Make Arithmetic Progression From Sequence
 * 1503 Last Moment Before All Ants Fall Out of a Plank
