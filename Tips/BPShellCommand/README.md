@@ -26,7 +26,7 @@ using VIM I added the following:
 
 ```swift
 #!/bin/bash
-echo "The variable is $1
+echo "The variable is $1"
 ```
 
 and obviously I saved with a little :wq commands (awesome)
