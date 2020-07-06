@@ -67,8 +67,6 @@ Usually I'd think about injecting a `Session` instance which could then be repla
 We can do *better* 
 
 # The implementation
-
-
 ## The Network Manager
 This is going to work with a `protocol` too (how awesome!) 
 
