@@ -50,7 +50,7 @@ override func viewDidLoad() {
 
 We are going to add the breakpoint (on what in my code) is line 16, which is the print statement. Now this means that the script will run while the random number is logged to the console - this should not be a concern as the script will not change the running of the code.
 
-![code](Images/0*code.png)<br/>
+![code](Images/code.png)<br/>
 
 So after adding the breakpoint a quick right-click will bring up the breakpoint menu, and **Edit Breakpoint…** should be chosen. 
 
