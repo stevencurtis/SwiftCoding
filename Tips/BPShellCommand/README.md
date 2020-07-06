@@ -8,8 +8,8 @@ Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
 
 # Prerequisites:
-You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift
-I'll create the script using [VIM](https://medium.com/@stevenpcurtis.sc/using-vim-as-a-text-editing-tool-on-the-mac-9595c1122e91), but you could use any text editor you choose
+* You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift
+* I'll create the script using [VIM](https://medium.com/@stevenpcurtis.sc/using-vim-as-a-text-editing-tool-on-the-mac-9595c1122e91), but you could use any text editor you choose
 
 # Terminology
 Breakpoints: a debugging tool that allows you to pause the execution of your program at a specific point in time
