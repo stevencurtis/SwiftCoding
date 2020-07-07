@@ -22,6 +22,7 @@ For this we shall use [VIM](https://medium.com/@stevenpcurtis.sc/using-vim-as-a-
 cd ~/Desktop
 VIM script.sh
 ```
+
 using VIM I added the following:
 
 ```swift
