@@ -27,7 +27,7 @@ These properties are:
 
 The axis can either be vertical or horizontal, as shown in the following animation:
 
-![axis](Images/axischange.gif)
+![axis](Movies/axischange.gif)
 
 The height and the width of each cell in the cases shown changes as the axis switches from horizontal to vertical.
 
