@@ -123,3 +123,7 @@ However, the idea is that they create their own constraints based on the propert
 Knowing how these properties can be used to create the effect that you want really gives you a head-start on producing that great user experience. Who *wouldn't* want that?
 
 It is always nice to look at the source, and that in this case is to [Read Apple's documentation about UIStackView](https://medium.com/r/?url=https%3A%2F%2Fdeveloper.apple.com%2Fdocumentation%2Fuikit%2Fuistackview)
+
+I hope this article has been of help to you, and you can see the code from this is included in the attached [Repo](https://github.com/stevencurtis/SwiftCoding/tree/master/StackView) to get the whole lot in one go!
+
+If you’ve any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)
