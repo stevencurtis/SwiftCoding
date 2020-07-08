@@ -1,6 +1,6 @@
 # Debug using Breakpoints in Xcode
 ## Stop-start
-![Photo by bruce mars on Unsplash](Images/zmPHBnfW5uUz3F0G.jpeg)<br/>
+![Photo by bruce mars on Unsplash](Images/0*zmPHBnfW5uUz3F0G.jpeg)<br/>
 <sub>Photo by bruce mars on Unsplash<sub>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
