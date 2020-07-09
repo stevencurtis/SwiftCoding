@@ -72,9 +72,49 @@ To do so, we are going to use the new `cellRegistration` API:
 
 The main part of the code here is using `defaultContentConfiguration` for the `UICollectionViewListCell` and my own `updateWithText(_ titleString: String)` function for the `BasicCollectionViewCell` that sets the `UILabel` to the `String` fed into the cell.
 
+**For Xcode 12 Beta 1:**
+
 The `trailingSwipeActionsConfiguration` gives us a destructive "deletion" that is the swipe to delete functionality that we are looking for in this article. The custom part of this allows us to delete the item from the `snapshot`, and then apply the difference.
 
+**For Xcode 12 Beta 2:**
 
+The cell no longer has `trailingSwipeActionsConfiguration` in beta 2.
+
+For example this gives us the following `registrationUICollectionViewListCell`
+
+```swift
+let registrationUICollectionViewListCell = UICollectionView.CellRegistration<UICollectionViewListCell, String> { (cell, indexPath, item) in
+    var content = cell.defaultContentConfiguration()
+    content.text = "\(item)"
+    cell.contentConfiguration = content
+}
+```
+so where has the `trailingSwipeActionsConfiguration` gone to?
+It is actually in `createLayout()` that has been modified to reflect this
+
+```swift
+private func createLayout() -> UICollectionViewLayout {
+    var config = UICollectionLayoutListConfiguration(appearance: .insetGrouped)
+    config.trailingSwipeActionsConfigurationProvider = { indexPath in
+        guard let item = self.dataSource.itemIdentifier(for: indexPath) else {return nil}
+        return UISwipeActionsConfiguration(
+            actions: [UIContextualAction(
+                style: .destructive,
+                title: "Delete",
+                handler: { [weak self] _, _, completion in
+                    guard let self = self else {return}
+                    self.snapshot.deleteItems([item])
+                    self.dataSource.apply(self.snapshot, animatingDifferences: false)
+                    completion(true)
+                }
+            )]
+        )
+    }
+    return UICollectionViewCompositionalLayout.list(using: config)
+}
+```
+
+of course the update can be seen reflected in the [Repo](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLists) .
 
 # Conclusion
 For this article, the question is do we ever need to use `UITableView` again? You want the bad news? The APIs used here require iOS14 which means that you can't yet publish any App on the App store (since Xcode 12 is in beta). 
