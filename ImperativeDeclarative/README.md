@@ -64,7 +64,7 @@ The two versions are displayed here for use in `Playgrounds`
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/40ee232ebd848831980e05abbfe81b96)<sub>
 
 ## The SwiftUI version
-![reswiftstore](Images/swiftuilist.png)<br>
+![reswiftstore](Images/swifyuilist.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/40ee232ebd848831980e05abbfe81b96)<sub>
 
 For those downloading from the repo, `SwiftUIList.playground` is the one that you would want!
