@@ -7,7 +7,7 @@ This article is about the 4 challenges in the LeetCode Weekly Contest 195. That 
 * 1504 Count Submatrices With All Ones
 * 1505 Minimum Prossible Integer After at most K Adjacent Swaps On Digits
 
-[https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/195](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/195)
+[https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/196](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/196)
 
 The solutions assume some knowledge of [Big O notation](https://medium.com/@stevenpcurtis.sc/beginners-big-o-for-swift-developers-c1ca94f2520)
 
