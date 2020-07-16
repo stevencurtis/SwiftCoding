@@ -26,6 +26,20 @@ I hope this set of articles is of use to you!
 [Use OperationQueue to Chain API Calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/OperationQueueDependentAPICalls)<br>
 [Did Apple Kill UITableView? - UICollectionView Lists](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLists)<br>
 [Property Wrappers](https://github.com/stevencurtis/SwiftCoding/tree/master/PropertyWrappers)<br>
+**Architecture articles (Not all are published yet, but all articles are complete)**
+[MVVM-C](https://github.com/stevencurtis/MVVM-CDependency)<br>
+[MVC](https://medium.com/swift-coding/mvc-in-swift-a9b1121ab6f0)<br>
+[VIPER](https://medium.com/@stevenpcurtis.sc/implement-the-clean-viper-architecture-in-ios-4e457d74a8ff)<br>
+[MVVM](https://medium.com/@stevenpcurtis.sc/mvvm-in-swift-19ba3f87ed45)<br>
+[MVVM RxSwift]( https://medium.com/swlh/using-mvvm-with-rxswift-baa38325b750)<br>
+[The MVI Architecture Pattern in Swift](https://medium.com/@stevenpcurtis.sc/the-mvi-architecture-pattern-in-swift-335e2a7f44f5)<br>
+[Using Redux and Swift](https://medium.com/@stevenpcurtis.sc/using-redux-and-swift-319238f8f449)<br>
+**Core Data**
+[The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
+[Learning the Basics of Core Data](https://medium.com/better-programming/core-data-basics-swift-persistent-storage-ba3185fe7061)<br>
+[Core Data: Using Codable](https://medium.com/swlh/core-data-using-codable-68660dfb5ce8)<br>
+[NSPredicate with Core Data](https://medium.com/@stevenpcurtis.sc/nspredicate-with-core-data-328d9a6dd66c)<br>
+[Core Data Basics: Testing](https://medium.com/@stevenpcurtis.sc/core-data-basics-testing-39d127380680)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
