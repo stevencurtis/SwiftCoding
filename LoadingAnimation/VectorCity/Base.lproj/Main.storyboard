@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kz2-iA-z56">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VectorCity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="city" translatesAutoresizingMaskIntoConstraints="NO" id="1Md-nB-GQi">
+                                <rect key="frame" x="909" y="325" width="909" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="GRT-NT-nzt"/>
+                                    <constraint firstAttribute="width" secondItem="1Md-nB-GQi" secondAttribute="height" multiplier="3809:1257" id="X69-nH-37c"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="city" translatesAutoresizingMaskIntoConstraints="NO" id="SYP-BE-FMi">
+                                <rect key="frame" x="0.0" y="325" width="909" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SYP-BE-FMi" secondAttribute="height" multiplier="3809:1257" id="H0n-ff-lBP"/>
+                                    <constraint firstAttribute="height" constant="300" id="jDX-7n-ggu"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5qQ-hF-JF3">
+                                <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM9-65-3rZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                        <state key="normal" title="Programmatic Version"/>
+                                        <connections>
+                                            <action selector="viewButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WEK-iz-nAz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7W9-F8-hLH">
+                                        <rect key="frame" x="0.0" y="30" width="414" height="30"/>
+                                        <state key="normal" title="Programmatic Constraints"/>
+                                        <connections>
+                                            <action selector="constraintsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wcz-Xu-e2u"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tree0" translatesAutoresizingMaskIntoConstraints="NO" id="ndN-wW-ceN">
+                                <rect key="frame" x="293" y="475" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="CES-Xk-HvC"/>
+                                    <constraint firstAttribute="width" secondItem="ndN-wW-ceN" secondAttribute="height" multiplier="1:1" id="SNX-mU-aMl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="k5d-dI-sSn">
+                                <rect key="frame" x="158.5" y="528" width="97" height="97"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="3jT-c0-qld"/>
+                                    <constraint firstAttribute="height" constant="97" id="Hyn-tg-dEo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1Md-nB-GQi" firstAttribute="leading" secondItem="SYP-BE-FMi" secondAttribute="trailing" id="0Kq-MP-dki"/>
+                            <constraint firstItem="k5d-dI-sSn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3tR-zO-07o"/>
+                            <constraint firstItem="1Md-nB-GQi" firstAttribute="top" secondItem="SYP-BE-FMi" secondAttribute="top" id="6Wv-dG-UC2"/>
+                            <constraint firstItem="5qQ-hF-JF3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="IhY-Xh-vbP"/>
+                            <constraint firstItem="5qQ-hF-JF3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JdR-Xu-TkG"/>
+                            <constraint firstItem="ndN-wW-ceN" firstAttribute="bottom" secondItem="SYP-BE-FMi" secondAttribute="bottom" id="bE1-vu-V0K"/>
+                            <constraint firstItem="k5d-dI-sSn" firstAttribute="bottom" secondItem="SYP-BE-FMi" secondAttribute="bottom" id="ly8-A5-KcF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5qQ-hF-JF3" secondAttribute="bottom" id="tSp-gA-iP2"/>
+                            <constraint firstItem="ndN-wW-ceN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="293" id="vtt-k6-vdn"/>
+                            <constraint firstItem="SYP-BE-FMi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="w5u-hu-dq0"/>
+                            <constraint firstItem="SYP-BE-FMi" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="xrT-rC-Awx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XmJ-zH-dgs"/>
+                    <connections>
+                        <outlet property="city" destination="SYP-BE-FMi" id="JwY-9z-But"/>
+                        <outlet property="city2" destination="1Md-nB-GQi" id="ORA-Zt-Unf"/>
+                        <outlet property="manImage" destination="k5d-dI-sSn" id="wda-LX-TRw"/>
+                        <outlet property="tree0" destination="ndN-wW-ceN" id="0fd-4h-eEY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AtD-cs-OwG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kz2-iA-z56" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d7e-97-UXl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PBQ-IS-Rft"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sos-Qz-nHs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0" width="250" height="350"/>
+        <image name="city" width="3809" height="1257"/>
+        <image name="tree0" width="1000" height="1000"/>
+    </resources>
+</document>
