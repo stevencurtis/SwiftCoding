@@ -26,6 +26,7 @@ I hope this set of articles is of use to you!
 [Use OperationQueue to Chain API Calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/OperationQueueDependentAPICalls)<br>
 [Did Apple Kill UITableView? - UICollectionView Lists](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLists)<br>
 [Property Wrappers](https://github.com/stevencurtis/SwiftCoding/tree/master/PropertyWrappers)<br>
+[Compositational Layouts](https://github.com/stevencurtis/SwiftCoding/tree/master/CompositionalLayouts)<br>
 **Architecture articles (Not all are published yet, but all articles are complete)**<br>
 [MVVM-C](https://github.com/stevencurtis/MVVM-CDependency)<br>
 [MVC](https://medium.com/swift-coding/mvc-in-swift-a9b1121ab6f0)<br>
@@ -34,7 +35,7 @@ I hope this set of articles is of use to you!
 [MVVM RxSwift]( https://medium.com/swlh/using-mvvm-with-rxswift-baa38325b750)<br>
 [The MVI Architecture Pattern in Swift](https://medium.com/@stevenpcurtis.sc/the-mvi-architecture-pattern-in-swift-335e2a7f44f5)<br>
 [Using Redux and Swift](https://medium.com/@stevenpcurtis.sc/using-redux-and-swift-319238f8f449)<br>
-[Loading Animation](https://github.com/stevencurtis/LoadingAnimation)<br>
+[Loading Animation](https://github.com/stevencurtis/SwiftCoding/tree/master/LoadingAnimation)<br>
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AppFeaturedCollectionViewCell" customModule="CompositionalLayouts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="292" height="228"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="292" height="228"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNT-k2-4ko" userLabel="ContentView">
+                        <rect key="frame" x="0.0" y="8" width="292" height="212"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="YyA-oA-IAv" userLabel="ContenStackView">
+                                <rect key="frame" x="0.0" y="0.0" width="292" height="212"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4We-Vl-6bm" userLabel="LabelsStackView">
+                                        <rect key="frame" x="0.0" y="0.0" width="292" height="55.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Pride" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvl-8k-nkQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="292" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="1000" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxa-Qh-jgi">
+                                                <rect key="frame" x="0.0" y="14.5" width="292" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="SubTitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dVR-rf-qRd">
+                                                <rect key="frame" x="0.0" y="35" width="292" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Feature1" translatesAutoresizingMaskIntoConstraints="NO" id="SkT-dQ-cPs">
+                                        <rect key="frame" x="28.5" y="59.5" width="235" height="152.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="SkT-dQ-cPs" secondAttribute="height" multiplier="1000:650" id="BG7-m2-vj6"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4We-Vl-6bm" firstAttribute="width" secondItem="YyA-oA-IAv" secondAttribute="width" id="AV1-Th-z5I"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="YyA-oA-IAv" firstAttribute="top" secondItem="iNT-k2-4ko" secondAttribute="top" id="Lsn-lf-93A"/>
+                            <constraint firstAttribute="trailing" secondItem="YyA-oA-IAv" secondAttribute="trailing" id="Y8M-oQ-Pzt"/>
+                            <constraint firstAttribute="bottom" secondItem="YyA-oA-IAv" secondAttribute="bottom" id="hFo-VF-B4C"/>
+                            <constraint firstItem="YyA-oA-IAv" firstAttribute="leading" secondItem="iNT-k2-4ko" secondAttribute="leading" id="wJw-SH-g7W"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="iNT-k2-4ko" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Evf-cj-Ygk"/>
+                <constraint firstAttribute="trailing" secondItem="iNT-k2-4ko" secondAttribute="trailing" id="Rvf-dP-oBD"/>
+                <constraint firstAttribute="bottom" secondItem="iNT-k2-4ko" secondAttribute="bottom" constant="8" id="VFZ-XA-NG5"/>
+                <constraint firstItem="iNT-k2-4ko" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="adK-Kj-ivb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="292" height="228"/>
+            <connections>
+                <outlet property="appTitle" destination="Mxa-Qh-jgi" id="vcw-xK-dnq"/>
+                <outlet property="featureImageView" destination="SkT-dQ-cPs" id="h76-fL-xGq"/>
+                <outlet property="featureTitle" destination="vvl-8k-nkQ" id="sE1-W9-iG9"/>
+                <outlet property="subTitle" destination="dVR-rf-qRd" id="eJu-gq-2gs"/>
+            </connections>
+            <point key="canvasLocation" x="33.333333333333336" y="109.82142857142857"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Feature1" width="1000" height="650"/>
+    </resources>
+</document>
