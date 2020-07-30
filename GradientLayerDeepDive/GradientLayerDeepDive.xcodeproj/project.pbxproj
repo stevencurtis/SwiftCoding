@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB24A0C24C190DA00A5FFA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24A0B24C190DA00A5FFA1 /* AppDelegate.swift */; };
+		CAB24A0E24C190DA00A5FFA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24A0D24C190DA00A5FFA1 /* SceneDelegate.swift */; };
+		CAB24A1024C190DA00A5FFA1 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24A0F24C190DA00A5FFA1 /* CreateViewController.swift */; };
+		CAB24A1324C190DA00A5FFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB24A1124C190DA00A5FFA1 /* Main.storyboard */; };
+		CAB24A1524C190DE00A5FFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB24A1424C190DE00A5FFA1 /* Assets.xcassets */; };
+		CAB24A1824C190DE00A5FFA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB24A1624C190DE00A5FFA1 /* LaunchScreen.storyboard */; };
+		CAB24A2324C190DF00A5FFA1 /* GradientLayerDeepDiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24A2224C190DF00A5FFA1 /* GradientLayerDeepDiveTests.swift */; };
+		CAB24A2E24C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24A2D24C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.swift */; };
+		CAB24A3C24C1AEDD00A5FFA1 /* GradientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24A3B24C1AEDD00A5FFA1 /* GradientsViewController.swift */; };
+		CAB24A3E24C1C4A100A5FFA1 /* FloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB24A3D24C1C4A100A5FFA1 /* FloatExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB24A1F24C190DF00A5FFA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB24A0024C190DA00A5FFA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB24A0724C190DA00A5FFA1;
+			remoteInfo = GradientLayerDeepDive;
+		};
+		CAB24A2A24C190DF00A5FFA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB24A0024C190DA00A5FFA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB24A0724C190DA00A5FFA1;
+			remoteInfo = GradientLayerDeepDive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAB24A0824C190DA00A5FFA1 /* GradientLayerDeepDive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientLayerDeepDive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB24A0B24C190DA00A5FFA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB24A0D24C190DA00A5FFA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAB24A0F24C190DA00A5FFA1 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		CAB24A1224C190DA00A5FFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB24A1424C190DE00A5FFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB24A1724C190DE00A5FFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB24A1924C190DE00A5FFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB24A1E24C190DF00A5FFA1 /* GradientLayerDeepDiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientLayerDeepDiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB24A2224C190DF00A5FFA1 /* GradientLayerDeepDiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerDeepDiveTests.swift; sourceTree = "<group>"; };
+		CAB24A2424C190DF00A5FFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB24A2924C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientLayerDeepDiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB24A2D24C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerDeepDiveUITests.swift; sourceTree = "<group>"; };
+		CAB24A2F24C190DF00A5FFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB24A3B24C1AEDD00A5FFA1 /* GradientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsViewController.swift; sourceTree = "<group>"; };
+		CAB24A3D24C1C4A100A5FFA1 /* FloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB24A0524C190DA00A5FFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB24A1B24C190DF00A5FFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB24A2624C190DF00A5FFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB249FF24C190DA00A5FFA1 = {
+			isa = PBXGroup;
+			children = (
+				CAB24A0A24C190DA00A5FFA1 /* GradientLayerDeepDive */,
+				CAB24A2124C190DF00A5FFA1 /* GradientLayerDeepDiveTests */,
+				CAB24A2C24C190DF00A5FFA1 /* GradientLayerDeepDiveUITests */,
+				CAB24A0924C190DA00A5FFA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB24A0924C190DA00A5FFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB24A0824C190DA00A5FFA1 /* GradientLayerDeepDive.app */,
+				CAB24A1E24C190DF00A5FFA1 /* GradientLayerDeepDiveTests.xctest */,
+				CAB24A2924C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB24A0A24C190DA00A5FFA1 /* GradientLayerDeepDive */ = {
+			isa = PBXGroup;
+			children = (
+				CAB24A0B24C190DA00A5FFA1 /* AppDelegate.swift */,
+				CAB24A0D24C190DA00A5FFA1 /* SceneDelegate.swift */,
+				CAB24A0F24C190DA00A5FFA1 /* CreateViewController.swift */,
+				CAB24A3B24C1AEDD00A5FFA1 /* GradientsViewController.swift */,
+				CAB24A3D24C1C4A100A5FFA1 /* FloatExtensions.swift */,
+				CAB24A1124C190DA00A5FFA1 /* Main.storyboard */,
+				CAB24A1424C190DE00A5FFA1 /* Assets.xcassets */,
+				CAB24A1624C190DE00A5FFA1 /* LaunchScreen.storyboard */,
+				CAB24A1924C190DE00A5FFA1 /* Info.plist */,
+			);
+			path = GradientLayerDeepDive;
+			sourceTree = "<group>";
+		};
+		CAB24A2124C190DF00A5FFA1 /* GradientLayerDeepDiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB24A2224C190DF00A5FFA1 /* GradientLayerDeepDiveTests.swift */,
+				CAB24A2424C190DF00A5FFA1 /* Info.plist */,
+			);
+			path = GradientLayerDeepDiveTests;
+			sourceTree = "<group>";
+		};
+		CAB24A2C24C190DF00A5FFA1 /* GradientLayerDeepDiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB24A2D24C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.swift */,
+				CAB24A2F24C190DF00A5FFA1 /* Info.plist */,
+			);
+			path = GradientLayerDeepDiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB24A0724C190DA00A5FFA1 /* GradientLayerDeepDive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB24A3224C190DF00A5FFA1 /* Build configuration list for PBXNativeTarget "GradientLayerDeepDive" */;
+			buildPhases = (
+				CAB24A0424C190DA00A5FFA1 /* Sources */,
+				CAB24A0524C190DA00A5FFA1 /* Frameworks */,
+				CAB24A0624C190DA00A5FFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientLayerDeepDive;
+			productName = GradientLayerDeepDive;
+			productReference = CAB24A0824C190DA00A5FFA1 /* GradientLayerDeepDive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB24A1D24C190DF00A5FFA1 /* GradientLayerDeepDiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB24A3524C190DF00A5FFA1 /* Build configuration list for PBXNativeTarget "GradientLayerDeepDiveTests" */;
+			buildPhases = (
+				CAB24A1A24C190DF00A5FFA1 /* Sources */,
+				CAB24A1B24C190DF00A5FFA1 /* Frameworks */,
+				CAB24A1C24C190DF00A5FFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB24A2024C190DF00A5FFA1 /* PBXTargetDependency */,
+			);
+			name = GradientLayerDeepDiveTests;
+			productName = GradientLayerDeepDiveTests;
+			productReference = CAB24A1E24C190DF00A5FFA1 /* GradientLayerDeepDiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAB24A2824C190DF00A5FFA1 /* GradientLayerDeepDiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB24A3824C190DF00A5FFA1 /* Build configuration list for PBXNativeTarget "GradientLayerDeepDiveUITests" */;
+			buildPhases = (
+				CAB24A2524C190DF00A5FFA1 /* Sources */,
+				CAB24A2624C190DF00A5FFA1 /* Frameworks */,
+				CAB24A2724C190DF00A5FFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB24A2B24C190DF00A5FFA1 /* PBXTargetDependency */,
+			);
+			name = GradientLayerDeepDiveUITests;
+			productName = GradientLayerDeepDiveUITests;
+			productReference = CAB24A2924C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB24A0024C190DA00A5FFA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Steven Curtis";
+				TargetAttributes = {
+					CAB24A0724C190DA00A5FFA1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					CAB24A1D24C190DF00A5FFA1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CAB24A0724C190DA00A5FFA1;
+					};
+					CAB24A2824C190DF00A5FFA1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CAB24A0724C190DA00A5FFA1;
+					};
+				};
+			};
+			buildConfigurationList = CAB24A0324C190DA00A5FFA1 /* Build configuration list for PBXProject "GradientLayerDeepDive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB249FF24C190DA00A5FFA1;
+			productRefGroup = CAB24A0924C190DA00A5FFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB24A0724C190DA00A5FFA1 /* GradientLayerDeepDive */,
+				CAB24A1D24C190DF00A5FFA1 /* GradientLayerDeepDiveTests */,
+				CAB24A2824C190DF00A5FFA1 /* GradientLayerDeepDiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB24A0624C190DA00A5FFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB24A1824C190DE00A5FFA1 /* LaunchScreen.storyboard in Resources */,
+				CAB24A1524C190DE00A5FFA1 /* Assets.xcassets in Resources */,
+				CAB24A1324C190DA00A5FFA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB24A1C24C190DF00A5FFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB24A2724C190DF00A5FFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB24A0424C190DA00A5FFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB24A3C24C1AEDD00A5FFA1 /* GradientsViewController.swift in Sources */,
+				CAB24A1024C190DA00A5FFA1 /* CreateViewController.swift in Sources */,
+				CAB24A3E24C1C4A100A5FFA1 /* FloatExtensions.swift in Sources */,
+				CAB24A0C24C190DA00A5FFA1 /* AppDelegate.swift in Sources */,
+				CAB24A0E24C190DA00A5FFA1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB24A1A24C190DF00A5FFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB24A2324C190DF00A5FFA1 /* GradientLayerDeepDiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB24A2524C190DF00A5FFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB24A2E24C190DF00A5FFA1 /* GradientLayerDeepDiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB24A2024C190DF00A5FFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB24A0724C190DA00A5FFA1 /* GradientLayerDeepDive */;
+			targetProxy = CAB24A1F24C190DF00A5FFA1 /* PBXContainerItemProxy */;
+		};
+		CAB24A2B24C190DF00A5FFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB24A0724C190DA00A5FFA1 /* GradientLayerDeepDive */;
+			targetProxy = CAB24A2A24C190DF00A5FFA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAB24A1124C190DA00A5FFA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB24A1224C190DA00A5FFA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB24A1624C190DE00A5FFA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB24A1724C190DE00A5FFA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB24A3024C190DF00A5FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB24A3124C190DF00A5FFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB24A3324C190DF00A5FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientLayerDeepDive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientLayerDeepDive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB24A3424C190DF00A5FFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientLayerDeepDive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientLayerDeepDive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAB24A3624C190DF00A5FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientLayerDeepDiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientLayerDeepDiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientLayerDeepDive.app/GradientLayerDeepDive";
+			};
+			name = Debug;
+		};
+		CAB24A3724C190DF00A5FFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientLayerDeepDiveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientLayerDeepDiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientLayerDeepDive.app/GradientLayerDeepDive";
+			};
+			name = Release;
+		};
+		CAB24A3924C190DF00A5FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientLayerDeepDiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientLayerDeepDiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientLayerDeepDive;
+			};
+			name = Debug;
+		};
+		CAB24A3A24C190DF00A5FFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientLayerDeepDiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientLayerDeepDiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientLayerDeepDive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB24A0324C190DA00A5FFA1 /* Build configuration list for PBXProject "GradientLayerDeepDive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB24A3024C190DF00A5FFA1 /* Debug */,
+				CAB24A3124C190DF00A5FFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB24A3224C190DF00A5FFA1 /* Build configuration list for PBXNativeTarget "GradientLayerDeepDive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB24A3324C190DF00A5FFA1 /* Debug */,
+				CAB24A3424C190DF00A5FFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB24A3524C190DF00A5FFA1 /* Build configuration list for PBXNativeTarget "GradientLayerDeepDiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB24A3624C190DF00A5FFA1 /* Debug */,
+				CAB24A3724C190DF00A5FFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB24A3824C190DF00A5FFA1 /* Build configuration list for PBXNativeTarget "GradientLayerDeepDiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB24A3924C190DF00A5FFA1 /* Debug */,
+				CAB24A3A24C190DF00A5FFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB24A0024C190DA00A5FFA1 /* Project object */;
+}
