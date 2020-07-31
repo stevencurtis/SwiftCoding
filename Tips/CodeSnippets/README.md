@@ -4,11 +4,11 @@ Perhaps not worthy of a full article, but useful nonetheless
 
 ## Contents
 
-[Go to Real Cool Heading section](#real-cool-heading)
+[Decode a file from the bundle](#Decode-a-file-from-the-bundle)
 
 
 # The Code
-## Decode file from bundle
+## Decode a file from the bundle
 
 ```swift
 extension Bundle {
