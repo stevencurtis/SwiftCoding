@@ -4,7 +4,7 @@ This article is in addition to the rather basic [basics](https://medium.com/@ste
 
 
 For clarity here are the sections of the Mac Playground that will be referred to here:
-![statusbarplist](Images/HighlightedAreas.png)<br/>
+![statusbarplist](images/HighlightedAreas.png)<br/>
 
 ## Derived data
 Always, always clear the derived data from Xcode if you want reasonable performance from your Mac. 
@@ -23,7 +23,7 @@ public func loghello() {
     print ("hello")
 }
 ```
-![newfile](Movies/newfile.png)<br/>
+![newfile](Movies/newfile.gif)<br/>
 
 Of course, if you choose to create a `class` (or `struct`, or `enum`) this would need to be pubic too!
 
