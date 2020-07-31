@@ -49,6 +49,8 @@ I hope this set of articles is of use to you!
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
 [Throw or Rethrow that Error?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/throwrethows)<br>
 [How Implicit Return Types Removed that Annoying Swift Inconsistency](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips)<br>
+[Code snippets](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CodeSnippets)<br>
+
 
 ### Theory
 [Kruskal's Algorithm](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
