@@ -4,8 +4,9 @@ Perhaps not worthy of a full article, but useful nonetheless
 
 ## Contents
 
-[Decode a file from the bundle](#Decode-a-file-from-the-bundle)
-[Decode JSON with a generic function](#Decode-JSON-with-a-generic-function)
+[Decode a file from the bundle](#Decode-a-file-from-the-bundle)<br>
+[Decode JSON with a generic function](#Decode-JSON-with-a-generic-function)<br>
+[Set status bar to light](#status-bar-light)<br>
 
 
 # The Code
@@ -55,3 +56,12 @@ func decode<T: Decodable>(decoder: JSONDecoder, data: Data) -> T? {
     }
 }
 ```
+
+## Status bar light
+To set the status bar light throughout the App you will need to set it in the `Deployment info` section of the Project details
+![statusbar](Images/statusbarset.png)<br/>
+
+Then we need to set the plist  
+![statusbarplist](Images/statusbarsetplist.png)<br/>
+
+
