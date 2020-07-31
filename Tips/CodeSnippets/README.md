@@ -5,6 +5,7 @@ Perhaps not worthy of a full article, but useful nonetheless
 ## Contents
 
 [Decode a file from the bundle](#Decode-a-file-from-the-bundle)
+[Decode JSON with a generic function](#Decode-JSON-with-a-generic-function)
 
 
 # The Code
@@ -40,5 +41,17 @@ which can then be tested
 func testingBundle() {
     let file = try! Bundle(for: type(of: self)).decode(MODEL.self, from: "FILE.json")
     XCTAssertEqual(model.property, "String")
+}
+```
+
+## Decode JSON with a generic function
+```swift
+func decode<T: Decodable>(decoder: JSONDecoder, data: Data) -> T? {
+    do {
+        return try decoder.decode(T.self, from: data)
+    } catch {
+        // will silently fail and return nil
+        return nil
+    }
 }
 ```
