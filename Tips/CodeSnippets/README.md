@@ -57,11 +57,13 @@ func decode<T: Decodable>(decoder: JSONDecoder, data: Data) -> T? {
 }
 ```
 
+which, as it returns an optional where `Model` is the model of the response type
+```swift
+let ans: Model? = self.decode(data: data)
+```
 ## Status bar light
 To set the status bar light throughout the App you will need to set it in the `Deployment info` section of the Project details
 ![statusbar](Images/statusbarset.png)<br/>
 
 Then we need to set the plist  
 ![statusbarplist](Images/statusbarsetplist.png)<br/>
-
-
