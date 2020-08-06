@@ -37,7 +37,8 @@ I hope this set of articles is of use to you!
 [The MVI Architecture Pattern in Swift](https://medium.com/@stevenpcurtis.sc/the-mvi-architecture-pattern-in-swift-335e2a7f44f5)<br>
 [Using Redux and Swift](https://medium.com/@stevenpcurtis.sc/using-redux-and-swift-319238f8f449)<br>
 [Loading Animation](https://github.com/stevencurtis/SwiftCoding/tree/master/LoadingAnimation)<br>
-[The Only CAGradientLayer Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/GradientLayerDeepDive)<bt>
+[The Only CAGradientLayer Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/GradientLayerDeepDive)<br>
+[Combine and URLSession in UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/CombineURLSession)<br>
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
