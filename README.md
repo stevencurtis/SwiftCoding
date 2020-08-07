@@ -53,6 +53,7 @@ I hope this set of articles is of use to you!
 [How Implicit Return Types Removed that Annoying Swift Inconsistency](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips)<br>
 [Code snippets](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CodeSnippets)<br>
 [Playgrounds](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/Playgrounds)<br>
+[Parse JSON without knowing the type](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/ParseJsonNoType)<br>
 
 
 ### Theory

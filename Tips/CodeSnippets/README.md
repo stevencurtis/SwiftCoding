@@ -67,3 +67,21 @@ To set the status bar light throughout the App you will need to set it in the `D
 
 Then we need to set the plist  
 ![statusbarplist](Images/statusbarsetplist.png)<br/>
+
+
+## Parse JSON when you don't know the data type
+```swift
+do {
+    let jsonObject = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.mutableContainers)
+    if let jsonDict = jsonObject as? NSDictionary {
+        print (jsonDict)
+    }
+    if let jsonArray = jsonObject as? NSArray {
+        print (jsonArray)
+    }
+} catch {
+    // error handling
+}
+```
+
+
