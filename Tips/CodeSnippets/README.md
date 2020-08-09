@@ -84,4 +84,56 @@ do {
 }
 ```
 
+## Storing constants
+There are other ways of storing constants (using a `struct` for instance), but by using an `enum` there is no chance of accidently instantiating your constants. Which is nice. This method also ensures that your constants are unique (it is a pure namespace). More importantly, in `Combine` Apple have used `enum` for namespaces. 
+
+```swift
+enum Colorss {
+    static let green = UIColor(displayP3Red: 0.0, green: 1.0, blue: 0.0, alpha: 1.0)
+}
+```
+
+## An API switcher for multiple
+You might well need to hit multiple endpoints within your App. 
+```swift
+enum API {
+    case standard
+    case stream
+    
+    var url: URL {
+        var component = URLComponents()
+        
+        switch self {
+        case .standard:
+            component.scheme = "http"
+            component.host = "www.mocky.io"
+            component.path = path
+        case .stream:
+            component.scheme = "https"
+            component.host = "cuvva.herokuapp.com"
+        }
+        return component.url!
+    }
+}
+
+extension API {
+    fileprivate var path: String {
+        switch self {
+        case .standard:
+            return "/v2/5c699176370000a90a07fd6f"
+        default:
+            fatalError("failed API")
+        }
+    }
+}
+
+print (API.standard.url)
+print (API.stream.url)
+```
+The tests for this are relatively easy. just create the urls and check the result.
+```swift
+func testAuthentication() {
+    XCTAssertEqual(API.authentication.url, URL(string:"http://www.mocky.io/v2/5c699176370000a90a07fd6f"))
+}
+```
 
