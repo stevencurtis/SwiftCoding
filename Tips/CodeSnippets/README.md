@@ -137,3 +137,12 @@ func testAuthentication() {
 }
 ```
 
+## Convert from Snake Case
+You might want to convert `student_id` to `studentId` since the Swift [API Design Guidelines](https://swift.org/documentation/api-design-guidelines/#general-conventions) recommends you do just this.
+
+In use, we set a parameter on `JSONDecoder` like the following code snippet:
+```swift
+let decoder = JSONDecoder()
+decoder.keyDecodingStrategy = .convertFromSnakeCase
+```
+
