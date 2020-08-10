@@ -39,6 +39,7 @@ I hope this set of articles is of use to you!
 [Loading Animation](https://github.com/stevencurtis/SwiftCoding/tree/master/LoadingAnimation)<br>
 [The Only CAGradientLayer Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/GradientLayerDeepDive)<br>
 [Combine and URLSession in UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/CombineURLSession)<br>
+[Parallel Programming with Operation and OperationQueue in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/OperationandOperationQueueParallel)<br>
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
