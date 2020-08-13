@@ -1,7 +1,7 @@
 # The MVI Architecture Pattern in Swift
 ## Architect! With just RxSwift!
 
-![Photo by KOBU Agency on Unsplash](Images/q3T7SVm1EMmph_vQ.jpeg)<br/>
+![Photo by KOBU Agency on Unsplash](Images/0*q3T7SVm1EMmph_vQ.jpeg)<br/>
 <sub>Photo by KOBU Agency on Unsplash<sub>
 
 You might already be familiar with MVVM even MVVM-C and even (jokes) MVC. But MVI? You might have heard of the Flux, Redux and MobX React patterns and you might not be aware that in native development this is actually MVI.
