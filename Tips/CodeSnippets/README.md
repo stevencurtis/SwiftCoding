@@ -8,7 +8,6 @@ Perhaps not worthy of a full article, but useful nonetheless
 [Decode JSON with a generic function](#Decode-JSON-with-a-generic-function)<br>
 [Set status bar to light](#status-bar-light)<br>
 
-
 # The Code
 ## Decode a file from the bundle
 
@@ -30,7 +29,6 @@ extension Bundle {
             return decoded
         } catch {
             throw ErrorModel(errorDescription: "\(file) could not be decoded from \(self) with error: \(error).")
-
         }
     }
 }
@@ -106,11 +104,11 @@ enum API {
         switch self {
         case .standard:
             component.scheme = "http"
-            component.host = "www.mocky.io"
+            component.host = "www.host.com"
             component.path = path
         case .stream:
             component.scheme = "https"
-            component.host = "cuvva.herokuapp.com"
+            component.host = "www.althost.com"
         }
         return component.url!
     }
@@ -120,7 +118,7 @@ extension API {
     fileprivate var path: String {
         switch self {
         case .standard:
-            return "/v2/5c699176370000a90a07fd6f"
+            return "/v2/standard"
         default:
             fatalError("failed API")
         }
@@ -133,7 +131,7 @@ print (API.stream.url)
 The tests for this are relatively easy. just create the urls and check the result.
 ```swift
 func testAuthentication() {
-    XCTAssertEqual(API.authentication.url, URL(string:"http://www.mocky.io/v2/5c699176370000a90a07fd6f"))
+    XCTAssertEqual(API.authentication.url, URL(string:"http://www.host.com/v2/standard"))
 }
 ```
 
