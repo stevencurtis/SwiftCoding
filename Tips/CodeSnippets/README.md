@@ -91,7 +91,7 @@ enum Colorss {
 }
 ```
 
-## An API switcher for multiple
+## An API switcher for multiple endpoints
 You might well need to hit multiple endpoints within your App. 
 ```swift
 enum API {
