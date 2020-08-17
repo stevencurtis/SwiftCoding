@@ -1,7 +1,7 @@
 # Finally! DevOps Explained
 ## Modern software development
 
-![Photo by Joseph Barrientos on Unsplash](Images/1*6Ca6V0vyj-Vl-6u4NuhDUw.png)<br/>
+![Photo by Joseph Barrientos on Unsplash](Images/0*CTSID5oVmY0pbvhH.jpeg)<br/>
 <sub>Photo by Joseph Barrientos on Unsplash<sub>
 
 [Agile software development](https://medium.com/@stevenpcurtis.sc/agile-and-the-strange-case-of-the-uks-universal-credit-28d424f3c7ea) has led pressure to keep up with the speed of software development - from all sides of the organisation. As Agile working culture has really taken hold, a holistic approach to the end-to-end software delivery lifecycle has is needed.
