@@ -2,9 +2,7 @@
 ## Not nil, not null
 
 ![Photo by bruce mars on Unsplash](Images/0*ph-oIDgES2ougV7U.jpeg)<br/>
-<sub>Photo by bruce mars on Unsplash<sub>
-
-Photo by David Besh on Unsplash
+<sub>Photo by David Besh on Unsplash<sub>
 
 # Prerequisites:
 You will need to be familar with the basics of [Swift and able to start a Playground (or similar)](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089)
