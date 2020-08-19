@@ -13,9 +13,8 @@ This article has been developed using Xcode 11.4.1, and Swift 5.2.2
 ## Terminology:
 Dark mode: A darker color visual palette for users 
 
-
 ## The Approach
-Light and dark mode puts your app at the mercy of users. They cab easily change the look and 
+Light and dark mode puts your app at the mercy of users. They can easily change the look and feel of the app. So how can you make sure that you App will be prepared for this brave new world? There is just one way of doing this:
 
 - Avoid hard-coded colors
 
