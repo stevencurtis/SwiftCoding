@@ -9,7 +9,6 @@
 import Foundation
 
 struct PeopleModel: Codable {
-
     let name: String
     let job: [Job]
 }
