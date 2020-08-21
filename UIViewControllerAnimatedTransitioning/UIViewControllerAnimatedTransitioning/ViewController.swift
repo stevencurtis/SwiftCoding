@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         
-        
         let collection = UICollectionView(frame: CGRect(x: 0, y: 0, width: 0, height: 0), collectionViewLayout: layout)
         collection.translatesAutoresizingMaskIntoConstraints = false
         collection.backgroundColor = .systemGray
@@ -102,7 +101,6 @@ extension ViewController: UINavigationControllerDelegate {
                               animationControllerFor operation: UINavigationController.Operation,
                               from fromVC: UIViewController,
                               to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        
         guard let frame = originalCellFrame else {
             return nil
         }
@@ -117,99 +115,5 @@ extension ViewController: UINavigationControllerDelegate {
         @unknown default:
             return nil
         }
-        
     }
-}
-
-
-class FadeAnimator: NSObject, UIViewControllerAnimatedTransitioning {
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 1.5
-    }
-    
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        let containerView = transitionContext.containerView
-        let toView = transitionContext.view(forKey: .to)!
-        
-        containerView.addSubview(toView)
-        toView.alpha = 0.0
-        UIView.animate(withDuration: 1.5,
-                       animations: {
-                        toView.alpha = 1.0
-        },
-                       completion: { _ in
-                        transitionContext.completeTransition(true)
-        }
-        )
-    }
-}
-
-
-class GrowAnimator: NSObject, UIViewControllerAnimatedTransitioning {
-    var isPresenting : Bool
-    var originFrame : CGRect
-    
-    init(isPresenting : Bool, originFrame : CGRect) {
-        self.isPresenting = isPresenting
-        self.originFrame = originFrame
-    }
-    
-    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        TimeInterval(UINavigationController.hideShowBarDuration)
-    }
-    
-    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        let container = transitionContext.containerView
-        
-        guard
-            let toViewController = transitionContext.viewController(forKey: .to),
-            let fromViewController = transitionContext.viewController(forKey: .from)
-            else {
-                // We only complete transition with success if the transition was executed.
-                transitionContext.completeTransition(false)
-                return
-        }
-        
-        guard let fromView = transitionContext.view(forKey: UITransitionContextViewKey.from) else { return }
-        guard let toView = transitionContext.view(forKey: UITransitionContextViewKey.to) else { return }
-        
-        container.addSubview(toView)
-        
-        if isPresenting {
-            let artworkVC = toViewController as! DetailViewController
-            artworkVC.imageView.alpha = 0
-            
-            let transitionImageView = UIImageView(frame: originFrame)
-            transitionImageView.image = artworkVC.imageView.image
-            container.addSubview(transitionImageView)
-            
-            toView.frame = CGRect(x: fromView.frame.width, y: 0, width: toView.frame.width, height: toView.frame.height)
-            toView.alpha = 0
-            toView.layoutIfNeeded()
-            
-            
-            UIView.animate(withDuration: TimeInterval(UINavigationController.hideShowBarDuration), animations: {
-                transitionImageView.frame = artworkVC.imageView.frame
-                toView.frame = fromView.frame
-                toView.alpha = 1
-            }, completion: { (finished) in
-                transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
-                transitionImageView.removeFromSuperview()
-                artworkVC.imageView.alpha = 1
-            })
-        } else {
-            let artworkVC = fromViewController as! DetailViewController
-
-            let transitionImageView = UIImageView(frame: originFrame)
-            transitionImageView.image = artworkVC.imageView.image
-            container.addSubview(transitionImageView)
-            
-            
-        }
-        
-        
-    }
-    
-    
-    
 }

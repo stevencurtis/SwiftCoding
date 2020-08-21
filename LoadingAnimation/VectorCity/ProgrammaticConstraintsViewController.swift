@@ -129,7 +129,6 @@ class ProgrammaticConstraintsViewController: UIViewController {
             tree0.widthAnchor.constraint(equalTo: tree0.widthAnchor, multiplier: 1.0)
         ])
         
-        print (city.frame)
     }
     
 }

@@ -30,7 +30,7 @@ Now for this to adequately work, the background images must be at least double t
 
 The `Storyboard` is created as below with constraints to keep the images horizontally centered in the screen. 
 
-![storyboard](Movies/storyboard.png)<br/>
+![storyboard](Images/storyboard.png)<br/>
 
 The man has a single static image (we will animate walking this in code), as does the tree and both are in static positions on the screen that can be moved later.
 
