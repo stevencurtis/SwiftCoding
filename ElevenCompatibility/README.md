@@ -1,12 +1,10 @@
-# Maintain Compatibility with iOS 11 in 2020
+# Maintain Compatibility with iOS11 in 2020
 ## It CAN be done
 
-![Finished](Movies/Finished.gif)<br/>
+![Completed](Images/Completed.png)<br/>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
-
-![Completed](Images/Completed.gif)<br/>
 
 # The example
 I'm going to get rid of the `Storyboard` as I work like that [here's how to do it](https://medium.com/@stevenpcurtis.sc/avoid-storyboards-in-your-apps-8e726df43d2e). Sorry.
