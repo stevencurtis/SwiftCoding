@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import lldb
+@testable import UIViewControllerAnimatedTransitioning
 
 class BundleDecodeTests: XCTestCase {
 
