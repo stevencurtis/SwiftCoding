@@ -45,7 +45,7 @@ But what about iOS11?
 
 If we change the deployment target in the project 
 
-[DeploymentTarget](Images/DeploymentTarget.png)
+![DeploymentTarget](Images/DeploymentTarget.png)
 
 which then allows you to choose iOS11 simulators (as long as you have them added in Xcode.
 
@@ -53,7 +53,7 @@ Then...
 
 Oh dear!
 
-[ohdear](Images/ohdear.png)
+![ohdear](Images/ohdear.png)
 
 So we need to work through the App delegate!
 
