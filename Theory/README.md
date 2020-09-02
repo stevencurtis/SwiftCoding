@@ -24,8 +24,8 @@ Binary insertion sort - I've not used before
 [https://medium.com/p/4bf1091dcdd9/edit](https://medium.com/p/4bf1091dcdd9/edit)
 
 ## Trie
-[https://medium.com/swift-coding/tries-in-swift-4afb9b82785f](https://medium.com/swift-coding/tries-in-swift-4afb9b82785f)
-![trie.png](trie.png)
+[https://medium.com/swift-coding/tries-in-swift-4afb9b82785f](https://medium.com/swift-coding/tries-in-swift-4afb9b82785f)<br>
+![trie.png](Images/trie.png)<br>
 
 [https://gist.github.com/stevencurtis/99cb5b4e3db8f3faea7f8b7f4f1b97dc](https://gist.github.com/stevencurtis/99cb5b4e3db8f3faea7f8b7f4f1b97dc)
 
