@@ -12,9 +12,27 @@ class Node<T> {
 }
 ```
 
+# Definitions
+Full binary tree - Every node has two children (other than the leaves)
+Complete - Every level, except possibly the last, is completely filled and all nodes are as far left as possible
+Perfect - Every node has two children, and all leaves are at the same depth
+Balanced - Left and right subtrees differ in height by no more than 1
+Degenerate - Each parent node only has one associated child, so the tree behaves like a linked list
+
+## Indicies of nodes
+leftChild = 2n + 1
+rightChild = 2n + 2
+parent = (n - 1) / 2
+
+## Complete binary tree
+Leaf nodes: (n + 1) /2
+Nodes - 2n - 1 nodes where n leaves
+Height log2n
+## Perfect binary tree
+height with n nodes - log2(n + 1 ) - 1
+
 
 ## Adjacency list
-
 ```swift
 class Node: Hashable {
     var nodes = [String:[String]]()
