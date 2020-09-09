@@ -54,6 +54,10 @@ type(of: user.$createdAt) // String.Type`
 
 Now of course to use projectedValue we need to have a var projectedValue property in our propertyWrapper - which is of course true in our example code as set out (which represents a user).
 
+This means that `user.createdAt` is a simple date, but `user.$createdAt` is a nicely formatted date in this example.
+
+Awesome!
+
 # Conclusion
 Property wrappers are a Swift feature that can help you write easy to read and maintainable code in Swift. They have been available since Swift 5.1, and have particular power when coupled with SwiftUI - so this is certainly something you should look at as you enhance your understanding of Swift and iOS/iPadOS. 
 
