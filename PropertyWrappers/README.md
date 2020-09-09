@@ -19,12 +19,12 @@ Property Wrappers: A property wrapper adds a layer of separation between code th
 # Why use property wrappers?
 Using **Lazy** in Swift is useful as it defers initialization of a value until its first access. This is equivalent functionality to wrapping a value in a computed get - **lazy** makes your code more elegant, easy to read and of course maintainable.
 
-Here is an example of the lay instantiation of a struct (if you follow along with the Playground, make sure you comment out one of the `People` instances at a  time or the compiler will tell you that you have an invalid declaration of '`People`')
+Here is an example of the lazy instantiation of a struct (if you follow along with the Playground, make sure you comment out one of the `People` instances at a  time or the compiler will tell you that you have an invalid declaration of '`People`')
 
 ![lazyexample](Images/lazyexample.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/9e308e798dac9ca99cbb873b0e27fd7c)<sub>
 
-Effectively for each property on the `struct` you'd need to have one of these sets of getters and setters. What if you could use a repeatable peice of code that yould allow you to be able to reuse code.
+Effectively for each property on the `struct` you'd need to have one of these sets of getters and setters. What if you could use a repeatable peice of code that would allow you to be able to reuse code.
 
 # Using property wrappers
 ## Basic example
