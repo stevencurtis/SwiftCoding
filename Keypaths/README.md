@@ -1,7 +1,7 @@
 # What are Swift's Keypaths?
 ## They help with KVO and more!
 
-![](images/0*xho-boNpvzWf9cNG.jpeg)
+![Walking](Images/0*xho-boNpvzWf9cNG.jpeg)
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
