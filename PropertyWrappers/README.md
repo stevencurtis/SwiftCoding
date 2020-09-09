@@ -41,22 +41,21 @@ It is really common to use `ISO8601DateFormatter` to provide a standardized way 
 ![isopropertywrapper](Images/isopropertywrapper.png)<br>
 <sub>[Click for Gist](https://gist.github.com/stevencurtis/a85e78e35b8fcf7545cf60ff26936ae3)<sub>
 
+Where of course in the `user.createdAt` is the date, and `print(user.createdAt)` are in fact the same date, but the second is formatted for the screen.
+
 ### projectedValue
-Let us look here:
-`user.createdAt` 
-`user.$createdA`
 
-Each of the two examples above gives us two different outputs - since the second of the two is a `projectedValue`.
-
-So the `$` indicates that we want to access the property wrapper itself rather than the property that it is wrapping.
+We can go as far as to look at our two createdAt properties on our user instance: `user.createdAt` and `user.$createdAt`
+Each of the two examples above gives us two different outputs - since the second of the two is a projectedValue.
+So the $ indicates that we want to access the property wrapper itself rather than the property that it is wrapping.
 
 `type(of: user.createdAt) // Foundation.Date.Type
 type(of: user.$createdAt) // String.Type`
 
-Now of course to use `projectedValue` we need to have a `var projectedValue` property in our `propertyWrapper`. 
+Now of course to use projectedValue we need to have a var projectedValue property in our propertyWrapper - which is of course true in our example code as set out (which represents a user).
 
 # Conclusion
-Property wrappers are a Swift feature that can help you write easy to read and mainable code in Swift. They have been avaliable since Swift 5.1, and have particular power when coupled with SwiftUI - so this is certainly something you should look at as you enhance your understanding of Swift and iOS/iPadOS. 
+Property wrappers are a Swift feature that can help you write easy to read and maintainable code in Swift. They have been available since Swift 5.1, and have particular power when coupled with SwiftUI - so this is certainly something you should look at as you enhance your understanding of Swift and iOS/iPadOS. 
 
 When creating code you should always think about reusability, what a great use of abstraction in the constructs of the language!
 
