@@ -14,7 +14,6 @@ keypath: Read-only access to a property
 writablekeypath: read-write access to a value-type property
 referencewritablekeypath: read-write access to a reference-type property
 
-
 # Motivation
 `Combine` uses `ReferenceWritableKeyPath<Root, Bool>` in the assign function
 
