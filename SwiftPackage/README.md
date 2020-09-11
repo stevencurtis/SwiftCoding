@@ -109,7 +109,7 @@ You can select the `Project>Swift Packages` and there is a friendly -looking + b
  
  You'll be asked to choose which version you want to pull your repo up to. Tradition says that you should go up to the next major release - and luckily this is the default given to us by Xcode.
  
- [Version](Images/Version.png)
+ ![Version](Images/Version.png)
  
 pressing next will get the package to resolve, and of course you should add the package to your target. 
 
@@ -124,7 +124,7 @@ If you wish to update your package (and you probably will at some point), you wi
 
 The method to update your Swift package is relatively simple - go to `File>Swift Packages>Update to Latest Package Versions`.
 
- [Update](Images/Update.png)
+ ![Update](Images/Update.png)
 
 It will all be update-me-do. 
 
