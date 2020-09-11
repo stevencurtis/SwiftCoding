@@ -62,7 +62,7 @@ git push -u origin master
 
 This pushes the work to your repo. This would be something like this (again, if your name isn't stevencurtis and you're not working on a network manager your screenshot may vary).
 
-[Uploaded](Images/Uploaded.png) 
+![Uploaded](Images/Uploaded.png) 
 
 To imake this stuff work now we are going to need tags. That sounds like fun.
 
@@ -83,7 +83,7 @@ which would then be followed with
 
 **Set release on github**
 There is a rather friendly button that allows you to create a new release - but make sure that you get the tag name right (probably `v.0.1.0` in the first instance).
- [Releases](Images/Releases.png).
+![Releases](Images/Releases.png).
  
  You can even use the interface to delete the release and tag, it is all a bit of fun!
 
@@ -101,7 +101,7 @@ git push origin  v0.1.0
 
 ## Using the package in a project
 You can select the `Project>Swift Packages` and there is a friendly -looking + button. 
- [PackageAdd](Images/PackageAdd.png)
+ ![PackageAdd](Images/PackageAdd.png)
  
  Go on - press it.
  
