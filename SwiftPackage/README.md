@@ -3,6 +3,9 @@
 
 ![NetworkLibrary](Images/NetworkLibrary.png)<br/>
 
+Difficulty: Beginner | Easy | **Normal** | Challenging
+This article has been developed using Xcode 11.4.1, and Swift 5.2.2
+
 This is an article about how I've created a rather nice Swift Package for people to use a networking manager that I've made. 
 
 That's rather nice, isn't it (probably not, no).

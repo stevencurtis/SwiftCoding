@@ -43,7 +43,7 @@ I hope this set of articles is of use to you!
 [Dark Mode iOS](https://github.com/stevencurtis/SwiftCoding/tree/master/DarkMode)<br>
 [iOS11 Compatibility](https://github.com/stevencurtis/SwiftCoding/tree/master/ElevenCompatibility)<br>
 [KeyPaths](https://github.com/stevencurtis/SwiftCoding/tree/master/Keypaths)<br>
-
+[Swift Package](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftPackage)<br>
 
 
 **Core Data**<br>
