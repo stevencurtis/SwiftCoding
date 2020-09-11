@@ -9,19 +9,19 @@
 import UIKit
 import NetworkLibrary
 
+
 class ViewController: UIViewController {
 
-    private var httpManager: AnyHTTPManager<URLSession>?
+    private var httpManager: AnyNetworkManager<URLSession>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        self.httpManager = AnyHTTPManager(manager: HTTPManager(session: URLSession.shared))
         
+        self.httpManager = AnyNetworkManager(manager: NetworkManager(session: URLSession.shared))
         
-        self.httpManager?.get(url: URL(string: "https://jsonplaceholder.typicode.com/todos/1")!, completionBlock: { result in
-                
+        self.httpManager?.fetch(url: URL(string: "https://jsonplaceholder.typicode.com/posts/1")!, method: .put, completionBlock: { result in
             
             switch result {
             case .failure(let error):
@@ -39,17 +39,7 @@ class ViewController: UIViewController {
                     // error handling
                 }
             }
-            
         })
-        
-        
-
-        
-        
     }
-    
-    
-
-
 }
 
