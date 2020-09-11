@@ -44,7 +44,6 @@ It is really common to use `ISO8601DateFormatter` to provide a standardized way 
 Where of course in the `user.createdAt` is the date, and `print(user.createdAt)` are in fact the same date, but the second is formatted for the screen.
 
 ### projectedValue
-
 We can go as far as to look at our two createdAt properties on our user instance: `user.createdAt` and `user.$createdAt`
 Each of the two examples above gives us two different outputs - since the second of the two is a projectedValue.
 So the $ indicates that we want to access the property wrapper itself rather than the property that it is wrapping.
