@@ -82,6 +82,7 @@ which would then be followed with
 (for a patch release)
 
 **Set release on github**
+
 There is a rather friendly button that allows you to create a new release - but make sure that you get the tag name right (probably `v.0.1.0` in the first instance).
 ![Releases](Images/Releases.png).
  
@@ -90,12 +91,13 @@ There is a rather friendly button that allows you to create a new release - but 
 Now this is quite messy, and I prefer to use the terminal to do this
 
 **Set release on through the terminal**
+
 We do have to set the teg, and then push to the terminal [commands](https://www.drupixels.com/blog/git-tags-guide-create-delete-push-tags-remote-and-much-more).
 
 In any case, here are the terminal commands that I would write when we are in the correct folder in the terminal:
 
 ```swift
-git tag -l "v0.1.0"
+git tag "v0.1.0"
 git push origin  v0.1.0
 ```
 

@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         
         self.httpManager = AnyHTTPManager(manager: HTTPManager(session: URLSession.shared))
         
+        
         self.httpManager?.get(url: URL(string: "https://jsonplaceholder.typicode.com/todos/1")!, completionBlock: { result in
                 
             
