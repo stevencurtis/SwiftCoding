@@ -60,7 +60,7 @@ git branch -M master
 git push -u origin master
 ```
 
-This pushes the work to your repo. This would be something like this (again, if your name isn't stevencurtis and you're not working on a network manager your screenshot may vary).
+This pushes the work to your [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftPackage/testnm). This would be something like this (again, if your name isn't stevencurtis and you're not working on a network manager your screenshot may vary).
 
 ![Uploaded](Images/Uploaded.png) 
 
