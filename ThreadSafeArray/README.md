@@ -1,6 +1,8 @@
 # Swift thread-safe arrays
 ## Be careful! They are value types!
 
+![Photo by amirali mirhashemian on Unsplash](Images/0*lMQd6r2wwpRzYT7w.jpeg)
+
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 11.7, and Swift 5.2.4
 
@@ -9,9 +11,11 @@ This article has been developed using Xcode 11.7, and Swift 5.2.4
 
 ## Terminology
 Array: An ordered series of objects which are the same type
+Concurrency: means that two tasks can start, run and complete in overlapping time periods
+Parallelism: is about performing work at the same time
 
 # The motivation
-[Concurrency](https://medium.com/swift-coding/concurrency-and-grand-central-dispatch-in-swift-gcd-f0ae063973c2) is a big part of programming and coding.
+[Concurrency](https://medium.com/swift-coding/concurrency-and-grand-central-dispatch-in-swift-gcd-f0ae063973c2) is a big part of programming and coding, and this article covers where you may actually encounter this in your day-to-day work as an iOS programmer.
 
 Since many devices (including iOS devices) embrace the principles of parallelism (that is, executing on many threads at the same time).  
 
@@ -96,7 +100,7 @@ public class SafeArray {
 }
 ```
 
-Note: The contents of the actual array can still be messed up bad, but this is not particuarly relevant to this example.
+Note: The contents of the actual array can still be messed up bad, but this is not particularly relevant to this example.
 
 # Conclusion
 You need to be careful even with value types when in a multi-threaded environment. This article has given a rather brief introduction and I hope you've enjoyed it.
