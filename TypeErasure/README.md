@@ -1,7 +1,7 @@
 # Type Erasure in Swift
 ## Get rid of that type information
 
-![](images/erasure-mn2s.jpg)
+![nice!](Images/erasure-mn2s.jpg)
 
 Difficulty: Beginner | Easy | Normal | **Challenging**<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
@@ -71,7 +71,7 @@ I've gone for an approach **not** using the `storyboard` so I can inject the net
 
 ## The example
 So we can pass through this step-by-step (although please do download the code from the repo, that's what it is there for!)
-**Initialise the CV**
+**Initialise the VC**
 
 ```swift
     let windowScene = UIWindowScene(session: session, connectionOptions: connectionOptions)

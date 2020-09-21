@@ -135,8 +135,10 @@ struct Person {
 dave[keyPath: \Person.lifeform] // Key path cannot refer to static member 'lifeform'
 ```
 
+As, well, keypaths cannot refer to static members! What a shame!
+
 ## Conclusion
-So, keypaths are actully useful in iOS development, being relevant for `Combine` and SwiftUI. You want to buckle up and become familiar with this, or not? I'd say that the former is more important - and you can read up on this [HERE](https://medium.com/@stevenpcurtis.sc/combine-and-urlsession-in-uikit-68f1caa40ee1).
+So, keypaths are actually useful in iOS development, being relevant for `Combine` and SwiftUI. You want to buckle up and become familiar with this, or not? I'd say that the former is more important - and you can read up on this [HERE](https://medium.com/@stevenpcurtis.sc/combine-and-urlsession-in-uikit-68f1caa40ee1).
 
 I hope that this article has helped you out in become more familar in this relatively new feature of Swift.
 

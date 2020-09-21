@@ -44,7 +44,9 @@ I hope this set of articles is of use to you!
 [iOS11 Compatibility](https://github.com/stevencurtis/SwiftCoding/tree/master/ElevenCompatibility)<br>
 [KeyPaths](https://github.com/stevencurtis/SwiftCoding/tree/master/Keypaths)<br>
 [Swift Package](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftPackage)<br>
-[ThreadSafeArray](https://github.com/stevencurtis/SwiftCoding/tree/master/ThreadSafeArray)
+[ThreadSafeArray](https://github.com/stevencurtis/SwiftCoding/tree/master/ThreadSafeArray)<br>
+
+### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/TypeErasure)
 
 
