@@ -28,10 +28,9 @@ I hope this set of articles is of use to you!
 [Did Apple Kill UITableView? - UICollectionView Lists](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLists)<br>
 [Property Wrappers](https://github.com/stevencurtis/SwiftCoding/tree/master/PropertyWrappers)<br>
 [Compositational Layouts](https://github.com/stevencurtis/SwiftCoding/tree/master/CompositionalLayouts)<br>
-**Architecture articles (Not all are published yet, but all articles are complete)**<br>
 [MVVM-C](https://github.com/stevencurtis/MVVM-CDependency)<br>
 [MVC](https://medium.com/swift-coding/mvc-in-swift-a9b1121ab6f0)<br>
-[VIPER](https://medium.com/@stevenpcurtis.sc/implement-the-clean-viper-architecture-in-ios-4e457d74a8ff)<br>
+[VIPER](https://github.com/stevencurtis/VIPERExample)<br>
 [MVVM](https://medium.com/@stevenpcurtis.sc/mvvm-in-swift-19ba3f87ed45)<br>
 [MVVM RxSwift]( https://medium.com/swlh/using-mvvm-with-rxswift-baa38325b750)<br>
 [The MVI Architecture Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVIDemo)<br>
