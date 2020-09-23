@@ -10,6 +10,7 @@ I hope this set of articles is of use to you!
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
 [The Only UIStackView Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/StackView)<br>
 [Imperative vs. Declarative Swift Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/ImperativeDeclarative)<br>
+[Default Arguments](https://github.com/stevencurtis/SwiftCoding/tree/master/DefaultArguments)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -30,7 +31,8 @@ I hope this set of articles is of use to you!
 [Compositational Layouts](https://github.com/stevencurtis/SwiftCoding/tree/master/CompositionalLayouts)<br>
 [MVVM-C](https://github.com/stevencurtis/MVVM-CDependency)<br>
 [MVC](https://medium.com/swift-coding/mvc-in-swift-a9b1121ab6f0)<br>
-[VIPER](https://github.com/stevencurtis/VIPERExample)<br>
+[VIPER](https://github.com/stevencurtis/SwiftCoding/tree/master/VIPERExample)<br>
+[Theoretical VIPER](https://medium.com/swift-coding/the-viper-architecture-1a9dc140c505)<br>
 [MVVM](https://medium.com/@stevenpcurtis.sc/mvvm-in-swift-19ba3f87ed45)<br>
 [MVVM RxSwift]( https://medium.com/swlh/using-mvvm-with-rxswift-baa38325b750)<br>
 [The MVI Architecture Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVIDemo)<br>

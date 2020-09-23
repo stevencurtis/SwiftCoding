@@ -280,7 +280,7 @@ class MockView: TableViewControllerProtocol {
 ```
 
 **MockTableViewWireframe**
-``swift
+```swift
 class MockTableViewWireframe: TableViewWireframeProtocol {
     var moveToDetail: URL?
     func moveToDetail(view: TableViewControllerProtocol, withURL url: URL) {
@@ -357,7 +357,7 @@ which then lets us write the following tests
     }
 ```
 
-# Advatages
+# Advantages
 VIPER makes it easier to test code - by making a modular solution for your App. The architecture should help you to enformce the single responsibility principle and help to reduce the load on view controllers.
 
 # Disadvantages
