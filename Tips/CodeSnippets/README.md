@@ -144,3 +144,125 @@ let decoder = JSONDecoder()
 decoder.keyDecodingStrategy = .convertFromSnakeCase
 ```
 
+## Push to a view controller with storyboards
+```swift
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .red
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "traverseSegue" {
+            if let detail = segue.destination as? DetailViewController {
+                detail.item = "test"
+            }
+        }
+    }
+
+    @IBAction func buttAction(_ sender: UIButton) {
+        let detailViewController: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as UIViewController
+
+        if let detail = detailViewController as? DetailViewController {
+            detail.item = "test"
+        }
+        self.navigationController?.pushViewController(detailViewController, animated: true)
+    }
+    
+    @IBAction func infoButtonAction(_ sender: UIButton) {
+        traverseToInfo()
+    }
+    
+    var viewControllerFactory: ViewControllerFactoryProtocol = ViewControllerFactory()
+    
+    func traverseToInfo() {
+        let vc = viewControllerFactory.createInfoViewControllerWith(item: "test")
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+}
+```
+
+with a factory
+```swift
+protocol ViewControllerFactoryProtocol {
+    func createInfoViewControllerWith(item: String) -> UIViewController
+}
+
+class ViewControllerFactory: ViewControllerFactoryProtocol {
+    let storyboard: UIStoryboard
+
+    func createInfoViewControllerWith(item: String) -> UIViewController {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "InfoViewController") as! InformationViewController
+        vc.item = item
+        return vc
+
+    }
+    
+    init(storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)) {
+        self.storyboard = storyboard
+    }
+}
+```
+and information view controller
+```swift
+class InformationViewController: UIViewController {
+    var item: String!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .green
+        print (item!)
+    }
+}
+```
+
+## Create an MVVM project 
+SceneDelegate
+```swift
+guard let windowScene = (scene as? UIWindowScene) else { return }
+window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+window?.windowScene = windowScene
+
+let networkManager = NetworkManager(session: URLSession.shared)
+
+let viewModel = CurrencyPairsViewModel(
+    networkManager: networkManager,
+    timer: ExchangeTimer(),
+    dataManager: DataManager()
+)
+let viewController = CurrencyPairsViewController(viewModel: viewModel)
+let rootNC = UINavigationController(rootViewController: viewController)
+
+self.window?.rootViewController = rootNC
+
+window?.makeKeyAndVisible()
+```
+
+then setup 
+
+```swift
+    init(viewModel: CurrencyPairsViewModel) {
+        self.viewModel = viewModel
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+```
+
+The viewmodel than uses the following, storing the network manager as `AnyNetworkManager`
+```swift
+class CurrencyPairsViewModel {
+    private var networkManager: AnyNetworkManager<URLSession>?
+        init<T: NetworkManagerProtocol>(networkManager: T, timer: TimerProtocol, dataManager: DataManagerProtocol) {
+        self.networkManager = AnyNetworkManager(manager: networkManager)
+        self.dataManager = dataManager
+        self.timer = timer
+        
+        countries = cdpairs ?? []
+        
+        setupTimer()
+    }
+}
+```
