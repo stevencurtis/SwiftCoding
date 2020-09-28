@@ -24,11 +24,20 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .blue
         presenter?.loadData(url: url)
+        setupImageView()
+        setupConstraints()
+    }
+    
+    override func loadView() {
+        let view = UIView()
+        self.view = view
+        self.view.backgroundColor = .blue
+    }
+    
+    func setupImageView() {
         self.view.addSubview(profileImageView)
         profileImageView.translatesAutoresizingMaskIntoConstraints = false
-        setupConstraints()
         profileImageView.downloadImageFrom(with: url, contentMode: .scaleAspectFit)
     }
     

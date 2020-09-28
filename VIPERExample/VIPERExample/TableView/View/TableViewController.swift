@@ -27,6 +27,11 @@ class TableViewController: UIViewController, TableViewControllerProtocol {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func loadView() {
+        let bgView = UIView()
+        self.view = bgView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .blue
