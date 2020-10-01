@@ -1,14 +1,12 @@
 # Type Erasure in Swift
 ## Get rid of that type information
 
-![nice!](Images/erasure-mn2s.jpg)
+![Photo by Mark Harpur on Unsplash](Images/0*ucWMyiN0BS944VAY.jpeg)
 
 Difficulty: Beginner | Easy | Normal | **Challenging**<br/>
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
 
 This article is example laden, and shows how I've used `Type Erasure` in my production Apps. It should help if you wish to know what `Type Erasure` is and how you might apply it in your Swift code.
-
-This is no "Ship of fools", and we are all hoping this article does not have any references to the 80's pop sensations Erasure. Their music is before my time, the references will go over the heads of everybody and you'll just want me to "Stop!". 
 
 ## Prerequisites:
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71), or a [Playground](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089) to run Swift code
@@ -172,7 +170,6 @@ In any case, Type Erasure is Cool!
 
 
 # Conclusion
-
 It seems surprising that *losing* information is actually useful - but that is exactly what the type erasure is.
 
 That is, it erases the type.
