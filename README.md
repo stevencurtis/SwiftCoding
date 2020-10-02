@@ -46,6 +46,7 @@ I hope this set of articles is of use to you!
 [KeyPaths](https://github.com/stevencurtis/SwiftCoding/tree/master/Keypaths)<br>
 [Swift Package](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftPackage)<br>
 [ThreadSafeArray](https://github.com/stevencurtis/SwiftCoding/tree/master/ThreadSafeArray)<br>
+[ServiceLocator Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/ServiceLocator)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/TypeErasure)
