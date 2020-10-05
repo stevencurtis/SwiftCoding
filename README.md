@@ -47,6 +47,7 @@ I hope this set of articles is of use to you!
 [Swift Package](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftPackage)<br>
 [ThreadSafeArray](https://github.com/stevencurtis/SwiftCoding/tree/master/ThreadSafeArray)<br>
 [ServiceLocator Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/ServiceLocator)<br>
+[StatePreservation](https://github.com/stevencurtis/SwiftCoding/tree/master/StatePreservation)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/TypeErasure)
