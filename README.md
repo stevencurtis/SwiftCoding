@@ -49,6 +49,7 @@ I hope this set of articles is of use to you!
 [ThreadSafeArray](https://github.com/stevencurtis/SwiftCoding/tree/master/ThreadSafeArray)<br>
 [ServiceLocator Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/ServiceLocator)<br>
 [StatePreservation](https://github.com/stevencurtis/SwiftCoding/tree/master/StatePreservation)<br>
+[Cache URLResponses in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CacheResponses)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/TypeErasure)
