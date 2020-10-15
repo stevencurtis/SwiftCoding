@@ -20,6 +20,7 @@ I hope this set of articles is of use to you!
 [|Create a Horizontally Scrolling UICollectionView with Dynamic Cell Sizes](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDynamicSizing)<br>
 [Debug using Breakpoints in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/Breakpoints)<br>
 [Use lldb to Dynamically Change Code in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/lldb)<br>
+[The Singleton](https://medium.com/better-programming/singleton-in-swift-8da9bea06339)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
