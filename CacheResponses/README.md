@@ -1,8 +1,8 @@
 # Cache URLResponses in Swift
 ## We don't want to preload every ViewModel!
 
-![Photo](Images/elizabeth-lies-PIQCA1ReSgU-unsplash.jpg)<br/>
-<sub>Photo <sub>
+![Photo by Abel Y Costa](Images/photo-1530018607912-eff2daa1bac4.jpeg)<br/>
+<sub>Photo by Abel Y Costa<sub>
 
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
