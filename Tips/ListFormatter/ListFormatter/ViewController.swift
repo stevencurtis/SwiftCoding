@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let names = ["Livesh", "Romesh", "Chau", "Bella"]
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         let formatter = ListFormatter()
         formatter.locale = Locale(identifier: "en_GB")
-
+        
         let ukNamesString = formatter.string(for: names)
         print (ukNamesString ?? "")
         
@@ -61,12 +61,12 @@ class ViewController: UIViewController {
         let dateListformatter = ListFormatter()
         dateListformatter.itemFormatter = dateFormatter
         dateListformatter.locale = Locale(identifier: "en_GB")
-
+        
         let dates = [Date(timeIntervalSince1970: 1821546354), Date(timeIntervalSince1970: 1221546354), Date(timeIntervalSince1970: 721546354)]
         let datesString = dateListformatter.string(for: dates)
         print (datesString ?? "")
     }
-
-
+    
+    
 }
 
