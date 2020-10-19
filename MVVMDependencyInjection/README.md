@@ -78,7 +78,7 @@ So I'm swapping in the mock ViewModel with it's own injected dependencies (which
 ## Network Calls
 In order to produce network calls I recommend using my [Network Manager](https://github.com/stevencurtis/networkmanager) which can then be added to a project by clicking on the blue project name and clicking on `Swift Packages` and the plus sign asd highlighted in the image below<br>
 
-![addpackage](addpackage/addpackage.png)<br>
+![addpackage](Images/addpackage.png)<br>
 
 The full guide of how to add a Swift Package is in the [following guide](https://stevenpcurtis.medium.com/use-swift-package-manager-to-add-dependencies-b605f91a4990), but if you can handle it just add the link to the [Network Manager](https://github.com/stevencurtis/networkmanager).
 
