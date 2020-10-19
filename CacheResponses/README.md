@@ -253,7 +253,7 @@ Now when this is called from the code, I'd say it calls it as **normal** from my
 
 Which of course uses a [force-unwrap which you shouldn't do in production code](https://medium.com/@stevenpcurtis.sc/avoiding-force-unwrapping-in-swift-6dae252e970e) but then you can deal with the response as you might well usually do.
 
-The whole code is in the [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/CacheResponses), which should answer the many implementation details that you would like to confirm with me
+The whole code is in the [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/CacheResponses), which should answer the many implementation details that you would like to confirm with me.
 
 
 # Conclusion
