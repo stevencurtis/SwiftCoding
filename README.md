@@ -70,6 +70,7 @@ I hope this set of articles is of use to you!
 [Code snippets](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CodeSnippets)<br>
 [Playgrounds](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/Playgrounds)<br>
 [Parse JSON without knowing the type](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/ParseJsonNoType)<br>
+[Get a Comma Separated List From An Array](https://github.com/stevencurtis/SwiftCoding)<br>
 
 
 ### Theory
@@ -77,7 +78,6 @@ I hope this set of articles is of use to you!
 [WWDC Notes: Keynote](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/WWDCNotes/Keynote)<br>
 [WWDC Notes: Platforms](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal/WWDCNotes/Platforms)<br>
 [Semantic Versioning](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/semver)<br>
-[Get a Comma Separated List From An Array](https://github.com/stevencurtis/SwiftCoding)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
