@@ -21,6 +21,7 @@ I hope this set of articles is of use to you!
 [Debug using Breakpoints in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/Breakpoints)<br>
 [Use lldb to Dynamically Change Code in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/lldb)<br>
 [The Singleton](https://medium.com/better-programming/singleton-in-swift-8da9bea06339)<br>
+[viewDidLoad() Vs. loadView()](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewDidLoadLoadView)<b>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -70,7 +71,7 @@ I hope this set of articles is of use to you!
 [Code snippets](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CodeSnippets)<br>
 [Playgrounds](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/Playgrounds)<br>
 [Parse JSON without knowing the type](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/ParseJsonNoType)<br>
-[Get a Comma Separated List From An Array](https://github.com/stevencurtis/SwiftCoding)<br>
+[Get a Comma Separated List From An Array](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CommaSeparatedList)<br>
 
 
 ### Theory
