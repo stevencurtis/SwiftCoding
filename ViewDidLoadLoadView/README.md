@@ -1,7 +1,7 @@
 #  viewDidLoad() Vs. loadView()
 ## What do you think the difference is?
 
-![Title Image](Images/title.jpeg)<br/>
+![Title Image](Images/title.png)<br/>
 <sub>Title Image<sub>
 
 Difficulty: Beginner | **Easy** | Normal | Challenging
