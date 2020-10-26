@@ -6,8 +6,7 @@
 
 Difficulty: Beginner | **Easy** | Normal | Challenging
 
-https://youtu.be/cW7jpnRQefg
-
+Here is a friendly YouTube version: https://youtu.be/cW7jpnRQefg
 
 ## Not great
 Here I can loop through the input Strings, adding the comma to each element in turn.
@@ -26,7 +25,6 @@ func commaSeparatedList(list: [String]) -> String {
     return outputString
 }
 ```
-
 
 ## Better
 We can use a [map](https://medium.com/@stevenpcurtis.sc/mapping-in-swift-a6d6132a38af) combined with [String interpolation](https://medium.com/swlh/string-interpolation-in-swift-c66b7bac9fd1) to join the elements with a comma. 

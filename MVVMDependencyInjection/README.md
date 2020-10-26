@@ -225,6 +225,10 @@ Which then allows you to create the same network calls as before
 # Conclusion
 
 Want a video? [Why not](https://youtu.be/J3YlwAUboeI)
-Want the repo?
+Want the repo? [It's here](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)
 
- If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
+I hope this gives you the ability to make some great apps and really move on your app development.
+
+Good luck!
+
+If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
