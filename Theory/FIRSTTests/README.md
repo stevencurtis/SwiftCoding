@@ -38,7 +38,9 @@ We are helped out with the way that the iOS SDK sets up tests for us, in that th
 Tests shouldn't be left until the end of a sprint, any production cycle or even when you have finished (in your opinion) your code. They should be written as and when they are useful to be run. Some will see this as an interpretation of [Test Driven Development](https://medium.com/@stevenpcurtis.sc/test-driven-development-tdd-in-swift-b903b31598b6), but it doesn't have to be. You should be writing tests to prove that your code is of sufficient quality for the job that it is performing. 
 
 # Example
-Watch the following video for my [SQLIteManager](https://youtu.be/qVu0ow0mats)
+Watch the following video for my [SQLIteManager](https://youtu.be/qVu0ow0mats) shows how this can be added into a genuine project. 
+
+If you've got some specific questions about this, you can certainly get in touch with me [on Twitter](https://twitter.com/stevenpcurtis)
 
 # Conclusion
 Testing is important! As you move through your career this becomes more so - you never want to ship code that is anything less than excellent! In order to help you on your way, you might like to know about [TDD, ATDD and BDD](https://medium.com/@stevenpcurtis.sc/testing-differences-between-tdd-atdd-and-bdd-eeeeae862a2d) as well as the [theoretical testing of iOS apps](https://medium.com/better-programming/testing-ios-apps-beyond-the-basics-2d451766940c) and [Injection testing](https://medium.com/swlh/injecting-services-into-swift-apps-for-testing-39623f48941c).
