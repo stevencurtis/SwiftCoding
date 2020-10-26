@@ -42,7 +42,7 @@ Watch the following video for my [SQLiteManager](https://youtu.be/qVu0ow0mats) s
 
 Essentially, if you are using a database you could choose to have a version in your production and test target and test target (in this case I have `production.sqlite` and `testDB.sqlite`) 
 
-[filestructure](Images/filestructure.png)
+![filestructure](Images/filestructure.png)
 
 This is fine, but within tests we would not have a **repeatable** set of tests - because if you make any change in the `test.db` (like deleting a record) - so the following test:
 
