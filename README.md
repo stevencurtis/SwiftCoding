@@ -52,6 +52,7 @@ I hope this set of articles is of use to you!
 [StatePreservation](https://github.com/stevencurtis/SwiftCoding/tree/master/StatePreservation)<br>
 [Cache URLResponses in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CacheResponses)<br>
 [MVVM Dependency Injection using Storyboards](https://github.com/stevencurtis/SwiftCoding/tree/master/CacheResponses)<br>
+[Recreate the SwiftUI Sandwiches WWCD demo](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/RecreateSandwiches/)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)
