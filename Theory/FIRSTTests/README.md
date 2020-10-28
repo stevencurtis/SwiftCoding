@@ -182,7 +182,29 @@ class MockSqlite3Wrapper: Sqlite3WrapperProtocol {
 }   
 ```
 
-You can then call this with something like the following:
+which of course conforms to the following protocol:
+
+```swift
+public protocol Sqlite3WrapperProtocol {
+    @discardableResult
+    func sqlite3_close(_ pointer: OpaquePointer!) -> Int32
+    @discardableResult
+    func sqlite3_finalize(_ pStmt: OpaquePointer!) -> Int32
+    @discardableResult
+    func sqlite3_step(_ pointer: OpaquePointer!) -> Int32
+    @discardableResult
+    func sqlite3_open_v2(_ filename: UnsafePointer<Int8>!, _ ppDb: UnsafeMutablePointer<OpaquePointer?>!, _ flags: Int32, _ zVfs: UnsafePointer<Int8>!) -> 
+    @discardableResult
+    func sqlite3_prepare_v2(_ db: OpaquePointer!, _ zSql: UnsafePointer<Int8>!, _ nByte: Int32, _ ppStmt: UnsafeMutablePointer<OpaquePointer?>!, _ pzTail: UnsafeMutablePointer<UnsafePointer<Int8>?>!) -> Int32
+    @discardableResult
+    func sqlite3_column_int(_ oP: OpaquePointer!, _ iCol: Int32) -> Int32
+    func sqlite3_bind_int(_ oP: OpaquePointer!, _ first: Int32, _ second: Int32) -> Int32
+    func sqlite3_bind_text(_ oP: OpaquePointer!, _ first: Int32, _ second: UnsafePointer<Int8>!, _ third: Int32, _ ptrs: (@convention(c) (UnsafeMutableRawPointer?) -> Void)!) -> Int32
+    func sqlite3_column_text(_ op: OpaquePointer!, _ iCol: Int32) -> UnsafePointer<UInt8>!
+}    
+```
+
+You can then call the concrete object with something like the following:
 
 ```swift
     var wrapper: MockSqlite3Wrapper!
