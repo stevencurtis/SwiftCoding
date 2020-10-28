@@ -1,4 +1,4 @@
-# Recreating the Sandwiches WWDC Code
+# Recreating the Sandwiches SwiftUI WWDC Code
 ## Without the Hot Dogs References
 
 ![Photo by Mae Mu on Unsplash](Images/photo-1553909489-cd47e0907980.jpeg)<br/>
