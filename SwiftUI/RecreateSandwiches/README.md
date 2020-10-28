@@ -6,7 +6,7 @@
 
 Remember [that Video](https://developer.apple.com/videos/play/wwdc2020/10119/) with Sandwiches at WWDC. This post uses the following assets:
 
-![assets](https://github.com/jaypricer/resources-intro-swiftui-wwdc20-10119)
+[assets](https://github.com/jaypricer/resources-intro-swiftui-wwdc20-10119)
 
 And we are trying to recreate the WWDC code to create the following:
 
