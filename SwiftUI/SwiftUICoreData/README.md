@@ -1,5 +1,5 @@
-# SwiftUI: Using CoreData 
-## Use my version!
+# SwiftUI: CoreData Integration
+## Don't forget this
 
 ![Photo by Amanda Frank](Images/photo-1578170681526-de18d598a5b8.jpeg)<br/>
 <sub>Photo by Amanda Frank<sub>
@@ -7,10 +7,9 @@
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12, and Swift 5.3
 
-Create project
+#Creating a Core Data SwiftUI project
+In order to develop a new `SwiftUI` project that uses Core Data you will need to open Xcode, perhaps press ⌘n but certainly remember to press the rather friendly Core Data tick box.
 ![Create Project](Images/CreateProject.png)<br/>
-
-Note that I've pressed the rather friendly Core Data tick box
 
 # The approach
 I have been [a cheerleader for a modular Core Data Approach](https://medium.com/@stevenpcurtis.sc/core-data-basics-testing-39d127380680) - this means that it should be trestable. Apple have created their Core Data template, and this seems to suggest that the Core Data reaches right into the views in SwiftUI.
@@ -191,6 +190,7 @@ struct SwiftUICoreDataApp_Previews: PreviewProvider {
 ```
 
 ## The ContentView
+The content view will be reasonably familiar for those who have previously used [SwiftUI](https://medium.com/@stevenpcurtis.sc/hello-world-swiftui-92bcf48a62d3), with the data presented in a List, as you can see in the code below:
 
 ```swift
 import SwiftUI
@@ -252,7 +252,7 @@ struct ContentView_Previews: PreviewProvider {
 Then you can choose to ⌘U to run the tests and, well they are all ✅. The mark of a successful project? Well, in this case the tests are there for you to improve and to work on and get sufficient coverage to make this a production project, so in my opinion this comes under a "good start".
 
 # Conclusion
-Want to look at the whole thing? [network manager](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/SwiftUICoreData) has the whole network manager, which some will find easier to follow along with.
+Want to look at the whole thing? [This repo](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/SwiftUICoreData) has the whole network manager, which some will find easier to follow along with.
 
 This project isn't (yet) production-ready, but it is a good start and is something for you to work on and think about how to make your projects better. SwiftUI isn't scary, and I hope this demonstration has gone some way to give you some direction in your own coding.
 
