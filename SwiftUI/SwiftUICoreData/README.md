@@ -1,8 +1,8 @@
-# SwiftUI: Usng CoreData 
+# SwiftUI: Using CoreData 
 ## Use my version!
 
-![Photo](Images/elizabeth-lies-PIQCA1ReSgU-unsplash.jpg)<br/>
-<sub>Photo <sub>
+![Photo by Amanda Frank](Images/photo-1578170681526-de18d598a5b8.jpeg)<br/>
+<sub>Photo by Amanda Frank<sub>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12, and Swift 5.3
