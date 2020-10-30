@@ -21,7 +21,8 @@ I hope this set of articles is of use to you!
 [Debug using Breakpoints in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/Breakpoints)<br>
 [Use lldb to Dynamically Change Code in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/lldb)<br>
 [The Singleton](https://medium.com/better-programming/singleton-in-swift-8da9bea06339)<br>
-[viewDidLoad() Vs. loadView()](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewDidLoadLoadView)<b>
+[viewDidLoad() Vs. loadView()](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewDidLoadLoadView)<br>
+[Core Data with SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/SwiftUICoreData)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
