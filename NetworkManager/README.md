@@ -1,7 +1,7 @@
 # Write a Network Layer in Swift
-## Or just take mine.
+##Or just take mine.
 ![Image by C Dustin](Images/photo-1569428034239-f9565e32e224.jpeg)
-<sub>Photo <sub>
+<sub>Photo by C Dustin<sub>
 
 I previously produced a [network manager](https://github.com/stevencurtis/NetworkManager). This article explains it. Good oh!
 
@@ -39,36 +39,36 @@ The extension allows us to have [default arguments](https://medium.com/@stevenpc
 
 We can then access the network manager using a token, header and data:
 ```swift
-        let urlSession = MockURLSession()
-        let networkManager = NetworkManager(session: urlSession!)
-        let expectation = XCTestExpectation(description: #function)
-        let url = URL(fileURLWithPath: "http://www.google.com")
-        networkManager?.fetch(url: url, method: .get, headers: [:], token: nil, data: nil, completionBlock: { result in
-            switch result {
-            case .success(let data):
-                // do something with data
-            case .failure(let error):
-                // do something with error
-            }
-        })
+let urlSession = MockURLSession()
+let networkManager = NetworkManager(session: urlSession!)
+let expectation = XCTestExpectation(description: #function)
+let url = URL(fileURLWithPath: "http://www.google.com")
+networkManager?.fetch(url: url, method: .get, headers: [:], token: nil, data: nil, completionBlock: { result in
+    switch result {
+    case .success(let data):
+        // do something with data
+    case .failure(let error):
+        // do something with error
+    }
+})
 ```
 
 or without  those parameters
 
 ```swift
-        let urlSession = MockURLSession()
-        let networkManager = NetworkManager(session: urlSession!)
-        let expectation = XCTestExpectation(description: #function)
-        let url = URL(fileURLWithPath: "http://www.google.com")
-        networkManager?.fetch(url: url, method: .get, 
-        completionBlock: { result in
-            switch result {
-            case .success(let data):
-                // do something with data
-            case .failure(let error):
-                // do something with error
-            }
-        })
+let urlSession = MockURLSession()
+let networkManager = NetworkManager(session: urlSession!)
+let expectation = XCTestExpectation(description: #function)
+let url = URL(fileURLWithPath: "http://www.google.com")
+networkManager?.fetch(url: url, method: .get, 
+completionBlock: { result in
+    switch result {
+    case .success(let data):
+        // do something with data
+    case .failure(let error):
+        // do something with error
+    }
+})
 ```
 
 As we can see this is using a `MockURLSession` to ensure that we are not using the actual `URLSession` with our network manager - ensuring that we will never actually make network calls using the (well...) network - but using the following `MockURLSession` (which in turn has associated types and it's own `MockURLSessionDataTask`)
@@ -208,6 +208,6 @@ Want to look at the whole thing? [network manager](https://github.com/stevencurt
 
 Want to use it? Download it and off you go!
 
-I'm now using this in many of my articles: rather than explaining the working of the network 
+I'm now using this in many of my articles: rather than explaining the working of the network. I recommend that you use this network manager (I like it!), and hope that it can save you some time and help you in your programming journey.
  
  If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
