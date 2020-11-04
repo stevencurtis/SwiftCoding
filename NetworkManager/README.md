@@ -1,7 +1,6 @@
 # Write a Network Layer in Swift
 ## Or just take mine.
-
-![Photo](Images/elizabeth-lies-PIQCA1ReSgU-unsplash.jpg)<br/>
+![Image by C Dustin](Images/photo-1569428034239-f9565e32e224.jpeg)
 <sub>Photo <sub>
 
 I previously produced a [network manager](https://github.com/stevencurtis/NetworkManager). This article explains it. Good oh!
