@@ -5,14 +5,14 @@
 <sub>Photo by Jason Rosewell<sub>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
-This article has been developed using Xcode 11.5, and Swift 5.2.4
+This article has been developed using Xcode 12.1, and Swift 5.3
 
 ## Prerequisites: 
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift
 
 # Terminology:
-Mediator Pattern: the definition of an object that encapsulates how objects interact
-Design Pattern: a general, reusable solution to a commonly occurring problem
+Mediator Pattern: the definition of an object that encapsulates how objects interact<br>
+Design Pattern: a general, reusable solution to a commonly occurring problem<br>
 Encapsulation: the bundling of data with the methods that operate on that data, or the restriction of direct access to some of an object's components
 
 # The problem
