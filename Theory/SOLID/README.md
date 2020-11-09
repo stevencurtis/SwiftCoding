@@ -1,4 +1,4 @@
-# The SOLID Principle Applied to Swift
+# The SOLID Principles Applied to Swift
 ## Let us apply Uncle Bob's acronym to Swift!
 
 ![photo-1555474258-ee7cefbcbd82](Images/photo-1555474258-ee7cefbcbd82.jpeg)
@@ -148,7 +148,7 @@ Generally speaking, the following hold true for DIP:
 One way of implementing this is in Swift is documented in my [Dependency Injection](https://medium.com/@stevenpcurtis.sc/learning-dependency-injection-using-swift-c94183742187) article.
 
 
-Other methods of implementing DIP are [ServiceLocator](https://medium.com/@stevenpcurtis.sc/the-service-locator-pattern-in-swift-5db2c770bcc), Event and Delegate
+Other methods of implementing DIP are [ServiceLocator](https://medium.com/@stevenpcurtis.sc/the-service-locator-pattern-in-swift-5db2c770bcc), Event and Delegate.
 
 # Conclusion
 Writing code that conforms to SOLID principles might well end up getting you a job, a promotion or a great performance review (or get your PR accepted).
