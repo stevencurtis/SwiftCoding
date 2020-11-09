@@ -1,8 +1,8 @@
-# The SOLID Prinicple Applied to Swift
+# The SOLID Principle Applied to Swift
 ## Let us apply Uncle Bob's acronym to Swift!
 
-![Photo by  on Unsplash](Images/.jpg)<br/>
-<sub>Photo by  on Unsplash<sub>
+![photo-1555474258-ee7cefbcbd82](Images/photo-1555474258-ee7cefbcbd82.jpeg)
+<sub>Photo by Berenice Melis @brrknees on Unsplash<sub>
 
 I've already touched upon the SOLID pinciples, like in my articles about [dependency injection](https://medium.com/@stevenpcurtis.sc/learning-dependency-injection-using-swift-c94183742187), yet I think there is a need for the principles to be outlined in an article that can be used for quick-reference (with examples). Read on for just such an article
 
