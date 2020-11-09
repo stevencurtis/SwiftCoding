@@ -56,6 +56,7 @@ I hope this set of articles is of use to you!
 [Recreate the SwiftUI Sandwiches WWDC demo](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/RecreateSandwiches/)<br>
 [Use SwiftUI in a Playground](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/SwiftUIPlaygrounds/)<br>
 [Write a Network Layer in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NetworkManager/)<br>
+[Encode Behaviors into Reusable View Controllers](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewControllerLifecycleBehaviors/)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)
