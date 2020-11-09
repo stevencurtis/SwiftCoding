@@ -167,6 +167,22 @@ class ViewController: UIViewController {
 }
 ```
 
+which then calls the following struct:
+
+```swift
+struct HideNavigationBarBehavior: ViewControllerLifecycleBehavior {
+    func viewWillAppear(viewController: UIViewController) {
+        viewController.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+
+    func viewWillDisappear(viewController: UIViewController) {
+        viewController.navigationController?.setNavigationBarHidden(false, animated: false)
+    }
+}
+```
+
+of course - this only needs to be called in the first view controller (that is, the one where I would like the navigation bar to be hidden).
+
 ## Other uses
 This behavioural method is suitable for perhaps loading analytics, or changing the color of a `UINavigationBar`, making the back button empty on a `UINavigationBar` amongst other behaviours. Wonderful! 
 
