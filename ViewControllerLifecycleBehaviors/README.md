@@ -4,7 +4,7 @@
 ![photo-1594145410108-15c5ef4e2752](Images/photo-1594145410108-15c5ef4e2752.jpeg)
 <sub>Photo by Jonathan Hanna</sub>
 
-Difficulty: Beginner | Easy | Normal | Challenging<br/>
+Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12.1, and Swift 5.3
 
 ## Prerequisites:
@@ -24,7 +24,7 @@ The principle here is that we are trying to break view controllers up - which es
 Now this is an article I've written to support  a blog post by [Soroush](https://khanlou.com/2016/02/many-controllers/) along with a similar post by [Bryan](https://irace.me/lifecycle-behaviors) - however I failed to follow either of these propertly for the appearance and suppression of the `UINavigationBar`, so this article covers that (so all credit goes to Soroush and Bryan).
 
 ## The example behaviour
-Within this article we are going to hide the `UINavigationBar` in the first of two `UIViewController` instances within a `UINavigationController`. In order to do so this article will use the function
+Within this article we are going to hide the `UINavigationBar` in the first of two `UIViewController` instances within a `UINavigationController`. In order to do so this article will use the function:
 
 ```swift
 func setNavigationBarHidden(_ hidden: Bool, animated: Bool)
@@ -137,8 +137,6 @@ extension UIViewController {
                 behavior.viewDidLayoutSubviews(viewController: viewController)
             }
         }
-
-        // MARK: - Private
 
         private func applyBehaviors(body: (_ behavior: ViewControllerLifecycleBehavior, _ viewController: UIViewController) -> Void) {
             guard let parent = parent else { return }
