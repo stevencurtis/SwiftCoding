@@ -83,6 +83,7 @@ I hope this set of articles is of use to you!
 [WWDC Notes: Keynote](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/WWDCNotes/Keynote)<br>
 [WWDC Notes: Platforms](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal/WWDCNotes/Platforms)<br>
 [Semantic Versioning](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/semver)<br>
+[SOLID principles](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SOLID)<br>
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
