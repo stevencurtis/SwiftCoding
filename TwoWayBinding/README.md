@@ -1,5 +1,5 @@
-# Two-Way Binding in Vanilla Swift
-## Don't use third parties
+# Implement Two-Way Binding in Vanilla Swift
+## Avoid third parties
 
 ![photo-1453227588063-bb302b62f50b](Images/photo-1453227588063-bb302b62f50b.jpeg)
 <sub>Photo by Matthew Henry</sub>

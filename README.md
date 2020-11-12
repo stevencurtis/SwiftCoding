@@ -59,7 +59,7 @@ I hope this set of articles is of use to you!
 [Encode Behaviors into Reusable View Controllers](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewControllerLifecycleBehaviors/)<br>
 
 ### Challenging
-[TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)
+[TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
 [TwoWayBinding](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding)
 
 **Core Data**<br>
