@@ -4,8 +4,10 @@
 ![photo-1453227588063-bb302b62f50b](Images/photo-1453227588063-bb302b62f50b.jpeg)
 <sub>Photo by Matthew Henry</sub>
 
-Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
+Difficulty: Beginner | Easy | Normal | **Challenging**<br/>
 This article has been developed using Xcode 12.1, and Swift 5.3, and certain features (\String.self keypath) require Swift 5+
+
+If you would just like to use the libarary, head over to [https://github.com/stevencurtis/TwoWayBindingUIKit](https://github.com/stevencurtis/TwoWayBindingUIKit) and use [Swift Package Manager
 
 ## Prerequisites:
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift.
