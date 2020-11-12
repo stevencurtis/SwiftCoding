@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA03D799255BE44300595CC2 /* ControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA03D798255BE44300595CC2 /* ControlsViewController.swift */; };
+		CA03D79E255BE45100595CC2 /* ControlsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA03D79D255BE45100595CC2 /* ControlsViewModel.swift */; };
+		CAF830A825556B9E0006F6BF /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF830A725556B9E0006F6BF /* ObjectAssociation.swift */; };
+		CAF8310B25559BDE0006F6BF /* UITextField+Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8310A25559BDE0006F6BF /* UITextField+Bindable.swift */; };
+		CAF8311025559C340006F6BF /* MakeBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8310F25559C340006F6BF /* MakeBindable.swift */; };
+		CAF8311D2555AF5B0006F6BF /* TestTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8311C2555AF5B0006F6BF /* TestTF.swift */; };
+		CAFA73BB25531F230065BF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73BA25531F230065BF61 /* AppDelegate.swift */; };
+		CAFA73BD25531F230065BF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73BC25531F230065BF61 /* SceneDelegate.swift */; };
+		CAFA73BF25531F230065BF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73BE25531F230065BF61 /* ViewController.swift */; };
+		CAFA73C425531F310065BF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFA73C325531F310065BF61 /* Assets.xcassets */; };
+		CAFA73C725531F310065BF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFA73C525531F310065BF61 /* LaunchScreen.storyboard */; };
+		CAFA73D225531F320065BF61 /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73D125531F320065BF61 /* TwoWayBindingTests.swift */; };
+		CAFA73DD25531F320065BF61 /* TwoWayBindingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73DC25531F320065BF61 /* TwoWayBindingUITests.swift */; };
+		CAFA73EE255327360065BF61 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73ED255327360065BF61 /* Observable.swift */; };
+		CAFA73F9255328430065BF61 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73F8255328430065BF61 /* ViewModel.swift */; };
+		CAFB712C255D39A300990A77 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB712B255D39A300990A77 /* TestClass.swift */; };
+		CAFB7131255D3F3B00990A77 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB7130255D3F3B00990A77 /* Mappers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAFA73CE25531F320065BF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFA73AF25531F230065BF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFA73B625531F230065BF61;
+			remoteInfo = TwoWayBinding;
+		};
+		CAFA73D925531F320065BF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAFA73AF25531F230065BF61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAFA73B625531F230065BF61;
+			remoteInfo = TwoWayBinding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA03D798255BE44300595CC2 /* ControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsViewController.swift; sourceTree = "<group>"; };
+		CA03D79D255BE45100595CC2 /* ControlsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsViewModel.swift; sourceTree = "<group>"; };
+		CAF830A725556B9E0006F6BF /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAssociation.swift; sourceTree = "<group>"; };
+		CAF8310A25559BDE0006F6BF /* UITextField+Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Bindable.swift"; sourceTree = "<group>"; };
+		CAF8310F25559C340006F6BF /* MakeBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeBindable.swift; sourceTree = "<group>"; };
+		CAF8311C2555AF5B0006F6BF /* TestTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTF.swift; sourceTree = "<group>"; };
+		CAFA73B725531F230065BF61 /* TwoWayBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoWayBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFA73BA25531F230065BF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFA73BC25531F230065BF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAFA73BE25531F230065BF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFA73C325531F310065BF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFA73C625531F310065BF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFA73C825531F310065BF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFA73CD25531F320065BF61 /* TwoWayBindingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoWayBindingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFA73D125531F320065BF61 /* TwoWayBindingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBindingTests.swift; sourceTree = "<group>"; };
+		CAFA73D325531F320065BF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFA73D825531F320065BF61 /* TwoWayBindingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoWayBindingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFA73DC25531F320065BF61 /* TwoWayBindingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBindingUITests.swift; sourceTree = "<group>"; };
+		CAFA73DE25531F320065BF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFA73ED255327360065BF61 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		CAFA73F8255328430065BF61 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CAFB712B255D39A300990A77 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		CAFB7130255D3F3B00990A77 /* Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFA73B425531F230065BF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFA73CA25531F320065BF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFA73D525531F320065BF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA03D7A2255BE96300595CC2 /* ControlsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA03D798255BE44300595CC2 /* ControlsViewController.swift */,
+				CA03D79D255BE45100595CC2 /* ControlsViewModel.swift */,
+			);
+			path = ControlsViewController;
+			sourceTree = "<group>";
+		};
+		CA03D7A6255BE96C00595CC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA73BE25531F230065BF61 /* ViewController.swift */,
+				CAFA73F8255328430065BF61 /* ViewModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CA03D7AA255BE97700595CC2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA73ED255327360065BF61 /* Observable.swift */,
+				CAFB7130255D3F3B00990A77 /* Mappers.swift */,
+				CAF8310A25559BDE0006F6BF /* UITextField+Bindable.swift */,
+				CAF8310F25559C340006F6BF /* MakeBindable.swift */,
+				CAF830A725556B9E0006F6BF /* ObjectAssociation.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CAFA73AE25531F230065BF61 = {
+			isa = PBXGroup;
+			children = (
+				CAFA73B925531F230065BF61 /* TwoWayBinding */,
+				CAFA73D025531F320065BF61 /* TwoWayBindingTests */,
+				CAFA73DB25531F320065BF61 /* TwoWayBindingUITests */,
+				CAFA73B825531F230065BF61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFA73B825531F230065BF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA73B725531F230065BF61 /* TwoWayBinding.app */,
+				CAFA73CD25531F320065BF61 /* TwoWayBindingTests.xctest */,
+				CAFA73D825531F320065BF61 /* TwoWayBindingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFA73B925531F230065BF61 /* TwoWayBinding */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA73BA25531F230065BF61 /* AppDelegate.swift */,
+				CAFA73BC25531F230065BF61 /* SceneDelegate.swift */,
+				CA03D7A6255BE96C00595CC2 /* ViewController */,
+				CA03D7A2255BE96300595CC2 /* ControlsViewController */,
+				CA03D7AA255BE97700595CC2 /* Others */,
+				CAFA73C325531F310065BF61 /* Assets.xcassets */,
+				CAFA73C525531F310065BF61 /* LaunchScreen.storyboard */,
+				CAFA73C825531F310065BF61 /* Info.plist */,
+			);
+			path = TwoWayBinding;
+			sourceTree = "<group>";
+		};
+		CAFA73D025531F320065BF61 /* TwoWayBindingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA73D125531F320065BF61 /* TwoWayBindingTests.swift */,
+				CAF8311C2555AF5B0006F6BF /* TestTF.swift */,
+				CAFB712B255D39A300990A77 /* TestClass.swift */,
+				CAFA73D325531F320065BF61 /* Info.plist */,
+			);
+			path = TwoWayBindingTests;
+			sourceTree = "<group>";
+		};
+		CAFA73DB25531F320065BF61 /* TwoWayBindingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA73DC25531F320065BF61 /* TwoWayBindingUITests.swift */,
+				CAFA73DE25531F320065BF61 /* Info.plist */,
+			);
+			path = TwoWayBindingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFA73B625531F230065BF61 /* TwoWayBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFA73E125531F320065BF61 /* Build configuration list for PBXNativeTarget "TwoWayBinding" */;
+			buildPhases = (
+				CAFA73B325531F230065BF61 /* Sources */,
+				CAFA73B425531F230065BF61 /* Frameworks */,
+				CAFA73B525531F230065BF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoWayBinding;
+			productName = TwoWayBinding;
+			productReference = CAFA73B725531F230065BF61 /* TwoWayBinding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAFA73CC25531F320065BF61 /* TwoWayBindingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFA73E425531F320065BF61 /* Build configuration list for PBXNativeTarget "TwoWayBindingTests" */;
+			buildPhases = (
+				CAFA73C925531F320065BF61 /* Sources */,
+				CAFA73CA25531F320065BF61 /* Frameworks */,
+				CAFA73CB25531F320065BF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFA73CF25531F320065BF61 /* PBXTargetDependency */,
+			);
+			name = TwoWayBindingTests;
+			productName = TwoWayBindingTests;
+			productReference = CAFA73CD25531F320065BF61 /* TwoWayBindingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAFA73D725531F320065BF61 /* TwoWayBindingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFA73E725531F320065BF61 /* Build configuration list for PBXNativeTarget "TwoWayBindingUITests" */;
+			buildPhases = (
+				CAFA73D425531F320065BF61 /* Sources */,
+				CAFA73D525531F320065BF61 /* Frameworks */,
+				CAFA73D625531F320065BF61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFA73DA25531F320065BF61 /* PBXTargetDependency */,
+			);
+			name = TwoWayBindingUITests;
+			productName = TwoWayBindingUITests;
+			productReference = CAFA73D825531F320065BF61 /* TwoWayBindingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFA73AF25531F230065BF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CAFA73B625531F230065BF61 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CAFA73CC25531F320065BF61 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CAFA73B625531F230065BF61;
+					};
+					CAFA73D725531F320065BF61 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CAFA73B625531F230065BF61;
+					};
+				};
+			};
+			buildConfigurationList = CAFA73B225531F230065BF61 /* Build configuration list for PBXProject "TwoWayBinding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFA73AE25531F230065BF61;
+			productRefGroup = CAFA73B825531F230065BF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFA73B625531F230065BF61 /* TwoWayBinding */,
+				CAFA73CC25531F320065BF61 /* TwoWayBindingTests */,
+				CAFA73D725531F320065BF61 /* TwoWayBindingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFA73B525531F230065BF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFA73C725531F310065BF61 /* LaunchScreen.storyboard in Resources */,
+				CAFA73C425531F310065BF61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFA73CB25531F320065BF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFA73D625531F320065BF61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFA73B325531F230065BF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA03D79E255BE45100595CC2 /* ControlsViewModel.swift in Sources */,
+				CAF830A825556B9E0006F6BF /* ObjectAssociation.swift in Sources */,
+				CAFA73F9255328430065BF61 /* ViewModel.swift in Sources */,
+				CA03D799255BE44300595CC2 /* ControlsViewController.swift in Sources */,
+				CAFA73EE255327360065BF61 /* Observable.swift in Sources */,
+				CAFA73BF25531F230065BF61 /* ViewController.swift in Sources */,
+				CAFB7131255D3F3B00990A77 /* Mappers.swift in Sources */,
+				CAF8311025559C340006F6BF /* MakeBindable.swift in Sources */,
+				CAFA73BB25531F230065BF61 /* AppDelegate.swift in Sources */,
+				CAF8310B25559BDE0006F6BF /* UITextField+Bindable.swift in Sources */,
+				CAFA73BD25531F230065BF61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFA73C925531F320065BF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFA73D225531F320065BF61 /* TwoWayBindingTests.swift in Sources */,
+				CAFB712C255D39A300990A77 /* TestClass.swift in Sources */,
+				CAF8311D2555AF5B0006F6BF /* TestTF.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAFA73D425531F320065BF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFA73DD25531F320065BF61 /* TwoWayBindingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAFA73CF25531F320065BF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFA73B625531F230065BF61 /* TwoWayBinding */;
+			targetProxy = CAFA73CE25531F320065BF61 /* PBXContainerItemProxy */;
+		};
+		CAFA73DA25531F320065BF61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAFA73B625531F230065BF61 /* TwoWayBinding */;
+			targetProxy = CAFA73D925531F320065BF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAFA73C525531F310065BF61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFA73C625531F310065BF61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFA73DF25531F320065BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFA73E025531F320065BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFA73E225531F320065BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = TwoWayBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.TwoWayBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFA73E325531F320065BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = TwoWayBinding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.TwoWayBinding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAFA73E525531F320065BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = TwoWayBindingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.TwoWayBindingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoWayBinding.app/TwoWayBinding";
+			};
+			name = Debug;
+		};
+		CAFA73E625531F320065BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = TwoWayBindingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.TwoWayBindingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoWayBinding.app/TwoWayBinding";
+			};
+			name = Release;
+		};
+		CAFA73E825531F320065BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = TwoWayBindingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.TwoWayBindingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoWayBinding;
+			};
+			name = Debug;
+		};
+		CAFA73E925531F320065BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = TwoWayBindingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.TwoWayBindingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoWayBinding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFA73B225531F230065BF61 /* Build configuration list for PBXProject "TwoWayBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFA73DF25531F320065BF61 /* Debug */,
+				CAFA73E025531F320065BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFA73E125531F320065BF61 /* Build configuration list for PBXNativeTarget "TwoWayBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFA73E225531F320065BF61 /* Debug */,
+				CAFA73E325531F320065BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFA73E425531F320065BF61 /* Build configuration list for PBXNativeTarget "TwoWayBindingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFA73E525531F320065BF61 /* Debug */,
+				CAFA73E625531F320065BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFA73E725531F320065BF61 /* Build configuration list for PBXNativeTarget "TwoWayBindingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFA73E825531F320065BF61 /* Debug */,
+				CAFA73E925531F320065BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFA73AF25531F230065BF61 /* Project object */;
+}

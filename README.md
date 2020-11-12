@@ -60,7 +60,7 @@ I hope this set of articles is of use to you!
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)
-
+[TwoWayBinding](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding)
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
