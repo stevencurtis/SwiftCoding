@@ -7,7 +7,7 @@
 Difficulty: Beginner | Easy | Normal | **Challenging**<br/>
 This article has been developed using Xcode 12.1, and Swift 5.3, and certain features (\String.self keypath) require Swift 5+
 
-If you would just like to use the libarary, head over to [https://github.com/stevencurtis/TwoWayBindingUIKit](https://github.com/stevencurtis/TwoWayBindingUIKit) and use [Swift Package Manager
+If you would just like to use the library, head over to [https://github.com/stevencurtis/TwoWayBindingUIKit](https://github.com/stevencurtis/TwoWayBindingUIKit) and use [Swift Package Manager](https://stevenpcurtis.medium.com/use-swift-package-manager-to-add-dependencies-b605f91a4990b605f91a4990?sk=adfd10c7d96557b37ba6ea0443145eb4) to install it!
 
 ## Prerequisites:
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift.
@@ -31,7 +31,7 @@ Subscribe: An observer lets a subject know that it wants to be informed of chang
 Subscriber: A term meaning Observer
 Type: A representation of the tyoe of data that can be processed, for example Integer or String
 
-## Loose couping
+## Loose coupling
 The open-closed principle says that implementation should hide behind an interface - that is; loose coupling.
 
 ![Diagram](Images/Diagram.png)
@@ -48,11 +48,11 @@ Observables are at the heart of reactive programming (although they do not cover
 ## The project
 I'm going to create a rather dull project that has three `UITextField` components on it, each of which will implement two-way binding in slightly different ways. This finished project looks just like the following image:
 
-![Simulator Screen Shot - iPod touch (7th generation) - 2020-11-11 at 09.37.29](Images/Simulator Screen Shot - iPod touch (7th generation) - 2020-11-11 at 09.37.29.png)
+![finished](Images/finished.png)
 
 Now of course since these are `UITextField` components you can [download the repo](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding), take a look and change what they say!
 
-Now this particular project does not use [storyboards](https://medium.com/@stevenpcurtis.sc/avoid-storyboards-in-your-apps-8e726df43d2e) as I have opted for a programmatic approach
+Now this particular project does not use [storyboards](https://medium.com/@stevenpcurtis.sc/avoid-storyboards-in-your-apps-8e726df43d2e) as I have opted for a programmatic approach.
 
 ## The first UITextField Observing a String, AKA one-way binding fixed to be two-way
 The `UITextField` called `firstTF` is connected to a `String` in the `ViewModel`, but in this case we aren't going to use a simple `String` - this is going to be an Observable - that is, a **type** that can be observed, and I've constructed this as a class.
@@ -168,7 +168,7 @@ which once again connects to an `Observable`:
 var secondName: Observable<String> = Observable("Second")
 ```
 
-Now `Bindable` itself is a protocol
+Now `Bindable` itself is a protocol:
 
 ```swift
 public protocol Bindable {
@@ -229,7 +229,7 @@ We'd have to write this extension for each and every control that would be used.
 In steps the third example.
 
 ## The third example
-We can use [keypaths](https://medium.com/@stevenpcurtis.sc/what-are-swifts-keypaths-e8c829bc97d3) to make a `MakeBindable` type that we will use in place of the `Observable` type we used before 
+We can use [keypaths](https://medium.com/@stevenpcurtis.sc/what-are-swifts-keypaths-e8c829bc97d3) to make a `MakeBindable` type that we will use in place of the `Observable` type we used before:
 
 ```swift
 var thirdName: MakeBindable<String> = MakeBindable("Third")
@@ -264,19 +264,19 @@ init(_ value: BindingType? = nil) {
 }
 ```
 
-the bind function ais the entry point to add the observer, using the [keypath](https://medium.com/@stevenpcurtis.sc/what-are-swifts-keypaths-e8c829bc97d3) as chosen
+the bind function as the entry point to add the observer, using the [keypath](https://medium.com/@stevenpcurtis.sc/what-are-swifts-keypaths-e8c829bc97d3) as chosen using the following:
 
 ```swift
-    func bind<O: AnyObject, T>(
-        _ sourceKeyPath: KeyPath<BindingType, T>,
-        to anyObject: O,
-        _ objectKeyPath: ReferenceWritableKeyPath<O, T?>
-    ) {
-        addObserver(for: anyObject) { object, observed in
-            let value = observed[keyPath: sourceKeyPath]
-            anyObject[keyPath: objectKeyPath] = value
-        }
+func bind<O: AnyObject, T>(
+    _ sourceKeyPath: KeyPath<BindingType, T>,
+    to anyObject: O,
+    _ objectKeyPath: ReferenceWritableKeyPath<O, T?>
+) {
+    addObserver(for: anyObject) { object, observed in
+        let value = observed[keyPath: sourceKeyPath]
+        anyObject[keyPath: objectKeyPath] = value
     }
+}
 ```
 
 which itself calls the following private function:
@@ -298,7 +298,7 @@ private func addObserver<T: AnyObject>(
 }
 ```
 
-which of course, when updated will call each of these observers
+which of course, when updated will call each of these observers:
 
 ```swift
 func update(with value: BindingType) {
@@ -349,24 +349,25 @@ Where we run the new value to each of the observers, and update our `previousVal
 In itself this function is created when we bind the values, here is the updated bind function:
 
 ```swift
-    func bind<O: AnyObject, T>(
-        _ sourceKeyPath: KeyPath<BindingType, T>,
-        to anyObject: O,
-        _ objectKeyPath: ReferenceWritableKeyPath<O, T?>
-    ) {
-        if let control = anyObject as? UIControl {
-            control.addTarget(self, action: #selector(valueChanged), for: [.editingChanged, .valueChanged])
-            keyPath = objectKeyPath
-        }
-        
-        addObserver(for: anyObject) { object, observed in
-            let value = observed[keyPath: sourceKeyPath]
-            anyObject[keyPath: objectKeyPath] = value
-        }
+func bind<O: AnyObject, T>(
+    _ sourceKeyPath: KeyPath<BindingType, T>,
+    to anyObject: O,
+    _ objectKeyPath: ReferenceWritableKeyPath<O, T?>
+) {
+    if let control = anyObject as? UIControl {
+        control.addTarget(self, action: #selector(valueChanged), for: [.editingChanged, .valueChanged])
+        keyPath = objectKeyPath
     }
+    
+    addObserver(for: anyObject) { object, observed in
+        let value = observed[keyPath: sourceKeyPath]
+        anyObject[keyPath: objectKeyPath] = value
+    }
+}
 ```
 
-which of  course relies upon the Keypath property
+which of  course relies upon the Keypath property:
+
 ```swift
 var keyPath: AnyKeyPath?
 ```
@@ -393,27 +394,27 @@ enum Mappers {
 }
 ```
 
-which can then be implemented with the following binding function that functions in a similar way as has been explained above 
+which can then be implemented with the following binding function that functions in a similar way as has been explained above :
 
 ```swift
-    func bind<O: AnyObject, T, R>(
-        _ sourceKeyPath: KeyPath<BindingType, T>,
-        to anyObject: O,
-        _ objectKeyPath: ReferenceWritableKeyPath<O, R?>,
-        mapper: @escaping (T) -> R?
-    ) {
-        
-        if let control = anyObject as? UIControl {
-            control.addTarget(self, action: #selector(valueChanged), for: [.editingChanged, .valueChanged])
-            keyPath = objectKeyPath
-        }
-        
-        addObserver(for: anyObject) { object, observed in
-            let value = observed[keyPath: sourceKeyPath]
-            let mapped = mapper(value)
-            object[keyPath: objectKeyPath] = mapped
-        }
+func bind<O: AnyObject, T, R>(
+    _ sourceKeyPath: KeyPath<BindingType, T>,
+    to anyObject: O,
+    _ objectKeyPath: ReferenceWritableKeyPath<O, R?>,
+    mapper: @escaping (T) -> R?
+) {
+    
+    if let control = anyObject as? UIControl {
+        control.addTarget(self, action: #selector(valueChanged), for: [.editingChanged, .valueChanged])
+        keyPath = objectKeyPath
     }
+    
+    addObserver(for: anyObject) { object, observed in
+        let value = observed[keyPath: sourceKeyPath]
+        let mapped = mapper(value)
+        object[keyPath: objectKeyPath] = mapped
+    }
+}
 ```
 
 Which can then be used (for example to bind a boolean to a label:
@@ -428,8 +429,8 @@ viewModel.switchValue.bind(
     mapper: Mappers.transformBoolToStringFunction)
 ```
 
-**Finish up**
-The code in the view controller can be simpilfied with the implementation of two-way binding. Therefore the testing code I have added in the [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding) may be of interest, especially since I've added the subclassed `UITextField` here:
+**Finishing up**
+The code in the view controller can be simpilfied with the implementation of two-way binding. Therefore the testing code I have added in the [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding) may be of interest, especially since I've added the subclassed `UITextField` here, with some small tests:
 
 ```swift
 class TestTF: UITextField {
