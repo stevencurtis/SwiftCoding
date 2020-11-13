@@ -23,6 +23,8 @@ I hope this set of articles is of use to you!
 [The Singleton](https://medium.com/better-programming/singleton-in-swift-8da9bea06339)<br>
 [viewDidLoad() Vs. loadView()](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewDidLoadLoadView)<br>
 [Core Data with SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/SwiftUICoreData)<br>
+[The UINavigationController and UINavigationBar in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/UINavigationController)<br>
+
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
