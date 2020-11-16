@@ -1,5 +1,5 @@
 # Write Programmatic Constraints for Swift Projects
-## We can do it good!
+## Great layouts!
 
 ![photo-1471623817296-aa07ae5c9f47](Images/photo-1471623817296-aa07ae5c9f47.jpeg)
 <sub>Photo by John Towner @heytowner</sub>
@@ -15,10 +15,11 @@ This article has been developed using Xcode 12.1, and Swift 5.3
 * [Closures](https://medium.com/swift-coding/swift-closures-c14cb7aa2170) are mentioned in passing
 
 ## Terminology
+Constraints: A constraint on the layout of a view
 Storyboard: A way to graphically layout the UI in Xcode
 
 # Removing the Storyboard
-Although this isn't really part of this tutorial (there is a full guide on this [here](https://medium.com/@stevenpcurtis.sc/write-clean-code-by-overriding-loadview-ac4f172163d0) but essentially you can select `Main.storyboard` in the project inspector
+Although this isn't really part of this tutorial (there is a full guide on this [here](https://medium.com/@stevenpcurtis.sc/write-clean-code-by-overriding-loadview-ac4f172163d0) but essentially you can select `Main.storyboard` in the project inspector:
 ![DeleteStoryboard](Images/DeleteStoryboard.png)
 
 then pressing the delete key (on your keyboard!)
@@ -27,7 +28,7 @@ Then the reference must be removed, the easiest way is to select the top level p
 
 ![ProjectName](Images/ProjectName.png)
 
-and then delete the **Main Interface** (which is usually set to *Main*) which can be deleted once again with the use of the delete key on the keyboard
+and then delete the **Main Interface** (which is usually set to *Main*) which can be deleted once again with the use of the delete key on the keyboard.
 
 ![DeleteMain](Images/DeleteMain.png)
 
@@ -44,7 +45,7 @@ In this particular project, I've created a simple menu that then traverses using
 I won't cover the creation of this menu in this particular article, but it does give access to another implementation of some lazy controls which is avaliable in the [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/ProgrammaticConstraints) for you to download!
 
 ## The ordinary view controller
-We are going to add a simple `UILabel` into the middle of the host view controller. But how to add the property and perform the configuration of the same? In this article, we are going to perform the configuration in `loadView()` which means that the compiler doesn't see the `UILabel` instance as complete until the loadView as finished - so the `UILabel` property is naturally an optionaL
+We are going to add a simple `UILabel` into the middle of the host view controller. But how to add the property and perform the configuration of the same? In this article, we are going to perform the configuration in `loadView()` which means that the compiler doesn't see the `UILabel` instance as complete until the loadView as finished - so the `UILabel` property is naturally an optional.
 
 There are a couple of ways of dealing with this - one is to make the label an optional. To solve the problem of potentially [force-unwrapping](https://medium.com/@stevenpcurtis.sc/avoiding-force-unwrapping-in-swift-6dae252e970e) in this example I've used a [guard](https://medium.com/@stevenpcurtis.sc/precondition-assert-fatal-error-or-guard-in-your-swift-code-5f9297658be0).
 
@@ -74,7 +75,7 @@ class OrdinaryViewController: UIViewController {
 }
 ```
 
-which really is OK. An alternative is to use an implicitly-inwrapped optional (that is, set up the `UILabel` instance as a property with `var label: UILabel!`. Some dislike this approach, but it is functionally identical to the code shown above
+which really is OK. An alternative is to use an implicitly-inwrapped optional (that is, set up the `UILabel` instance as a property with `var label: UILabel!`. Some dislike this approach, but it is functionally identical to the code shown above.
 
 ```swift
 class OrdinaryViewController: UIViewController {
