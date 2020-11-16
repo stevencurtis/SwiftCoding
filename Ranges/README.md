@@ -1,7 +1,7 @@
 # Using Swift's Ranges
 ## Open and half-open?
 
-[photo-1559827260-dc66d52bef19](Images/photo-1559827260-dc66d52bef19.webp)
+[photo-1559827260-dc66d52bef19](Images/photo-1559827260-dc66d52bef19.png)
 <sub>Image by Silas Baisch @silasbaisch</sub>
 
 # Before we start
