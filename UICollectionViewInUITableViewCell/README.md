@@ -1,4 +1,4 @@
-# Embed a UICollectionView Inside a UITableView
+# Embed a UICollectionView Inside a UITableViewCell
 ## That is, so it works
 
 ![Images/photo-1480554840075-72cbdabbf689](Images/photo-1480554840075-72cbdabbf689.webp)
@@ -6,18 +6,18 @@
 
 # Before we start
 Difficulty: Beginner | Easy | **Normal** | Challenging<br>
-This article has been developed using Xcode 12.1, and Swift 5.3
+This article has been developed using Xcode 12.2, and Swift 5.3
 
 ## Prerequisites
 * You will be expected to be aware how to either make a [Single View Application in Swift](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) or use a [Playground](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089)
-* This article uses the Storyboard to implement the `UITableView`, and then creates the `UITableViewCell` programmatically.
+* This article uses the Storyboard to implement the `UITableView`, and then creates the `UITableViewCell` programmatically
 
 ## Keywords and Terminology
-IndexPath: The path to a specific node in a tree of nested array collections
-UICollectionView: An object that manages an ordered collection of data items and presents them using customizable layouts
-UICollectionViewCell: The on-screen cell for the UICollectionView type
-UITableView: A view that presents data using rows arranged in a single column
-UITableViewCell: The visual representation of a single row in a table view
+IndexPath: The path to a specific node in a tree of nested array collections<br>
+UICollectionView: An object that manages an ordered collection of data items and presents them using customizable layouts<br>
+UICollectionViewCell: The on-screen cell for the UICollectionView type<br>
+UITableView: A view that presents data using rows arranged in a single column<br>
+UITableViewCell: The visual representation of a single row in a table view<br>
 
 # This project
 ## Background
@@ -54,7 +54,7 @@ The data is stored in a property that represents and Array of Arrays:
     var data = [[UIColor.red, UIColor.green, UIColor.blue, UIColor.green, UIColor.purple, UIColor.orange, UIColor.blue, UIColor.green, UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green]]
 ``` 
 
-Note: I do apologise that I've called this ViewController, and that is not idea.
+Note: I do apologise that I've called this ViewController, and that is not ideal.
 
 ```swift
 class ViewController: UIViewController {
@@ -99,7 +99,7 @@ So the most important part of this is that the `tableView...cellForRowAt` that c
 cell.updateCellWith(row: data[indexPath.row])
 ```
 
-which means that we need to look at the `UITableViewCell` instance
+which means that we need to look at the `UITableViewCell` instance.
 
 ## The UITableViewCell
 Here the [initializer](https://medium.com/@stevenpcurtis.sc/swift-initializers-fc12908a9106) has been overridden, which gives the opportunity to set up the `UICollectionView`. 
