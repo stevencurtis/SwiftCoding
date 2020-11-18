@@ -1,7 +1,7 @@
 # Embed a UICollectionView Inside a UITableView
 ## That is, so it works
 
-[photo-1480554840075-72cbdabbf689](Images/photo-1480554840075-72cbdabbf689.webp)
+![Images/photo-1480554840075-72cbdabbf689](Images/photo-1480554840075-72cbdabbf689.webp)
 <sub>Image by Gary Bending @kris_ricepees</sub>
 
 # Before we start
