@@ -1,5 +1,5 @@
-## Encode Behaviors into Reusable View Controllers
-# Using the American spelling
+# Encode Behaviors into Reusable View Controllers
+## Separate your concerns
 
 ![photo-1594145410108-15c5ef4e2752](Images/photo-1594145410108-15c5ef4e2752.jpeg)
 <sub>Photo by Jonathan Hanna</sub>

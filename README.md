@@ -13,6 +13,7 @@ I hope this set of articles is of use to you!
 [Default Arguments](https://github.com/stevencurtis/SwiftCoding/tree/master/DefaultArguments)<br>
 [Write Programmatic Constraints for Swift Projects](https://github.com/stevencurtis/SwiftCoding/tree/master/ProgrammaticConstraints)<br>
 [Ranges in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Ranges)<br>
+[Property Observers in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PropertyObservers)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>

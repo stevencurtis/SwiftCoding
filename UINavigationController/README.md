@@ -1,10 +1,10 @@
 # The UINavigationController and UINavigationBar in Swift
-## We can do it good!
+## Improve your user experience
 
 ![Settings](Images/Settings.png)
-<sub>Diagram my Steven Curtis</sub>
+<sub>Diagram by Steven Curtis</sub>
 
-Unusually for one of these articles I've presented two separate Projects within the [repo](https://github.com/stevencurtis/UINavigationController)
+Unusually for one of these articles I've presented two separate Projects within the [repo](https://github.com/stevencurtis/SwiftCoding/tree/master/UINavigationController)
 
 Difficulty: **Beginner** | Easy | Normal | Challenging<br/>
 This article has been developed using Xcode 12.1, and Swift 5.3
@@ -18,31 +18,31 @@ This article has been developed using Xcode 12.1, and Swift 5.3
 Stack: A data structure used to store objects
 Storyboard: A way to graphically layout the UI in Xcode
 UINavigationBar: A bar containing buttons for navigating within the hierarchy of screens
-UINavigationController: A container that stores view controllers in a stack
+UINavigationController: A container that stores view controllers in a stack.
 
-The image at the top of the article (repeated here)
+The image at the top of the article (repeated here for ease of reading)
 ![Settings](Images/Settings.png)
 
 Shows the app to which this article refers. However, that `UINavigationController` that would embed the `UIViewController` instances isn't shown. 
 
-Perhaps the best way to express this is to show the storyboard solution from the practical below
+Perhaps the best way to express this is to show the storyboard solution from the practical below:
 ![StoryboardSolution](Images/StoryboardSolution.png)
 
 We can see that the `UINavigationController` comes first, that is the `UIViewController` instances are managed by it.
 
-# The theory
+# The Theory
 What is happening is that a `UINavigationController` instance manages the navigation stack that can have any number of `UIViewController` instances. So at the bottom of the stack there is a root view controller, and pushed on top of this are any number of child view controllers.
 
 We can think of the topmost `UIViewController` instance as being the one that can be is viewable to the end use.
 
-Each time we put a new topmost `UIViewController` onto the stack, we call that **push**, each time we remove one we do so by using a **pop**
+Each time we put a new topmost `UIViewController` onto the stack, we call that **push**, each time we remove one we do so by using a **pop**.
 
 ![NavigationBar](Images/NavigationBar.png)
 
 The `UINavigationBar` is featured at the top of the navigation stack, and can be adjusted (and even hidden from view), but is commonly in use to give the user a method of moving *back* through the stack of `UIViewController` instances.
 
 # Create the Programmatic Version
-There are going to be two files here - the ViewController.swift (which is what we get for free when creating a project), so perhaps copy and paste the following
+There are going to be two files here - the ViewController.swift (which is what we get for free when creating a project), so perhaps copy and paste the following:
 
 ```swift
 import UIKit
@@ -68,7 +68,7 @@ and then select Swift File as the template
 Of course call the file SecondViewController
 ![Namefile](Images/Namefile.png)
 
-which will then be filled with the following contents
+which will then be filled with the following contents:
 ```swift
 import UIKit
 class SecondViewController: UIViewController {
@@ -84,16 +84,16 @@ class SecondViewController: UIViewController {
 }
 ```
 
-Although this isn't really part of this tutorial (there is a full guide on this [here](https://medium.com/@stevenpcurtis.sc/write-clean-code-by-overriding-loadview-ac4f172163d0) but essentially you can select `Main.storyboard` in the project inspector
+Although this isn't really part of this tutorial (there is a full guide on this [here](https://medium.com/@stevenpcurtis.sc/write-clean-code-by-overriding-loadview-ac4f172163d0) but essentially you can select `Main.storyboard` in the project inspector:
 ![DeleteStoryboard](Images/DeleteStoryboard.png)
 
 then pressing the delete key (on your keyboard!)
 
-Then the reference must be removed, the easiest way is to select the top level project file in the project inspector (mine is called ProgrammaticConstraints)
+Then the reference must be removed, the easiest way is to select the top level project file in the project inspector (mine is called ProgrammaticConstraints).
 
 ![ProjectName](Images/ProjectName.png)
 
-and then delete the **Main Interface** (which is usually set to *Main*) which can be deleted once again with the use of the delete key on the keyboard
+and then delete the **Main Interface** (which is usually set to *Main*) which can be deleted once again with the use of the delete key on the keyboard.
 
 ![DeleteMain](Images/DeleteMain.png)
 
@@ -104,20 +104,20 @@ The third stage of this is deleting the reference in the .plist file.
 then we need to update the `SceneDelegate.swift` file to programmatically load the first `UIViewController` instance, so replace the `optional func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions)` function with the following:
 
 ```swift
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+    guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene = windowScene
-        
-        self.window = UIWindow(windowScene: windowScene)
+    window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+    window?.windowScene = windowScene
+    
+    self.window = UIWindow(windowScene: windowScene)
 
-        let vc = ViewController()
-        let rootNC = UINavigationController(rootViewController: vc)
+    let vc = ViewController()
+    let rootNC = UINavigationController(rootViewController: vc)
 
-        self.window?.rootViewController = rootNC
-        self.window?.makeKeyAndVisible()
-    }
+    self.window?.rootViewController = rootNC
+    self.window?.makeKeyAndVisible()
+}
 ```
 
 # Create the Storyboard Version
@@ -137,15 +137,15 @@ We can then add a new `UIViewController` in the `UIStoryboard` by selecting the 
 
 ![DragSB](Images/DragSB.png)
 
-Then drag-drop the instance
+Then drag-drop the instance:
 ![InstanceDD](Images/InstanceDD.png)
 
 We then need to create a new file - `SecondViewController.swift`, which can be produced by performing `File>New>File..`
 ![Newfile](Images/Newfile.png)
-and then select Swift File as the template
+and then select Swift File as the template:
 ![SwiftTemplate](Images/SwiftTemplate.png)
 
-Of course call the file SecondViewController
+Of course call the file SecondViewController:
 ![Namefile](Images/Namefile.png)
 
 then fill in the contents with the following code:
@@ -173,10 +173,10 @@ If you are careful, you can drag it to the middle of a `UIViewController` and ge
 
 ![ButtonSolution](Images/ButtonSolution.png)
 
-We can then control-click on the button towards the background and choose *Center Horizontally in Safe Area* then repeat the process for *Center Vertically in Safe Area*
+We can then control-click on the button towards the background and choose *Center Horizontally in Safe Area* then repeat the process for *Center Vertically in Safe Area*:
 ![Hor](Images/Hor.png)
 
-In order to traverse to the next `UIViewController` instance click on the button and press control and drag to the SecondViewController. Then we choose **show**
+In order to traverse to the next `UIViewController` instance click on the button and press control and drag to the SecondViewController. Then we choose **show**:
 
 ![Showsegue](Images/Showsegue.png)
 
@@ -199,14 +199,14 @@ self.navigationController?.pushViewController(vc, animated: true)
 Animated is the nice sliding animation that moves across the screen: usually you would want that to be true.
 
 ##Pop View Controller
-We can also pop the topmost view controller from the top of the stack, whih is usually the `UIViewController` instance that is visible to the user
+We can also pop the topmost view controller from the top of the stack, whih is usually the `UIViewController` instance that is visible to the user:
 
 ```swift
 self.navigationController?.popViewController(animated: true)
 ```
 
 ##Dealing with the array
-The navigation stack is actully an array! We can access that using the following
+The navigation stack is actully an array! We can access that using the following:
 ```swift
 var array = self.navigationContoller?.viewControllers
 ```
@@ -219,7 +219,7 @@ It is more than possible to change the tint color:
 self.navigationController?.navigationBar.barTintColor = .orange
 ```
 
-We can also set a background image (the PlaceholderImage is avaliable for you in the repo)
+We can also set a background image (the PlaceholderImage is avaliable for you in the repo):
 
 ```swift
  navigationController?.navigationBar.setBackgroundImage(UIImage(named: "PlaceholderImage"), for: .default)
@@ -229,7 +229,7 @@ which shows the following effect:
 
 ![bgtile](Images/bgtile.png)
 
-Of course you can set the title on the `UINavigationBar`, and even change the text
+Of course you can set the title on the `UINavigationBar`, and even change the text:
 
 ```swift
 self.navigationItem.title = "ViewController"
@@ -252,7 +252,7 @@ playButton.frame = CGRect(x: 0, y: 0, width: 10, height: 10)
 navigationItem.rightBarButtonItems = [add]
 ```
 
-of course this would require the addition of an `addTapped` function
+of course this would require the addition of an `addTapped` function:
 
 ```swift
 @objc func addTapped() { }

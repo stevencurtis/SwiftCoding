@@ -7,7 +7,7 @@
 # Before we start
 Ranges are extremely useful when you produce Swift applications as they allow you to select a range (that is, a subset of an existing) type.
 
-Difficulty: **Beginner** | Easy | Normal | Challenging
+Difficulty: **Beginner** | Easy | Normal | Challenging<br>
 This article has been developed using Xcode 12.1, and Swift 5.3
 
 ## Prerequisites
