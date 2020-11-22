@@ -1,23 +1,24 @@
-#LeetCode Weekly Contest 216 Swift solutions
-##Surprisingly Easy
+# LeetCode Weekly Contest 216 Swift solutions
+## Surprisingly Easy
 
 ![photo-1504280539878-538b933c05b7](Images/photo-1504280539878-538b933c05b7.png)
 <sub>Image by A Million Lanterns</sub>
 
 This article is about the 4 challenges in the LeetCode Weekly Contest 216. That is
 
-1662 Check If Two String Arrays are Equivalent
-1663 Smallest String With A Given Numeric Value
-1664 Ways to Make a Fair Array
-1665 Minimum Initial Energy to Finish Tasks
+1662 Check If Two String Arrays are Equivalent<br>
+1663 Smallest String With A Given Numeric Value<br>
+1664 Ways to Make a Fair Array<br>
+1665 Minimum Initial Energy to Finish Tasks<br>
+
 The solutions assume some knowledge of Big O notation
 
-##The Problems
+## The Problems
 Each problem will be approached in turn, with a solution and also with articles explaining the tools, techniques and theory that will help you solve these problems yourself.
 
 Let us get started!
 
-##1662 Check If Two String Arrays are Equivalent
+## 1662 Check If Two String Arrays are Equivalent
 This task is worth three points - so we would not expect this to be too difficult. 
 
 The question asks us it two arrays of `String` are equivalent when the constituent element of the `String` array are concatenated in order. 
@@ -37,10 +38,10 @@ class Solution {
 }
 ```
 
-##1663 Smallest String With A Given Numeric Value
+## 1663 Smallest String With A Given Numeric Value
 Assume we can take the alphabet and assigning a 1-indexed value to each, therefore a = 1 and c = 3.
 
-We are given the task of returning the smallest String with a length of `n`, and a numeric value of `k` (using the rubrik above).
+We are given the task of returning the smallest String with a length of `n`, and a numeric value of `k` (using the rubric above).
 
 ```swift
 n = 3 and k = 27, and the output becomes "aay" since 1 + 1 + 25 = 27
@@ -72,7 +73,7 @@ class Solution {
 }
 ```
 
-##1664 Ways to Make a Fair Array
+## 1664 Ways to Make a Fair Array
 Given an array of Integers, where one element is removed from the array how many of arrays meet the condition evenElements == oddElements.
 
 Rather than removing the elements in turn, and then calculating whether the odd numbers equal the even numers we can use the previous result to calculate the next one.
@@ -94,7 +95,7 @@ if (num.offset % 2 == 0) {
 }
 ```
 
-we caculate whether the array meets the condition
+we calculate whether the array meets the condition
 
 ```swift
 if evenSum == oddSum { fairArrayCount += 1 }
@@ -138,7 +139,7 @@ class Solution {
 }
 ```
 
-##1665 Minimum Initial Energy to Finish Tasks
+## 1665 Minimum Initial Energy to Finish Tasks
 Given an array, each contains [a,b] where a = the energy required to finish a task and b = the energy required to start a task.
 
 The LeetCode problem is to calculate the minimum amount of energy required to finish all of the tasks.
