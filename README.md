@@ -91,6 +91,7 @@ I hope this set of articles is of use to you!
 [WWDC Notes: Platforms](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal/WWDCNotes/Platforms)<br>
 [Semantic Versioning](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/semver)<br>
 [SOLID principles](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SOLID)<br>
+[Writing FIRST Swift Tests](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/FIRSTTests)<br>
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
@@ -99,8 +100,7 @@ I hope this set of articles is of use to you!
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
 [Leetcode Weekly Contest 195 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/195)<br>
 [Leetcode Weekly Contest 197 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/197)<br>
-[Writing FIRST Swift Tests](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/FIRSTTests)<br>
-
+[Leetcode Weekly Contest 216 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/216)<br>
 
 ## Get in touch
 I'm usually around on [Twitter](https://twitter.com/stevenpcurtis) 
