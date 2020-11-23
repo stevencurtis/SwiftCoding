@@ -1,12 +1,12 @@
 # The Union-Find Data Structure in Swift
 ## That is, disjoint sets
 
-![photo-1581533946277-1f137a7fbc82](Images/photo-1581533946277-1f137a7fbc82.png)
+![photo-1581533946277-1f137a7fbc82](Images/photo-1581533946277-1f137a7fbc82.png)<br>
 <sub>Image by Giorgio Trovato</sub>
 
 # Before we start
 
-Difficulty: **Beginner** | Easy | Normal | Challenging<br>
+Difficulty: Beginner | Easy | **Normal** | Challenging<br>
 This article has been developed using Xcode 12.1, and Swift 5.3
 
 ## Prerequisites
@@ -28,7 +28,7 @@ More than that, they are have applications in Data Science and are even commonly
 Depending on your needs, they can be a big deal.
 
 ## Disjoint sets
-![disjoint](Images/disjoint.png)
+![disjoint](Images/disjoint.png)<br>
 If we have two sets that **do not share elements** we have a situation like that shown in the diagram above.
 
 In Swift this might be represented as the following sets, p and q.
@@ -86,10 +86,10 @@ There are three basic operations that are used in such a data structure:
 
 Therefore to create a tree (which effectively the set is) we will need to combine `addSet` and `union` since every time we wish to add a new element we must first call `addSet` to add it, before using `union` to join it into an existing set.
 
-This means we might have the set {"a", "b"} and then add a set {"c"}.
+This means we might have the set {"a", "b"} and then add a set {"c"}.<br<
 ![addSet](Images/addSet.png)
 
-We then can call union on two elements for example 
+We then can call union on two elements for example<br>
 ![union](Images/union.png)
 
 So each subset is represented by a tree.
@@ -133,7 +133,7 @@ func find(_ element: T) -> Int? {
 ```
 
 *union*
-We take the root for the tree from the firstElement, and the root from the secondElement. Then we put the secondNode onto the firstNode, for example 
+We take the root for the tree from the firstElement, and the root from the secondElement. Then we put the secondNode onto the firstNode, for example: <br> 
 ![unionshown](Images/unionshown.png)
 ```swift
 func union(_ firstElement: T, _ secondElement: T) {
@@ -169,8 +169,8 @@ These improvements come under the banner of heuristics, and enable performance i
 When performing a `union`, if one tree has a shorter depth then ithe algorithm should favour keeping the tree as short as possible. This can be accomplished by moving the longer tree to the shorter one. This can reduce the time to find the root of any particular tree.
 
 *Path Compression*
-All nodes on a tree should have a single parent, which is the root.
-![flattree](Images/flattree.png)
+All nodes on a tree should have a single parent, which is the root.<br>
+![flattree](Images/flattree.png)<br>
 Something approaching this has been implemented in my version of the Union-find structure described above, and is shown in the [Repo](https://github.com/stevencurtis/SwiftCoding/tree/master/ss).
 
 # Conclusion
