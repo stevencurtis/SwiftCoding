@@ -92,6 +92,7 @@ I hope this set of articles is of use to you!
 [Semantic Versioning](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/semver)<br>
 [SOLID principles](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SOLID)<br>
 [Writing FIRST Swift Tests](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/FIRSTTests)<br>
+[Union Find](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/UnionFind)<br>
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
