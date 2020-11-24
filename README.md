@@ -9,7 +9,10 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 
 ## Articles
 ### Quick Guides
-[UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/TableViewProject)<br>
+[The UITableView Example](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/TableViewProject)<br>
+[The Programmatic UITableView Example](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/ProgrammaticUITableView)<br>
+
+
 
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
