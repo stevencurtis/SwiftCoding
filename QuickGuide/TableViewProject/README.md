@@ -74,8 +74,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
 ```
 
-d
-
 # Add a UITableView instance to the Storyboard
 Go to **Main.storyboard**
 
@@ -83,7 +81,7 @@ Press the plus (+) sign at the top of the Xcode window there is a plus (+) sign.
 
 ![plus](Images/plus.png)
 
-Select the tableview, dragging this into the ViewController (the white rectangle) on the storyboard.
+Select the tableview, dragging this into the ViewController (the white rectangle) on the storyboard.<br>
 ![tableview](Images/tableview.png)
 
 Drag the handles to make it the same size as the ViewController.
@@ -91,15 +89,8 @@ Drag the handles to make it the same size as the ViewController.
 # Connect the outlets
 Use the keyboard shortcut `⌃ + ⌥ + ⌘ + T. (Control + Option + Command + T)` to be able to see both the Storyboard and the ViewController on the screen at the same time (you must have the Storyboard on the screen for this shortcut to work).
 
- ```swift
-┌────────┴────┐
-│  Control │
-└─────────────┘
-```
-to drag the `UITableView` to drag from the hollow circle on the left of the `@IBOutlet var tableView: UITableView!` to the `UITableView` on the `UIStoryboard`. 
+Use the key `⌃Control` to drag from the hollow circle on the left of the `@IBOutlet var tableView: UITableView!` to the `UITableView` on the `UIStoryboard`. 
 
-
-drag from the `UITableView` in InterfaceBuilder to the `tableView` outlet in the code
 
 # Run the Project
 You can use the keyboard shortcut `⌘ + R` to run the project in the simulator, and see the `UITableView` instance displayed on the screen.

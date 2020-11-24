@@ -5,7 +5,12 @@ I hope this set of articles is of use to you!
 ![Photo by Drew Hays on Unsplash](mad-rabbit-tattoo-tn1yJqxNj-8-unsplash.jpg)<br/>
 <sub>Photo by Mad Rabbit Tattoo on Unsplash<sub>
 
+For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanford.edu), this is a wholly online course focussing on SwiftUI.
+
 ## Articles
+### Quick Guides
+[UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/TableViewProject)<br>
+
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
 [The Only UIStackView Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/StackView)<br>
