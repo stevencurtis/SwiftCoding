@@ -18,7 +18,7 @@ It is possible to create a memo using a [dictionary](https://medium.com/@stevenp
 
 So the count is incremented if we have visited the prefixSum - 3 (and natually this must have came before the current num we are visiting, in continuous order).
 
-So here is an example where k = 3 and nums is [1,2,3,4,2,1] which gives the result as 3, represented as three blue arrows here
+So here is an example where k = 3 and nums is [1,2,3,4,2,1] which gives the result as 3, represented as three blue arrows here:
 
 ![trick](Images/trick.png)
 
