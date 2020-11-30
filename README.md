@@ -74,7 +74,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
-[TwoWayBinding](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding)
+[TwoWayBinding](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding)<br>
+[Track My Movement: A RxSwift Project](https://github.com/stevencurtis/SwiftCoding/tree/master/TrackMyMovement)<>
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
@@ -110,6 +111,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Leetcode Weekly Contest 195 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/195)<br>
 [Leetcode Weekly Contest 197 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/197)<br>
 [Leetcode Weekly Contest 216 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/216)<br>
+[PrefixSum](https://github.com/stevencurtis/SwiftCoding/tree/master/PrefixSum)<br>
 
 ## Get in touch
 I'm usually around on [Twitter](https://twitter.com/stevenpcurtis) 
