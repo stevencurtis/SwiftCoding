@@ -111,6 +111,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Leetcode Weekly Contest 195 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/195)<br>
 [Leetcode Weekly Contest 197 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/197)<br>
 [Leetcode Weekly Contest 216 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/216)<br>
+[Leetcode Weekly Contest 217 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/217)<br>
 [PrefixSum](https://github.com/stevencurtis/SwiftCoding/tree/master/PrefixSum)<br>
 
 ## Get in touch
