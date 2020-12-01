@@ -5,7 +5,6 @@
 <sub>Image by Giorgio Trovato</sub>
 
 # Before we start
-
 Difficulty: Beginner | Easy | **Normal** | Challenging<br>
 This article has been developed using Xcode 12.1, and Swift 5.3
 
@@ -41,7 +40,11 @@ let q: Set<String> = ["y", "z"]
 That is, the sets p and q are disjoint because they have no members in common. The example works with any type of set you would like to implement in Swift.
 
 ## Transitive Property of Equality
-https://www.mathwords.com/t/transitive_property.htm
+Equality is transitive. This means:
+
+```swift
+if a = b and b = c, then a = c
+```
 
 ## Approach to relevant problems
 We can perform a [BFS](https://medium.com/better-programming/swift-using-bfs-for-leetcode-problems-82696faf58d8) from any two nodes - if one node can be reached from the other they are by definition in the same set.
@@ -86,7 +89,7 @@ There are three basic operations that are used in such a data structure:
 
 Therefore to create a tree (which effectively the set is) we will need to combine `addSet` and `union` since every time we wish to add a new element we must first call `addSet` to add it, before using `union` to join it into an existing set.
 
-This means we might have the set {"a", "b"} and then add a set {"c"}.<br<
+This means we might have the set {"a", "b"} and then add a set {"c"}.<br>
 ![addSet](Images/addSet.png)
 
 We then can call union on two elements for example<br>
@@ -165,6 +168,7 @@ func sameSet(_ firstElement: T, _ secondElement: T) -> Bool {
 
 **Improvements**
 These improvements come under the banner of heuristics, and enable performance improvesment
+
 *Union by Rank*
 When performing a `union`, if one tree has a shorter depth then ithe algorithm should favour keeping the tree as short as possible. This can be accomplished by moving the longer tree to the shorter one. This can reduce the time to find the root of any particular tree.
 

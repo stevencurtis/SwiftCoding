@@ -1,24 +1,25 @@
 # The Programmatic UITableView Example
 ## Implementing the UITableView without a Storyboard
 
-![sshot](Images/sshot.png)
+![sshot](Images/completed.png)<br>
 <sub>Image of the completed project</sub>
 
 This is a project that will help us to create a list of names as an iOS application, without the use of Storyboards.
 This article has been developed using Xcode 12.2, and Swift 5.3
 
 # Create a New Project
-Use Xcode's menu to create a new project, making sure to choose Swift as the language and using UIKit.
-[detailed guide](https://medium.com/@stevenpcurtis.sc/avoid-storyboards-in-your-apps-8e726df43d2e)
+Use Xcode's menu to create a new project, making sure to choose Swift as the language and using UIKit. Here is a 
+[detailed guide](https://medium.com/@stevenpcurtis.sc/avoid-storyboards-in-your-apps-8e726df43d2e) covering the same ground.
 
 # Removing the Storyboard
 Select *Main.storyboard* and delete it from the project inspector
 Remove *Main* from the Main Interface part of the general tab (this can be selected by selecting the project name at the top-left of the Project Inspector) and then select and delete *Main* there.
 ![MainInterface](Images/MainInterface.png)
-Select *Info*.plist in the project inspector
-![infoplist](Images/infoplist.png)
+Select *Info*.plist in the project inspector<br>
+![infoplist](Images/infoplist.png)<br>
 then expand *Application Scene Manifest*, *Item 0 (Default Configuration)*, and then delete *Storyboard Name* you can just select, and then delete it through the keyboard button.
- ![StoryboardName](Images/StoryboardName.png)
+ ![StoryboardName](Images/StoryboardName.png)<br>
+ 
 # The SceneDelegate Code
 In order to load the view controller we need some code! Replace the first function
 
@@ -27,20 +28,20 @@ In order to load the view controller we need some code! Replace the first functi
 with the following:
 
 ```swift
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+    guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-        window?.windowScene = windowScene
-        
-        self.window = UIWindow(windowScene: windowScene)
+    window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+    window?.windowScene = windowScene
+    
+    self.window = UIWindow(windowScene: windowScene)
 
-        let vc = ViewController()
-        let rootNC = UINavigationController(rootViewController: vc)
+    let vc = ViewController()
+    let rootNC = UINavigationController(rootViewController: vc)
 
-        self.window?.rootViewController = rootNC
-        self.window?.makeKeyAndVisible()
-    }
+    self.window?.rootViewController = rootNC
+    self.window?.makeKeyAndVisible()
+}
 ```
 
 # Add the Code

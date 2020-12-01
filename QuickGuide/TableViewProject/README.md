@@ -1,5 +1,5 @@
-# UITTableView Quick Guide
-## The implementation
+# The UITableView Example
+## Implementing the UITableView with a Storyboard
 
 ![sshot](Images/sshot.png)
 <sub>Image of the completed project</sub>
@@ -9,7 +9,7 @@ This article has been developed using Xcode 12.2, and Swift 5.3
 
 # Create a New Project
 Use Xcode's menu to create a new project, making sure to choose Swift as the language and using UIKit.
-[detailled guide](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71)
+[detailed guide](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71)
 
 # Add the Code
 Replace the code in **ViewController.swift** with the following:
@@ -90,7 +90,6 @@ Drag the handles to make it the same size as the ViewController.
 Use the keyboard shortcut `⌃ + ⌥ + ⌘ + T. (Control + Option + Command + T)` to be able to see both the Storyboard and the ViewController on the screen at the same time (you must have the Storyboard on the screen for this shortcut to work).
 
 Use the key `⌃Control` to drag from the hollow circle on the left of the `@IBOutlet var tableView: UITableView!` to the `UITableView` on the `UIStoryboard`. 
-
 
 # Run the Project
 You can use the keyboard shortcut `⌘ + R` to run the project in the simulator, and see the `UITableView` instance displayed on the screen.
