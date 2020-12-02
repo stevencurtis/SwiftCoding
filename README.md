@@ -12,8 +12,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The UITableView Example](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/TableViewProject)<br>
 [The Programmatic UITableView Example](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/ProgrammaticUITableView)<br>
 
-
-
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
 [The Only UIStackView Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/StackView)<br>
@@ -71,6 +69,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Write a Network Layer in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NetworkManager/)<br>
 [Encode Behaviors into Reusable View Controllers](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewControllerLifecycleBehaviors/)<br>
 [Embed a UICollectionView Inside a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewInUITableViewCell/)<br>
+[A UIGestureRecognizer tutorial](https://github.com/stevencurtis/SwiftCoding/tree/master/UIGestureRecogniserTutorial)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
