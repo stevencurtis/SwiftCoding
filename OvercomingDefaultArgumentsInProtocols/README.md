@@ -1,7 +1,7 @@
 # Overcoming Default Arguments in a Protocol
 ## Overcome the main Swift limitation for protocol
 
-![Photo by Sebastian Herrmann on Unsplash!](Images/0*UzQ0Cqb-1ag7fc4b.png)
+![Photo by Sebastian Herrmann on Unsplash!](Image/0*UzQ0Cqb-1ag7fc4b.png)
 
 Difficulty: Beginner | **Easy** | Normal | Challenging<br/>
 This article has been developed using Xcode 12, and Swift 5.3
