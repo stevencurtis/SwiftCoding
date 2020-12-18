@@ -21,6 +21,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Ranges in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Ranges)<br>
 [Property Observers in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PropertyObservers)<br>
 [Zip and Zip2Sequence in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ZipAndZip2Sequence)<br>
+[Overcoming Default Arguments in a Protocol](https://github.com/stevencurtis/SwiftCoding/tree/master/OvercomingDefaultArgumentsInProtocols)<br>
+
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
