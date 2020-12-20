@@ -22,7 +22,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Property Observers in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PropertyObservers)<br>
 [Zip and Zip2Sequence in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ZipAndZip2Sequence)<br>
 [Overcoming Default Arguments in a Protocol](https://github.com/stevencurtis/SwiftCoding/tree/master/OvercomingDefaultArgumentsInProtocols)<br>
-
+[Make it snow!](https://github.com/stevencurtis/SwiftCoding/tree/master/MakeItSnow)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -117,6 +117,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [PrefixSum](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/PrefixSum)<br>
 
 ## Get in touch
-I'm usually around on [Twitter](https://twitter.com/stevenpcurtis) 
+I'm usually around on [Twitter](https://twitter.com/stevenpcurtis)
 
 Feel free to sign up to my [newsletter](https://slidetosubscribe.com/embed/swiftcoding/)
