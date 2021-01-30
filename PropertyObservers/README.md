@@ -33,7 +33,7 @@ This would involve (perhaps) the use of a timer and perhaps a [closure](https://
 Much better would to be observe when changes are made, and then react accordingly. In steps Property Observers.
 
 ## An example
-Imagine a game where we can score with a friend. Both Player 1 and Player 2 have a score and we want to log it with a program. This program 
+Imagine a game where we can score with a friend. Both Player 1 and Player 2 have a score and we want to log it with a program. This program is shown here:
 
 ```swift
 import UIKit

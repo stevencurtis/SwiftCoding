@@ -13,7 +13,7 @@ This article has been developed using Xcode 12.2, and Swift 5.3
 * Some knowledge of [Tuple types](https://medium.com/p/5ee9106283be) would be useful for this article
 
 ## Keywords and Terminology
-Tuple: A way in Swift to allow you to store multiple values in a single variable
+Tuple: A way in Swift to allow you to store multiple values in a single variable <br>
 Zip: Creates a sequence of pairs created from two underlying sequences
 
 # This article
