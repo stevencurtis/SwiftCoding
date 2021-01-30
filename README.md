@@ -37,6 +37,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [viewDidLoad() Vs. loadView()](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewDidLoadLoadView)<br>
 [Core Data with SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/SwiftUICoreData)<br>
 [The UINavigationController and UINavigationBar in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/UINavigationController)<br>
+[Use Charles to Rewrite Responses Developing iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/CharlesExample)<br>
 
 
 ### Normal
