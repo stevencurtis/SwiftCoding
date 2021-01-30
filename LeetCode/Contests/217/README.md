@@ -1,10 +1,10 @@
-# LeetCode Weekly Contest 217 Swift solutions
+# LeetCode Weekly Contest 217 Swift Solutions
 ## No specialist knowledge required
 
 ![photo-1507525428034-b723cf961d3e](Images/photo-1507525428034-b723cf961d3e.png)
 <sub>Photo by Sean O. @seantookthese</sub>
 
-This article is about the 4 challenges in the LeetCode Weekly Contest 217. That isL
+This article is about the 4 challenges in the LeetCode Weekly Contest 217. That is it!
 
 1672 Richest Customer Wealth<br>
 1673 Find the Most Competitive Subsequence<br>
@@ -24,7 +24,7 @@ Accounts are given as a two-dimensional grid `accounts[i][j]` where the row repr
 ![217](Images/217.png)
 The question asks us to *sum* the accounts for each customer, and return the largest sum of each customer.
 
-For this solution I've closen to use [reduce](https://medium.com/@stevenpcurtis.sc/create-your-own-reduce-function-in-swift-e92b519c9659) to create the sum of a customer's accounts. The solution is given in the following function:
+For this solution I've closen to use [reduce](https://medium.com/@stevenpcurtis.sc/create-your-own-reduce-function-in-swift-e92b519c9659) to create the sum of a customer's accounts. The solution is given in the following class:
 
 ```swift
 class Solution {
@@ -194,7 +194,6 @@ for i in nums {
     }
 }
 ```
-
 
 We then sort the pairs, and work out the minimal sum:
 

@@ -14,7 +14,7 @@ Let us get started!
 
 Oh yes, if you just want to get to the code download from the [Repo](https://github.com/stevencurtis/SwiftCoding/tree/master/MakeItSnow).
 
-#The tutorial
+# The tutorial
 ## Open Xcode
 Select New>Project...
 ## Create a new project with the New App template
@@ -23,14 +23,14 @@ Select New>Project...
 Make sure you have the project set up as a Swift Project
 ![projectsetup](Images/projectsetup.png)
 ## Set up the storyboard
-Select `Main.storyboard`, and use the + to find a `UIView`
-![createview](Images/createview.png)
+Select `Main.storyboard`, and use the + to find a `UIView`<br>
+![createview](Images/createview.png)<br>
 Drag that `UIView` onto the storyboard, and pin it to the top of the screen using the [techniques described here](https://medium.com/@stevenpcurtis.sc/connect-storyboard-objects-to-code-4105f9b99bba)<br>
 Make a height of around 150.<br>
-Make the background of the main view back (this is going to be a dark night!), and also make the color of your new `UIView` to be black as well
+Make the background of the main view back (this is going to be a dark night!), and also make the color of your new `UIView` to be black as well<br>
 ![changebg](Images/changebg.png)<br>
-Connect the `UIView` by selecting the assistant editor with control-option-commmand-enter and dragging to the code. Call this view `snowView` and connect:
-![snowview](Images/snowview.png)
+Connect the `UIView` by selecting the assistant editor with control-option-commmand-enter and dragging to the code. Call this view `snowView` and connect:<br>
+![snowview](Images/snowview.png)<br>
 Now you can replace the code in the view controller with the following:
 ```Swift
 import UIKit
