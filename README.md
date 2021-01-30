@@ -23,6 +23,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Zip and Zip2Sequence in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ZipAndZip2Sequence)<br>
 [Overcoming Default Arguments in a Protocol](https://github.com/stevencurtis/SwiftCoding/tree/master/OvercomingDefaultArgumentsInProtocols)<br>
 [Make it snow!](https://github.com/stevencurtis/SwiftCoding/tree/master/MakeItSnow)<br>
+[Swift Lint installation](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftLintInstallation)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -107,6 +108,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
+[The Single Responsibility Principle](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/SingleResponsibility)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
