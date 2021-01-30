@@ -108,7 +108,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
-[The Single Responsibility Principle](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/SingleResponsibility)<br>
+[The Single Responsibility Principle](https://github.com/stevencurtis/SwiftCoding/blob/master/Theory/SingleResponsibilityPrinciple/README.md)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
