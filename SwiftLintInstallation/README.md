@@ -2,7 +2,7 @@
 # Installing and Using SwiftLint
 ## Get rid of unreadable habits
 
-![Photo by Drew Hays on Unsplash](Images/photo-1518674660708-0e2c0473e68e)<br/>
+![Photo by Drew Hays on Unsplash](Images/photo-1518674660708-0e2c0473e68e.png)<br/>
 <sub>Image by Art Lasovsky on Unsplash<sub>
 
 Difficulty: **Beginner** | Easy | Normal | Challenging<br/>
