@@ -7,7 +7,7 @@ Difficulty: Beginner | **Easy** | Normal | Challenging<br/>
 This article has been developed using Xcode 12, and Swift 5.3
 
 # Prerequisites:
-- Be able to produce a "Hello, World!" iOS application (guide [HERE](https://medium.com/@stevenpcurtis.sc/your-first-swift-application-without-a-mac-79598ad839f8))
+- Be able to produce a "Hello, World!" iOS application (guide [HERE](https://medium.com/@stevenpcurtis.sc/your-first-swift-application-without-a-mac-79598ad839f8))<br>
 However, the implementation for this uses [my network manager](https://github.com/stevencurtis/NetworkManager), [my API builder](https://medium.com/swlh/building-urls-in-swift-51f21240c537) and a [snippet to parse data](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CodeSnippets)
 
 # Terminology
@@ -26,7 +26,7 @@ The original App makes a network call and prints the following to the console:
 ```
 We are going to change that response!
 
-#Step-by step instructions to change a response
+## Step-by step instructions to change a response
 1. Download [Charles](https://www.charlesproxy.com). It has a free trial, and after that has run it's course you are able to still use it (with restrictions)
 2. Get the Root Certificate for iOS simulators (this downloads the certificate straight to the simulator, without any work from you). This is avaliable from the menu Help>SSL Proxying<br>
 ![installsimulator](Images/installsimulator.png)<br>
@@ -51,11 +51,11 @@ To mock Tools > Rewrite.
 Check Enable Rewrite.
 
 Edit the location (this is the correct protocol, host and path for `regres.in`)
-![editlocation](Images/editlocation.png)
+![editlocation](Images/editlocation.png)<br>
 We can then modify the query parameter
-![rewrite](Images/rewrite.png)
+![rewrite](Images/rewrite.png)<br>
 and then remember to click apply
-![rewrite](Images/clickapply.png)
+![rewrite](Images/clickapply.png)<br>
 
 6. Run again - and we should have a result in the console of
 ```Swift
