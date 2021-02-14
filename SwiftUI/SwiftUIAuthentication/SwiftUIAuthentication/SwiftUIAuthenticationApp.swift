@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import NetworkLibrary
 
 @main
 struct SwiftUIAuthenticationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let nm = NetworkManager(session: URLSession.shared)
+            let viewModel = LoginViewModel(networkManager: nm)
+            LoginView(viewModel: viewModel)
         }
     }
 }

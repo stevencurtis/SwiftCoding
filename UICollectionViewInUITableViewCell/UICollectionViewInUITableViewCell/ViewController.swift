@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
 
-    var data = [[UIColor.red, UIColor.green, UIColor.blue, UIColor.green, UIColor.purple, UIColor.orange, UIColor.blue, UIColor.green, UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green]]
+    var data = [[UIColor.red, UIColor.green, UIColor.blue, UIColor.green, UIColor.purple, UIColor.orange, UIColor.blue, UIColor.green, UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.brown, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green], [UIColor.blue, UIColor.green]]
     
     func setUpTableView() {
         tableView.delegate = self

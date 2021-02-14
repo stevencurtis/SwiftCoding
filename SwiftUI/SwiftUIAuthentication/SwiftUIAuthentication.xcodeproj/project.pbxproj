@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CABC60FB256692ED0024E239 /* SwiftUIAuthenticationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC60FA256692ED0024E239 /* SwiftUIAuthenticationApp.swift */; };
-		CABC60FD256692ED0024E239 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC60FC256692ED0024E239 /* ContentView.swift */; };
 		CABC60FF256692EE0024E239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABC60FE256692EE0024E239 /* Assets.xcassets */; };
 		CABC6102256692EE0024E239 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABC6101256692EE0024E239 /* Preview Assets.xcassets */; };
 		CABC610D256692EE0024E239 /* SwiftUIAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC610C256692EE0024E239 /* SwiftUIAuthenticationTests.swift */; };
 		CABC6118256692EE0024E239 /* SwiftUIAuthenticationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC6117256692EE0024E239 /* SwiftUIAuthenticationUITests.swift */; };
+		CABC612A256696840024E239 /* NetworkLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = CABC6129256696840024E239 /* NetworkLibrary */; };
+		CABC61322566971B0024E239 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC61312566971B0024E239 /* LoginViewModel.swift */; };
+		CABC6137256697540024E239 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC6136256697540024E239 /* LoginView.swift */; };
+		CABC61402566EFF00024E239 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC613F2566EFF00024E239 /* API.swift */; };
+		CABC61452566F01F0024E239 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC61442566F01F0024E239 /* Login.swift */; };
+		CAF2309E2567C1630067985D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2309D2567C1630067985D /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,6 @@
 /* Begin PBXFileReference section */
 		CABC60F7256692ED0024E239 /* SwiftUIAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABC60FA256692ED0024E239 /* SwiftUIAuthenticationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAuthenticationApp.swift; sourceTree = "<group>"; };
-		CABC60FC256692ED0024E239 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CABC60FE256692EE0024E239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABC6101256692EE0024E239 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CABC6103256692EE0024E239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +49,11 @@
 		CABC6113256692EE0024E239 /* SwiftUIAuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIAuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABC6117256692EE0024E239 /* SwiftUIAuthenticationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAuthenticationUITests.swift; sourceTree = "<group>"; };
 		CABC6119256692EE0024E239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABC61312566971B0024E239 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CABC6136256697540024E239 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CABC613F2566EFF00024E239 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CABC61442566F01F0024E239 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CAF2309D2567C1630067985D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABC612A256696840024E239 /* NetworkLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				CABC60FA256692ED0024E239 /* SwiftUIAuthenticationApp.swift */,
-				CABC60FC256692ED0024E239 /* ContentView.swift */,
+				CABC61442566F01F0024E239 /* Login.swift */,
+				CABC613F2566EFF00024E239 /* API.swift */,
+				CABC6136256697540024E239 /* LoginView.swift */,
+				CABC61312566971B0024E239 /* LoginViewModel.swift */,
+				CAF2309D2567C1630067985D /* MenuView.swift */,
 				CABC60FE256692EE0024E239 /* Assets.xcassets */,
 				CABC6103256692EE0024E239 /* Info.plist */,
 				CABC6100256692EE0024E239 /* Preview Content */,
@@ -146,6 +160,9 @@
 			dependencies = (
 			);
 			name = SwiftUIAuthentication;
+			packageProductDependencies = (
+				CABC6129256696840024E239 /* NetworkLibrary */,
+			);
 			productName = SwiftUIAuthentication;
 			productReference = CABC60F7256692ED0024E239 /* SwiftUIAuthentication.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +234,9 @@
 				Base,
 			);
 			mainGroup = CABC60EE256692ED0024E239;
+			packageReferences = (
+				CABC6128256696840024E239 /* XCRemoteSwiftPackageReference "NetworkManager" */,
+			);
 			productRefGroup = CABC60F8256692ED0024E239 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CABC60FD256692ED0024E239 /* ContentView.swift in Sources */,
 				CABC60FB256692ED0024E239 /* SwiftUIAuthenticationApp.swift in Sources */,
+				CAF2309E2567C1630067985D /* MenuView.swift in Sources */,
+				CABC61452566F01F0024E239 /* Login.swift in Sources */,
+				CABC6137256697540024E239 /* LoginView.swift in Sources */,
+				CABC61402566EFF00024E239 /* API.swift in Sources */,
+				CABC61322566971B0024E239 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CABC6128256696840024E239 /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stevencurtis/NetworkManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CABC6129256696840024E239 /* NetworkLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CABC6128256696840024E239 /* XCRemoteSwiftPackageReference "NetworkManager" */;
+			productName = NetworkLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CABC60EF256692ED0024E239 /* Project object */;
 }
