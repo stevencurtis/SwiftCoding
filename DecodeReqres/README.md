@@ -298,4 +298,10 @@ struct Users: Codable {
 ```
 
 # Conclusion
+Some people claim that mobile development is nothing but taking JSON strings and displaying them on screen. In that case, this article certainly has you covered.
+
+In any case, this is a good start in processing the data that you would need to be able to do in order to create a worthwhile project in Swift.
+
+I hope this is of help to you.
+
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)
