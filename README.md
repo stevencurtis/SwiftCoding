@@ -75,6 +75,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Encode Behaviors into Reusable View Controllers](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewControllerLifecycleBehaviors/)<br>
 [Embed a UICollectionView Inside a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewInUITableViewCell/)<br>
 [A UIGestureRecognizer tutorial](https://github.com/stevencurtis/SwiftCoding/tree/master/UIGestureRecogniserTutorial)<br>
+[Decode JSON in Swift: A Full Micro-Project](https://github.com/stevencurtis/SwiftCoding/tree/master/DecodeReqres)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
