@@ -83,7 +83,7 @@ class AppsCompositionalLayout: UICollectionViewController {
         collectionView.backgroundColor = .white
     }
     
-    // boundary supplimentary heading
+    // boundary supplementary heading
     lazy var myCollectionViewLayout: UICollectionViewLayout = {
         let layout = UICollectionViewCompositionalLayout { (sectionIndex, environment) -> NSCollectionLayoutSection? in
             return self.sections[sectionIndex].layoutSection
