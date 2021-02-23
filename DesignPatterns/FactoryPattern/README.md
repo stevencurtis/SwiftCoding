@@ -187,6 +187,6 @@ print (urlFactory.create())
 
 # Conclusion
 
-This is used in my article [Dependency Injection using Storyboards](https://github.com/stevencurtis/SwiftCoding/DIStoryboards)
+This is used in my article [Dependency Injection using Storyboards](https://github.com/stevencurtis/SwiftCoding/DIStoryboards), and I would recommend that you think seriously about using the factory pattern - in Swift projects it is rather well-used as well as being useful for conversations about projects.
 
  If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
