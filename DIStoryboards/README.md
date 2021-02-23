@@ -60,7 +60,7 @@ class DetailViewController: UIViewController {
 Now to use this requires a touch-of-magic. We go to the storyboard and right-click on the segue and we can see where we can hook up a custom instantiation!<br>
 ![cutomint](Images/customint.png)<br>
 
-So we can do just tthat - in the `ViewController` 
+So we can do just that - in the `ViewController` 
 
 ```swift
 class ViewController: UIViewController {
@@ -115,7 +115,7 @@ class ViewController: UIViewController {
 note that we've used a rather annoying. This can be rather annoying, and involves an optional (which is not optional as it needs to be set when we instantiate the `ViewController`. 
 
 **Instantiation**
-Instead of using a segue, we can instead instantiate a view controller (raise it from the `Storyboard`
+Instead of using a segue, we can instead instantiate a view controller (raise it from the `Storyboard`)
 ```swift
 @IBAction func buttonAction(_ sender: UIButton) {
     let detailViewController: UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as UIViewController
@@ -160,7 +160,7 @@ class InformationViewController: UIViewController {
 
 This doesn't provide us with a solution for using `segues` but...still...there you go.
 
-Of course we can do even better - This should conform to a [protocol](https://medium.com/@stevenpcurtis.sc/protocols-in-swift-f46c31283b18) that would enhance testing possibilities, as would allowing us to use any storyboard
+Of course we can do even better - This should conform to a [protocol](https://medium.com/@stevenpcurtis.sc/protocols-in-swift-f46c31283b18) that would enhance testing possibilities, as would allowing us to use any storyboard:
 
 ```swift
 protocol ViewControllerFactoryProtocol {
