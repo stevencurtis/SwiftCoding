@@ -2,7 +2,7 @@
 ## A whole project?
 
 
-![Photo by Sharon McCutcheon on Unsplash](Images/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg)<br/>
+![Photo by Michael Dziedzic on Unsplash](Images/michael-dziedzic-dSyhpTGhNHg-unsplash.jpg)<br/>
 <sub>Photo by Michael Dziedzic on Unsplash<sub>
 
 # Before we start
@@ -23,7 +23,7 @@ This Project is going to take data from an endpoint (the specific endpoint is on
 
 The end project looks something like the following:
 
-![Photo by Sharon McCutcheon on Unsplash](Images/screen.png)<br/>
+![Screen](Images/screen.png)<br/>
 
 So let us press on!
 
