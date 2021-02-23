@@ -21,7 +21,7 @@ If you are using a network service (say to make those [GET requests](https://ste
 
 The final conceptual idea might look like the following:
 
-![clientservice](clientservice.png)<br>
+![clientservice](Images/clientservice.png)<br>
 
 although the whole process is covered in my article about [Dependency Injection](https://stevenpcurtis.medium.com/learning-dependency-injection-using-swift-c94183742187)) 
 
@@ -29,10 +29,10 @@ although the whole process is covered in my article about [Dependency Injection]
 ## iOS 13 and above
 Whacking a Master-Detail couplet into a storyboard is something that most iOS developers are familiar with:
 
-![masterdetail](masterdetail.png)
+![masterdetail](Images/masterdetail.png)<br>
 
-I gave the segue the attractive name **traverseSegue**, which moves 
-![seguedef](seguedef.png)
+I gave the segue the attractive name **traverseSegue**, which moves<br>
+![seguedef](Images/seguedef.png)<br>
 
 this should allow us to nicely traverse from the amazingly named `ViewController` to `DetailViewController`. It's an awesome. But wait, I want to have a property that is set in the initializer of `DetailViewController`! It turns out that this isn't a real problem - we can create an initializer that requires this item to be added
 
@@ -57,8 +57,8 @@ class DetailViewController: UIViewController {
 }
 ```
 
-Now to use this requires a touch-of-magic. We go to the storyboard and right-click on the segue and we can see where we can hook up a custom instantiation!
-![cutomint](customint.png)
+Now to use this requires a touch-of-magic. We go to the storyboard and right-click on the segue and we can see where we can hook up a custom instantiation!<br>
+![cutomint](Images/customint.png)<br>
 
 So we can do just tthat - in the `ViewController` 
 
@@ -250,4 +250,4 @@ The implementation of the this article is avaliable at the [repo](https://github
 
 In any case, I hope this article has helped you out in your project, learning journey or even just satisfied your curiosity. Thank you for reading.
 
-If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis) 
+If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)
