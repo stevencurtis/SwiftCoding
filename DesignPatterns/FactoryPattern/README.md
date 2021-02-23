@@ -6,14 +6,14 @@
 
 Difficulty: Beginner | **Easy** | Normal | Challenging
 
-The factory pattern provides an interface for creating objects in a superclass.
+The factory pattern provides an interface for creating objects in a superclass. This article provides some details around this design pattern, and also has some examples of it! We should get building!
 
 # A factory
 In programming, a factory is an object for creating other objects. In Swift that object will typically be a class, and will produce a concrete instance of an object. In the [original book](https://en.wikipedia.org/wiki/Design_Patterns) it is declared that there is no strict factory pattern, but rather a factory method pattern and an abstract factory pattern.
 
 The idea of this article is to cover both.
 
-# Why use a factory
+# Why use a factory?
 **Complexity**
 Instantiations may be complex, and encapsulating instantiation can simplify creating concrete instances by defining a single place. This means that we can follow the Dependency Inversion Principle, and even open the door to dependency injection.
 
@@ -48,7 +48,7 @@ let dave = DaveFactory().createPerson()
 print (dave)
 ```
 
-# The Abstact Pattern
+# The Abstract Pattern
 This particular guide is going to give you a definition for the abstract factory pattern.That is, the abstract:
 
 "Provide an interface for creating families of related or dependent objects without specifying their concrete classes."
@@ -111,7 +111,7 @@ class ViewControllerFactory: ViewControllerFactoryProtocol {
 }
 ```
 
-so when we decide to test, we can use the following;
+so when we decide to test, we can use the following:
 
 ```swift
 class MockFactory: ViewControllerFactoryProtocol{
@@ -126,16 +126,16 @@ class MockFactory: ViewControllerFactoryProtocol{
 which can then be elegantly swapped out in the test:
 
 ```swift
-    func testExample() throws {
-        let injectedFactory = MockFactory()
-        let viewController = ViewController()
-        viewController.viewControllerFactory = injectedFactory
-        viewController.traverseToInfo()
-        XCTAssertEqual((injectedFactory as MockFactory).didCreateInfo, true)
-    }
+func testExample() throws {
+    let injectedFactory = MockFactory()
+    let viewController = ViewController()
+    viewController.viewControllerFactory = injectedFactory
+    viewController.traverseToInfo()
+    XCTAssertEqual((injectedFactory as MockFactory).didCreateInfo, true)
+}
 ```
 
-# A Factory using Enum
+# A Factory making use of Enum
 It can make sense to create a complicated object using Swift's rather nice `Enum`. Now this isn't something I've used in production (for a URL) since I use my own [URLBuilder](https://medium.com/swlh/building-urls-in-swift-51f21240c537) for this functionality, but this gives a good example of using a factory in real code! 
 
 ```swift
