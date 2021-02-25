@@ -8,7 +8,7 @@ Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12.0, and Swift 5.3
 
 ## Prerequisites:
-* You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71
+* You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71)
 * You should be able to handle [segues](https://medium.com/@stevenpcurtis.sc/safe-segues-in-swift-6b38e08bdb9c), but I'm sure you can do that already
 * You should be aware of, or have some interest in [Dependency Injection](https://stevenpcurtis.medium.com/learning-dependency-injection-using-swift-c94183742187))
 
