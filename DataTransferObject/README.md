@@ -2,7 +2,7 @@
 ## Copy that stuff
 
 ![photo-1601758066681-04e3557afaaa](Images/photo-1601758066681-04e3557afaaa.jpeg)
-<sub>Photo by Chewy</sub>
+<sub>Photo by Chewy on Unsplash</sub>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12.1, and Swift 5.3
@@ -18,7 +18,7 @@ Data Transfer Object (DTO): An object that carries data between processes
 # The simple case
 It turns out I've been using Data Transfer Objects (DTO) without even knowing it! The [codable](https://medium.com/@stevenpcurtis.sc/codable-in-swift-and-ios-12a1415b9aa6) protocol gives us a great way accessing API services. 
 
-The example code (which uses my Network Manager) calls `https://jsonplaceholder.typicode.com/todos/1` means that this can look like the following
+The example code (which uses my Network Manager) calls `https://jsonplaceholder.typicode.com/todos/1` means that this can look like the following:
 
 ```swift
 struct ToDo: Codable {
@@ -44,6 +44,7 @@ extension ToDo {
 		entity.completed = completed
 		return enttity
 	}
+}
 ```
 
 Some people like to separate out the idea of an entity from a DTO by using a suffix (perhaps a DTO suffix), but this can be an overkill for some projects and implementation / this is an individual choice for the programmer involved.
