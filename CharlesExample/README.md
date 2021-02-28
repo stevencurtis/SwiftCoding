@@ -28,26 +28,26 @@ We are going to change that response!
 
 ## Step-by step instructions to change a response
 1. Download [Charles](https://www.charlesproxy.com). It has a free trial, and after that has run it's course you are able to still use it (with restrictions)
-2. Get the Root Certificate for iOS simulators (this downloads the certificate straight to the simulator, without any work from you). This is avaliable from the menu Help>SSL Proxying<br>
+2. Get the Root Certificate for iOS simulators (this downloads the certificate straight to the simulator, without any work from you). This is available from the menu `Help>SSL Proxying`<br>
 ![installsimulator](Images/installsimulator.png)<br>
 This is confirmed with the following notification:<br>
 ![confirmrootcertificate](Images/confirmrootcertificate.png)<br>
-Now open the iOS simulator an enable the proxy certificate through Settings>General>About>Certificate Trust Settings you can then click the toggle to enable the proxy<br>
+Now open the iOS simulator an enable the proxy certificate through `Settings>General>About>Certificate Trust Settings` you can then click the toggle to enable the proxy<br>
 ![enableproxy](Images/enableproxy.png)<br>
 You will be asked to confirm that you wish to do this in the simulator. Of course you should agree to this
 3. Then run the App. You might like to run your own app that makes an API call, but [I've created a usable App in the repo](https://github.com/stevencurtis/SwiftCoding/tree/master/CharlesExample)
-4. Run on both Xcode and Charles<br>
+4. Run both Xcode and Charles<br>
 You can now run the App from Xcode, and at the same time run Charles.
 
 If you press the request button on the App, you should see a request for `regres.in`.
 ![screenshot](Images/sshot.png)<br>
 
 You can now see the request and the response!
-Right-click on the `regres.in` request and enable SSl proxying.
+Right-click on the `regres.in` request and enable SSl proxying (This is also available from Proxy>SSL Proxying Settings).
 ![regenableproxy](Images/regenableproxy.png)<br>
 
 5. Enable rewriting<br>
-To mock Tools > Rewrite.
+To mock `Tools > Rewrite`.
 Check Enable Rewrite.
 
 Edit the location (this is the correct protocol, host and path for `regres.in`)
