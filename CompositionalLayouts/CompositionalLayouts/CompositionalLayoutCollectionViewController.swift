@@ -15,7 +15,4 @@ class CompositionalLayoutCollectionViewController: UICollectionViewController {
     }
     
     var dataSource: UICollectionViewDiffableDataSource<Section, AnyHashable>!
-
-    
-
 }

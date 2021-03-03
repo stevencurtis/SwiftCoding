@@ -78,7 +78,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Decode JSON in Swift: A Full Micro-Project](https://github.com/stevencurtis/SwiftCoding/tree/master/DecodeReqres)<br>
 [Dependency Injection using Storyboards](https://github.com/stevencurtis/SwiftCoding/tree/master/DIStoryboards)<br>
 [Using Data Transfer Objects (DTO) in Swift Code](https://github.com/stevencurtis/SwiftCoding/tree/master/DataTransferObject)<br>
-
 [Do enum Types Conform to Hashable in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/EnumIsHashable)<br>
 
 ### Challenging
