@@ -6,7 +6,7 @@
 
 There is one particular question that caught my eye this week on Stack Overflow. In fact, here it is -
 
-![question](Images/question)
+![question](Images/question.png)
 
 That happens to have a scope of MINUS 34. This makes it the most downvoted question about swift currently on Stack Overflow
 
