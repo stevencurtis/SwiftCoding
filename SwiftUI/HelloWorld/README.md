@@ -82,7 +82,7 @@ We can then change the text on the left hand side on the `ContentView.swift` fil
 
 The result will look something like this:
 
-![finishedcode](Images/finishedcode.gif)
+![finishedcode](Images/finishedcode.png)
 
 If you want the finished code you can download it from [https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HelloWorld)
 
