@@ -25,7 +25,7 @@ struct Physics {
 
 A `Struct` has been used (which is a value type) and `static` has been used which means that the properties are associated with the type that they are declared on rather than the instance. IN this case there are three properties, all of which are Unsigned Integers representing different values.
 
-It would be useful to create an instance of this `struct` and then read out the properties, which is something that can be done with Swift"
+It would be useful to create an instance of this `struct` and then read out the properties, which is something that can be done with Swift:
 
 ```swift
 print (Physics.smallCoin) // 2
@@ -49,7 +49,7 @@ There a a few reasons why you might use `static let` for properties:
 
 We are going to focus on the first of these.
 
-The question is about a `stuct` and this `struct` could well represent something like Constants. I have this in many of my projects, although I generally use an enum rather than the suggested `struct`, in the following kind of format
+The question is about a `stuct` and this `struct` could well represent something like Constants. I have this in many of my projects, although I generally use an enum rather than the suggested `struct`, in the following kind of format:
 
 ```swift
 struct Constants {
