@@ -66,6 +66,6 @@ and then remember to click apply
 
 
 # Conclusion
-Charles is a great way of changing responses
+Charles is a great way of mocking a response, 
 
  If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)
