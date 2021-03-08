@@ -4,6 +4,8 @@
 ![Photo by Hermes Rivera on Unsplash](Images/hermes-rivera-shEtkYRYt40-unsplash.jpg)<br/>
 <sub>Photo by Hermes Rivera on Unsplash<sub>
 
+If you'd like to see a video version of this article, it's right [HERE](https://youtu.be/CHTq_MJMNDw)
+
 If you're familiar with `protocol` in Swift, you might be aware that either `struct` value types or `class` reference types can conform to them, and this can mean that there are some requirements you might need to meet or additional functionality is added to your conforming type.
 
 One example might be if you have a `User` struct:
@@ -102,7 +104,7 @@ Conforming to `CustomStringConvertible` is a common thing we might do in Swift -
 
 Doing the little extras like placing your conformance into an extension are not just good things to be doing in your code, but they are requisite in some places of employment so the sooner you think about doing this the better!
 
-I hope this article has been of help to you!
+I hope this article has been of help to you! There is a video version of this article up on YouTube, if that would further help you: [HERE](https://youtu.be/CHTq_MJMNDw)
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)
 
