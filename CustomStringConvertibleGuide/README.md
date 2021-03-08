@@ -10,7 +10,8 @@ If you're familiar with `protocol` in Swift, you might be aware that either `str
 
 One example might be if you have a `User` struct:
 
-```struct User {
+```
+struct User {
     let name: String
     let age: Int
 }
