@@ -1,4 +1,4 @@
-# CustomStringConvertible
+# Using Swift's CustomStringConvertible
 ## A practical protocol
 
 ![Photo by Hermes Rivera on Unsplash](Images/hermes-rivera-shEtkYRYt40-unsplash.jpg)<br/>

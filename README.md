@@ -39,6 +39,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The UINavigationController and UINavigationBar in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/UINavigationController)<br>
 [Use Charles to Rewrite Responses Developing iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/CharlesExample)<br>
 [Stack Overflow's Most Downvoted Swift Question](https://github.com/stevencurtis/SwiftCoding/tree/master/MostDownvotedSwift)<br>
+[Using Swift's CustomStringConvertible](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomStringConvertibleGuide)<br>
 
 
 ### Normal
