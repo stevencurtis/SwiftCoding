@@ -66,23 +66,12 @@ struct User: CustomStringConvertible {
 
 let friend: User = User(name: "Karen", age: 32)
 print(friend)
-struct User: CustomStringConvertible {
-    var description: String {
-        return "\(name) is \(age)"
-    }
-    
-    let name: String
-    let age: Int
-}
-
-let friend: User = User(name: "Karen", age: 32)
-print(friend)
 ```
 
 Yet we can still do better.
 
 ## Conforming to protocol
-This is a common thing in Swift.  To make code easier to read we place the conformance for protocols into an extension. This is because this makes it easier to read for other people using your code
+This is a common thing in Swift.  To make code easier to read we place the conformance for protocols into an extension. This is because this makes it easier to read for other people using your code:
 ```swift
 struct User {
     let name: String
