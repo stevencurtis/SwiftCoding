@@ -66,7 +66,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Handle Button Presses in CustomUITableViewCells Without Tags](https://github.com/stevencurtis/SwiftCoding/tree/master/ClickUITableViewCellButton)<br>
 [Stride in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Stride)<br>
 [Listing enum cases using CaseIterable in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CaseIterable)<br>
-[NSAttributedString vs NSMutableAttributedString]()<br>
+[NSAttributedString vs NSMutableAttributedString](https://github.com/stevencurtis/SwiftCoding/tree/master/NSAttributedString)<br>
+[Overriding the default font in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomAppWideFont)<br>
 
 
 ### Normal
