@@ -124,6 +124,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [A SwiftMonkey Tutorial](https://github.com/stevencurtis/SwiftCoding/tree/master/swiftmonkeytutorial)<br>
 [If you’re using a base class in Swift, you’re doing it wrong](https://github.com/stevencurtis/SwiftCoding/tree/master/StoredPropertiesExtension)<br>
 [MVVM with RXSwift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMRXSwift)<br>
+[Learning Dependency Injection using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/LearningDependencyInjection)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
