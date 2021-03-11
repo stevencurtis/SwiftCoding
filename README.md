@@ -77,6 +77,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Memory leaks using the Xcode memory graph debugger](https://github.com/stevencurtis/SwiftCoding/tree/master/MemoryLeaksusingtheXcodememorygraphdebugger)<br>
 [MVC in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVCHTTPCodingExample)<br>
 [UIScrollView with Auto Layout implemented in Interface builder](https://github.com/stevencurtis/SwiftCoding/tree/master/UIScrollviewAutoLayoutInterfaceBuilding)<br>
+[Access control in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AccessControl)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
