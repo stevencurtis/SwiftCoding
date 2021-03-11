@@ -112,6 +112,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [hitTest(_:with:) vs point(inside:with)](https://github.com/stevencurtis/SwiftCoding/tree/master/hitTestPoint)<br>
 [Generics in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Generics)<br>
 [How to Test Asynchronous Functions Using Expectation in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/testasynchronousfunctionsusingexpectation)<br>
+[downloadTask(with:completionHandler:) vs. dataTask(with:completionHandler:)](https://github.com/stevencurtis/SwiftCoding/tree/master/DownloadTaskURLSessionDataTask)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>

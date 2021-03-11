@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vYd-Wo-Ysy">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DownloadTaskDataTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RbU-rd-k6G">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5L3-0w-5Xk">
+                                        <rect key="frame" x="173" y="0.0" width="68" height="134.5"/>
+                                        <state key="normal" title="Data Task"/>
+                                        <connections>
+                                            <segue destination="OOF-WW-WIy" kind="show" id="apc-W2-Ehg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vv9-EM-9wl">
+                                        <rect key="frame" x="84" y="134.5" width="246" height="135"/>
+                                        <state key="normal" title="Data Task With Delegates Single VC"/>
+                                        <connections>
+                                            <segue destination="rzA-uC-RTD" kind="show" id="8FJ-cH-CVw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN3-Tv-wwL">
+                                        <rect key="frame" x="73.5" y="269.5" width="267" height="134.5"/>
+                                        <state key="normal" title="Data Task with Delegates Seperate File"/>
+                                        <connections>
+                                            <segue destination="B9B-pU-N8b" kind="show" id="YHi-7y-GQ2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sr-wn-qCE">
+                                        <rect key="frame" x="155" y="404" width="104" height="134.5"/>
+                                        <state key="normal" title="Download Task"/>
+                                        <connections>
+                                            <segue destination="5XR-7D-sFR" kind="show" id="Hyn-U0-FDP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbe-Ou-y6P">
+                                        <rect key="frame" x="66" y="538.5" width="282" height="135"/>
+                                        <state key="normal" title="Download Task With Delegates Single VC"/>
+                                        <connections>
+                                            <segue destination="jZj-uU-ICh" kind="show" id="xFL-jn-WZ8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP4-z6-6O7">
+                                        <rect key="frame" x="102" y="673.5" width="210" height="134.5"/>
+                                        <state key="normal" title="Download Task with Delegates"/>
+                                        <connections>
+                                            <segue destination="dmU-Rl-BgS" kind="show" id="2ur-9E-dZg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RbU-rd-k6G" secondAttribute="bottom" id="9cA-Td-QGo"/>
+                            <constraint firstItem="RbU-rd-k6G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Bsd-cO-uEF"/>
+                            <constraint firstItem="RbU-rd-k6G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MXD-vU-N62"/>
+                            <constraint firstItem="RbU-rd-k6G" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Qvq-cM-w3G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Sq8-Mt-cWC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="138.61607142857142"/>
+        </scene>
+        <!--Download Task View Controller-->
+        <scene sceneID="4Ej-oy-hak">
+            <objects>
+                <viewController id="5XR-7D-sFR" customClass="DownloadTaskViewController" customModule="DownloadTaskDataTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZXB-EH-IpX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRQ-Lc-nUb">
+                                <rect key="frame" x="119" y="460" width="176" height="30"/>
+                                <state key="normal" title="Download Task Download"/>
+                                <connections>
+                                    <action selector="DownloadTaskAction:" destination="5XR-7D-sFR" eventType="touchUpInside" id="fB2-AS-LQ6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MRQ-Lc-nUb" firstAttribute="centerX" secondItem="XKX-4k-03G" secondAttribute="centerX" id="Sk9-Cq-am7"/>
+                            <constraint firstItem="MRQ-Lc-nUb" firstAttribute="centerY" secondItem="XKX-4k-03G" secondAttribute="centerY" id="off-iC-e9p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XKX-4k-03G"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZJT-Um-Vl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2082.608695652174" y="562.5"/>
+        </scene>
+        <!--Download Task Delegate View Controller-->
+        <scene sceneID="Rny-ck-naa">
+            <objects>
+                <viewController id="jZj-uU-ICh" customClass="DownloadTaskDelegateViewController" customModule="DownloadTaskDataTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dPU-Tb-cKT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVj-KA-kiN">
+                                <rect key="frame" x="137" y="460" width="140" height="30"/>
+                                <state key="normal" title="Data Task Download"/>
+                                <connections>
+                                    <action selector="downloadTaskAction:" destination="jZj-uU-ICh" eventType="touchUpInside" id="hJz-O2-TYu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bVj-KA-kiN" firstAttribute="centerY" secondItem="8jW-IX-kPD" secondAttribute="centerY" id="2d9-41-J0D"/>
+                            <constraint firstItem="bVj-KA-kiN" firstAttribute="centerX" secondItem="8jW-IX-kPD" secondAttribute="centerX" id="S9I-fz-AYd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8jW-IX-kPD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQJ-GR-Hhg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2057" y="1297"/>
+        </scene>
+        <!--Download Task With Separate Delegates View Controller-->
+        <scene sceneID="SQd-UT-IIu">
+            <objects>
+                <viewController id="dmU-Rl-BgS" customClass="DownloadTaskWithSeparateDelegatesViewController" customModule="DownloadTaskDataTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="31M-mG-Bev">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qt-2u-pvR">
+                                <rect key="frame" x="119" y="460" width="176" height="30"/>
+                                <state key="normal" title="Download Task Download"/>
+                                <connections>
+                                    <action selector="downloadTaskAction:" destination="dmU-Rl-BgS" eventType="touchUpInside" id="dpo-Br-mRI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4qt-2u-pvR" firstAttribute="centerX" secondItem="B92-su-miQ" secondAttribute="centerX" id="99N-t1-NyV"/>
+                            <constraint firstItem="4qt-2u-pvR" firstAttribute="centerY" secondItem="B92-su-miQ" secondAttribute="centerY" id="jU0-He-GCt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="B92-su-miQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pCs-EF-rl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940.57971014492762" y="1457.8125"/>
+        </scene>
+        <!--Data Task With Separate Delegates View Controller-->
+        <scene sceneID="XZe-f7-fz6">
+            <objects>
+                <viewController id="B9B-pU-N8b" customClass="DataTaskWithSeparateDelegatesViewController" customModule="DownloadTaskDataTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AT1-mX-SsM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gs1-y2-vY7">
+                                <rect key="frame" x="184" y="460" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dataTaskDelegateAction:" destination="B9B-pU-N8b" eventType="touchUpInside" id="7Pb-CD-QJr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gs1-y2-vY7" firstAttribute="centerY" secondItem="6tN-qY-wXA" secondAttribute="centerY" id="pDE-Cv-d3B"/>
+                            <constraint firstItem="Gs1-y2-vY7" firstAttribute="centerX" secondItem="6tN-qY-wXA" secondAttribute="centerX" id="v7R-Wb-HA2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6tN-qY-wXA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kRV-0i-3Bb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3648" y="139"/>
+        </scene>
+        <!--Data Task View Controller-->
+        <scene sceneID="OIE-dp-Arq">
+            <objects>
+                <viewController id="OOF-WW-WIy" customClass="DataTaskViewController" customModule="DownloadTaskDataTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ovl-ty-H4m">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je0-qe-0Yz">
+                                <rect key="frame" x="137" y="460" width="140" height="30"/>
+                                <state key="normal" title="Data Task Download"/>
+                                <connections>
+                                    <action selector="DataTaskButtonAction:" destination="OOF-WW-WIy" eventType="touchUpInside" id="8y2-qQ-OVN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="je0-qe-0Yz" firstAttribute="centerY" secondItem="xdB-yK-3ZZ" secondAttribute="centerY" id="bfw-Ij-Z8v"/>
+                            <constraint firstItem="je0-qe-0Yz" firstAttribute="centerX" secondItem="xdB-yK-3ZZ" secondAttribute="centerX" id="j0F-Bf-YhD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xdB-yK-3ZZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dJC-5H-jTV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2509" y="-869"/>
+        </scene>
+        <!--Data Task Delegate View Controller-->
+        <scene sceneID="DPr-YH-fEP">
+            <objects>
+                <viewController id="rzA-uC-RTD" customClass="DataTaskDelegateViewController" customModule="DownloadTaskDataTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0rB-aW-ATT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkE-F9-bSl">
+                                <rect key="frame" x="137" y="460" width="140" height="30"/>
+                                <state key="normal" title="Data Task Download"/>
+                                <connections>
+                                    <action selector="dataTaskDelegateAction:" destination="rzA-uC-RTD" eventType="touchUpInside" id="Vnf-CS-w6A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WkE-F9-bSl" firstAttribute="centerX" secondItem="Msa-Wb-NC8" secondAttribute="centerX" id="tJp-zq-gEL"/>
+                            <constraint firstItem="WkE-F9-bSl" firstAttribute="centerY" secondItem="Msa-Wb-NC8" secondAttribute="centerY" id="zeX-dL-JMN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Msa-Wb-NC8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pXl-Tx-WGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3648" y="-609"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uhf-yd-1DG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vYd-Wo-Ysy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0nK-Vj-waM">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="1jP-nF-hx7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cxq-fi-la6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
