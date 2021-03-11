@@ -145,7 +145,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Learning the Basics of Core Data](https://medium.com/better-programming/core-data-basics-swift-persistent-storage-ba3185fe7061)<br>
 [Core Data: Using Codable](https://medium.com/swlh/core-data-using-codable-68660dfb5ce8)<br>
 [NSPredicate with Core Data](https://github.com/stevencurtis/SwiftCoding/tree/master/NSPredicateCoreData)<br>
-[Core Data Basics: Testing](https://medium.com/@stevenpcurtis.sc/core-data-basics-testing-39d127380680)<br>
+[Core Data Basics: Testing](https://github.com/stevencurtis/SwiftCoding/tree/master/CoreDataBasicsWithTests)<br>
 
 ### Tips
 [What Is The Difference Between @escaping and @nonescaping Closures in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/EscapingNonEscapingClosures)<br>
