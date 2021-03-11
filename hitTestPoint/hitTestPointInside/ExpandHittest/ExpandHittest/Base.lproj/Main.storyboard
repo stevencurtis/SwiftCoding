@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExpandHittest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Drp-f5-Q6i">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Aj-VS-aVk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                                        <state key="normal" title="Reset View"/>
+                                        <connections>
+                                            <action selector="resetView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KNw-Zn-HzP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="Xyg-lk-BGS"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kIt-4U-dSO" customClass="SubclassedView" customModule="ExpandHittest" customModuleProvider="target">
+                                <rect key="frame" x="87" y="389" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="SUK-7k-c4z"/>
+                                    <constraint firstAttribute="width" constant="240" id="kTk-sl-gBn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Drp-f5-Q6i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="169-0n-CYP"/>
+                            <constraint firstItem="Drp-f5-Q6i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FgO-g6-CnR"/>
+                            <constraint firstItem="Drp-f5-Q6i" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KLW-az-cYl"/>
+                            <constraint firstItem="kIt-4U-dSO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ox4-yF-Qh9"/>
+                            <constraint firstItem="kIt-4U-dSO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="zU9-0h-vVc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="specialView" destination="kIt-4U-dSO" id="ZUd-Y9-Nr8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
+        </scene>
+    </scenes>
+</document>

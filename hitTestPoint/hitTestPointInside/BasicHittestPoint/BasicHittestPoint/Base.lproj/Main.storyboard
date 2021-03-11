@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BasicHittestPoint" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vl8-iC-RME">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yud-00-2r8">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="122"/>
+                                        <state key="normal" title="Reset View"/>
+                                        <connections>
+                                            <action selector="resetView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WLL-N1-9RM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="WZr-dF-pqM" userLabel="110"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mwU-SB-BYx" customClass="SubclassedView" customModule="BasicHittestPoint" customModuleProvider="target">
+                                <rect key="frame" x="87" y="389" width="240" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jrw-BP-XQJ" customClass="SubclassedView" customModule="BasicHittestPoint" customModuleProvider="target">
+                                        <rect key="frame" x="45" y="24" width="150" height="80"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="gHp-Nf-Yxp"/>
+                                            <constraint firstAttribute="height" constant="80" id="h0L-vm-sH8"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Jrw-BP-XQJ" firstAttribute="centerX" secondItem="mwU-SB-BYx" secondAttribute="centerX" id="4QA-DS-Tcv"/>
+                                    <constraint firstAttribute="width" constant="240" id="9Vj-ep-XV4"/>
+                                    <constraint firstAttribute="height" constant="128" id="DsU-a2-iME"/>
+                                    <constraint firstItem="Jrw-BP-XQJ" firstAttribute="centerY" secondItem="mwU-SB-BYx" secondAttribute="centerY" id="OgZ-dn-u4f"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vl8-iC-RME" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="79L-pm-GAh"/>
+                            <constraint firstItem="mwU-SB-BYx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AjP-f2-KaJ"/>
+                            <constraint firstItem="vl8-iC-RME" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Cfw-x5-mtR"/>
+                            <constraint firstItem="mwU-SB-BYx" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Ssf-jM-ZVu"/>
+                            <constraint firstItem="vl8-iC-RME" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fKc-Ry-YbI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="specialSubView" destination="Jrw-BP-XQJ" id="LO2-6x-QAE"/>
+                        <outlet property="specialView" destination="mwU-SB-BYx" id="VBv-3k-OdT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="90.401785714285708"/>
+        </scene>
+    </scenes>
+</document>
