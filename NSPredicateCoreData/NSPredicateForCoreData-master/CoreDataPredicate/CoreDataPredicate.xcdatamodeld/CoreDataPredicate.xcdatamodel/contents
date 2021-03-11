@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Commit" representedClassName="Commit" syncable="YES">
+        <attribute name="html_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gitcommit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GitCommit" inverseName="commits" inverseEntity="GitCommit" syncable="YES"/>
+    </entity>
+    <entity name="Committer" representedClassName="Committer" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gitcommit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GitCommit" inverseName="committer" inverseEntity="GitCommit" syncable="YES"/>
+    </entity>
+    <entity name="GitCommit" representedClassName="GitCommit" syncable="YES">
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="commits" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Commit" inverseName="gitcommit" inverseEntity="Commit" syncable="YES"/>
+        <relationship name="committer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Committer" inverseName="gitcommit" inverseEntity="Committer" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Commit" positionX="-224.65234375" positionY="96.72265625" width="128" height="103"/>
+        <element name="Committer" positionX="127.3125" positionY="127.9921875" width="128" height="88"/>
+        <element name="GitCommit" positionX="-28.34375" positionY="148.66015625" width="128" height="88"/>
+    </elements>
+</model>

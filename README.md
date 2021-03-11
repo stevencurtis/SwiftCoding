@@ -144,7 +144,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
 [Learning the Basics of Core Data](https://medium.com/better-programming/core-data-basics-swift-persistent-storage-ba3185fe7061)<br>
 [Core Data: Using Codable](https://medium.com/swlh/core-data-using-codable-68660dfb5ce8)<br>
-[NSPredicate with Core Data](https://medium.com/@stevenpcurtis.sc/nspredicate-with-core-data-328d9a6dd66c)<br>
+[NSPredicate with Core Data](https://github.com/stevencurtis/SwiftCoding/tree/master/NSPredicateCoreData)<br>
 [Core Data Basics: Testing](https://medium.com/@stevenpcurtis.sc/core-data-basics-testing-39d127380680)<br>
 
 ### Tips
@@ -166,7 +166,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Writing FIRST Swift Tests](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/FIRSTTests)<br>
 [Union Find](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/UnionFind)<br>
 [Favor composition over inheritance — in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/CompositionOverInheritence)<br>
-
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
