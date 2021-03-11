@@ -89,6 +89,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Two-phase Initialization in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoPhaseInit)<br>
 [Annotation](https://github.com/stevencurtis/SwiftCoding/tree/master/Annotation)<br>
 [Namespacing](https://github.com/stevencurtis/SwiftCoding/tree/master/Namespacing)<br>
+[Extensions](https://github.com/stevencurtis/SwiftCoding/tree/master/Extensions)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
