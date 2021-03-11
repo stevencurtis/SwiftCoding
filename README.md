@@ -87,6 +87,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Using Data Transfer Objects (DTO) in Swift Code](https://github.com/stevencurtis/SwiftCoding/tree/master/DataTransferObject)<br>
 [Do enum Types Conform to Hashable in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/EnumIsHashable)<br>
 [Two-phase Initialization in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoPhaseInit)<br>
+[Annotation](https://github.com/stevencurtis/SwiftCoding/tree/master/Annotation)<br>
+
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
