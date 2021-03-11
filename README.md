@@ -68,7 +68,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Listing enum cases using CaseIterable in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CaseIterable)<br>
 [NSAttributedString vs NSMutableAttributedString](https://github.com/stevencurtis/SwiftCoding/tree/master/NSAttributedString)<br>
 [Overriding the default font in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomAppWideFont)<br>
-
+[Common errors when using custom fonts in your iOS App](https://github.com/stevencurtis/SwiftCoding/tree/master/FontsCustom)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>

@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA55F68A230D299C001161B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55F689230D299C001161B7 /* AppDelegate.swift */; };
+		CA55F68C230D299C001161B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55F68B230D299C001161B7 /* ViewController.swift */; };
+		CA55F68F230D299C001161B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55F68D230D299C001161B7 /* Main.storyboard */; };
+		CA55F691230D299D001161B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA55F690230D299D001161B7 /* Assets.xcassets */; };
+		CA55F694230D299D001161B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55F692230D299D001161B7 /* LaunchScreen.storyboard */; };
+		CA55F69F230D299D001161B7 /* CustomFontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55F69E230D299D001161B7 /* CustomFontsTests.swift */; };
+		CA55F6AA230D299D001161B7 /* CustomFontsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55F6A9230D299D001161B7 /* CustomFontsUITests.swift */; };
+		CA55F6CB230D2A46001161B7 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6B9230D2A45001161B7 /* Roboto-Italic.ttf */; };
+		CA55F6CC230D2A46001161B7 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6BA230D2A45001161B7 /* Roboto-ThinItalic.ttf */; };
+		CA55F6CD230D2A46001161B7 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6BB230D2A45001161B7 /* Roboto-Light.ttf */; };
+		CA55F6CE230D2A46001161B7 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6BC230D2A45001161B7 /* RobotoCondensed-Regular.ttf */; };
+		CA55F6CF230D2A46001161B7 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6BD230D2A45001161B7 /* Roboto-LightItalic.ttf */; };
+		CA55F6D0230D2A46001161B7 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6BE230D2A45001161B7 /* Roboto-MediumItalic.ttf */; };
+		CA55F6D1230D2A46001161B7 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6BF230D2A45001161B7 /* Roboto-Thin.ttf */; };
+		CA55F6D2230D2A46001161B7 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C0230D2A45001161B7 /* RobotoCondensed-Bold.ttf */; };
+		CA55F6D3230D2A46001161B7 /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C1230D2A45001161B7 /* RobotoCondensed-BoldItalic.ttf */; };
+		CA55F6D4230D2A46001161B7 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C2230D2A45001161B7 /* RobotoCondensed-Italic.ttf */; };
+		CA55F6D5230D2A46001161B7 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C3230D2A45001161B7 /* RobotoCondensed-LightItalic.ttf */; };
+		CA55F6D6230D2A46001161B7 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C4230D2A45001161B7 /* Roboto-Black.ttf */; };
+		CA55F6D7230D2A46001161B7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C5230D2A45001161B7 /* Roboto-Regular.ttf */; };
+		CA55F6D8230D2A46001161B7 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C6230D2A45001161B7 /* Roboto-Bold.ttf */; };
+		CA55F6D9230D2A46001161B7 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C7230D2A45001161B7 /* Roboto-BlackItalic.ttf */; };
+		CA55F6DA230D2A46001161B7 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C8230D2A45001161B7 /* Roboto-BoldItalic.ttf */; };
+		CA55F6DB230D2A46001161B7 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6C9230D2A45001161B7 /* Roboto-Medium.ttf */; };
+		CA55F6DC230D2A46001161B7 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA55F6CA230D2A46001161B7 /* RobotoCondensed-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA55F69B230D299D001161B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA55F67E230D299C001161B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55F685230D299C001161B7;
+			remoteInfo = CustomFonts;
+		};
+		CA55F6A6230D299D001161B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA55F67E230D299C001161B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55F685230D299C001161B7;
+			remoteInfo = CustomFonts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA55F686230D299C001161B7 /* CustomFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55F689230D299C001161B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA55F68B230D299C001161B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA55F68E230D299C001161B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA55F690230D299D001161B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA55F693230D299D001161B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA55F695230D299D001161B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55F69A230D299D001161B7 /* CustomFontsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55F69E230D299D001161B7 /* CustomFontsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontsTests.swift; sourceTree = "<group>"; };
+		CA55F6A0230D299D001161B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55F6A5230D299D001161B7 /* CustomFontsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFontsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55F6A9230D299D001161B7 /* CustomFontsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontsUITests.swift; sourceTree = "<group>"; };
+		CA55F6AB230D299D001161B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55F6B9230D2A45001161B7 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		CA55F6BA230D2A45001161B7 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CA55F6BB230D2A45001161B7 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CA55F6BC230D2A45001161B7 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		CA55F6BD230D2A45001161B7 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		CA55F6BE230D2A45001161B7 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CA55F6BF230D2A45001161B7 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		CA55F6C0230D2A45001161B7 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		CA55F6C1230D2A45001161B7 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CA55F6C2230D2A45001161B7 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		CA55F6C3230D2A45001161B7 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		CA55F6C4230D2A45001161B7 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		CA55F6C5230D2A45001161B7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CA55F6C6230D2A45001161B7 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CA55F6C7230D2A45001161B7 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CA55F6C8230D2A45001161B7 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CA55F6C9230D2A45001161B7 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CA55F6CA230D2A46001161B7 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA55F683230D299C001161B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55F697230D299D001161B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55F6A2230D299D001161B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA55F67D230D299C001161B7 = {
+			isa = PBXGroup;
+			children = (
+				CA55F688230D299C001161B7 /* CustomFonts */,
+				CA55F69D230D299D001161B7 /* CustomFontsTests */,
+				CA55F6A8230D299D001161B7 /* CustomFontsUITests */,
+				CA55F687230D299C001161B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA55F687230D299C001161B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA55F686230D299C001161B7 /* CustomFonts.app */,
+				CA55F69A230D299D001161B7 /* CustomFontsTests.xctest */,
+				CA55F6A5230D299D001161B7 /* CustomFontsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA55F688230D299C001161B7 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				CA55F689230D299C001161B7 /* AppDelegate.swift */,
+				CA55F6B7230D29EE001161B7 /* SupportingFiles */,
+				CA55F68B230D299C001161B7 /* ViewController.swift */,
+				CA55F68D230D299C001161B7 /* Main.storyboard */,
+				CA55F690230D299D001161B7 /* Assets.xcassets */,
+				CA55F692230D299D001161B7 /* LaunchScreen.storyboard */,
+				CA55F695230D299D001161B7 /* Info.plist */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		CA55F69D230D299D001161B7 /* CustomFontsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA55F69E230D299D001161B7 /* CustomFontsTests.swift */,
+				CA55F6A0230D299D001161B7 /* Info.plist */,
+			);
+			path = CustomFontsTests;
+			sourceTree = "<group>";
+		};
+		CA55F6A8230D299D001161B7 /* CustomFontsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA55F6A9230D299D001161B7 /* CustomFontsUITests.swift */,
+				CA55F6AB230D299D001161B7 /* Info.plist */,
+			);
+			path = CustomFontsUITests;
+			sourceTree = "<group>";
+		};
+		CA55F6B7230D29EE001161B7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CA55F6B8230D2A3C001161B7 /* Fonts */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		CA55F6B8230D2A3C001161B7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CA55F6C4230D2A45001161B7 /* Roboto-Black.ttf */,
+				CA55F6C7230D2A45001161B7 /* Roboto-BlackItalic.ttf */,
+				CA55F6C6230D2A45001161B7 /* Roboto-Bold.ttf */,
+				CA55F6C8230D2A45001161B7 /* Roboto-BoldItalic.ttf */,
+				CA55F6B9230D2A45001161B7 /* Roboto-Italic.ttf */,
+				CA55F6BB230D2A45001161B7 /* Roboto-Light.ttf */,
+				CA55F6BD230D2A45001161B7 /* Roboto-LightItalic.ttf */,
+				CA55F6C9230D2A45001161B7 /* Roboto-Medium.ttf */,
+				CA55F6BE230D2A45001161B7 /* Roboto-MediumItalic.ttf */,
+				CA55F6C5230D2A45001161B7 /* Roboto-Regular.ttf */,
+				CA55F6BF230D2A45001161B7 /* Roboto-Thin.ttf */,
+				CA55F6BA230D2A45001161B7 /* Roboto-ThinItalic.ttf */,
+				CA55F6C0230D2A45001161B7 /* RobotoCondensed-Bold.ttf */,
+				CA55F6C1230D2A45001161B7 /* RobotoCondensed-BoldItalic.ttf */,
+				CA55F6C2230D2A45001161B7 /* RobotoCondensed-Italic.ttf */,
+				CA55F6CA230D2A46001161B7 /* RobotoCondensed-Light.ttf */,
+				CA55F6C3230D2A45001161B7 /* RobotoCondensed-LightItalic.ttf */,
+				CA55F6BC230D2A45001161B7 /* RobotoCondensed-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA55F685230D299C001161B7 /* CustomFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55F6AE230D299D001161B7 /* Build configuration list for PBXNativeTarget "CustomFonts" */;
+			buildPhases = (
+				CA55F682230D299C001161B7 /* Sources */,
+				CA55F683230D299C001161B7 /* Frameworks */,
+				CA55F684230D299C001161B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomFonts;
+			productName = CustomFonts;
+			productReference = CA55F686230D299C001161B7 /* CustomFonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA55F699230D299D001161B7 /* CustomFontsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55F6B1230D299D001161B7 /* Build configuration list for PBXNativeTarget "CustomFontsTests" */;
+			buildPhases = (
+				CA55F696230D299D001161B7 /* Sources */,
+				CA55F697230D299D001161B7 /* Frameworks */,
+				CA55F698230D299D001161B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA55F69C230D299D001161B7 /* PBXTargetDependency */,
+			);
+			name = CustomFontsTests;
+			productName = CustomFontsTests;
+			productReference = CA55F69A230D299D001161B7 /* CustomFontsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA55F6A4230D299D001161B7 /* CustomFontsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55F6B4230D299D001161B7 /* Build configuration list for PBXNativeTarget "CustomFontsUITests" */;
+			buildPhases = (
+				CA55F6A1230D299D001161B7 /* Sources */,
+				CA55F6A2230D299D001161B7 /* Frameworks */,
+				CA55F6A3230D299D001161B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA55F6A7230D299D001161B7 /* PBXTargetDependency */,
+			);
+			name = CustomFontsUITests;
+			productName = CustomFontsUITests;
+			productReference = CA55F6A5230D299D001161B7 /* CustomFontsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA55F67E230D299C001161B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Steven Curtis";
+				TargetAttributes = {
+					CA55F685230D299C001161B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CA55F699230D299D001161B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CA55F685230D299C001161B7;
+					};
+					CA55F6A4230D299D001161B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CA55F685230D299C001161B7;
+					};
+				};
+			};
+			buildConfigurationList = CA55F681230D299C001161B7 /* Build configuration list for PBXProject "CustomFonts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA55F67D230D299C001161B7;
+			productRefGroup = CA55F687230D299C001161B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA55F685230D299C001161B7 /* CustomFonts */,
+				CA55F699230D299D001161B7 /* CustomFontsTests */,
+				CA55F6A4230D299D001161B7 /* CustomFontsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA55F684230D299C001161B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55F6DB230D2A46001161B7 /* Roboto-Medium.ttf in Resources */,
+				CA55F6CC230D2A46001161B7 /* Roboto-ThinItalic.ttf in Resources */,
+				CA55F694230D299D001161B7 /* LaunchScreen.storyboard in Resources */,
+				CA55F6D7230D2A46001161B7 /* Roboto-Regular.ttf in Resources */,
+				CA55F6DC230D2A46001161B7 /* RobotoCondensed-Light.ttf in Resources */,
+				CA55F6D6230D2A46001161B7 /* Roboto-Black.ttf in Resources */,
+				CA55F6D3230D2A46001161B7 /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				CA55F6D4230D2A46001161B7 /* RobotoCondensed-Italic.ttf in Resources */,
+				CA55F6D8230D2A46001161B7 /* Roboto-Bold.ttf in Resources */,
+				CA55F6CF230D2A46001161B7 /* Roboto-LightItalic.ttf in Resources */,
+				CA55F6CE230D2A46001161B7 /* RobotoCondensed-Regular.ttf in Resources */,
+				CA55F6CD230D2A46001161B7 /* Roboto-Light.ttf in Resources */,
+				CA55F6CB230D2A46001161B7 /* Roboto-Italic.ttf in Resources */,
+				CA55F691230D299D001161B7 /* Assets.xcassets in Resources */,
+				CA55F6DA230D2A46001161B7 /* Roboto-BoldItalic.ttf in Resources */,
+				CA55F6D0230D2A46001161B7 /* Roboto-MediumItalic.ttf in Resources */,
+				CA55F6D9230D2A46001161B7 /* Roboto-BlackItalic.ttf in Resources */,
+				CA55F6D1230D2A46001161B7 /* Roboto-Thin.ttf in Resources */,
+				CA55F68F230D299C001161B7 /* Main.storyboard in Resources */,
+				CA55F6D5230D2A46001161B7 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				CA55F6D2230D2A46001161B7 /* RobotoCondensed-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55F698230D299D001161B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55F6A3230D299D001161B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA55F682230D299C001161B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55F68C230D299C001161B7 /* ViewController.swift in Sources */,
+				CA55F68A230D299C001161B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55F696230D299D001161B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55F69F230D299D001161B7 /* CustomFontsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55F6A1230D299D001161B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55F6AA230D299D001161B7 /* CustomFontsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA55F69C230D299D001161B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55F685230D299C001161B7 /* CustomFonts */;
+			targetProxy = CA55F69B230D299D001161B7 /* PBXContainerItemProxy */;
+		};
+		CA55F6A7230D299D001161B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55F685230D299C001161B7 /* CustomFonts */;
+			targetProxy = CA55F6A6230D299D001161B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA55F68D230D299C001161B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA55F68E230D299C001161B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA55F692230D299D001161B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA55F693230D299D001161B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA55F6AC230D299D001161B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA55F6AD230D299D001161B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA55F6AF230D299D001161B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = CustomFonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CustomFonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA55F6B0230D299D001161B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = CustomFonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CustomFonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA55F6B2230D299D001161B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = CustomFontsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CustomFontsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFonts.app/CustomFonts";
+			};
+			name = Debug;
+		};
+		CA55F6B3230D299D001161B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = CustomFontsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CustomFontsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomFonts.app/CustomFonts";
+			};
+			name = Release;
+		};
+		CA55F6B5230D299D001161B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = CustomFontsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CustomFontsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomFonts;
+			};
+			name = Debug;
+		};
+		CA55F6B6230D299D001161B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = CustomFontsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CustomFontsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomFonts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA55F681230D299C001161B7 /* Build configuration list for PBXProject "CustomFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55F6AC230D299D001161B7 /* Debug */,
+				CA55F6AD230D299D001161B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA55F6AE230D299D001161B7 /* Build configuration list for PBXNativeTarget "CustomFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55F6AF230D299D001161B7 /* Debug */,
+				CA55F6B0230D299D001161B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA55F6B1230D299D001161B7 /* Build configuration list for PBXNativeTarget "CustomFontsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55F6B2230D299D001161B7 /* Debug */,
+				CA55F6B3230D299D001161B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA55F6B4230D299D001161B7 /* Build configuration list for PBXNativeTarget "CustomFontsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55F6B5230D299D001161B7 /* Debug */,
+				CA55F6B6230D299D001161B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA55F67E230D299C001161B7 /* Project object */;
+}
