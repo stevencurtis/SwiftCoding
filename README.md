@@ -30,6 +30,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Simply Optionals](https://github.com/stevencurtis/SwiftCoding/tree/master/SimplyOptionals)<br>
 [Functions](https://github.com/stevencurtis/SwiftCoding/tree/master/Functions)<br>
 [Overriding](https://github.com/stevencurtis/SwiftCoding/tree/master/Overriding)<br>
+[Properties](https://github.com/stevencurtis/SwiftCoding/tree/master/Properties)<br>
 
 
 ### Easy
