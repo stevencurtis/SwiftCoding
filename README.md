@@ -34,6 +34,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [TableViewTwoOneViewController](https://github.com/stevencurtis/SwiftCoding/tree/master/TableViewTwoOneViewController)<br>
 [Index Out of Range Exception: The Swifty solution](https://github.com/stevencurtis/SwiftCoding/tree/master/IndexOutOfRange)<br>
 [For Loop](https://github.com/stevencurtis/SwiftCoding/tree/master/ForLoop)<br>
+[Remove elements from an array during enumeration](https://github.com/stevencurtis/SwiftCoding/tree/master/RemoveArrayDuringEnumeration)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -59,6 +60,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create a CustomUITableViewCell in a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomUITableViewCellUITableView)<br>
 [Handle Button Presses in CustomUITableViewCells Without Tags](https://github.com/stevencurtis/SwiftCoding/tree/master/ClickUITableViewCellButton)<br>
 [Stride in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Stride)<br>
+[Listing enum cases using CaseIterable in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CaseIterable)<br>
 
 
 ### Normal
@@ -106,11 +108,14 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Extensions](https://github.com/stevencurtis/SwiftCoding/tree/master/Extensions)<br>
 [A Practice OAuth Token with Postman and Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/TokenForPractice)<br>
 [Mocking Network Calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MockingURLSession)<br>
+[hitTest(_:with:) vs point(inside:with)](https://github.com/stevencurtis/SwiftCoding/tree/master/hitTestPoint)<br>
+[Generic in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Generics)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
 [TwoWayBinding](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding)<br>
-[Track My Movement: A RxSwift Project](https://github.com/stevencurtis/SwiftCoding/tree/master/TrackMyMovement)<>
+[Track My Movement: A RxSwift Project](https://github.com/stevencurtis/SwiftCoding/tree/master/TrackMyMovement)<br>
+
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
