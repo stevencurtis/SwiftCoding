@@ -123,6 +123,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Debug with the DEBUG preprocessor macro in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/DebugPreprocessor)<br>
 [A SwiftMonkey Tutorial](https://github.com/stevencurtis/SwiftCoding/tree/master/swiftmonkeytutorial)<br>
 [If you’re using a base class in Swift, you’re doing it wrong](https://github.com/stevencurtis/SwiftCoding/tree/master/StoredPropertiesExtension)<br>
+[MVVM with RXSwift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMRXSwift)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
