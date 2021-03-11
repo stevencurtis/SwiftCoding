@@ -133,6 +133,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Learning Dependency Injection using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/LearningDependencyInjection)<br>
 [Injecting Services into Swift Apps for testing](https://github.com/stevencurtis/SwiftCoding/tree/master/TestingInjectingServices)<br>
 [MVVM: A Tutorial and Practical Example in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVM/SimpleMVVMExample)<br>
+[Can you use Swift to replace a UIPageView with a UICollectionView?](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVM/CanyoureplaceUIPageViewControllerwithUICollectionViewController)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
