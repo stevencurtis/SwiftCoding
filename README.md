@@ -71,6 +71,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Common errors when using custom fonts in your iOS App](https://github.com/stevencurtis/SwiftCoding/tree/master/FontsCustom)<br>
 [Learning UITesting using Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/UITestswithXcode)<br>
 [Gradients in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/GradientsInSwift)<br>
+[Using Git with Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/GitWithXcode)<br>
+
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
