@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mun-3n-nIx">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProtocolDelegateMemoryLeak" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zha-mx-lgL">
+                                <rect key="frame" x="0.0" y="325" width="414" height="300"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyQ-nF-oe0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="94.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text">This App demonstrates memory leaks in iOS.
+
+Click the button below to traverse to the detail view controller, that instantiates a view controller.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgp-pj-3Dc">
+                                        <rect key="frame" x="160.5" y="102.5" width="93" height="95"/>
+                                        <state key="normal" title="Memory Leak"/>
+                                        <connections>
+                                            <action selector="moveVCAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ti2-Ij-wL5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyQ-1F-sN9">
+                                        <rect key="frame" x="149" y="205.5" width="116" height="94.5"/>
+                                        <state key="normal" title="No Memory Leak"/>
+                                        <connections>
+                                            <segue destination="wPJ-jJ-Hh5" kind="show" id="jLK-hY-78Z"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="g0v-4G-Cr4"/>
+                                    <constraint firstItem="TyQ-nF-oe0" firstAttribute="width" secondItem="Zha-mx-lgL" secondAttribute="width" id="zjY-p6-V6G"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zha-mx-lgL" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="CyH-Im-csa"/>
+                            <constraint firstItem="Zha-mx-lgL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ZRC-NF-VDa"/>
+                            <constraint firstItem="Zha-mx-lgL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="b6Q-mO-47n"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dl7-Yt-TMt"/>
+                    <connections>
+                        <segue destination="Wl3-Hh-vcz" kind="show" identifier="showVC" id="J3V-QF-sfM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144.9275362318842" y="137.94642857142856"/>
+        </scene>
+        <!--Detail Leak View Controller-->
+        <scene sceneID="VO2-Qv-fXE">
+            <objects>
+                <viewController id="Wl3-Hh-vcz" customClass="DetailLeakViewController" customModule="ProtocolDelegateMemoryLeak" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sx8-CS-Kc5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.png" translatesAutoresizingMaskIntoConstraints="NO" id="cMk-Ig-dlB">
+                                <rect key="frame" x="20" y="304.5" width="374" height="341"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="341" id="9k2-Aa-LyS"/>
+                                    <constraint firstAttribute="width" constant="374" id="heS-Nx-8wJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cMk-Ig-dlB" firstAttribute="centerY" secondItem="Ixj-kG-d9M" secondAttribute="centerY" id="L9L-6m-bqw"/>
+                            <constraint firstItem="cMk-Ig-dlB" firstAttribute="centerX" secondItem="Ixj-kG-d9M" secondAttribute="centerX" id="u84-cw-KNa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ixj-kG-d9M"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TCc-Ty-pYB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1871.0144927536232" y="137.94642857142856"/>
+        </scene>
+        <!--Detail No Leak View Controller-->
+        <scene sceneID="hCw-B2-Wy1">
+            <objects>
+                <viewController id="wPJ-jJ-Hh5" customClass="DetailNoLeakViewController" customModule="ProtocolDelegateMemoryLeak" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UQR-5e-OfS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.png" translatesAutoresizingMaskIntoConstraints="NO" id="zuF-WV-kyS">
+                                <rect key="frame" x="20" y="304.5" width="374" height="341"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="Qyl-aB-0Iu"/>
+                                    <constraint firstAttribute="height" constant="341" id="U4t-9A-MIk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zuF-WV-kyS" firstAttribute="centerY" secondItem="Bhh-r2-bol" secondAttribute="centerY" id="uH8-zD-s1Y"/>
+                            <constraint firstItem="zuF-WV-kyS" firstAttribute="centerX" secondItem="Bhh-r2-bol" secondAttribute="centerX" id="vmG-pJ-BJF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bhh-r2-bol"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQR-vi-RRW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868" y="818"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dHb-nU-6Ud">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mun-3n-nIx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L2a-Ld-1kk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QX1-2V-s5U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXT-dS-ucH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="test.png" width="512" height="512"/>
+    </resources>
+</document>
