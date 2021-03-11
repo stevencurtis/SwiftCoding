@@ -76,6 +76,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [A Localize Swift Tutorial](https://github.com/stevencurtis/SwiftCoding/tree/master/LocalizeSwiftTutorial)<br>
 [Memory leaks using the Xcode memory graph debugger](https://github.com/stevencurtis/SwiftCoding/tree/master/MemoryLeaksusingtheXcodememorygraphdebugger)<br>
 [MVC in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVCHTTPCodingExample)<br>
+[UIScrollView with Auto Layout implemented in Interface builder](https://github.com/stevencurtis/SwiftCoding/tree/master/UIScrollviewAutoLayoutInterfaceBuilding)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -139,6 +140,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [An animated UIPageControl — from scratch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/UIPageControllerWithAnimation)<br>
 [Your own subscript in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/YourownsubscriptinSwift)<br>
 [The hidden workings of UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/ThehiddenworkingsOfUITableViewCell)<br>
+[Using NSNotificationCenter in Swift]()<br>NSNotificationCenter
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
