@@ -78,6 +78,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [MVC in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVCHTTPCodingExample)<br>
 [UIScrollView with Auto Layout implemented in Interface builder](https://github.com/stevencurtis/SwiftCoding/tree/master/UIScrollviewAutoLayoutInterfaceBuilding)<br>
 [Access control in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AccessControl)<br>
+[FibonacciSeriesInDepth](https://stevenpcurtis.medium.com/fibonacci-series-in-depth-using-swift-4699e940e89f)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
