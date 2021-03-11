@@ -26,7 +26,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Overcoming Default Arguments in a Protocol](https://github.com/stevencurtis/SwiftCoding/tree/master/OvercomingDefaultArgumentsInProtocols)<br>
 [Make it snow!](https://github.com/stevencurtis/SwiftCoding/tree/master/MakeItSnow)<br>
 [Swift Lint installation](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftLintInstallation)<br>
-[Storyboard Constraints](https://github.com/stevencurtis/SwiftCoding/tree/master/StroyboardConstraints)<br>
+[Storyboard Constraints](https://github.com/stevencurtis/SwiftCoding/tree/master/StoryboardConstraints)<br>
 
 
 ### Easy
