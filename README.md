@@ -114,6 +114,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [How to Test Asynchronous Functions Using Expectation in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/testasynchronousfunctionsusingexpectation)<br>
 [downloadTask(with:completionHandler:) vs. dataTask(with:completionHandler:)](https://github.com/stevencurtis/SwiftCoding/tree/master/DownloadTaskURLSessionDataTask)<br>
 [Test Driven Development (TDD) in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/TestDrivenDevelopmentTDD)<br>
+[Debug with the DEBUG preprocessor macro in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/DebugPreprocessor)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
