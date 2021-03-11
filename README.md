@@ -72,6 +72,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Learning UITesting using Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/UITestswithXcode)<br>
 [Gradients in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/GradientsInSwift)<br>
 [Using Git with Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/GitWithXcode)<br>
+[A Swift YogaKit Guide to Flexbox](https://github.com/stevencurtis/SwiftCoding/tree/master/YogaKitGuideToFlexbox)<br>
 
 
 ### Normal
