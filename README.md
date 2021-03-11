@@ -137,8 +137,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [A NSNotificationCenter implementation in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NSNotificationCenter)<br>
 [An animated UIPageControl — from scratch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/UIPageControllerWithAnimation)<br>
 [Your own subscript in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/YourownsubscriptinSwift)<br>
-
-
+[The hidden workings of UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/ThehiddenworkingsOfUITableViewCell)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
