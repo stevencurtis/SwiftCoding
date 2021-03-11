@@ -69,6 +69,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [NSAttributedString vs NSMutableAttributedString](https://github.com/stevencurtis/SwiftCoding/tree/master/NSAttributedString)<br>
 [Overriding the default font in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomAppWideFont)<br>
 [Common errors when using custom fonts in your iOS App](https://github.com/stevencurtis/SwiftCoding/tree/master/FontsCustom)<br>
+[Learning UITesting using Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/UITestswithXcode)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
