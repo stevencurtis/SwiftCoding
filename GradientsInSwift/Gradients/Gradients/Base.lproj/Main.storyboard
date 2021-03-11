@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gradients" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6Ok-zJ-YbU">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="km0-ZU-A1m">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="201"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QeM-Cw-ZXr">
+                                        <rect key="frame" x="0.0" y="206" width="414" height="200.5"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEw-Io-W1j">
+                                        <rect key="frame" x="0.0" y="411.5" width="414" height="201"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I95-Bc-jsQ">
+                                        <rect key="frame" x="0.0" y="617.5" width="414" height="200.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Ok-zJ-YbU" secondAttribute="trailing" id="4F9-f0-Zp0"/>
+                            <constraint firstItem="6Ok-zJ-YbU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hrz-3O-f3J"/>
+                            <constraint firstItem="QeM-Cw-ZXr" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="KfP-4E-1d2"/>
+                            <constraint firstItem="I95-Bc-jsQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Odj-dS-i8Q"/>
+                            <constraint firstItem="ZEw-Io-W1j" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="XDt-ll-YAK"/>
+                            <constraint firstItem="km0-ZU-A1m" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ckm-42-xF8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="6Ok-zJ-YbU" secondAttribute="top" id="rBu-gU-zTY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Ok-zJ-YbU" secondAttribute="bottom" id="sMZ-Cd-57A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="stackView" destination="6Ok-zJ-YbU" id="xfS-Ea-ell"/>
+                        <outlet property="view1" destination="km0-ZU-A1m" id="ohn-CP-tfr"/>
+                        <outlet property="view2" destination="QeM-Cw-ZXr" id="wZR-80-htM"/>
+                        <outlet property="view3" destination="ZEw-Io-W1j" id="dxu-GK-gHF"/>
+                        <outlet property="view4" destination="I95-Bc-jsQ" id="3GV-Gw-56P"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
