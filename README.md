@@ -33,6 +33,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Properties](https://github.com/stevencurtis/SwiftCoding/tree/master/Properties)<br>
 [TableViewTwoOneViewController](https://github.com/stevencurtis/SwiftCoding/tree/master/TableViewTwoOneViewController)<br>
 [Index Out of Range Exception: The Swifty solution](https://github.com/stevencurtis/SwiftCoding/tree/master/IndexOutOfRange)<br>
+[For Loop](https://github.com/stevencurtis/SwiftCoding/tree/master/ForLoop)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
