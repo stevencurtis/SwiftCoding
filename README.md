@@ -37,6 +37,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Remove elements from an array during enumeration](https://github.com/stevencurtis/SwiftCoding/tree/master/RemoveArrayDuringEnumeration)<br>
 [Enums](https://github.com/stevencurtis/SwiftCoding/tree/master/Enums)<br>
 [let or var in Swift, and why it absolutely matters](https://github.com/stevencurtis/SwiftCoding/tree/master/LetOrVar)<br>
+[The Remainder Operator](https://github.com/stevencurtis/SwiftCoding/tree/master/RemainderMod)<br>
 
 
 ### Easy
