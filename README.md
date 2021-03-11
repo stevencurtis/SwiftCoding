@@ -41,6 +41,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Stack Overflow's Most Downvoted Swift Question](https://github.com/stevencurtis/SwiftCoding/tree/master/MostDownvotedSwift)<br>
 [Using Swift's CustomStringConvertible](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomStringConvertibleGuide)<br>
 [Segues in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SegueDemo)<br>
+[Visual Memory Debugger](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
