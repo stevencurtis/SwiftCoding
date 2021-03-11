@@ -181,6 +181,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Leetcode Weekly Contest 217 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/217)<br>
 [PrefixSum](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/PrefixSum)<br>
 [Using an Array as a built in index for LeetCode problems](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/InPlaceArrayForLeetCode)<br>
+[Swift: using BFS for LeetCode problems](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/SwiftUsingBFSforLeetCodeProblems)<br>
 
 ## Get in touch
 I'm usually around on [Twitter](https://twitter.com/stevenpcurtis)
