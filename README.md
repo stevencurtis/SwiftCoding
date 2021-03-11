@@ -27,6 +27,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Make it snow!](https://github.com/stevencurtis/SwiftCoding/tree/master/MakeItSnow)<br>
 [Swift Lint installation](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftLintInstallation)<br>
 [Storyboard Constraints](https://github.com/stevencurtis/SwiftCoding/tree/master/StoryboardConstraints)<br>
+[Simply Optionals](https://github.com/stevencurtis/SwiftCoding/tree/master/SimplyOptionals)<br>
 
 
 ### Easy
