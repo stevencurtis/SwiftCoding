@@ -53,6 +53,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Visual Memory Debugger](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
 [Swift initializers](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftInitializers)<br>
 [Initialising a view controller from a test using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CreateViewController)<br>
+[Using IBDesignable and IBInspectable in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/IBDesignableIBInspectable)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
