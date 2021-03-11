@@ -1,7 +1,7 @@
 # Core Data basics: Testing
 ## Yeah, testing is important
 
-![Photo by Billy Chester on Unsplash](Images/billy-chester-pdC8onszs6o-unsplash.jpg)<br/>
+![Photo by Billy Chester on Unsplash](Images/0*2aMCdPbijDupetG_.jpeg)<br/>
 <sub>Photo by Billy Chester on Unsplash<sub>
 
 # Prerequisites:
