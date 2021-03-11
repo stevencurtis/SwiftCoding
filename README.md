@@ -73,6 +73,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Gradients in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/GradientsInSwift)<br>
 [Using Git with Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/GitWithXcode)<br>
 [A Swift YogaKit Guide to Flexbox](https://github.com/stevencurtis/SwiftCoding/tree/master/YogaKitGuideToFlexbox)<br>
+[A Localize Swift Tutorial](https://github.com/stevencurtis/SwiftCoding/tree/master/LocalizeSwiftTutorial)<br>
 
 
 ### Normal
