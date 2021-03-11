@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4212092434F0D900FEA576 /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4212082434F0D900FEA576 /* URLSessionMock.swift */; };
+		CAB6F21C243336D600CCF35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6F21B243336D600CCF35A /* AppDelegate.swift */; };
+		CAB6F21E243336D600CCF35A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6F21D243336D600CCF35A /* ViewController.swift */; };
+		CAB6F221243336D600CCF35A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB6F21F243336D600CCF35A /* Main.storyboard */; };
+		CAB6F223243336D800CCF35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB6F222243336D800CCF35A /* Assets.xcassets */; };
+		CAB6F226243336D800CCF35A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB6F224243336D800CCF35A /* LaunchScreen.storyboard */; };
+		CAB6F231243336D800CCF35A /* MockNetworkCallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6F230243336D800CCF35A /* MockNetworkCallsTests.swift */; };
+		CAB6F23C243336D800CCF35A /* MockNetworkCallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6F23B243336D800CCF35A /* MockNetworkCallsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB6F22D243336D800CCF35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB6F210243336D600CCF35A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB6F217243336D600CCF35A;
+			remoteInfo = MockNetworkCalls;
+		};
+		CAB6F238243336D800CCF35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB6F210243336D600CCF35A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB6F217243336D600CCF35A;
+			remoteInfo = MockNetworkCalls;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA4212082434F0D900FEA576 /* URLSessionMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
+		CAB6F218243336D600CCF35A /* MockNetworkCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockNetworkCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB6F21B243336D600CCF35A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB6F21D243336D600CCF35A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB6F220243336D600CCF35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB6F222243336D800CCF35A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB6F225243336D800CCF35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB6F227243336D800CCF35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB6F22C243336D800CCF35A /* MockNetworkCallsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockNetworkCallsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB6F230243336D800CCF35A /* MockNetworkCallsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkCallsTests.swift; sourceTree = "<group>"; };
+		CAB6F232243336D800CCF35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB6F237243336D800CCF35A /* MockNetworkCallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockNetworkCallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB6F23B243336D800CCF35A /* MockNetworkCallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkCallsUITests.swift; sourceTree = "<group>"; };
+		CAB6F23D243336D800CCF35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB6F215243336D600CCF35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6F229243336D800CCF35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6F234243336D800CCF35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA42120A2434F4E600FEA576 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CA4212082434F0D900FEA576 /* URLSessionMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CAB6F20F243336D600CCF35A = {
+			isa = PBXGroup;
+			children = (
+				CAB6F21A243336D600CCF35A /* MockNetworkCalls */,
+				CAB6F22F243336D800CCF35A /* MockNetworkCallsTests */,
+				CAB6F23A243336D800CCF35A /* MockNetworkCallsUITests */,
+				CAB6F219243336D600CCF35A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB6F219243336D600CCF35A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6F218243336D600CCF35A /* MockNetworkCalls.app */,
+				CAB6F22C243336D800CCF35A /* MockNetworkCallsTests.xctest */,
+				CAB6F237243336D800CCF35A /* MockNetworkCallsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB6F21A243336D600CCF35A /* MockNetworkCalls */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6F21B243336D600CCF35A /* AppDelegate.swift */,
+				CAB6F21D243336D600CCF35A /* ViewController.swift */,
+				CAB6F21F243336D600CCF35A /* Main.storyboard */,
+				CAB6F222243336D800CCF35A /* Assets.xcassets */,
+				CAB6F224243336D800CCF35A /* LaunchScreen.storyboard */,
+				CAB6F227243336D800CCF35A /* Info.plist */,
+			);
+			path = MockNetworkCalls;
+			sourceTree = "<group>";
+		};
+		CAB6F22F243336D800CCF35A /* MockNetworkCallsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6F230243336D800CCF35A /* MockNetworkCallsTests.swift */,
+				CA42120A2434F4E600FEA576 /* Mocks */,
+				CAB6F232243336D800CCF35A /* Info.plist */,
+			);
+			path = MockNetworkCallsTests;
+			sourceTree = "<group>";
+		};
+		CAB6F23A243336D800CCF35A /* MockNetworkCallsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB6F23B243336D800CCF35A /* MockNetworkCallsUITests.swift */,
+				CAB6F23D243336D800CCF35A /* Info.plist */,
+			);
+			path = MockNetworkCallsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB6F217243336D600CCF35A /* MockNetworkCalls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB6F240243336D800CCF35A /* Build configuration list for PBXNativeTarget "MockNetworkCalls" */;
+			buildPhases = (
+				CAB6F214243336D600CCF35A /* Sources */,
+				CAB6F215243336D600CCF35A /* Frameworks */,
+				CAB6F216243336D600CCF35A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockNetworkCalls;
+			productName = MockNetworkCalls;
+			productReference = CAB6F218243336D600CCF35A /* MockNetworkCalls.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB6F22B243336D800CCF35A /* MockNetworkCallsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB6F243243336D800CCF35A /* Build configuration list for PBXNativeTarget "MockNetworkCallsTests" */;
+			buildPhases = (
+				CAB6F228243336D800CCF35A /* Sources */,
+				CAB6F229243336D800CCF35A /* Frameworks */,
+				CAB6F22A243336D800CCF35A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB6F22E243336D800CCF35A /* PBXTargetDependency */,
+			);
+			name = MockNetworkCallsTests;
+			productName = MockNetworkCallsTests;
+			productReference = CAB6F22C243336D800CCF35A /* MockNetworkCallsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAB6F236243336D800CCF35A /* MockNetworkCallsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB6F246243336D800CCF35A /* Build configuration list for PBXNativeTarget "MockNetworkCallsUITests" */;
+			buildPhases = (
+				CAB6F233243336D800CCF35A /* Sources */,
+				CAB6F234243336D800CCF35A /* Frameworks */,
+				CAB6F235243336D800CCF35A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB6F239243336D800CCF35A /* PBXTargetDependency */,
+			);
+			name = MockNetworkCallsUITests;
+			productName = MockNetworkCallsUITests;
+			productReference = CAB6F237243336D800CCF35A /* MockNetworkCallsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB6F210243336D600CCF35A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Steven Curtis";
+				TargetAttributes = {
+					CAB6F217243336D600CCF35A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CAB6F22B243336D800CCF35A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CAB6F217243336D600CCF35A;
+					};
+					CAB6F236243336D800CCF35A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CAB6F217243336D600CCF35A;
+					};
+				};
+			};
+			buildConfigurationList = CAB6F213243336D600CCF35A /* Build configuration list for PBXProject "MockNetworkCalls" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB6F20F243336D600CCF35A;
+			productRefGroup = CAB6F219243336D600CCF35A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB6F217243336D600CCF35A /* MockNetworkCalls */,
+				CAB6F22B243336D800CCF35A /* MockNetworkCallsTests */,
+				CAB6F236243336D800CCF35A /* MockNetworkCallsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB6F216243336D600CCF35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB6F226243336D800CCF35A /* LaunchScreen.storyboard in Resources */,
+				CAB6F223243336D800CCF35A /* Assets.xcassets in Resources */,
+				CAB6F221243336D600CCF35A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6F22A243336D800CCF35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6F235243336D800CCF35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB6F214243336D600CCF35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB6F21E243336D600CCF35A /* ViewController.swift in Sources */,
+				CAB6F21C243336D600CCF35A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6F228243336D800CCF35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4212092434F0D900FEA576 /* URLSessionMock.swift in Sources */,
+				CAB6F231243336D800CCF35A /* MockNetworkCallsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6F233243336D800CCF35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB6F23C243336D800CCF35A /* MockNetworkCallsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB6F22E243336D800CCF35A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB6F217243336D600CCF35A /* MockNetworkCalls */;
+			targetProxy = CAB6F22D243336D800CCF35A /* PBXContainerItemProxy */;
+		};
+		CAB6F239243336D800CCF35A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB6F217243336D600CCF35A /* MockNetworkCalls */;
+			targetProxy = CAB6F238243336D800CCF35A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAB6F21F243336D600CCF35A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB6F220243336D600CCF35A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB6F224243336D800CCF35A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB6F225243336D800CCF35A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB6F23E243336D800CCF35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB6F23F243336D800CCF35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB6F241243336D800CCF35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockNetworkCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockNetworkCalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB6F242243336D800CCF35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockNetworkCalls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockNetworkCalls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAB6F244243336D800CCF35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockNetworkCallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockNetworkCallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockNetworkCalls.app/MockNetworkCalls";
+			};
+			name = Debug;
+		};
+		CAB6F245243336D800CCF35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockNetworkCallsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockNetworkCallsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockNetworkCalls.app/MockNetworkCalls";
+			};
+			name = Release;
+		};
+		CAB6F247243336D800CCF35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockNetworkCallsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockNetworkCallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockNetworkCalls;
+			};
+			name = Debug;
+		};
+		CAB6F248243336D800CCF35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockNetworkCallsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockNetworkCallsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockNetworkCalls;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB6F213243336D600CCF35A /* Build configuration list for PBXProject "MockNetworkCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB6F23E243336D800CCF35A /* Debug */,
+				CAB6F23F243336D800CCF35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB6F240243336D800CCF35A /* Build configuration list for PBXNativeTarget "MockNetworkCalls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB6F241243336D800CCF35A /* Debug */,
+				CAB6F242243336D800CCF35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB6F243243336D800CCF35A /* Build configuration list for PBXNativeTarget "MockNetworkCallsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB6F244243336D800CCF35A /* Debug */,
+				CAB6F245243336D800CCF35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB6F246243336D800CCF35A /* Build configuration list for PBXNativeTarget "MockNetworkCallsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB6F247243336D800CCF35A /* Debug */,
+				CAB6F248243336D800CCF35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB6F210243336D600CCF35A /* Project object */;
+}
