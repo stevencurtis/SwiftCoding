@@ -36,6 +36,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [For Loop](https://github.com/stevencurtis/SwiftCoding/tree/master/ForLoop)<br>
 [Remove elements from an array during enumeration](https://github.com/stevencurtis/SwiftCoding/tree/master/RemoveArrayDuringEnumeration)<br>
 [Enums](https://github.com/stevencurtis/SwiftCoding/tree/master/Enums)<br>
+[let or var in Swift, and why it absolutely matters](https://github.com/stevencurtis/SwiftCoding/tree/master/LetOrVar)<br>
+
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
