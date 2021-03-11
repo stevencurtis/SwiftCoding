@@ -135,6 +135,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [MVVM: A Tutorial and Practical Example in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVM/SimpleMVVMExample)<br>
 [Can you use Swift to replace a UIPageView with a UICollectionView?](https://github.com/stevencurtis/SwiftCoding/tree/master/CanyoureplaceUIPageViewControllerwithUICollectionViewController)<br>
 [A NSNotificationCenter implementation in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NSNotificationCenter)<br>
+[An animated UIPageControl — from scratch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/UIPageControllerWithAnimation)<br>
+
+
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
