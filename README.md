@@ -126,7 +126,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
 [TwoWayBinding](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding)<br>
 [Track My Movement: A RxSwift Project](https://github.com/stevencurtis/SwiftCoding/tree/master/TrackMyMovement)<br>
-
+[Secure iOS Apps Through App Pinning](https://github.com/stevencurtis/SwiftCoding/tree/master/SecureiOSAppsthroughAppPinning)<br>
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>

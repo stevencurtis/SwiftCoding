@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FDB595177953FDCA0C653A2 /* Pods_SSLPinningExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A6C0F15806FE5ADDB425B /* Pods_SSLPinningExampleUITests.framework */; };
+		5F2B6D3FEF53CBF00EEE42E0 /* Pods_SSLPinningExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B287049687B30A36A6A34460 /* Pods_SSLPinningExample.framework */; };
+		CA810FE0231610ED009CCFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA810FDF231610ED009CCFF6 /* AppDelegate.swift */; };
+		CA810FE5231610ED009CCFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA810FE3231610ED009CCFF6 /* Main.storyboard */; };
+		CA810FE7231610EE009CCFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA810FE6231610EE009CCFF6 /* Assets.xcassets */; };
+		CA810FEA231610EE009CCFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA810FE8231610EE009CCFF6 /* LaunchScreen.storyboard */; };
+		CA810FF5231610EE009CCFF6 /* SSLPinningExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA810FF4231610EE009CCFF6 /* SSLPinningExampleTests.swift */; };
+		CA811000231610EE009CCFF6 /* SSLPinningExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA810FFF231610EE009CCFF6 /* SSLPinningExampleUITests.swift */; };
+		CA81100E23161107009CCFF6 /* BreachViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81100D23161107009CCFF6 /* BreachViewModel.swift */; };
+		CA8110102316110D009CCFF6 /* BreachModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81100F2316110D009CCFF6 /* BreachModel.swift */; };
+		CA81101623161152009CCFF6 /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81101523161152009CCFF6 /* HTTPManager.swift */; };
+		CA81101823161156009CCFF6 /* ConstantsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81101723161156009CCFF6 /* ConstantsAPI.swift */; };
+		CA81101A23161174009CCFF6 /* BreachesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81101923161174009CCFF6 /* BreachesViewController.swift */; };
+		CA81102123161C74009CCFF6 /* Certificates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81102023161C74009CCFF6 /* Certificates.swift */; };
+		CA811023231626B5009CCFF6 /* haveibeenpwned.com.der in Resources */ = {isa = PBXBuildFile; fileRef = CA811022231626B5009CCFF6 /* haveibeenpwned.com.der */; };
+		D71A915807452FC2718255A6 /* Pods_SSLPinningExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4693F7A7EDA52C67A3AC2208 /* Pods_SSLPinningExampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA810FF1231610EE009CCFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA810FD4231610ED009CCFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA810FDB231610ED009CCFF6;
+			remoteInfo = SSLPinningExample;
+		};
+		CA810FFC231610EE009CCFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA810FD4231610ED009CCFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA810FDB231610ED009CCFF6;
+			remoteInfo = SSLPinningExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BAFEFB6AF634AC45C12686 /* Pods-SSLPinningExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinningExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinningExampleUITests/Pods-SSLPinningExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D9A6C0F15806FE5ADDB425B /* Pods_SSLPinningExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLPinningExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4693F7A7EDA52C67A3AC2208 /* Pods_SSLPinningExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLPinningExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A155518E62086DE3779A084 /* Pods-SSLPinningExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinningExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinningExample/Pods-SSLPinningExample.release.xcconfig"; sourceTree = "<group>"; };
+		7CAD5C5EC705A43AB36D66B0 /* Pods-SSLPinningExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinningExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinningExampleTests/Pods-SSLPinningExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		961D3E3BC98D66A5AF04246C /* Pods-SSLPinningExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinningExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinningExample/Pods-SSLPinningExample.debug.xcconfig"; sourceTree = "<group>"; };
+		A2CE35D11F63D58BEAFB3D2F /* Pods-SSLPinningExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinningExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinningExampleTests/Pods-SSLPinningExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B287049687B30A36A6A34460 /* Pods_SSLPinningExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLPinningExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76B7A740C778DC2CC253BB0 /* Pods-SSLPinningExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLPinningExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSLPinningExampleUITests/Pods-SSLPinningExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA810FDC231610ED009CCFF6 /* SSLPinningExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinningExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA810FDF231610ED009CCFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA810FE4231610ED009CCFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA810FE6231610EE009CCFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA810FE9231610EE009CCFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA810FEB231610EE009CCFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA810FF0231610EE009CCFF6 /* SSLPinningExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLPinningExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA810FF4231610EE009CCFF6 /* SSLPinningExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningExampleTests.swift; sourceTree = "<group>"; };
+		CA810FF6231610EE009CCFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA810FFB231610EE009CCFF6 /* SSLPinningExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLPinningExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA810FFF231610EE009CCFF6 /* SSLPinningExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningExampleUITests.swift; sourceTree = "<group>"; };
+		CA811001231610EE009CCFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA81100D23161107009CCFF6 /* BreachViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreachViewModel.swift; sourceTree = "<group>"; };
+		CA81100F2316110D009CCFF6 /* BreachModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreachModel.swift; sourceTree = "<group>"; };
+		CA81101523161152009CCFF6 /* HTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		CA81101723161156009CCFF6 /* ConstantsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsAPI.swift; sourceTree = "<group>"; };
+		CA81101923161174009CCFF6 /* BreachesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreachesViewController.swift; sourceTree = "<group>"; };
+		CA81102023161C74009CCFF6 /* Certificates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificates.swift; sourceTree = "<group>"; };
+		CA811022231626B5009CCFF6 /* haveibeenpwned.com.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = haveibeenpwned.com.der; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA810FD9231610ED009CCFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2B6D3FEF53CBF00EEE42E0 /* Pods_SSLPinningExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA810FED231610EE009CCFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71A915807452FC2718255A6 /* Pods_SSLPinningExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA810FF8231610EE009CCFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FDB595177953FDCA0C653A2 /* Pods_SSLPinningExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C75F42114A767187316B2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B287049687B30A36A6A34460 /* Pods_SSLPinningExample.framework */,
+				4693F7A7EDA52C67A3AC2208 /* Pods_SSLPinningExampleTests.framework */,
+				3D9A6C0F15806FE5ADDB425B /* Pods_SSLPinningExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA810FD3231610ED009CCFF6 = {
+			isa = PBXGroup;
+			children = (
+				CA810FDE231610ED009CCFF6 /* SSLPinningExample */,
+				CA810FF3231610EE009CCFF6 /* SSLPinningExampleTests */,
+				CA810FFE231610EE009CCFF6 /* SSLPinningExampleUITests */,
+				CA810FDD231610ED009CCFF6 /* Products */,
+				F2C3ACE3121304C11E5B8EB9 /* Pods */,
+				B7C75F42114A767187316B2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA810FDD231610ED009CCFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA810FDC231610ED009CCFF6 /* SSLPinningExample.app */,
+				CA810FF0231610EE009CCFF6 /* SSLPinningExampleTests.xctest */,
+				CA810FFB231610EE009CCFF6 /* SSLPinningExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA810FDE231610ED009CCFF6 /* SSLPinningExample */ = {
+			isa = PBXGroup;
+			children = (
+				CA810FDF231610ED009CCFF6 /* AppDelegate.swift */,
+				CA811022231626B5009CCFF6 /* haveibeenpwned.com.der */,
+				CA810FE3231610ED009CCFF6 /* Main.storyboard */,
+				CA81101F2316133C009CCFF6 /* ViewController */,
+				CA81101B23161303009CCFF6 /* ViewModel */,
+				CA81101C2316130B009CCFF6 /* Model */,
+				CA81101D23161315009CCFF6 /* Services */,
+				CA81101E2316131D009CCFF6 /* Others */,
+				CA810FE6231610EE009CCFF6 /* Assets.xcassets */,
+				CA810FE8231610EE009CCFF6 /* LaunchScreen.storyboard */,
+				CA810FEB231610EE009CCFF6 /* Info.plist */,
+			);
+			path = SSLPinningExample;
+			sourceTree = "<group>";
+		};
+		CA810FF3231610EE009CCFF6 /* SSLPinningExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA810FF4231610EE009CCFF6 /* SSLPinningExampleTests.swift */,
+				CA810FF6231610EE009CCFF6 /* Info.plist */,
+			);
+			path = SSLPinningExampleTests;
+			sourceTree = "<group>";
+		};
+		CA810FFE231610EE009CCFF6 /* SSLPinningExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA810FFF231610EE009CCFF6 /* SSLPinningExampleUITests.swift */,
+				CA811001231610EE009CCFF6 /* Info.plist */,
+			);
+			path = SSLPinningExampleUITests;
+			sourceTree = "<group>";
+		};
+		CA81101B23161303009CCFF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA81100D23161107009CCFF6 /* BreachViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA81101C2316130B009CCFF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA81100F2316110D009CCFF6 /* BreachModel.swift */,
+				CA81102023161C74009CCFF6 /* Certificates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA81101D23161315009CCFF6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CA81101523161152009CCFF6 /* HTTPManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CA81101E2316131D009CCFF6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CA81101723161156009CCFF6 /* ConstantsAPI.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CA81101F2316133C009CCFF6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CA81101923161174009CCFF6 /* BreachesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F2C3ACE3121304C11E5B8EB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				961D3E3BC98D66A5AF04246C /* Pods-SSLPinningExample.debug.xcconfig */,
+				4A155518E62086DE3779A084 /* Pods-SSLPinningExample.release.xcconfig */,
+				A2CE35D11F63D58BEAFB3D2F /* Pods-SSLPinningExampleTests.debug.xcconfig */,
+				7CAD5C5EC705A43AB36D66B0 /* Pods-SSLPinningExampleTests.release.xcconfig */,
+				B76B7A740C778DC2CC253BB0 /* Pods-SSLPinningExampleUITests.debug.xcconfig */,
+				03BAFEFB6AF634AC45C12686 /* Pods-SSLPinningExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA810FDB231610ED009CCFF6 /* SSLPinningExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA811004231610EE009CCFF6 /* Build configuration list for PBXNativeTarget "SSLPinningExample" */;
+			buildPhases = (
+				B7AF2263CDEFBD286D242F0F /* [CP] Check Pods Manifest.lock */,
+				CA810FD8231610ED009CCFF6 /* Sources */,
+				CA810FD9231610ED009CCFF6 /* Frameworks */,
+				CA810FDA231610ED009CCFF6 /* Resources */,
+				A1E895999EC6849224567F19 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLPinningExample;
+			productName = SSLPinningExample;
+			productReference = CA810FDC231610ED009CCFF6 /* SSLPinningExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA810FEF231610EE009CCFF6 /* SSLPinningExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA811007231610EE009CCFF6 /* Build configuration list for PBXNativeTarget "SSLPinningExampleTests" */;
+			buildPhases = (
+				93553825697F00280B52ED73 /* [CP] Check Pods Manifest.lock */,
+				CA810FEC231610EE009CCFF6 /* Sources */,
+				CA810FED231610EE009CCFF6 /* Frameworks */,
+				CA810FEE231610EE009CCFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA810FF2231610EE009CCFF6 /* PBXTargetDependency */,
+			);
+			name = SSLPinningExampleTests;
+			productName = SSLPinningExampleTests;
+			productReference = CA810FF0231610EE009CCFF6 /* SSLPinningExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA810FFA231610EE009CCFF6 /* SSLPinningExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA81100A231610EE009CCFF6 /* Build configuration list for PBXNativeTarget "SSLPinningExampleUITests" */;
+			buildPhases = (
+				C29E623C660A9FC65A199B72 /* [CP] Check Pods Manifest.lock */,
+				CA810FF7231610EE009CCFF6 /* Sources */,
+				CA810FF8231610EE009CCFF6 /* Frameworks */,
+				CA810FF9231610EE009CCFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA810FFD231610EE009CCFF6 /* PBXTargetDependency */,
+			);
+			name = SSLPinningExampleUITests;
+			productName = SSLPinningExampleUITests;
+			productReference = CA810FFB231610EE009CCFF6 /* SSLPinningExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA810FD4231610ED009CCFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Steven Curtis";
+				TargetAttributes = {
+					CA810FDB231610ED009CCFF6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CA810FEF231610EE009CCFF6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CA810FDB231610ED009CCFF6;
+					};
+					CA810FFA231610EE009CCFF6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CA810FDB231610ED009CCFF6;
+					};
+				};
+			};
+			buildConfigurationList = CA810FD7231610ED009CCFF6 /* Build configuration list for PBXProject "SSLPinningExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA810FD3231610ED009CCFF6;
+			productRefGroup = CA810FDD231610ED009CCFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA810FDB231610ED009CCFF6 /* SSLPinningExample */,
+				CA810FEF231610EE009CCFF6 /* SSLPinningExampleTests */,
+				CA810FFA231610EE009CCFF6 /* SSLPinningExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA810FDA231610ED009CCFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA810FEA231610EE009CCFF6 /* LaunchScreen.storyboard in Resources */,
+				CA811023231626B5009CCFF6 /* haveibeenpwned.com.der in Resources */,
+				CA810FE7231610EE009CCFF6 /* Assets.xcassets in Resources */,
+				CA810FE5231610ED009CCFF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA810FEE231610EE009CCFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA810FF9231610EE009CCFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93553825697F00280B52ED73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLPinningExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E895999EC6849224567F19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinningExample/Pods-SSLPinningExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SSLPinningExample/Pods-SSLPinningExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AF2263CDEFBD286D242F0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLPinningExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29E623C660A9FC65A199B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSLPinningExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA810FD8231610ED009CCFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA81101A23161174009CCFF6 /* BreachesViewController.swift in Sources */,
+				CA81101823161156009CCFF6 /* ConstantsAPI.swift in Sources */,
+				CA81102123161C74009CCFF6 /* Certificates.swift in Sources */,
+				CA81100E23161107009CCFF6 /* BreachViewModel.swift in Sources */,
+				CA81101623161152009CCFF6 /* HTTPManager.swift in Sources */,
+				CA8110102316110D009CCFF6 /* BreachModel.swift in Sources */,
+				CA810FE0231610ED009CCFF6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA810FEC231610EE009CCFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA810FF5231610EE009CCFF6 /* SSLPinningExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA810FF7231610EE009CCFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA811000231610EE009CCFF6 /* SSLPinningExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA810FF2231610EE009CCFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA810FDB231610ED009CCFF6 /* SSLPinningExample */;
+			targetProxy = CA810FF1231610EE009CCFF6 /* PBXContainerItemProxy */;
+		};
+		CA810FFD231610EE009CCFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA810FDB231610ED009CCFF6 /* SSLPinningExample */;
+			targetProxy = CA810FFC231610EE009CCFF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA810FE3231610ED009CCFF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA810FE4231610ED009CCFF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA810FE8231610EE009CCFF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA810FE9231610EE009CCFF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA811002231610EE009CCFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA811003231610EE009CCFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA811005231610EE009CCFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961D3E3BC98D66A5AF04246C /* Pods-SSLPinningExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = SSLPinningExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SSLPinningExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA811006231610EE009CCFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A155518E62086DE3779A084 /* Pods-SSLPinningExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = SSLPinningExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SSLPinningExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA811008231610EE009CCFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CE35D11F63D58BEAFB3D2F /* Pods-SSLPinningExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = SSLPinningExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SSLPinningExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinningExample.app/SSLPinningExample";
+			};
+			name = Debug;
+		};
+		CA811009231610EE009CCFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAD5C5EC705A43AB36D66B0 /* Pods-SSLPinningExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = SSLPinningExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SSLPinningExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLPinningExample.app/SSLPinningExample";
+			};
+			name = Release;
+		};
+		CA81100B231610EE009CCFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76B7A740C778DC2CC253BB0 /* Pods-SSLPinningExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = SSLPinningExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SSLPinningExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLPinningExample;
+			};
+			name = Debug;
+		};
+		CA81100C231610EE009CCFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BAFEFB6AF634AC45C12686 /* Pods-SSLPinningExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = SSLPinningExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.SSLPinningExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSLPinningExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA810FD7231610ED009CCFF6 /* Build configuration list for PBXProject "SSLPinningExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA811002231610EE009CCFF6 /* Debug */,
+				CA811003231610EE009CCFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA811004231610EE009CCFF6 /* Build configuration list for PBXNativeTarget "SSLPinningExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA811005231610EE009CCFF6 /* Debug */,
+				CA811006231610EE009CCFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA811007231610EE009CCFF6 /* Build configuration list for PBXNativeTarget "SSLPinningExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA811008231610EE009CCFF6 /* Debug */,
+				CA811009231610EE009CCFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA81100A231610EE009CCFF6 /* Build configuration list for PBXNativeTarget "SSLPinningExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA81100B231610EE009CCFF6 /* Debug */,
+				CA81100C231610EE009CCFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA810FD4231610ED009CCFF6 /* Project object */;
+}
