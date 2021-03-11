@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NamespacingUsingTwoModules' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'IntFrameworkOne', :path => '/Users/stevencurtis/Documents/Interviewprep/MediumPosts/Namespacing/Code/IntFrameworkOne'
+  pod 'IntFrameworkTwo', :path => '/Users/stevencurtis/Documents/Interviewprep/MediumPosts/Namespacing/Code/IntFrameworkTwo'
+
+
+  # Pods for NamespacingUsingTwoModules
+
+  target 'NamespacingUsingTwoModulesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NamespacingUsingTwoModulesUITests' do
+    # Pods for testing
+  end
+
+end
