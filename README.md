@@ -32,7 +32,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Overriding](https://github.com/stevencurtis/SwiftCoding/tree/master/Overriding)<br>
 [Properties](https://github.com/stevencurtis/SwiftCoding/tree/master/Properties)<br>
 [TableViewTwoOneViewController](https://github.com/stevencurtis/SwiftCoding/tree/master/TableViewTwoOneViewController)<br>
-
+[Index Out of Range Exception: The Swifty solution](https://github.com/stevencurtis/SwiftCoding/tree/master/IndexOutOfRange)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
