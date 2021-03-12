@@ -13,7 +13,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Programmatic UITableView Example](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/ProgrammaticUITableView)<br>
 [init](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/Init)<br>
 
-
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
 [The Only UIStackView Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/StackView)<br>
@@ -39,7 +38,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [let or var in Swift, and why it absolutely matters](https://github.com/stevencurtis/SwiftCoding/tree/master/LetOrVar)<br>
 [The Remainder Operator](https://github.com/stevencurtis/SwiftCoding/tree/master/RemainderMod)<br>
 [DispatchGroups to group API calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DispatchGroup)<br>
-
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -143,7 +141,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [An animated UIPageControl — from scratch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/UIPageControllerWithAnimation)<br>
 [Your own subscript in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/YourownsubscriptinSwift)<br>
 [The hidden workings of UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/ThehiddenworkingsOfUITableViewCell)<br>
-[Using NSNotificationCenter in Swift]()<br>NSNotificationCenter
+[Using NSNotificationCenter in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NSNotificationCenter)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
