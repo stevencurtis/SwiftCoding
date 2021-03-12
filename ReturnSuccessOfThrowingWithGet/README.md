@@ -1,7 +1,7 @@
 # WOOT! Supercharge Result Type using Swift's get() 
 ## Cope with these results!
 
-![Photo by Hermes Rivera on Unsplash](Images/hermes-rivera-shEtkYRYt40-unsplash.jpg)<br/>
+![Photo by Hermes Rivera on Unsplash](Images/ThumbnailSwift-3.png)<br/>
 <sub>Photo by Hermes Rivera on Unsplash<sub>
 
 Swift's [result type](https://medium.com/swlh/result-type-in-swift-1b4e2a84f2c2) has been a tricky one for many Swift programmers, and it has got to the point where many programmers are used to using it. But what if you could supercharge your work by using get() to return the value if a successful value exists, and throws an error otherwise.
