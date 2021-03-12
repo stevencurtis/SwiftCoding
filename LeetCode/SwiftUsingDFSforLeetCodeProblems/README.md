@@ -8,8 +8,8 @@
 Depth-first search for trees is commonly used for LeetCode challenges, even those rated as Medium or above on the platform.
 
 ## Prerequisites
-To follow along with this piece, you should be able to create a binary tree using insertions (although a simple implementation is shown below).
-It would be helpful to be familiar with the concept of [recursion](https://stevenpcurtis.medium.com/recursion-a-swift-story-about-recursion-f54fc84dd4ae), and the solution makes use of Swift's [inout parameters](https://medium.com/@stevenpcurtis.sc/inside-swifts-inout-parameters-f66fc39f3e8c)
+To follow along with this piece, you should be able to create a binary tree using insertions (although a simple implementation is shown below).<br>
+It would be helpful to be familiar with the concept of [recursion](https://stevenpcurtis.medium.com/recursion-a-swift-story-about-recursion-f54fc84dd4ae),<br> and the solution makes use of Swift's [inout parameters](https://medium.com/@stevenpcurtis.sc/inside-swifts-inout-parameters-f66fc39f3e8c)<br>
 
 ## Keywords and Terminology
 Root node: The first node in a tree data structure

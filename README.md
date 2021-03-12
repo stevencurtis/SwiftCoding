@@ -78,6 +78,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Access control in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AccessControl)<br>
 [FibonacciSeriesInDepth](https://github.com/stevencurtis/SwiftCoding/tree/master/FibonacciSeriesInDepth)<br>
 [CleanUITableViewControllers](https://github.com/stevencurtis/SwiftCoding/tree/master/CleanUITableViewControllers)<br>
+[WOOT! Supercharge Result Type using Swift's get()](https://github.com/stevencurtis/SwiftCoding/tree/master/ReturnSuccessOfThrowingWithGet)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
