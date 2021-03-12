@@ -13,8 +13,8 @@ Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 Here is a [link to the YouTube guide](https://youtu.be/q3CiYzJlJkk)
 
 ## Prerequisites:
-* It would be much easier if you had understanding of Swift's [result type](https://medium.com/swlh/result-type-in-swift-1b4e2a84f2c2)
-* .get uses [try](https://betterprogramming.pub/error-handing-in-swift-dda6e3fb1c65), so some knowledge of that would be useful
+* It would be much easier if you had understanding of Swift's [result type](https://medium.com/swlh/result-type-in-swift-1b4e2a84f2c2)<br>
+* .get uses [try](https://betterprogramming.pub/error-handing-in-swift-dda6e3fb1c65), so some knowledge of that would be useful<br>
 
 ## Keywords and Terminology:
 JSON: JavaScript Object Notation, a lightweight format for storing and transporting data
@@ -55,7 +55,7 @@ override func viewDidAppear(_ animated: Bool) {
     })
 }
 ```
-Which gets rid of that rather awkward 
+Which gets rid of that rather awkward pattern.
 
 # The code
 The example below uses reqres, and the specific URL used is `https://reqres.in/api/users?page=2`, which provides us a free API to use and decode in our iOS front-end. 
@@ -169,4 +169,6 @@ struct Users: Codable {
 ```
 
 # Conclusion
+This is intended as a way to make your life easier, and with the explanation above you may also benefit from downloading the repo@ https://github.com/stevencurtis/SwiftCoding/tree/master/ReturnSuccessOfThrowingWithGet. I hope this does indeed help you out!
+
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis), and while I've got you why not take a look at my [YouTube Channel](https://www.youtube.com/channel/UCsC5HhKw6CmLAKYMJ42KF8w)
