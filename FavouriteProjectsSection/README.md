@@ -1,7 +1,7 @@
 # Create Your Own Backend for Swift using Charles
 ## Create a Music Favourites
 
-![Photo by Raphael Lovaski on Unsplash](Images/tay.jpg)<br/>
+![Photo by Raphael Lovaski on Unsplash](Images/1*X8XPWSIiSmrS7XGWYS3XCg.png)<br/>
 <sub>Photo by Raphael Lovaski on Unsplash<sub>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
@@ -14,7 +14,7 @@ https://youtu.be/q3CiYzJlJkk
 ## Prerequisites:
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71)
 * Setting up Charles is covered here, but for more detail take a look at my [Charles article](https://stevenpcurtis.medium.com/use-charles-to-rewrite-responses-while-developing-ios-apps-3d1e7a8b068a)
-* I've imported `SDWebImage` using Pods, you may need to install CocoaPods with `sudo gem install cocoapods` and then perform a `pod install` from inside the downloaded directory from [the repo](https://github.com/stevencurtis/SwiftCoding/tree/master/FavouriteProjectsSection), if you decide to download my version of this code
+* I've imported `SDWebImage` using Pods, you may need to install CocoaPods with `sudo gem install cocoapods` and then perform a `pod install` from inside the downloaded directory from [the repo](https://github.com/stevencurtis/SwiftCoding/tree/master/FavouriteProjectsSection), if you decide to download my version of this code (I didn't include the Pods in the upload).
 
 ## Terminology
 Charles: A HTTP proxy for development
