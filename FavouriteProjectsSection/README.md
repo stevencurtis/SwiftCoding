@@ -1,7 +1,7 @@
 # Create Your Own Backend for Swift using Charles
 ## Create a Music Favourites
 
-![Photo by Raphael Lovaski on Unsplash](Images/1*X8XPWSIiSmrS7XGWYS3XCg.png)<br/>
+![Photo by Raphael Lovaski on Unsplash](Images/tay.jpg)<br/>
 <sub>Photo by Raphael Lovaski on Unsplash<sub>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
