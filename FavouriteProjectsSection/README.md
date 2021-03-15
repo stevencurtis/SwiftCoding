@@ -1,5 +1,5 @@
 # Create Your Own Backend for Swift using Charles
-## Create a Music Favourites
+## Create a music favourites section with a temporary backend
 
 ![Photo by Raphael Lovaski on Unsplash](Images/tay.jpg)<br/>
 <sub>Photo by Raphael Lovaski on Unsplash<sub>
@@ -96,7 +96,7 @@ the overall code can then be run from your target directory by running `swift mo
 Of course, Charles needs to know where that file actually is, so let us do just that now
 
 **Setup Charles to point to the local mapping**
-Charles needs to be setup to 
+Charles needs to be setup to point to this file, and this is covered in the Swift Project section below.
 
 # The Swift Project
 ## Charles
@@ -114,7 +114,24 @@ We then need to map local, so select `Tools>Map Local...`  and you will need to 
 ![mapping](Images/mapping.png)<br/>
 and of course make sure that the `Enable Map Local` checkbox is ticked in the map local settings.
 
-That's it! You are now ready for some mocking of live data!
+
+## Using our little tool
+As you remove a favourite from your Application, you can make sure that the backend that you have created returns the correct JSON String. For example, if you remove one of the favourites I would return the JSON String of favourites - with precisely one less favourite returned.
+
+## Why would you want to do this?
+I think the answer is quite clear. When you are demonstrating your work, perhaps an internal demo or to a client you want to have a working App. How might you do this if the backend has not yet been produced? You are expected to provide a live demo, and mocking is simply not enough.
+This is where this article has stepped in, and I hope, helped you out.
 
 # Conclusion
+That's it! You are now ready for some mocking of live data!
+*Where can I use this data?*
+
+I've covered it in my YouTube video, right [HERE](https://youtu.be/q3CiYzJlJkk). During that video I create a favourites section like the following:
+
+![sshot](Images/sshot.png)<br/>
+
+Which then moves onto a screen that covers all of the favourites
+
+![section](Images/section.png)<br/>
+
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)

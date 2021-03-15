@@ -37,7 +37,6 @@ class ViewModel: ViewModelProtocol {
         let session = URLSession.init(configuration: config)
         let task = session.dataTask(with: url, completionHandler: { [weak self] data, urlresponse, error in
             guard let data = data else {return}
-            // print("JSON String: \(String(describing: String(data: data, encoding: .utf8)))")
             let decoder = JSONDecoder()
             if let decoded = try? decoder.decode(FavouriteResponse.self, from: data) {
                 self?.favourites = decoded.favourites
