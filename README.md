@@ -167,6 +167,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Parse JSON without knowing the type](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/ParseJsonNoType)<br>
 [Get a Comma Separated List From An Array](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CommaSeparatedList)<br>
 [That little Swift Bug: Protocol Customization Points](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CustomizationPoints)<br>
+[Shorthand Parameters in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/$0Swift)<br>
 
 ### Theory
 [Kruskal's Algorithm](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
