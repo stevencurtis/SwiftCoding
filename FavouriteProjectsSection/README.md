@@ -5,7 +5,7 @@
 <sub>Photo by Raphael Lovaski on Unsplash<sub>
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
-This article has been developed using Xcode 12.0, and Swift 5.3
+This article has been developed using Xcode 12.4, and Swift 5.3.2
 
 This article has a supporting video at the following link:
 
