@@ -68,19 +68,21 @@ viewModel.completion = {
 viewModel.completion!(loggedInUsers)
 ```
 
-this gives the output for:
+this gives the following output:
 
 ```swift
 Dave Roberts: dave@loggedin
 Latasha Wilson: latasha@loggedin
 ```
 
-When you begin to look at this closure
+When you begin to look at this closure you can see the issue. `$0` Represents more than one thing in one line. Now whether you think that is acceptable or not depends on you, and what is acceptable for your team.
 ![Closures.png](Images/Closures.png)<br/>
-
+That is: It depends!
 # Conclusion
 Another "it depends" answer? Well, unfortunately this is coding. In the case of thinking through solutions there are no absolute rights or wrongs.
 
 You're going to have to make your own decisions. Sorry.
+
+Oh, there is an accompanying video [HERE](https://youtu.be/n4UnKpQEdv8). Thanks.
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)
