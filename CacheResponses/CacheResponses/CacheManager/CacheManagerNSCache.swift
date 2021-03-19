@@ -19,7 +19,7 @@ final class CacheManagerNSCache: CacheManagerProtocol {
         }
     }
     
-    // Singletons are never dealloc, but still...
+    // Singletons will never dealloc, but still...
     deinit {
         NotificationCenter.default.removeObserver(memoryWarningObserver!)
     }

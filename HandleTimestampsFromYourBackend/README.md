@@ -45,7 +45,7 @@ Yet this isn't the only format that dates can be. This article covers both the [
 What should be used and when?
 
 # The brief alternatives
-The Unix epoch (also Unit time, POSIX time or Unix timestamp) are the number of sections that have elapsed since midnight on January 1, 1970 (UTC/GMT). ISO 8601 is a calendar and clock format and represents a stanardized way of presenting date and time (as well as time intervals).
+The Unix epoch (also Unit time, POSIX time or Unix timestamp) are the number of sections that have elapsed since midnight on January 1, 1970 (UTC/GMT). ISO 8601 is a calendar and clock format and represents a standardised way of presenting date and time (as well as time intervals).
 
 # The problem to be solved
 Mobile devices often need to display the time in the local time of the user. For example I want to check into a hotel at 3pm, and this must be 3pm *at the hotel*- irrespective of which country the backend server is in.
@@ -73,16 +73,10 @@ Using a local timezone would mean you assume your server is always deployed in t
 We can do this in iOS! In fact this is what the rest of this article is about!
 
 # The Implementation
-## Json Strings
+## JSON Strings
 Rather than creating a full backend API for this article, I've created two hard-coded JSON strings that can be decoded in a Swift Playground or MacOS command-line application.
 
-They contain a couple of users, but the only real difference is 
-
-
-var people = ["Arjun", "Tisha", "Zaara","Bob", "Kasia", "Natalia", "Colin", "Noah", "Liya", "Sergey"]
-
-
-## The model
+## The Model
 The model will conform to codable, and it would be great if we could store the data directly as a date object, so we shall do exactly that with the following model:
 
 ```swift
@@ -118,7 +112,7 @@ if let data = jsonStringUnixEpoch.data(using: .utf8), let usersUnix = try? decod
 }
 ```
 
-which would output the following
+which would output the following:
 
 ```swift
 User(user: "Noah", timeStamp: 2021-03-19 00:00:00 +0000)
@@ -169,7 +163,7 @@ let jsonStringisoMilliseconds = """
 """
 ```
 
-If you decode this using the same technique as above
+If you decode this using the same technique as above:
 
 ```swift
 let decoderisoMilliseconds = JSONDecoder()
@@ -178,7 +172,6 @@ decoderisoMilliseconds.dateDecodingStrategy = .iso8601
 if let data = jsonStringisoMilliseconds.data(using: .utf8), let usersMilliseconds = try? decoderisoMilliseconds.decode(User.self, from: data) {
     print(usersMilliseconds) // never executes
 }
-
 ```
 
 we unfortunately never print out the result. The `print(usersMilliseconds)` line is never executed.
@@ -187,7 +180,7 @@ Wait? What is going on?
 
 Unfortunately the iso8601 format doesn't include the fractional settings. Perhaps what we should do is panic.
 
-Or we can add our own date formatter
+Or we can add our own date formatter:
 
 ```swift
 extension ISO8601DateFormatter {
@@ -210,7 +203,7 @@ extension String {
 }
 ```
 
-we can then add in the date decoder strategy so we can use this with `Codable` which is, after all, what we intend to do here
+we can then add in the date decoder strategy so we can use this with `Codable` which is, after all, what we intend to do here:
 
 ```swift
 extension JSONDecoder.DateDecodingStrategy {
@@ -288,7 +281,7 @@ if let data = jsonStringisoMilliseconds.data(using: .utf8), let usersMillisecond
 }
 ```
 
-We now get;
+We now get:
 
 ```Swift
 User(user: "Noah", timeStamp: 2019-01-18 10:15:29 +0000)

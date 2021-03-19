@@ -57,8 +57,6 @@ public class NetworkManager<T: URLSessionProtocol> {
             request.httpBody = serializedData
         }
         
-        print ("subscript", cacheManager[request] )
-        
         cacheManager.fetchDataFromCache(request: request, completion: { [weak self] data in
             
             if let data = data {
