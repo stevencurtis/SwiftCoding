@@ -9,7 +9,6 @@ This relates to the Medium Post
 
 Breadth-first search for trees can seem easy, but this can be expanded to be used for simple matrices, and this is often used for LeetCode challenges which are rated as Medium or above.
 
-
 **Prerequisites:**
 
 - Be able to create a binary tree, using insertions (although a simple implementation is shown below)
@@ -22,7 +21,7 @@ Breadth-first search for trees can seem easy, but this can be expanded to be use
 
 **The tree version**
 
-![Levels BST](https://github.com/stevencurtis/BFSForLeetCode/blob/master/Images/BSTSmallLevels.png)
+![Levels BST](https://github.com/stevencurtis/SwiftCoding/blob/master/LeetCode/SwiftUsingBFSforLeetCodeProblems/Images/BSTSmallLevels.png)
 
 Traversing the tree above involves passing through the three levels in turn (it does not matter the order of the nodes within the level, and the nodes are presented left-to-right here although any order would be acceptable)
 Level 0-10
