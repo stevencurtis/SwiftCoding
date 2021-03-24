@@ -30,7 +30,7 @@ Level 2- 3,15
 A sample implementation (and test) is in the Gist here:
 	
 ```swift
-	class Node {
+class Node {
     var val: Int
     var left: Node?
     var right: Node?

@@ -48,7 +48,7 @@ What is happening here (and it can be difficult to visualize, as we can choose i
 
 This gives us the following:
 
-![ways13](Images/ways13.png)<br<
+![ways13](Images/ways13.png)<br>
 
 ## Alternative momorization
 We can, instead of using recursion in the way shown above move on each coin in turn

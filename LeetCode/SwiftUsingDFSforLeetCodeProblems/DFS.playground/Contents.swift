@@ -32,7 +32,7 @@ class Node: CustomStringConvertible {
 }
 
 
-func dfsRecursiveVals(_ node: Node) -> [Int]{
+func dfsRecursiveVals(_ node: Node) -> [Int] {
     var visitedNodes = [Int]()
     if let lft = node.left {
         visitedNodes += dfsRecursiveVals(lft)
