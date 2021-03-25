@@ -38,6 +38,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [let or var in Swift, and why it absolutely matters](https://github.com/stevencurtis/SwiftCoding/tree/master/LetOrVar)<br>
 [The Remainder Operator](https://github.com/stevencurtis/SwiftCoding/tree/master/RemainderMod)<br>
 [DispatchGroups to group API calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DispatchGroup)<br>
+[What is intrinsicContentSize Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSizeBasic)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -198,7 +199,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift: Using BFS for LeetCode problems](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/SwiftUsingBFSforLeetCodeProblems)<br>
 [Swift: Using Depth-First Search for LeetCode Problems](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/SwiftUsingDFSforLeetCodeProblems)<br>
 [Swift: DP (draft)](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/LeetCodeRecursiveMemo)<br>
-[Swift: Playgrounds are Worthwhile for LeetCode)](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/LeetCodeUsingSwiftPlaygrounds)<br>
+[Swift: Playgrounds are Worthwhile for LeetCode](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/LeetCodeUsingSwiftPlaygrounds)<br>
 
 
 ## Get in touch
