@@ -111,7 +111,7 @@ final class ContainerView: UIView {
 }
 ```
 
-Now if you run this, the view will not appear on screen. Logging the frame and `instrinsic content size we can see the problem
+Now if you run this, the view will not appear on screen. Logging the frame and `intrinsicContentSize` we can see the problem:
 
 ```swift
 containerView frame: (160.0, 80.5, 0.0, 0.0)
@@ -136,7 +136,7 @@ containerView intrinsicContentSize: (200.0, 300.0)
 (so incidently if you se the constraints on the view you will get the same frame, but `intrinsicContentSize` would then be (-1.0, -1.0)).
 
 
-# What about the clash
+# What about the clash?
 Auto Layout can calculate the space that a component might need based on the intrinsicContentSize property, however in some circumstances a component may have more or less height than that specified and in this case Auto Layout will use the content compression resistance property and content hugging property to resolve the layout issues appropriately.
 
 # What about changes to the content

@@ -37,8 +37,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Enums](https://github.com/stevencurtis/SwiftCoding/tree/master/Enums)<br>
 [let or var in Swift, and why it absolutely matters](https://github.com/stevencurtis/SwiftCoding/tree/master/LetOrVar)<br>
 [The Remainder Operator](https://github.com/stevencurtis/SwiftCoding/tree/master/RemainderMod)<br>
-[DispatchGroups to group API calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DispatchGroup)<br>
-[What is intrinsicContentSize Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSizeBasic)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -80,6 +78,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [FibonacciSeriesInDepth](https://github.com/stevencurtis/SwiftCoding/tree/master/FibonacciSeriesInDepth)<br>
 [CleanUITableViewControllers](https://github.com/stevencurtis/SwiftCoding/tree/master/CleanUITableViewControllers)<br>
 [WOOT! Supercharge Result Type using Swift's get()](https://github.com/stevencurtis/SwiftCoding/tree/master/ReturnSuccessOfThrowingWithGet)<br>
+[What is intrinsicContentSize Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSizeBasic)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -146,6 +145,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Using NSNotificationCenter in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NSNotificationCenter)<br>
 [Create your own backend while developing a Favourites Section](https://github.com/stevencurtis/SwiftCoding/tree/master/FavouriteProjectsSection)<br>
 [Handle TimeStamps](https://github.com/stevencurtis/SwiftCoding/tree/master/HandleTimestampsFromYourBackend)<br>
+[DispatchGroups to group API calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DispatchGroup)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
