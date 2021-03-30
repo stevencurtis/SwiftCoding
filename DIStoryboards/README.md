@@ -6,6 +6,7 @@
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12.0, and Swift 5.3
+Updated for Xcode 12.4, and 5.3.2
 
 ## Prerequisites:
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71)
@@ -240,6 +241,56 @@ class ViewController: UIViewController {
  ```
  
  Good times!
+ 
+ ## Doing better
+ That all seems fine. But what about the initial view controller? The solutions above are rather unsatisfactory. 
+ 
+ I mean, the initial view controller should be able to use both a view model and be instantiated without errors or hacks!
+ 
+ Well, this is more than possible.
+ 
+ We do, however, need to make sure that we create that first ViewController in code. 
+ 
+ **Remove the Storyboard**
+ Select `Info.plist` in the project navigator, and then delete the two references to the main storyboard.
+ ![removestoryboard](Images/removestoryboard.png)<br>
+ 
+ We also need to remove the main interface from the project target:
+ 
+ ![removemaininterface](Images/removemaininterface.png)<br>
+
+ **Add an identifier**
+ We are going to ask the storyboard to instantiate a ViewController, but of course it will need to know which viewcontroller to instantiate. To do that, we go to the storyboard, select the view controller and give it a name. I've chosen the id "first" that we will later reference.
+ 
+ ![cutomint](Images/storyboardid.png)<br>
+
+**Update the scene delegate**
+
+We can repace the first function in the SceneDelegate with the following:
+
+```swift
+var window: UIWindow?
+
+func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+    guard let windowScene = (scene as? UIWindowScene) else { return }
+    window = UIWindow(windowScene: windowScene)
+    
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+
+    let viewController = storyboard.instantiateViewController(
+        identifier: "first",
+        creator: { coder in
+            ViewController(coder: coder, viewModel: ViewModel())
+        }
+    )
+    
+    window?.rootViewController = viewController
+    window?.makeKeyAndVisible()
+}
+```
+
+Now we can start our app, instantiating our viewcontroller and viewmodel correctly - and then instantiate further view models and view controllers and described in this article.
+
 
 # Conclusion
 This has been a rather long article, and hopefully has been some help to you. Not many articles cover Testing so hopefully this offers some value for you!
