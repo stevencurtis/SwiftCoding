@@ -36,11 +36,11 @@ The most common basic diagram for MVC (Model View Controller) is below
 
 That is, we can separate out the use of controllers and models so the controller communicates with the model in a two-way relationship
 
-[ControllerModelCommunication](Images/ControllerModelCommunication.png)
+![ControllerModelCommunication](Images/ControllerModelCommunication.png)
 
 and the controller also has a relationship with the view
 
-[ControllerModelCommunication](Images/ControllerModelCommunication.png)
+![ControllerModelCommunication](Images/ControllerModelCommunication.png)
 
 Now the issue is that the viewcontroller is both a view and a controller. 
 
