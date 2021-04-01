@@ -31,7 +31,7 @@ The reusability of a `UIViewController` as a child is very flexibile, especially
 # Example: A ViewController to represent loading
 If you wish to reuse a ViewController in many places within your App, you might use a child view controller. This enables us to have a modular UI, and one where the SpinnerViewController can be used as a child view as well as a full view controller in it's own right. 
 
-You might set up a view controller that contains a spinner, to indicate that something is being loaded. Rather than using a real network call, here I can use `DispatchQueue.main.asyncAfter` to wait for 2 seconds, and then remove the loading view controller.
+You might set up a view controller that contains a spinner, to indicate that something is being loaded. Rather than using a real network call, here I can use `DispatchQueue.main.asyncAfter` to wait for 2 seconds, and then remove the loading view controller:
 
 ```swift
 class ViewController: UIViewController {
@@ -161,7 +161,8 @@ class MusicPlayerViewController: UIViewController {
 Flexible? Well you could add instances of this `MusicPlayerViewController` wherever you would like. That is all kinds of awesome!
 
 # Conclusion
+Child view controllers are a good tool to leverage modularity in iOS applications. This will help you with scaling your Apps, and stopping duplicating code unnecessarily which is really important (obs).
 
-
+In any case, I hope this article has helped you out and you've enjoyed reading it!
 
 If you've any questions, comments or suggestions please hit me up on [Twitter](https://twitter.com/stevenpcurtis)
