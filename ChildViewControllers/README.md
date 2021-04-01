@@ -1,7 +1,7 @@
 # Containing Child View Controllers for iOS Apps
 ## Place a ViewController in another
 
-![stefano-probst-eAE1QOFrE9Q-unsplash.jpg](stefano-probst-eAE1QOFrE9Q-unsplash.jpg)<br> 
+![stefano-probst-eAE1QOFrE9Q-unsplash.jpg](Images/stefano-probst-eAE1QOFrE9Q-unsplash.jpg)<br> 
 
 Difficulty: Beginner | **Easy** | Normal | Challenging<br/>
 This article has been developed using Xcode 12.4, and Swift 5.3.2
