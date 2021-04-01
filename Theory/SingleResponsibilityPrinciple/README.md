@@ -25,7 +25,7 @@ In other words that means the following:
 1. A particular class should only do one thing
 2. There should only ever be a single reason to change a certain class
 
-So each `class` is restricted to doing similar things.
+So each `class` is restricted to doing one thing.
 
 It is tempting for Swift programmers to overload responsibilities into a view controller. 
 This is partly to do with the basic architecture pattern encourged for our use by Apple - the MCV pattern.
@@ -50,7 +50,7 @@ It also means that many developers kind of discount the Single Responsibility Pr
 
 `"This is a bad habit. Let us break this out into an easy example"`
 
-##The exmple bad class
+## The exmple bad class
 A view controller typically will have a `data source`, and this if frequently defined in the `ViewController`. Now saying that this is a **bad** class is a little strong, but equally it **does** break the Single Responsibility Principle (Even though the data source has been placed nicely into an extension).
 
 ```swift
@@ -87,7 +87,7 @@ extension ViewController: UITableViewDataSource {
 
 I'll say it again (ignore the subtitle) - that this isn't necessary bad…but there you go…
 
-##Following the Single Responsibility Principle
+## Following the Single Responsibility Principle
 We can create the `DataSource` as a different class. No problem.
 
 ```swift
