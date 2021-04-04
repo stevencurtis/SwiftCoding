@@ -37,6 +37,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Enums](https://github.com/stevencurtis/SwiftCoding/tree/master/Enums)<br>
 [let or var in Swift, and why it absolutely matters](https://github.com/stevencurtis/SwiftCoding/tree/master/LetOrVar)<br>
 [The Remainder Operator](https://github.com/stevencurtis/SwiftCoding/tree/master/RemainderMod)<br>
+[Divide and Conquer Algorithms Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DivideConquerAlgorithms)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
