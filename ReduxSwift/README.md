@@ -9,6 +9,7 @@ Redux is a state management system. Intrigued? Read on
 Difficulty: Beginner | Easy | **Normal** | Challenging
 
 This article has been developed using Xcode 11.4.1, and Swift 5.2.2
+This article has been updated for Xcode 12.4, and Swift 5.3.2
 
 ## Prerequisites:
 Coding in Swift Playgrounds (guide [HERE](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089))
@@ -20,17 +21,24 @@ Redux: an open-source JavaScript library for managing application state
 ## Advantages
 * Pure reducer functions make business logic easy to test
 * Centralising the state makes debugging easy to perform
-* Data normalization is encouraged, so that you don't end up with multiple, independent copies of the same data that are unaware of one another
-* State can be persisted to local storage, which can then be used to boot from
-* Because redux is strict about code organisation, 
+* Data normalization is encouraged. The end result is that that you don't end up with multiple, independent copies of the same data that are unaware of one another and cannot easily be updated
+* State can be persisted to local storage, which can then be used to boot from or return to the App to that state
+* Because redux is strict about code organisation, we have the advantages that brings for code maintenance
 * Easy to debug
 
 ## Disadvantages
-* People often jump into Redux too early, when it is not really required - you should only implement it if you require a state management tool
 * The state itself is immutable, and can only be updated by the reducer. This in itself could put increased memory demands on the system
 * Restricted design with boilerplate code
 * The rigidness and complexity that make redux suitable for very large projects means it is often not suitable for many small projects
 * Actions are disconnected from their effects (which is stored in the Reducer)
+
+## Do you even require Redux?
+One main disadvantage of Redux is that you might not actually require it in your project (at least, not yet). So how do you know if your App would actually require Redux?
+* You have a large application state required in many parts of your App
+* Your application state is updated frequently
+* Your application state is complex to update
+* Your App has a medium to large-sized codebase that is worked on by many people
+* You need to see how the state is updated over time
 
 ## Redux Components
 State: The state of the application which is considered the source of truth. Although there can only be a single state, it can be divided into sub-states.
