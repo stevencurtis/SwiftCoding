@@ -112,7 +112,38 @@ Could use Combine for bindings
 Reusability for functions using generics (store different data in a data structure, observables and sets)
 Reusable components
 
-
 ![Images/socketapi.png](DeleteImages/architecture.png)<br>
 
+## Decide database
+**Server**
+1) MongoDB
+2) AWS ElasticSearch
 
+MongoDB - data stored as documents. Single JSON.Doesn't have full text search
+AWS ElasticSearch - full text and GIS search support. Autosharding. 
+
+**Internal**
+Core data - seen as tricky, managedobjectcontexts bound to a thread.Great migration.
+Realm - Cross-compatibility with Android. Consistency across threads. Faster.
+
+# Scale
+## Bottlenecks
+Build time (modularisation)
+Depolyment scalability
+Testing
+Traffic spikes - caching, CDN, server-side caching
+Image sizes
+Memory restrictions
+Performance problem - single user. Scalability problem, slow under heavy load
+Caching
+Reachability
+
+
+**server read heavy**
+Might be as high as 1: 10000
+Can use redis or memcach to cach. A CDN also caches. 
+Firewall after CDN to prevent bots, ip banning. 
+
+Can deploy to a Kubernetes Cluster with Amazon EKS. Kubernetes means it is easy to provide containerized services. Can use autoscaling or predicitive scaling. 
+
+Memcache is faster than redis as multi-threaded. Memchache limited data structures, and limited key-value size (1MB whereas Redis is 512MB). Memcache has clustering support, REDIS does not have native clustering support (need REDIS Sentinal for that). 
