@@ -16,6 +16,14 @@ Defining components in order to provide the required functionality, solving the 
 Do not allow massive view controllers, rigidity, fragility
 
 # High-level Design
+## Functional and non-functional requirements
+* Preformance
+* Responsiveness
+* Offline functionality
+* Watch
+* Security
+* Avaliability
+
 ## Break out services i..e
 * Network
 * Login
@@ -36,10 +44,6 @@ That is, does this App:
 * Does the App have a medium-to-large codebase worked on by many people
 
 Only the Specific application context can answer these questions.
-
-Modularisation:
-* Services separated out from the main Application
-* 
 
 [Images/SystemDesignRedux.png](Images/SystemDesignRedux.png)<br>
 
@@ -111,12 +115,12 @@ That is, does this App:
 
 Only the Specific application context can answer these questions. Do you really need to update the state over time?
 
-[Images/SystemDesignRedux.png](DeleteImages/SystemDesignRedux.png)<br>
+![Images/SystemDesignRedux.png](DeleteImages/SystemDesignRedux.png)<br>
 
 ## System Design 2: MVVM-C
 Want to separate UI and business logic
 
-[Images/SystemDesign.png](DeleteImages/SystemDesign.png)<br>
+![Images/SystemDesign.png](DeleteImages/SystemDesign.png)<br>
 
 MVVM-C or viper? MVVM provides less clearly defined responsibilities compared to VIPER. However, in VIPER we have layers with their own responsibilities which are perhaps less flexible.
 If your project is long-term with well-defined requirements then VIPER may be a good option due to the clear separation of concerns. However, confusing communication 
