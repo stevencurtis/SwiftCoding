@@ -131,6 +131,8 @@ Realm - Cross-compatibility with Android. Consistency across threads. Faster.
 Build time (modularisation)
 Depolyment scalability
 Testing
+Pagination, as all the data does not need to be downloaded at once
+Throttling for pull to refresh
 Traffic spikes - caching, CDN, server-side caching
 Image sizes
 Memory restrictions
@@ -147,3 +149,63 @@ Firewall after CDN to prevent bots, ip banning.
 Can deploy to a Kubernetes Cluster with Amazon EKS. Kubernetes means it is easy to provide containerized services. Can use autoscaling or predicitive scaling. 
 
 Memcache is faster than redis as multi-threaded. Memchache limited data structures, and limited key-value size (1MB whereas Redis is 512MB). Memcache has clustering support, REDIS does not have native clustering support (need REDIS Sentinal for that). 
+
+
+
+
+# Questions
+## Image caching
+Using NSCache
+
+ Place in an extension of UIImage
+
+```swift
+var imageCache = NSCache<AnyObject, AnyObject>()
+
+extension UIImageView {
+
+    func loadImage(urlString: String) {
+        
+        if let cacheImage = imageCache.object(forKey: urlString as AnyObject) as? UIImage {
+            self.image = cacheImage
+            return
+        }
+        
+        guard let url = URL(string: urlString) else { return }
+        
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let error = error {
+                print("Couldn't download image: ", error)
+                return
+            }
+            
+            guard let data = data else { return }
+            let image = UIImage(data: data)
+            imageCache.setObject(image, forKey: urlString as AnyObject)
+            
+            DispatchQueue.main.async {
+                self.image = image
+            }
+        }.resume()
+
+    }
+}
+```
+
+```
+private var anyNetworkManager: AnyNetworkManager<URLSession>?
+
+func test<T: NetworkManagerProtocol>(networkManager: T) {
+    self.anyNetworkManager = AnyNetworkManager(manager: networkManager)
+}
+
+
+
+let networkManager = AnyNetworkManager<URLSession>()
+networkManager.fetch(url: <#T##URL#>, method: <#T##HTTPMethod#>, completionBlock: <#T##(Result<Data, Error>) -> Void#>)
+```
+
+`private var anyNetworkManager: AnyNetworkManager<URLSession>`
+`init<T: NetworkManagerProtocol>(networkManager: T) {
+    self.anyNetworkManager = AnyNetworkManager(manager: networkManager)
+}`
