@@ -154,3 +154,18 @@ class Solution {
     }
 }
 ```
+
+
+## Go through list
+```swift
+func matchBeans(users: [User]) -> [Match] {
+    var matches: [Match] = []
+    let users = users.sorted{ $0.team > $1.team }
+    for i in 0..<users.count / 2 {
+        print(i, users.count - i - 1)
+        let match = Match(first: users[i], second: users[users.count - i - 1])
+        matches.append(match)
+    }
+    return matches
+}
+```
