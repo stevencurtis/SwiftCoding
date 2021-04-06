@@ -20,8 +20,10 @@ with 5MBs 5Tb/s since 1 million & 5M b/S
 4 requests per second is 300,000 a day or 10 million a month
 https://lazycpm.com/qps-calculator/
 
-If 
-
+ios 14(2020+) - to 6S
+ios 13 (2019+) - to 6S
+iOS 12 (2018+) - to 5S 
+iOS 11 (2017+) - to 5S 
 
 Writes are more expensive than reads
 Architect for scaling writes
