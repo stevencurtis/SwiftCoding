@@ -99,6 +99,9 @@ This gives a further abstraction, if the pagination model changes in the future 
 
 ![Images/apidesign.png](DeleteImages/apidesign.png)<br>
 
+## Notifications
+Use a notification manager
+
 ## OO Design
 Class vs. Struct
 Protocols
@@ -108,5 +111,8 @@ Codable
 Could use Combine for bindings
 Reusability for functions using generics (store different data in a data structure, observables and sets)
 Reusable components
+
+
+![Images/socketapi.png](DeleteImages/architecture.png)<br>
 
 
