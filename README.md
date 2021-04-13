@@ -81,6 +81,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [WOOT! Supercharge Result Type using Swift's get()](https://github.com/stevencurtis/SwiftCoding/tree/master/ReturnSuccessOfThrowingWithGet)<br>
 [What is intrinsicContentSize Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSizeBasic)<br>
 [Containing Child View Controllers for iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/ChildViewControllers)<br>
+[Lazy Loading images](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyLoadImages)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
