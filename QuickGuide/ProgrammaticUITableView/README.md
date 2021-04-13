@@ -110,7 +110,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
 You can use the keyboard shortcut `⌘ + R` to run the project in the simulator, and see the `UITableView` instance displayed on the screen.
 
 # Conclusion
-A UITableView is an essential part of UIKit, and this guide should help you see how the project might work. Feel free to change the `UITableView` data - that is the `String` instances stored in the `people` array to whatever you like!
+A `UITableView` is an essential part of UIKit, and this guide should help you see how the project might work. Feel free to change the `UITableView` data - that is the `String` instances stored in the `people` array to whatever you like!
 
 Many people choose not to use a storyboard in their project, and that is fine (they often do this to have projects that are easy for many developers to work on at the same time
 

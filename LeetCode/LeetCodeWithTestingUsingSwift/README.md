@@ -50,7 +50,7 @@ You can then click the + icon to add a new target, which is going to be our test
 
 ![addtarget.png](Images/addtarget.png)<br/>
 
-We then add a Unit Test Bundke, here I've made that easier by searching for test. 
+We then add a Unit Test Bundle, here I've made that easier by searching for test. 
 
 ![unittestbundle.png](Images/unittestbundle.png)<br/>
 

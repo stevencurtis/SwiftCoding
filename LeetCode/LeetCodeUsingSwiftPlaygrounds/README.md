@@ -6,7 +6,7 @@ But why don't I use Playgrounds?
 
 The main reason is understanding what setup is required. This article is here to explain how to setup playgrounds, and guide you through the process. 
 
-The supporting video is @ [https://youtu.be/-LdOFoqnpkU](https://youtu.be/-LdOFoqnpkU).
+The supporting video is @[https://youtu.be/-LdOFoqnpkU](https://youtu.be/-LdOFoqnpkU).
 
 # Setting up Playgrounds
 In order to use testing in Playgrounds, we need to `import XCTest` and create a class that conforms to the `XCTestCase` protocol, and then run `className.defaultTestSuite.run()`. 
