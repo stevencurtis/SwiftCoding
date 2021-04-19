@@ -82,6 +82,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [What is intrinsicContentSize Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSizeBasic)<br>
 [Containing Child View Controllers for iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/ChildViewControllers)<br>
 [Lazy Loading images](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyLoadImages)<br>
+[Sorting Dictionaries](https://github.com/stevencurtis/SwiftCoding/tree/master/SortADictionary)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
