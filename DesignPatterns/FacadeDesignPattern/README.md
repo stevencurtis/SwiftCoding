@@ -19,7 +19,7 @@ The Façade Design Pattern: An object that masks complex or underlying (perhaps 
 # The Façade Pattern in Swift
 If you wish to obfuscate complex code it can provide an interface that masks that complexity. In other words, the façade design pattern can make your code better (and in particular it can make your code easier to read).
 
-In the real world we see the word façade used in architecture, and on a film set many of hte buildings are a façade as there isn't a real building. In other building projects a façade of an older building which hides the modern building underneath. An example of this is shown in the following image:  
+In the real world we see the word façade used in architecture, and on a film set many of the buildings are a façade as there isn't a real building. In other building projects a façade of an older building which hides the modern building underneath. An example of this is shown in the following image:  
 
 [image from I, Olahus1](1024px-Facadism_in_bucharest.jpg)
 
