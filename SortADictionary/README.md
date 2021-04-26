@@ -7,7 +7,6 @@
 Difficulty: Beginner | **Easy** | Normal | Challenging<br/>
 This article has been developed using Xcode 12.4, and Swift 5.3.2
 
-
 ## Prerequisites: 
 * You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) in Swift, or use [Playgrounds](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089) to do the same
 * You can see my previous article about [Swift's dictionaries](https://stevenpcurtis.medium.com/dictionary-in-swift-52b14d6cfa93)

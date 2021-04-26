@@ -83,6 +83,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Containing Child View Controllers for iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/ChildViewControllers)<br>
 [Lazy Loading images](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyLoadImages)<br>
 [Sorting Dictionaries](https://github.com/stevencurtis/SwiftCoding/tree/master/SortADictionary)<br>
+[https://github.com/stevencurtis/SwiftCoding/tree/master/SeparatorLinesForUITableViewCellStyle](https://github.com/stevencurtis/SwiftCoding/tree/master/SeparatorLinesForUITableViewCellStyle)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
