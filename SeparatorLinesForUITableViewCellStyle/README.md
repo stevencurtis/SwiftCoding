@@ -107,7 +107,7 @@ extension ViewController: UITableViewDataSource {
 # That looks great!
 ## But what about...The images do not appear
 
-![Images/New Project-7.png]("Images/img1.png")<br>
+![Images/New Project-7.png]("https://github.com/stevencurtis/SwiftCoding/blob/master/SeparatorLinesForUITableViewCellStyle/Images/img1.png")<br>
 
 These images do not appear! This is because `cell.imageView` is optional, and the asynchronous nature of downloading an image to the ImageView does not hold a reference to the ImageView for sufficient time until the image is downloaded. The solution? Use a placeholder image:
 
@@ -119,7 +119,7 @@ where I've used a placeholder image in the asset catalogue.
 
 ## But what about...The separator lines
 
-![Images/NewProject-7.png]("Images/img2.png")<br>
+![Images/NewProject-7.png]("https://github.com/stevencurtis/SwiftCoding/blob/master/SeparatorLinesForUITableViewCellStyle/Images/img2.png")<br>
 
 the separator lines do not fill the whole screen. However, this is an easy fix!
 
