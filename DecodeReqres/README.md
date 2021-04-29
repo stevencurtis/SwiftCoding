@@ -134,7 +134,7 @@ override func viewDidAppear(_ animated: Bool) {
 
         }
     }
-    viewModel.downloadFiles()
+    viewModel.download()
 }
 ```
 
@@ -219,7 +219,7 @@ class ViewController: UIViewController {
 
             }
         }
-        viewModel.downloadFiles()
+        viewModel.download()
     }
 
     func setupConstraints() {
@@ -254,7 +254,7 @@ class ViewController: UIViewController {
 class ViewModel {
     var completion: ((Users) -> Void)?
 
-    func downloadFiles() {
+    func download() {
         guard let url = URL(string: "https://reqres.in/api/users?page=2") else {return}
         let task = URLSession.shared.dataTask(with: url, completionHandler: { [weak self] data, response, _ in
             guard let data = data,

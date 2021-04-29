@@ -40,7 +40,7 @@ class ViewController: UIViewController {
 
             }
         }
-        viewModel.downloadFiles()
+        viewModel.download()
     }
     
     func setupConstraints() {

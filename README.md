@@ -151,6 +151,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create your own backend while developing a Favourites Section](https://github.com/stevencurtis/SwiftCoding/tree/master/FavouriteProjectsSection)<br>
 [Handle TimeStamps](https://github.com/stevencurtis/SwiftCoding/tree/master/HandleTimestampsFromYourBackend)<br>
 [DispatchGroups to group API calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DispatchGroup)<br>
+[THIS is how to store money and currency using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Money)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
