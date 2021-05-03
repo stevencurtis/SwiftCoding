@@ -153,6 +153,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [DispatchGroups to group API calls in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DispatchGroup)<br>
 [THIS is how to store money and currency using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Money)<br>
 [Create a CurrencyField in SwiftUI (MINUS UIKit)](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/CurrencyField)<br>
+[Using Type-Safe Identifiers in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Identifiers)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>

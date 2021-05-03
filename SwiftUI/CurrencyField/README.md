@@ -1,7 +1,7 @@
 # Create a CurrencyField in SwiftUI (Don't wrap!)
 ## There is no need to wrap a UIKit element
 
-[Images/demo.gif](Images/demo.gif)
+![Images/demo.gif](Images/demo.gif)
 
 # Before we start
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
