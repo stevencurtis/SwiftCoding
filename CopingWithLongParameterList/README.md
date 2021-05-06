@@ -5,6 +5,8 @@
 Difficulty: Beginner | **Easy** | Normal | Challenging<br>
 This article has been developed using Xcode 12.2, and Swift 5.3
 
+There is an accompanying YouTube video @[link](https://youtu.be/pJIwdLlLHwE))
+
 ## Prerequisites
 * You'll need to either be able to write [an iOS application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71) or write some Swift code in [Playgrounds](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089)
 

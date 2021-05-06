@@ -4,13 +4,13 @@
 ![](Images/photo-1559548331-f9cb98001426.jpeg)<br/>
 <sub>Photo by kyryll ushakov on Unsplash <sub>
 
-#Terminology:
+# Terminology:
 State: The particular condition that the App is in at a specific time
 
-#Prerequisites:
+# Prerequisites:
 - You will be expected to be aware how to make a [Single View Application](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71)
 
-#The user-case
+# The user-case
 We've all been there. You're filling out your details for a shopping expedition on the new yoursupermarket App that you've just downloaded - you need more sponges for your "condition" and some vanilla powder for a cake. 
 
 Then…you see a squirrel run by. This has to be shared with the world!
@@ -23,16 +23,16 @@ This is the most awful thing that has happened ever. This is awful! Who do you t
 
 In steps `State Preservation` and `Restoration`.
 
-
-#The App
+# The App
 This App is going to feature a list of items that can be added to your basket using *yoursupermarket*. Awesome.
 
+# The iOS 12 Version
 ## Removing the Scene Delegate
 1. Remove the Scene delegate methods from `AppDelegate` and delete the Scene delegate file
 2. Remove `UIApplicationSceneManifest` from the `Info.plist`
 3. Add var `window:UIWindow?` in the `AppDelegate`
 
-# Appp Dekegate
+# App Delegate
 In the App delegate we can opt-in to the ApplicationState restore and save.
 
 ```swift 
@@ -45,9 +45,7 @@ func application(_ application: UIApplication, shouldRestoreApplicationState cod
 ```
 
 ## Assign a restoration id
-In the storyboard we can add a restoration id:
-
-`tablerestoration` which can alternatively be set in the Storyboard
+In the storyboard we can add a restoration id: `tablerestoration` 
 
 ![restorationidstoryboard](Images/restorationidstoryboard.png)
 
@@ -75,6 +73,67 @@ Want the entire code? I can do that for you:
 
 ![mvccode](Images/mvccode.png)
 
+# The iOS 13 Version
+## Removing the Scene Delegate
+1. Remove the Scene delegate methods from `AppDelegate` and delete the Scene delegate file
+2. Remove `UIApplicationSceneManifest` from the `Info.plist`
+3. Add var `window:UIWindow?` in the `AppDelegate`
+
+## restoration ID
+In the storyboard we can add a restoration id:
+
+`tablerestoration` which can be set in the Storyboard
+
+![restorationidstoryboard](Images/restorationidstoryboard.png)
+
+This is for the `UIViewController`
+
+## The AppDelegate
+We replace the AppDelegate functions with the following:
+
+```swift
+var window: UIWindow?
+
+func application(_ application: UIApplication, willFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        return true
+    }
+    
+    func application(_ application: UIApplication, shouldRestoreSecureApplicationState coder: NSCoder) -> Bool {
+        return true
+    }
+    func application(_ application: UIApplication, shouldSaveSecureApplicationState coder: NSCoder) -> Bool {
+        return true
+    }
+    
+    func application(_ application: UIApplication, viewControllerWithRestorationIdentifierPath identifierComponents: [String], coder: NSCoder) -> UIViewController? {
+        return coder.decodeObject(forKey: "Restoration ID") as? UIViewController
+        
+    }
+    func application(_ application: UIApplication, didDecodeRestorableStateWith coder: NSCoder) {
+        UIApplication.shared.extendStateRestoration()
+        DispatchQueue.main.async {
+            UIApplication.shared.completeStateRestoration()
+        }
+    }
+```
+
+## View Controller
+Within the ViewController I'm storing the tableView.contentOffset with the following:
+
+```swift
+override func encodeRestorableState(with coder: NSCoder) {
+    super.encodeRestorableState(with: coder)
+    coder.encode(tableView?.contentOffset.y, forKey: "tableView.contentOffset.y")
+}
+
+override func decodeRestorableState(with coder: NSCoder) {
+    super.decodeRestorableState(with: coder)
+    if let tableViewY = coder.decodeObject(forKey: "tableView.contentOffset.y") as? CGFloat {
+        tableView?.contentOffset.y = tableViewY
+    }
+}
+```
+
 # Testing
 Simply sending the App to the background is insufficient to test whether the Application state has been saved correctly (the order of the following is important):
 - Launch the App in the simulator and make changes to the App in order to create a state. In the example above, the tableview can be scrolled and a cell selected
@@ -90,6 +149,7 @@ Want customer delight? You'll have to do better!
 
 # Conclusion
 Saving the state of an application is important for that user experience. In order to give your user that great experience it is a good idea to implement state preservation - it certainly isn't too difficult and could well give your App that edge over the competition.
+
 Note: This is the iOS12 way of doing things, and you may run into issues if you are going to do this persistence on iOS13 or using iPADOS. The solution? [Apple have you covered](https://medium.com/r/?url=https%3A%2F%2Fdeveloper.apple.com%2Fdocumentation%2Fuikit%2Fuiviewcontroller%2Frestoring_your_app_s_state).
 I hope this article has been of help to you, and you can see the code from this is included in the attached [Repo](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fstevencurtis%2FSwiftCoding%2Ftree%2Fmaster%2FAlamofireNetworking) to get the whole lot in one go!
 
