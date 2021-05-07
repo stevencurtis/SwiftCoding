@@ -155,7 +155,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [THIS is how to store money and currency using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Money)<br>
 [Create a CurrencyField in SwiftUI (MINUS UIKit)](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/CurrencyField)<br>
 [Using Type-Safe Identifiers in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Identifiers)<br>
-[Create Instagram's Pinch to Zoom using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Identifiers)<br>
+[Create Instagram's Pinch to Zoom using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PinchInstagram)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
