@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol DelegationHTTPDelegate: class {
+protocol DelegationHTTPDelegate: AnyObject {
     func didDownloadBreaches(_ data: Data) // called when the manager has completed downloading all the breaches
 }
 

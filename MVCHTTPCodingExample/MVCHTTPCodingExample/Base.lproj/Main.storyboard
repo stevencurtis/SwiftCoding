@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FfV-1x-PFA">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FfV-1x-PFA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Tightly coupled-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HTTPOutsideViewController" customModule="MVCHTTPCodingExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tightly coupled" id="BYZ-38-t0r" customClass="HTTPOutsideViewController" customModule="MVCHTTPCodingExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,12 +20,12 @@
                                 <rect key="frame" x="0.0" y="76" width="414" height="71"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TightlyCoupledHTTPManager - Unable to work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lR-5z-u2r">
-                                        <rect key="frame" x="27.5" y="0.0" width="359" height="20.5"/>
+                                        <rect key="frame" x="28.5" y="0.0" width="357" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="755-3d-t2X">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="755-3d-t2X">
                                         <rect key="frame" x="141.5" y="20.5" width="131" height="30"/>
                                         <state key="normal" title="Download from API"/>
                                         <connections>
@@ -35,7 +33,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data items downloaded : 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLa-jI-Zn2">
-                                        <rect key="frame" x="105" y="50.5" width="204" height="20.5"/>
+                                        <rect key="frame" x="105.5" y="50.5" width="203" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -43,15 +41,15 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ggc-NV-8hH" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="PxL-I0-R6c"/>
                             <constraint firstItem="ggc-NV-8hH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WQ9-RJ-5Nh"/>
                             <constraint firstItem="ggc-NV-8hH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="u0r-yM-NdA"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="qEg-Mb-bxa"/>
+                    <tabBarItem key="tabBarItem" title="Tightly Coupled" id="qEg-Mb-bxa"/>
                     <connections>
                         <outlet property="dataDownloadedLabel" destination="aLa-jI-Zn2" id="gnw-PW-dvj"/>
                     </connections>
@@ -60,7 +58,7 @@
             </objects>
             <point key="canvasLocation" x="1004" y="396"/>
         </scene>
-        <!--Item-->
+        <!--Delegate-->
         <scene sceneID="VUP-1b-gwq">
             <objects>
                 <viewController id="gs3-PZ-UML" customClass="HTTPDelegateViewController" customModule="MVCHTTPCodingExample" customModuleProvider="target" sceneMemberID="viewController">
@@ -72,12 +70,12 @@
                                 <rect key="frame" x="0.0" y="76" width="414" height="71"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DelegateHTTPManager" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pj1-8r-K1F">
-                                        <rect key="frame" x="117.5" y="0.0" width="179.5" height="20.5"/>
+                                        <rect key="frame" x="118" y="0.0" width="178.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01d-DQ-ceE">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01d-DQ-ceE">
                                         <rect key="frame" x="141.5" y="20.5" width="131" height="30"/>
                                         <state key="normal" title="Download from API"/>
                                         <connections>
@@ -85,7 +83,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data items downloaded : 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjw-uN-0bt">
-                                        <rect key="frame" x="105" y="50.5" width="204" height="20.5"/>
+                                        <rect key="frame" x="105.5" y="50.5" width="203" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -93,15 +91,15 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="ICN-pA-0cR"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="5Wh-0f-sE3" firstAttribute="top" secondItem="ICN-pA-0cR" secondAttribute="top" constant="32" id="Qqv-yK-5CU"/>
                             <constraint firstItem="5Wh-0f-sE3" firstAttribute="centerX" secondItem="ICN-pA-0cR" secondAttribute="centerX" id="YJb-KG-u31"/>
                             <constraint firstItem="5Wh-0f-sE3" firstAttribute="width" secondItem="ICN-pA-0cR" secondAttribute="width" id="gQC-oE-a62"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ICN-pA-0cR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="FT4-ZV-99X"/>
+                    <tabBarItem key="tabBarItem" title="Delegate" id="FT4-ZV-99X"/>
                     <connections>
                         <outlet property="dataDownloadedLabel" destination="sjw-uN-0bt" id="pes-U6-3P2"/>
                     </connections>
@@ -110,7 +108,7 @@
             </objects>
             <point key="canvasLocation" x="1005" y="1083"/>
         </scene>
-        <!--Item-->
+        <!--Closures-->
         <scene sceneID="udo-oy-9gp">
             <objects>
                 <viewController id="fms-NE-qmw" customClass="HTTPClosuresViewController" customModule="MVCHTTPCodingExample" customModuleProvider="target" sceneMemberID="viewController">
@@ -122,12 +120,12 @@
                                 <rect key="frame" x="0.0" y="76" width="414" height="71"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ClosuresHTTPManager" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLw-J9-ZCO">
-                                        <rect key="frame" x="118" y="0.0" width="178" height="20.5"/>
+                                        <rect key="frame" x="118.5" y="0.0" width="177.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ta9-M5-UCG">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ta9-M5-UCG">
                                         <rect key="frame" x="141.5" y="20.5" width="131" height="30"/>
                                         <state key="normal" title="Download from API"/>
                                         <connections>
@@ -135,7 +133,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data items downloaded : 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlI-mK-v2E">
-                                        <rect key="frame" x="105" y="50.5" width="204" height="20.5"/>
+                                        <rect key="frame" x="105.5" y="50.5" width="203" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -143,15 +141,15 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="yBq-tT-3SD"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yBq-tT-3SD" firstAttribute="top" secondItem="qXp-nN-W51" secondAttribute="top" constant="-32" id="79K-A1-iya"/>
                             <constraint firstItem="qXp-nN-W51" firstAttribute="centerX" secondItem="yBq-tT-3SD" secondAttribute="centerX" id="7Xg-CS-CNq"/>
                             <constraint firstItem="qXp-nN-W51" firstAttribute="width" secondItem="yBq-tT-3SD" secondAttribute="width" id="LTd-PG-6dG"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="yBq-tT-3SD"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="9ZU-8M-q8I"/>
+                    <tabBarItem key="tabBarItem" title="Closures" id="9ZU-8M-q8I"/>
                     <connections>
                         <outlet property="dataDownloadedLabel" destination="vlI-mK-v2E" id="Xm0-v4-bmu"/>
                     </connections>
@@ -166,6 +164,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="FfV-1x-PFA" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GZ0-c9-N1r">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -192,12 +191,12 @@
                                 <rect key="frame" x="0.0" y="76" width="414" height="71"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API in VC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCj-Fw-tuR">
-                                        <rect key="frame" x="172" y="0.0" width="70.5" height="20.5"/>
+                                        <rect key="frame" x="172" y="0.0" width="70" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deT-bH-bJE">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deT-bH-bJE">
                                         <rect key="frame" x="141.5" y="20.5" width="131" height="30"/>
                                         <state key="normal" title="Download from API"/>
                                         <connections>
@@ -205,7 +204,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data items downloaded : 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSm-GB-jTR">
-                                        <rect key="frame" x="105" y="50.5" width="204" height="20.5"/>
+                                        <rect key="frame" x="105.5" y="50.5" width="203" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -213,13 +212,13 @@
                                 </subviews>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="QEh-mE-Dtk"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hW4-EM-sIs" firstAttribute="centerX" secondItem="QEh-mE-Dtk" secondAttribute="centerX" id="43Z-g8-9cG"/>
                             <constraint firstItem="hW4-EM-sIs" firstAttribute="top" secondItem="QEh-mE-Dtk" secondAttribute="top" constant="32" id="VHR-g1-g17"/>
                             <constraint firstItem="hW4-EM-sIs" firstAttribute="width" secondItem="yfu-HF-jWS" secondAttribute="width" id="cd2-GH-EHC"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="QEh-mE-Dtk"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="API in VC" id="8rN-uc-971"/>
                     <connections>
