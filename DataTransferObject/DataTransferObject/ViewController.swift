@@ -16,7 +16,6 @@ struct ToDo: Codable {
 }
 
 class ViewController: UIViewController {
-    
     let url = URL(string: "https://jsonplaceholder.typicode.com/todos/1")
     var anm: AnyNetworkManager<URLSession>?
     
@@ -34,10 +33,6 @@ class ViewController: UIViewController {
             case .failure:
                 print ("failure")
             }
-            
         })
     }
-
-
 }
-
