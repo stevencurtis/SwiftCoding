@@ -28,14 +28,8 @@ class HTTPDelegateViewController: UIViewController {
     
     @IBAction func downloadAPIAction(_ sender: UIButton) {
         DelegationHTTPManager.shared.delegate = self
-        DelegationHTTPManager.shared.get(urlString: "https://haveibeenpwned.com/api/v2" + "/breaches")
+        DelegationHTTPManager.shared.get(urlString: baseUrl + "/breaches")
     }
-    //    @IBAction func downloadAPIAction(_ sender: UIButton) {
-//        DelegationHTTPManager.shared.delegate = self
-//        DelegationHTTPManager.shared.get(urlString: "https://haveibeenpwned.com/api/v2" + "/breaches")
-//    }
-
-    
 }
 
 extension HTTPDelegateViewController : DelegationHTTPDelegate {

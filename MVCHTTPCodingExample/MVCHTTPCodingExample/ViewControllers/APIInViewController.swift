@@ -9,9 +9,6 @@
 import UIKit
 
 class APIInViewController: UIViewController {
-    let baseUrl : String = "https://haveibeenpwned.com/api/v2"
-    let breachesExtensionURL : String = "/breaches"
-
     @IBOutlet weak var dataDownloadedLabel: UILabel!
     
     var dataDownloaded = 0 {

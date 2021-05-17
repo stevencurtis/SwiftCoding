@@ -40,7 +40,7 @@ class HTTPNotificationViewController: UIViewController {
     }
     
     @IBAction func downloadAPIAction(_ sender: UIButton) {
-        NotificationHTTPManager.shared.get(urlString: "https://haveibeenpwned.com/api/v2" + "/breaches")
+        NotificationHTTPManager.shared.get(urlString: baseUrl + "/breaches")
     }
     
 }
