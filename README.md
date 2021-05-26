@@ -161,6 +161,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create an Image Carousel Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ImagesCarousel)<br>
 [iTerm](https://github.com/stevencurtis/SwiftCoding/tree/master/iTerm2)<br>
 [The MVP Architecture for iOS](https://github.com/stevencurtis/SwiftCoding/tree/master/MVP)<br>
+[Pass The Swift Code Review: Dictionary Edition](https://github.com/stevencurtis/SwiftCoding/tree/master/DictionaryDictionaries)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
