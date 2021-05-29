@@ -86,6 +86,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Sorting Dictionaries](https://github.com/stevencurtis/SwiftCoding/tree/master/SortADictionary)<br>
 [Fix Those Annoying Separator Lines in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SeparatorLinesForUITableViewCellStyle)<br>
 [Coping with a long parameter list in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CopingWithLongParameterList)<br>
+[Why Do We Call Super When Making iPhone Apps?](https://github.com/stevencurtis/SwiftCoding/tree/master/CallSuper)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
