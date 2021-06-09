@@ -88,6 +88,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Fix Those Annoying Separator Lines in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SeparatorLinesForUITableViewCellStyle)<br>
 [Coping with a long parameter list in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CopingWithLongParameterList)<br>
 [Why Do We Call Super When Making iPhone Apps?](https://github.com/stevencurtis/SwiftCoding/tree/master/CallSuper)<br>
+[Why Use LayoutSubviews Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/WhyUseLayoutSubviews)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -165,6 +166,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The MVP Architecture for iOS](https://github.com/stevencurtis/SwiftCoding/tree/master/MVP)<br>
 [Pass The Swift Code Review: Dictionary Edition](https://github.com/stevencurtis/SwiftCoding/tree/master/DictionaryDictionaries)<br>
 [Play Video in a UICollectionView](https://github.com/stevencurtis/SwiftCoding/tree/master/VideoUICollectionView)<br>
+[Using SwiftUI Views with UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HostingController)<br>
+
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
