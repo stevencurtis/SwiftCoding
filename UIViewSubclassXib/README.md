@@ -63,7 +63,7 @@ Then we select the **File's Owner** in the top-left hand corner of the view
 We then select the **File's Owner** as our new `SubclassedView` 
 ![FilesOwner](Images/SelectSubclassedView.png)<br/>
 
-#### The basic  code for the view
+#### The basic code for the view
 The file `SubclassedView.swift` file needs some minimal code to get us going. What does it look like? It's something like<br/>
 ![subclassedinitialcode](Images/subclassedinitialcode.png)<br/>
 Ok, actually exactly like that.
