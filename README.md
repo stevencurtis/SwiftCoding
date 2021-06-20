@@ -169,7 +169,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Play Video in a UICollectionView](https://github.com/stevencurtis/SwiftCoding/tree/master/VideoUICollectionView)<br>
 [Using SwiftUI Views with UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/HostingController)<br>
 [The MVP iOS Architecture with Coordinators](https://github.com/stevencurtis/SwiftCoding/tree/master/MVPCoordinators)<br>
-
+[Reuse a UITableViewCell as a UIView](https://github.com/stevencurtis/SwiftCoding/tree/master/ReusableUITableViewCellUIImage)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>

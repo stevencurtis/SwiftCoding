@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileView" customModule="ReusableUITableViewCellUIImage" customModuleProvider="target">
+            <connections>
+                <outlet property="chevronImageView" destination="dbv-6p-719" id="RKC-Ti-HYy"/>
+                <outlet property="circularImageView" destination="ZiR-R6-oWl" id="rRh-9L-VU5"/>
+                <outlet property="nameLabel" destination="y9V-yg-Ttr" id="Fy8-Rj-ofk"/>
+                <outlet property="profileView" destination="iN0-l3-epB" id="Xa1-Mn-d2Y"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="111"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9V-yg-Ttr">
+                    <rect key="frame" x="111" y="67.5" width="32.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZiR-R6-oWl" customClass="CircularView" customModule="ReusableUITableViewCellUIImage" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="111" height="111"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ZiR-R6-oWl" secondAttribute="height" multiplier="1:1" id="Lak-oM-yNY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbv-6p-719" customClass="UIImageView">
+                    <rect key="frame" x="286" y="0.0" width="100" height="111"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="JXh-JX-h9i"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ZiR-R6-oWl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1NC-hf-Wh1"/>
+                <constraint firstItem="ZiR-R6-oWl" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="2fK-Zn-Gds"/>
+                <constraint firstItem="y9V-yg-Ttr" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="FJI-Tk-UbE"/>
+                <constraint firstItem="y9V-yg-Ttr" firstAttribute="leading" secondItem="ZiR-R6-oWl" secondAttribute="trailing" id="GIf-LJ-4Yb"/>
+                <constraint firstItem="dbv-6p-719" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="KRs-jf-BWa"/>
+                <constraint firstItem="ZiR-R6-oWl" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Weo-M0-b13"/>
+                <constraint firstItem="dbv-6p-719" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="px3-tS-l2M"/>
+                <constraint firstItem="dbv-6p-719" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wtg-ED-3P6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-140.57971014492756" y="-213.28125"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

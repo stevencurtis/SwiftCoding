@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="101" id="KGk-i7-Jjw" customClass="ProfileTableViewCell" customModule="ReusableUITableViewCellUIImage" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLV-Uk-DUQ">
+                        <rect key="frame" x="144" y="40.5" width="32.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhO-KJ-GzN" customClass="CircularView" customModule="ReusableUITableViewCellUIImage" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="144" height="101"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="144" id="D0i-b5-n7f"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZdP-Z0-J0u" customClass="UIImageView">
+                        <rect key="frame" x="286" y="0.0" width="100" height="101"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="0tR-yn-7Jv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fhO-KJ-GzN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0Ao-v5-Wvf"/>
+                    <constraint firstAttribute="trailing" secondItem="ZdP-Z0-J0u" secondAttribute="trailing" id="Ce2-tr-Mgt"/>
+                    <constraint firstItem="wLV-Uk-DUQ" firstAttribute="leading" secondItem="fhO-KJ-GzN" secondAttribute="trailing" id="E2I-tG-JfJ"/>
+                    <constraint firstAttribute="bottom" secondItem="ZdP-Z0-J0u" secondAttribute="bottom" id="Ksf-xh-UGM"/>
+                    <constraint firstAttribute="bottom" secondItem="fhO-KJ-GzN" secondAttribute="bottom" id="apc-uf-fnX"/>
+                    <constraint firstItem="ZdP-Z0-J0u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bL7-ko-opH"/>
+                    <constraint firstItem="fhO-KJ-GzN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hxJ-hN-Ow8"/>
+                    <constraint firstItem="fhO-KJ-GzN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rg0-J3-aoh"/>
+                    <constraint firstItem="fhO-KJ-GzN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="suC-Bm-KbY"/>
+                    <constraint firstItem="wLV-Uk-DUQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wph-xR-Da8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="chevronImageView" destination="ZdP-Z0-J0u" id="Qcx-lB-cBs"/>
+                <outlet property="circularImageView" destination="fhO-KJ-GzN" id="y5I-hM-zX5"/>
+                <outlet property="nameLabel" destination="wLV-Uk-DUQ" id="olh-si-UJp"/>
+            </connections>
+            <point key="canvasLocation" x="159.42028985507247" y="82.03125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
