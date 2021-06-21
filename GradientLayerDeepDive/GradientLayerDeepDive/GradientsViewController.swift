@@ -37,7 +37,6 @@ class GradientsViewController: UIViewController {
     }
     
     @IBOutlet weak var endpointLabel: UILabel!
-
     
     @IBAction func endpointXValue(_ sender: UISlider) {
         endPoint = Point.custom(point: CGPoint(x: CGFloat(sender.value), y: endPoint.point.y))
