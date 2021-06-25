@@ -41,6 +41,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Remainder Operator](https://github.com/stevencurtis/SwiftCoding/tree/master/RemainderMod)<br>
 [Divide and Conquer Algorithms Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DivideConquerAlgorithms)<br>
 [The Inspector Bar in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/XcodeBarInspector)<br>
+[Create UISteppers in Swift (Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/StepperApp)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
