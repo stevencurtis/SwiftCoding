@@ -8,9 +8,7 @@
 import Foundation
 
 class ViewModel {
-    init() {
-        
-    }
+    init() { }
     
     func retrieveUsers(from url: URL) async throws -> Users {
         let session = URLSession.shared
@@ -19,5 +17,4 @@ class ViewModel {
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         return try decoder.decode(Users.self, from: data)
     }
-    
 }
