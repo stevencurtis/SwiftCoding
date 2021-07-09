@@ -42,6 +42,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Divide and Conquer Algorithms Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DivideConquerAlgorithms)<br>
 [The Inspector Bar in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/XcodeBarInspector)<br>
 [Create UISteppers in Swift (Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/StepperApp)<br>
+[All Your Outlets Should Be Private](https://github.com/stevencurtis/SwiftCoding/tree/master/OutletsShouldBePrivate)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -92,7 +93,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Why Do We Call Super When Making iPhone Apps?](https://github.com/stevencurtis/SwiftCoding/tree/master/CallSuper)<br>
 [Why Use LayoutSubviews Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/WhyUseLayoutSubviews)<br>
 [Subclass or Extend classes in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SubclassOrExtend)<br>
-[Copy-On-Write](https://github.com/stevencurtis/SwiftCoding/tree/master/CopyOnWrite)
+[Copy-On-Write](https://github.com/stevencurtis/SwiftCoding/tree/master/CopyOnWrite)<br>
+[Can You Write Pure Functions in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/PureFunctions)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
