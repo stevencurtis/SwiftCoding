@@ -95,6 +95,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Subclass or Extend classes in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SubclassOrExtend)<br>
 [Copy-On-Write](https://github.com/stevencurtis/SwiftCoding/tree/master/CopyOnWrite)<br>
 [Can You Write Pure Functions in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/PureFunctions)<br>
+[Decode JSON Like A PRO](https://github.com/stevencurtis/SwiftCoding/tree/master/NestedCodableArray)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
