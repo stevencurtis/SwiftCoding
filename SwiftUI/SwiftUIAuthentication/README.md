@@ -9,7 +9,7 @@ This article has been developed using Xcode 12.4, and Swift 5.3.2
 You know what, I've previously had a fun old time creating a [Tip calculator](https://stevenpcurtis.medium.com/create-a-swiftui-tip-calculator-cf57c1441dd9) in `SwiftUI`. Yes, there are some points for improvements (thanks all commenters on all my articles).
 
 ## Keywords and Terminology
-SwiftUI: An
+SwiftUI: A simple way to build user interfaces across Apple platforms
 ObservableObject: A type of object with a publisher that emits before the object has changed
 
 ## Prerequisites:

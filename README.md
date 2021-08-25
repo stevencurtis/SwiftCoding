@@ -179,6 +179,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Implement a Service-Oriented Architecture in Swift 5](https://github.com/stevencurtis/SwiftCoding/tree/master/ServiceOrientedArchitecture)<br>
 [SwiftUI Authentication](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/SwiftUIAuthentication)<br>
 [Implement Optional Protocol Methods in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/OptionalProtocolMethods)<br>
+[Idempotence](https://github.com/stevencurtis/SwiftCoding/tree/master/Idempotence)
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
