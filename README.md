@@ -96,6 +96,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Copy-On-Write](https://github.com/stevencurtis/SwiftCoding/tree/master/CopyOnWrite)<br>
 [Can You Write Pure Functions in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/PureFunctions)<br>
 [Decode JSON Like A PRO](https://github.com/stevencurtis/SwiftCoding/tree/master/NestedCodableArrays)<br>
+[View Tags](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewTags)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
