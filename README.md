@@ -97,6 +97,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Can You Write Pure Functions in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/PureFunctions)<br>
 [Decode JSON Like A PRO](https://github.com/stevencurtis/SwiftCoding/tree/master/NestedCodableArrays)<br>
 [View Tags](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewTags)<br>
+[Create a Custom UIAlertView in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomAlertView)<br>
+[Multiple Initializers](https://github.com/stevencurtis/SwiftCoding/tree/master/MultipleInitializers)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
