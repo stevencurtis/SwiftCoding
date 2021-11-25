@@ -43,6 +43,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Inspector Bar in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/XcodeBarInspector)<br>
 [Create UISteppers in Swift (Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/StepperApp)<br>
 [All Your Outlets Should Be Private](https://github.com/stevencurtis/SwiftCoding/tree/master/OutletsShouldBePrivate)<br>
+[Use SwiftUI Previews in UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/PreviewsUIKit)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
