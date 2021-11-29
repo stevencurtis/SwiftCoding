@@ -101,6 +101,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create a Custom UIAlertView in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomAlertView)<br>
 [Multiple Initializers](https://github.com/stevencurtis/SwiftCoding/tree/master/MultipleInitializers)<br>
 [A Basic UISearchViewController (Swift Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/BasicSearchController)<br>
+[Stop SPAMMING your API from a UISearchController](https://github.com/stevencurtis/SwiftCoding/tree/master/UISearchControllerAPI)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
