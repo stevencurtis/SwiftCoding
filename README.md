@@ -102,6 +102,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Multiple Initializers](https://github.com/stevencurtis/SwiftCoding/tree/master/MultipleInitializers)<br>
 [A Basic UISearchViewController (Swift Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/BasicSearchController)<br>
 [Stop SPAMMING your API from a UISearchController](https://github.com/stevencurtis/SwiftCoding/tree/master/UISearchControllerAPI)<br>
+[Views shouldn't know about threads](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewsThreads)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
