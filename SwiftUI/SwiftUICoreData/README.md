@@ -7,17 +7,18 @@
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 12, and Swift 5.3
 
-#Creating a Core Data SwiftUI project
+# Creating a Core Data SwiftUI project
 In order to develop a new `SwiftUI` project that uses Core Data you will need to open Xcode, perhaps press ⌘n but certainly remember to press the rather friendly Core Data tick box.
 ![Create Project](Images/CreateProject.png)<br/>
 
-# The approach
-I have been [a cheerleader for a modular Core Data Approach](https://medium.com/@stevenpcurtis.sc/core-data-basics-testing-39d127380680) - this means that it should be trestable. Apple have created their Core Data template, and this seems to suggest that the Core Data reaches right into the views in SwiftUI.
+# The Approach
+I have been [a cheerleader for a modular Core Data Approach](https://medium.com/@stevenpcurtis.sc/core-data-basics-testing-39d127380680) - this means that it should be testable. Apple have created their Core Data template, and this seems to suggest that the Core Data reaches right into the views in SwiftUI.
 
 To that? I say there must be a testable way. However, I'm still going to use the `Persistence.swift` file (so this article may age badly as the template changes.
 
 ## The Tests
-These tests are in no way complete. In fact, testing saving and the number of objects we have after that operation isn't ideal. However, this is a basis of how we might test a DataManager module and we can test that in a modular fashion. 
+These tests are in no way complete. In fact, testing saving and the number of objects we have after that operation isn't ideal. However, this is a basis of how we might test a `DataManager` module and we can test that in a modular fashion.
+ 
 ```swift
 class DataManagerTests: XCTestCase {
     var storeCordinator: NSPersistentStoreCoordinator!
