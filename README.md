@@ -104,6 +104,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Stop SPAMMING your API from a UISearchController](https://github.com/stevencurtis/SwiftCoding/tree/master/UISearchControllerAPI)<br>
 [Views shouldn't know about threads](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewsThreads)<br>
 [The UIPickerView Guide (Swift Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/Pickers)<br>
+[SwiftUI Property Wrappers](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/PropertyWrappers/)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
