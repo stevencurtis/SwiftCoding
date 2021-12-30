@@ -226,6 +226,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Favor composition over inheritance — in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/CompositionOverInheritence)<br>
 [Tries](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Trie)<br>
 [LinkedLists](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/LinkedList)<br>
+[KVO vs NotificationCenter](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/KVOvsNotificationCenter)<br>
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
