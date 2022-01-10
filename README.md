@@ -44,6 +44,10 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create UISteppers in Swift (Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/StepperApp)<br>
 [All Your Outlets Should Be Private](https://github.com/stevencurtis/SwiftCoding/tree/master/OutletsShouldBePrivate)<br>
 [Use SwiftUI Previews in UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/PreviewsUIKit)<br>
+[My Computer Can't Count](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftCannotAdd)<br>
+[Connect Storyboard Objects to Code](https://github.com/stevencurtis/SwiftCoding/tree/master/StoryboardOutlets)<br>
+[Use Swift Package Manager to Add Dependencies](https://github.com/stevencurtis/SwiftCoding/tree/master/AFNetworkingPM)<br>
+[Which Way is Up? Normalized Coordinates in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NormalizedCoordinates)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -105,6 +109,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Views shouldn't know about threads](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewsThreads)<br>
 [The UIPickerView Guide (Swift Tutorial)](https://github.com/stevencurtis/SwiftCoding/tree/master/Pickers)<br>
 [SwiftUI Property Wrappers](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/PropertyWrappers/)<br>
+[A Mixed Economy: Xib and Storyboards](https://github.com/stevencurtis/SwiftCoding/tree/master/XibAndStoryboard)<br>
+[A Gradient Layer Below a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/UITableViewBackground)<br>
+[I've finally mastered Case Let](https://github.com/stevencurtis/SwiftCoding/tree/master/CaseLetSingle)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -190,6 +197,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Implement Optional Protocol Methods in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/OptionalProtocolMethods)<br>
 [Idempotence](https://github.com/stevencurtis/SwiftCoding/tree/master/Idempotence)<br>
 [Pass Parameters in Tap Gestures](https://github.com/stevencurtis/SwiftCoding/tree/master/PassParameterTapGesture)<br>
+[A Screaming Architecture for iOS Projects](https://github.com/stevencurtis/SwiftCoding/tree/master/ScreamingArchitecture)<br>
+[Public Getters and Private Setters in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PublicGetterPrivateSetter)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -197,6 +206,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Track My Movement: A RxSwift Project](https://github.com/stevencurtis/SwiftCoding/tree/master/TrackMyMovement)<br>
 [Secure iOS Apps Through App Pinning](https://github.com/stevencurtis/SwiftCoding/tree/master/SecureiOSAppsthroughAppPinning)<br>
 [Create Flexible Components in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ComponentsViewModel)<br>
+[Animate Swift's button labels](https://github.com/stevencurtis/SwiftCoding/tree/master/AnimateButtonLabel)<br>)
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
