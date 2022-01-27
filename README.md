@@ -48,6 +48,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Connect Storyboard Objects to Code](https://github.com/stevencurtis/SwiftCoding/tree/master/StoryboardOutlets)<br>
 [Use Swift Package Manager to Add Dependencies](https://github.com/stevencurtis/SwiftCoding/tree/master/AFNetworkingPM)<br>
 [Which Way is Up? Normalized Coordinates in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NormalizedCoordinates)<br>
+[Swift Helper Functions](https://github.com/stevencurtis/SwiftCoding/tree/master/StaticFunctionClass)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
