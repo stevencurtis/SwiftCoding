@@ -201,6 +201,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [A Screaming Architecture for iOS Projects](https://github.com/stevencurtis/SwiftCoding/tree/master/ScreamingArchitecture)<br>
 [Public Getters and Private Setters in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PublicGetterPrivateSetter)<br>
 [Bézier Path and Curves Using Core Graphics](https://github.com/stevencurtis/SwiftCoding/tree/master/BezierPathShapeLayers)<br>
+[Why do we ever need to inherit from NSObject?](https://github.com/stevencurtis/SwiftCoding/tree/master/NSObject)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
