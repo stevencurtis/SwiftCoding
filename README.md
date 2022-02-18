@@ -113,6 +113,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [A Mixed Economy: Xib and Storyboards](https://github.com/stevencurtis/SwiftCoding/tree/master/XibAndStoryboard)<br>
 [A Gradient Layer Below a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/UITableViewBackground)<br>
 [I've finally mastered Case Let](https://github.com/stevencurtis/SwiftCoding/tree/master/CaseLetSingle)<br>
+[Radians Are Useful In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RadiansSwift)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
