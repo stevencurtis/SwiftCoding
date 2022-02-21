@@ -114,6 +114,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [A Gradient Layer Below a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/UITableViewBackground)<br>
 [I've finally mastered Case Let](https://github.com/stevencurtis/SwiftCoding/tree/master/CaseLetSingle)<br>
 [Radians Are Useful In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RadiansSwift)<br>
+[Practical Reference Cycles in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RetainCycles)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
