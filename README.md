@@ -115,6 +115,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [I've finally mastered Case Let](https://github.com/stevencurtis/SwiftCoding/tree/master/CaseLetSingle)<br>
 [Radians Are Useful In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RadiansSwift)<br>
 [Practical Reference Cycles in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RetainCycles)<br>
+[What is the @Published Property Wrapper?](https://github.com/stevencurtis/SwiftCoding/tree/master/WhatIsPropertyWrapper)<br>
+[Retain Cycles and Memory Management in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/TheoreticalRetainCycles)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
