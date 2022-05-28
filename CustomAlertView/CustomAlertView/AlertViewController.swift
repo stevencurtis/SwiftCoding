@@ -62,8 +62,8 @@ extension AlertViewController {
         
         let newFrame = CGRect(x: 0, y: 0, width: window.frame.width, height: window
             .frame.height)
-        self.view.frame = newFrame
-        window.addSubview(self.view)
+        view.frame = newFrame
+        window.addSubview(view)
     }
 }
 
