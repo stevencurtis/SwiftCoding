@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     
     var alert: AlertViewController?
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }

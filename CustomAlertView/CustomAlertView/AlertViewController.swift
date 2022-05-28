@@ -26,11 +26,11 @@ class AlertViewController: UIViewController {
     
     @IBAction func OKButtonPressed(_ sender: UIButton) {
         delegate?.textValue(textFieldValue: inputTextView.text ?? "")
-        self.view.removeFromSuperview()
+        view.removeFromSuperview()
     }
     
     @IBAction func cancelButtonPressed(_ sender: UIButton) {
-        self.view.removeFromSuperview()
+        view.removeFromSuperview()
     }
     
     override func viewDidLoad() {
