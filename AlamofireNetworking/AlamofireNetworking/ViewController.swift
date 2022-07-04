@@ -14,20 +14,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let session = Session.default
         let router: APIRouter = JSONPlaceHolderAPIAction.getToDo(id: 8)
-        downloadData(NetworkManager(session: session, router: router), completion: {response in
+        downladData(NetworkManager(session: session, router: router), completion: { response in
             switch response {
-            case .success(let data):
+            case let .success(data):
                 let decoder = JSONDecoder.init()
                 let user = try! decoder.decode(ToDoModel.self, from: data)
                 print (user)
-            case.failure:
-                print ("error")
+            case let .failure(error):
                 // the error should be handled here
+                break
             }
         })
     }
     
-    func downloadData(
+    func downladData(
         _ networkManager: NetworkManagerProtocol,
         completion: @escaping (Result<Data, AFError>) -> Void) {
         networkManager.get(completionBlock: { response in
