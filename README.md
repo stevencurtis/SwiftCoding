@@ -209,6 +209,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Bézier Path and Curves Using Core Graphics](https://github.com/stevencurtis/SwiftCoding/tree/master/BezierPathShapeLayers)<br>
 [Why do we ever need to inherit from NSObject?](https://github.com/stevencurtis/SwiftCoding/tree/master/NSObject)<br>
 [What Is The Difference Between The Liskov Substitution Principle and Dependency Inversion Principle?](https://github.com/stevencurtis/SwiftCoding/tree/master/LiskovSubsitutionDependencyInversion)<br>
+[Animate UIViewController Transitions with UIViewControllerAnimatedTransitioning](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewControllerAnimatedTransitioning)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
