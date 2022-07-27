@@ -211,6 +211,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [What Is The Difference Between The Liskov Substitution Principle and Dependency Inversion Principle?](https://github.com/stevencurtis/SwiftCoding/tree/master/LiskovSubsitutionDependencyInversion)<br>
 [Animate UIViewController Transitions with UIViewControllerAnimatedTransitioning](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewControllerAnimatedTransitioning)<br>
 [Snapshot Testing In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SnapshotTesting)<br>
+[Dynamically Change Fonts for your User (Dynamic type iOS)](https://github.com/stevencurtis/SwiftCoding/tree/master/DynamicType)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
