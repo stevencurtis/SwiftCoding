@@ -6,8 +6,8 @@
 //  Copyright © 2020 Steven Curtis. All rights reserved.
 //
 
-import UIKit
 import NetworkLibrary
+import UIKit
 
 extension UIImageView {
     func downloadImageFrom(with url: URL, contentMode: UIView.ContentMode) {

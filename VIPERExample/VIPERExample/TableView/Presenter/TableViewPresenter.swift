@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol TableViewPresenterProtocol: class {
+protocol TableViewPresenterProtocol: AnyObject {
     func moveToDetail(indexPath: IndexPath)
     func loadData()
     func dataDidFetch(photos: [Photo])
