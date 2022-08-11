@@ -212,6 +212,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Animate UIViewController Transitions with UIViewControllerAnimatedTransitioning](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewControllerAnimatedTransitioning)<br>
 [Snapshot Testing In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SnapshotTesting)<br>
 [Dynamically Change Fonts for your User (Dynamic type iOS)](https://github.com/stevencurtis/SwiftCoding/tree/master/DynamicType)<br>
+[Method Dispatch in Swift Protocols and Inheritance](https://github.com/stevencurtis/SwiftCoding/tree/master/AccessMemory)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
