@@ -47,7 +47,7 @@ Which prints something* like the following:
 2. Ensure that view process by thread is selected
 3. See CFRunLoopRun
 
-![images/RunLoopDebug.png](images/RunLoopDebug.png)
+![Images/RunLoopDebug.png](Images/RunLoopDebug.png)
 
 ## The Process
 Each thread can have a RunLoop. Apple’s [OS_dispatch_queue_main](https://developer.apple.com/documentation/dispatch/os_dispatch_queue_main) is set up for serial tasks on the main thread, and is the only dispatch queue that has a `RunLoop`.
@@ -72,7 +72,7 @@ This brings us to the common issues programmers have with timers and iOS. It's w
 
 If you ignore the rather ugly red background of the following video you'll see that ONE of the `UITableViewCell` displayed in the `UITableView` updates even when the `UITableView` is pulled downwards.
 
-![images/out.gif](images/out.gif)
+![Images/out.gif](Images/out.gif)
 
 The difference is to add the timer to a specific runloop `.common` being a, well common mode for timers and observers.
 In the following example the first `Timer` kicks off `fireTimer` and the inventively named `timerUpdate` does the same for `timerUpdate`.
