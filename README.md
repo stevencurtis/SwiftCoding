@@ -91,6 +91,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [CleanUITableViewControllers](https://github.com/stevencurtis/SwiftCoding/tree/master/CleanUITableViewControllers)<br>
 [WOOT! Supercharge Result Type using Swift's get()](https://github.com/stevencurtis/SwiftCoding/tree/master/ReturnSuccessOfThrowingWithGet)<br>
 [What is intrinsicContentSize Anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSizeBasic)<br>
+[Intrinsic Content Size: Swift's Sizing Mystery](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSizeExample)<br>
 [Containing Child View Controllers for iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/ChildViewControllers)<br>
 [Lazy Loading images](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyLoadImages)<br>
 [Sorting Dictionaries](https://github.com/stevencurtis/SwiftCoding/tree/master/SortADictionary)<br>
