@@ -226,6 +226,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Function Currying (and Uncurrying) in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/FunctionCurrying)<br>
 [Monad, Functor and Applicative Swift Functions](https://github.com/stevencurtis/SwiftCoding/tree/master/MonadFunctorApplicative)<br>
 [Make All Your Swift UIKit Views a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewsUITableView)<br>
+[Swift Swizzling](https://github.com/stevencurtis/SwiftCoding/tree/master/Swizzling)<br>
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>

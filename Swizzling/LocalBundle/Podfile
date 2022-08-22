@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LocalBundle' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Lokalise', '~> 0.10.0'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'FlexLayout'
+
+  # Pods for LocalBundle
+
+  target 'LocalBundleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LocalBundleUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
