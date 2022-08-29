@@ -19,25 +19,25 @@ An entity represents an activity, concept, event, object, person, place or thing
 
 The diagram represents a relationship between *two* of the entities 
 
-[Images/ward.png](Images/ward.png)<br>
+![Images/ward.png](Images/ward.png)<br>
 
 Note that Entity names are singular, and the relationship is represented by the association between the two entities. In the case of the ward and patient, note that there is a *one-to-many* relationship between the two. 
 
-[Images/relationship.png](Images/relationship.png)<br>
+![Images/relationship.png](Images/relationship.png)<br>
 
 We can express the relationship between the entities as the degree between the two.
 
 This degree can be represented as one of the following:
 
-[Images/degree.png](Images/degree.png)<br>
+![Images/degree.png](Images/degree.png)<br>
 
 Now a particular entity, in this example a Ward, has a number of *attributes*.
 
-[Images/attributes.png](Images/attributes.png)<br>
+![Images/attributes.png](Images/attributes.png)<br>
 
 The *WardName* is the identifier for the entity Ward, and is underlined to make this clear in the diagram. An entity identifier can either be a singular attribute of a combination of attributes that have sufficient data to uniquely identify an instance or an occurrence of the entity.
 
-[Images/table.png](Images/table.png)<br>
+![Images/table.png](Images/table.png)<br>
 
 Each row in the table represents an occurrence of the entity Ward.
 
@@ -45,20 +45,20 @@ Now it makes sense that there are a number of Patient Entities on the Ward.
 
 The connection between the entities is through a connection line. We can represent this as a connection line
 
-[Images/tablelink.png](Images/tablelink.png)<br>
+![Images/tablelink.png](Images/tablelink.png)<br>
 
 The PatientID is the identifier for the entity Patient.
 
 Here is how the Patient is represented (the PatientID)
 
-[Images/patient.png](Images/patient.png)<br>
+![Images/patient.png](Images/patient.png)<br>
 
 # The Rules
 When a One-to-Many relationship exists between two entities, the equivalent relations are created by incorporating a copy of the entity identifier on the one-side entity to the entity on the many side.
 
 Before turning entities into relations any many-to-many relationship must be replaced by two one-to-many relations.
 
-[Images/rules.png](Images/rules.png)<br>
+![Images/rules.png](Images/rules.png)<br>
 
 Here an extra entity has been included, `C` which at the minimum will include entity identifiers from entities `A` and `B`.
 
@@ -72,7 +72,7 @@ A relational database is a collection of tables, and models relationships (for e
 
 In the above example, a Patient must be modified to be turned into a relation since there needs to be a relationship between the two tables.
 
-[Images/foreignkey.png](Images/foreignkey.png)<br>
+![Images/foreignkey.png](Images/foreignkey.png)<br>
 
 Essentially what has happened here is we have imported a Foreign Key into the Patient Entity. A foreign key is "foreign" to the entity, because it is the primary key in another entity. 
 
