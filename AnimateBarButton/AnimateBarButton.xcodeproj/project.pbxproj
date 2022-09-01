@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7C628325795A17005AF5B7 /* CustomBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C628225795A17005AF5B7 /* CustomBarButtonItem.swift */; };
+		CAD4E8F92576A3A1006E7DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4E8F82576A3A1006E7DAA /* AppDelegate.swift */; };
+		CAD4E8FB2576A3A1006E7DAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4E8FA2576A3A1006E7DAA /* SceneDelegate.swift */; };
+		CAD4E8FD2576A3A1006E7DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4E8FC2576A3A1006E7DAA /* ViewController.swift */; };
+		CAD4E9002576A3A1006E7DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD4E8FE2576A3A1006E7DAA /* Main.storyboard */; };
+		CAD4E9022576A3A4006E7DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD4E9012576A3A4006E7DAA /* Assets.xcassets */; };
+		CAD4E9052576A3A4006E7DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD4E9032576A3A4006E7DAA /* LaunchScreen.storyboard */; };
+		CAD4E9102576A3A4006E7DAA /* AnimateBarButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4E90F2576A3A4006E7DAA /* AnimateBarButtonTests.swift */; };
+		CAD4E91B2576A3A5006E7DAA /* AnimateBarButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4E91A2576A3A5006E7DAA /* AnimateBarButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD4E90C2576A3A4006E7DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD4E8ED2576A3A1006E7DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD4E8F42576A3A1006E7DAA;
+			remoteInfo = AnimateBarButton;
+		};
+		CAD4E9172576A3A5006E7DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD4E8ED2576A3A1006E7DAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD4E8F42576A3A1006E7DAA;
+			remoteInfo = AnimateBarButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA7C628225795A17005AF5B7 /* CustomBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarButtonItem.swift; sourceTree = "<group>"; };
+		CAD4E8F52576A3A1006E7DAA /* AnimateBarButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateBarButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD4E8F82576A3A1006E7DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD4E8FA2576A3A1006E7DAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAD4E8FC2576A3A1006E7DAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD4E8FF2576A3A1006E7DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD4E9012576A3A4006E7DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD4E9042576A3A4006E7DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD4E9062576A3A4006E7DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD4E90B2576A3A4006E7DAA /* AnimateBarButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimateBarButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD4E90F2576A3A4006E7DAA /* AnimateBarButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateBarButtonTests.swift; sourceTree = "<group>"; };
+		CAD4E9112576A3A4006E7DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD4E9162576A3A5006E7DAA /* AnimateBarButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimateBarButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD4E91A2576A3A5006E7DAA /* AnimateBarButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateBarButtonUITests.swift; sourceTree = "<group>"; };
+		CAD4E91C2576A3A5006E7DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD4E8F22576A3A1006E7DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD4E9082576A3A4006E7DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD4E9132576A3A5006E7DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD4E8EC2576A3A1006E7DAA = {
+			isa = PBXGroup;
+			children = (
+				CAD4E8F72576A3A1006E7DAA /* AnimateBarButton */,
+				CAD4E90E2576A3A4006E7DAA /* AnimateBarButtonTests */,
+				CAD4E9192576A3A5006E7DAA /* AnimateBarButtonUITests */,
+				CAD4E8F62576A3A1006E7DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD4E8F62576A3A1006E7DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD4E8F52576A3A1006E7DAA /* AnimateBarButton.app */,
+				CAD4E90B2576A3A4006E7DAA /* AnimateBarButtonTests.xctest */,
+				CAD4E9162576A3A5006E7DAA /* AnimateBarButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD4E8F72576A3A1006E7DAA /* AnimateBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				CAD4E8F82576A3A1006E7DAA /* AppDelegate.swift */,
+				CAD4E8FA2576A3A1006E7DAA /* SceneDelegate.swift */,
+				CAD4E8FC2576A3A1006E7DAA /* ViewController.swift */,
+				CA7C628225795A17005AF5B7 /* CustomBarButtonItem.swift */,
+				CAD4E8FE2576A3A1006E7DAA /* Main.storyboard */,
+				CAD4E9012576A3A4006E7DAA /* Assets.xcassets */,
+				CAD4E9032576A3A4006E7DAA /* LaunchScreen.storyboard */,
+				CAD4E9062576A3A4006E7DAA /* Info.plist */,
+			);
+			path = AnimateBarButton;
+			sourceTree = "<group>";
+		};
+		CAD4E90E2576A3A4006E7DAA /* AnimateBarButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD4E90F2576A3A4006E7DAA /* AnimateBarButtonTests.swift */,
+				CAD4E9112576A3A4006E7DAA /* Info.plist */,
+			);
+			path = AnimateBarButtonTests;
+			sourceTree = "<group>";
+		};
+		CAD4E9192576A3A5006E7DAA /* AnimateBarButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD4E91A2576A3A5006E7DAA /* AnimateBarButtonUITests.swift */,
+				CAD4E91C2576A3A5006E7DAA /* Info.plist */,
+			);
+			path = AnimateBarButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD4E8F42576A3A1006E7DAA /* AnimateBarButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD4E91F2576A3A5006E7DAA /* Build configuration list for PBXNativeTarget "AnimateBarButton" */;
+			buildPhases = (
+				CAD4E8F12576A3A1006E7DAA /* Sources */,
+				CAD4E8F22576A3A1006E7DAA /* Frameworks */,
+				CAD4E8F32576A3A1006E7DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimateBarButton;
+			productName = AnimateBarButton;
+			productReference = CAD4E8F52576A3A1006E7DAA /* AnimateBarButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD4E90A2576A3A4006E7DAA /* AnimateBarButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD4E9222576A3A5006E7DAA /* Build configuration list for PBXNativeTarget "AnimateBarButtonTests" */;
+			buildPhases = (
+				CAD4E9072576A3A4006E7DAA /* Sources */,
+				CAD4E9082576A3A4006E7DAA /* Frameworks */,
+				CAD4E9092576A3A4006E7DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD4E90D2576A3A4006E7DAA /* PBXTargetDependency */,
+			);
+			name = AnimateBarButtonTests;
+			productName = AnimateBarButtonTests;
+			productReference = CAD4E90B2576A3A4006E7DAA /* AnimateBarButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD4E9152576A3A5006E7DAA /* AnimateBarButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD4E9252576A3A5006E7DAA /* Build configuration list for PBXNativeTarget "AnimateBarButtonUITests" */;
+			buildPhases = (
+				CAD4E9122576A3A5006E7DAA /* Sources */,
+				CAD4E9132576A3A5006E7DAA /* Frameworks */,
+				CAD4E9142576A3A5006E7DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD4E9182576A3A5006E7DAA /* PBXTargetDependency */,
+			);
+			name = AnimateBarButtonUITests;
+			productName = AnimateBarButtonUITests;
+			productReference = CAD4E9162576A3A5006E7DAA /* AnimateBarButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD4E8ED2576A3A1006E7DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CAD4E8F42576A3A1006E7DAA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CAD4E90A2576A3A4006E7DAA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CAD4E8F42576A3A1006E7DAA;
+					};
+					CAD4E9152576A3A5006E7DAA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CAD4E8F42576A3A1006E7DAA;
+					};
+				};
+			};
+			buildConfigurationList = CAD4E8F02576A3A1006E7DAA /* Build configuration list for PBXProject "AnimateBarButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD4E8EC2576A3A1006E7DAA;
+			productRefGroup = CAD4E8F62576A3A1006E7DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD4E8F42576A3A1006E7DAA /* AnimateBarButton */,
+				CAD4E90A2576A3A4006E7DAA /* AnimateBarButtonTests */,
+				CAD4E9152576A3A5006E7DAA /* AnimateBarButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD4E8F32576A3A1006E7DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD4E9052576A3A4006E7DAA /* LaunchScreen.storyboard in Resources */,
+				CAD4E9022576A3A4006E7DAA /* Assets.xcassets in Resources */,
+				CAD4E9002576A3A1006E7DAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD4E9092576A3A4006E7DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD4E9142576A3A5006E7DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD4E8F12576A3A1006E7DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD4E8FD2576A3A1006E7DAA /* ViewController.swift in Sources */,
+				CAD4E8F92576A3A1006E7DAA /* AppDelegate.swift in Sources */,
+				CAD4E8FB2576A3A1006E7DAA /* SceneDelegate.swift in Sources */,
+				CA7C628325795A17005AF5B7 /* CustomBarButtonItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD4E9072576A3A4006E7DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD4E9102576A3A4006E7DAA /* AnimateBarButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD4E9122576A3A5006E7DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD4E91B2576A3A5006E7DAA /* AnimateBarButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD4E90D2576A3A4006E7DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD4E8F42576A3A1006E7DAA /* AnimateBarButton */;
+			targetProxy = CAD4E90C2576A3A4006E7DAA /* PBXContainerItemProxy */;
+		};
+		CAD4E9182576A3A5006E7DAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD4E8F42576A3A1006E7DAA /* AnimateBarButton */;
+			targetProxy = CAD4E9172576A3A5006E7DAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD4E8FE2576A3A1006E7DAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD4E8FF2576A3A1006E7DAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD4E9032576A3A4006E7DAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD4E9042576A3A4006E7DAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD4E91D2576A3A5006E7DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD4E91E2576A3A5006E7DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD4E9202576A3A5006E7DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = AnimateBarButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.AnimateBarButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD4E9212576A3A5006E7DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = AnimateBarButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.AnimateBarButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD4E9232576A3A5006E7DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = AnimateBarButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.AnimateBarButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimateBarButton.app/AnimateBarButton";
+			};
+			name = Debug;
+		};
+		CAD4E9242576A3A5006E7DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = AnimateBarButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.AnimateBarButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimateBarButton.app/AnimateBarButton";
+			};
+			name = Release;
+		};
+		CAD4E9262576A3A5006E7DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = AnimateBarButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.AnimateBarButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimateBarButton;
+			};
+			name = Debug;
+		};
+		CAD4E9272576A3A5006E7DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = AnimateBarButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.AnimateBarButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimateBarButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD4E8F02576A3A1006E7DAA /* Build configuration list for PBXProject "AnimateBarButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD4E91D2576A3A5006E7DAA /* Debug */,
+				CAD4E91E2576A3A5006E7DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD4E91F2576A3A5006E7DAA /* Build configuration list for PBXNativeTarget "AnimateBarButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD4E9202576A3A5006E7DAA /* Debug */,
+				CAD4E9212576A3A5006E7DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD4E9222576A3A5006E7DAA /* Build configuration list for PBXNativeTarget "AnimateBarButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD4E9232576A3A5006E7DAA /* Debug */,
+				CAD4E9242576A3A5006E7DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD4E9252576A3A5006E7DAA /* Build configuration list for PBXNativeTarget "AnimateBarButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD4E9262576A3A5006E7DAA /* Debug */,
+				CAD4E9272576A3A5006E7DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD4E8ED2576A3A1006E7DAA /* Project object */;
+}
