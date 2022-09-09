@@ -14,6 +14,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [init](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/Init)<br>
 [Create a UICollectionView programmatically](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/ProgrammaticUICollectionView)<br>
 [Create a UITableViewCell programmatically](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/ProgrammaticUITableViewCell)<br>
+[Zap the SceneDelegate in iOS 12 and just use the AppDelegate](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/SceneDelegateRemoved)<br>
 
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
