@@ -219,6 +219,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [What is a RunLoop Anyway? Swift and iOS Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/RunLoop)<br>
 [Swift Swizzling](https://github.com/stevencurtis/SwiftCoding/tree/master/Swizzling)<br>
 [ERD Diagrams for Core Data in Your iOS App](https://github.com/stevencurtis/SwiftCoding/tree/master/ERDDiagram)<br>
+[Access Memory Directly in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AccessMemory)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
