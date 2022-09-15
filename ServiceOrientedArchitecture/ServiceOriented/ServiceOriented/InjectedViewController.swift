@@ -30,7 +30,6 @@ class InjectedViewController: UIViewController {
       fatalError("A view model is required")
     }
     @IBAction func downloadAction(_ sender: UIButton) {
-        print("download")
         viewModel.download()
     }
 }

@@ -10,7 +10,6 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-
 // There will be a single reducer for the App, although this can be split for code readability reasons
 // the reducer is responsible for evolving the application state based
 // on the actions it receives

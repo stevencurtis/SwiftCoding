@@ -31,7 +31,6 @@ class ViewModel: ViewModelProtocol {
     func download() {
         guard let url = URL(string: "https://reqres.in/api/users?page=2") else {return}
         anyNetworkManager?.fetch(url: url, method: .get(headers: [:], token: nil), completionBlock: {result in
-            print(result)
             switch result {
             case .failure: break
             case .success(let data):

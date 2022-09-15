@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7F8E2C2584EC500045FA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F8E2B2584EC500045FA68 /* AppDelegate.swift */; };
+		CA7F8E2E2584EC500045FA68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F8E2D2584EC500045FA68 /* SceneDelegate.swift */; };
+		CA7F8E302584EC500045FA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F8E2F2584EC500045FA68 /* ViewController.swift */; };
+		CA7F8E352584EC510045FA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7F8E342584EC510045FA68 /* Assets.xcassets */; };
+		CA7F8E382584EC510045FA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7F8E362584EC510045FA68 /* LaunchScreen.storyboard */; };
+		CA7F8E432584EC520045FA68 /* UICollectionViewCellFadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F8E422584EC520045FA68 /* UICollectionViewCellFadeTests.swift */; };
+		CA7F8E4E2584EC520045FA68 /* UICollectionViewCellFadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F8E4D2584EC520045FA68 /* UICollectionViewCellFadeUITests.swift */; };
+		CA7F8E652584ECA00045FA68 /* SubclassedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F8E642584ECA00045FA68 /* SubclassedCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA7F8E3F2584EC520045FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA7F8E202584EC500045FA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7F8E272584EC500045FA68;
+			remoteInfo = UICollectionViewCellFade;
+		};
+		CA7F8E4A2584EC520045FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA7F8E202584EC500045FA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7F8E272584EC500045FA68;
+			remoteInfo = UICollectionViewCellFade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA7F8E282584EC500045FA68 /* UICollectionViewCellFade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewCellFade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F8E2B2584EC500045FA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA7F8E2D2584EC500045FA68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA7F8E2F2584EC500045FA68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA7F8E342584EC510045FA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA7F8E372584EC510045FA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA7F8E392584EC510045FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7F8E3E2584EC520045FA68 /* UICollectionViewCellFadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewCellFadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F8E422584EC520045FA68 /* UICollectionViewCellFadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellFadeTests.swift; sourceTree = "<group>"; };
+		CA7F8E442584EC520045FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7F8E492584EC520045FA68 /* UICollectionViewCellFadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewCellFadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F8E4D2584EC520045FA68 /* UICollectionViewCellFadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellFadeUITests.swift; sourceTree = "<group>"; };
+		CA7F8E4F2584EC520045FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7F8E642584ECA00045FA68 /* SubclassedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubclassedCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA7F8E252584EC500045FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F8E3B2584EC520045FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F8E462584EC520045FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA7F8E1F2584EC500045FA68 = {
+			isa = PBXGroup;
+			children = (
+				CA7F8E2A2584EC500045FA68 /* UICollectionViewCellFade */,
+				CA7F8E412584EC520045FA68 /* UICollectionViewCellFadeTests */,
+				CA7F8E4C2584EC520045FA68 /* UICollectionViewCellFadeUITests */,
+				CA7F8E292584EC500045FA68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA7F8E292584EC500045FA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F8E282584EC500045FA68 /* UICollectionViewCellFade.app */,
+				CA7F8E3E2584EC520045FA68 /* UICollectionViewCellFadeTests.xctest */,
+				CA7F8E492584EC520045FA68 /* UICollectionViewCellFadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA7F8E2A2584EC500045FA68 /* UICollectionViewCellFade */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F8E2B2584EC500045FA68 /* AppDelegate.swift */,
+				CA7F8E2D2584EC500045FA68 /* SceneDelegate.swift */,
+				CA7F8E2F2584EC500045FA68 /* ViewController.swift */,
+				CA7F8E642584ECA00045FA68 /* SubclassedCollectionViewCell.swift */,
+				CA7F8E342584EC510045FA68 /* Assets.xcassets */,
+				CA7F8E362584EC510045FA68 /* LaunchScreen.storyboard */,
+				CA7F8E392584EC510045FA68 /* Info.plist */,
+			);
+			path = UICollectionViewCellFade;
+			sourceTree = "<group>";
+		};
+		CA7F8E412584EC520045FA68 /* UICollectionViewCellFadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F8E422584EC520045FA68 /* UICollectionViewCellFadeTests.swift */,
+				CA7F8E442584EC520045FA68 /* Info.plist */,
+			);
+			path = UICollectionViewCellFadeTests;
+			sourceTree = "<group>";
+		};
+		CA7F8E4C2584EC520045FA68 /* UICollectionViewCellFadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F8E4D2584EC520045FA68 /* UICollectionViewCellFadeUITests.swift */,
+				CA7F8E4F2584EC520045FA68 /* Info.plist */,
+			);
+			path = UICollectionViewCellFadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA7F8E272584EC500045FA68 /* UICollectionViewCellFade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7F8E522584EC520045FA68 /* Build configuration list for PBXNativeTarget "UICollectionViewCellFade" */;
+			buildPhases = (
+				CA7F8E242584EC500045FA68 /* Sources */,
+				CA7F8E252584EC500045FA68 /* Frameworks */,
+				CA7F8E262584EC500045FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICollectionViewCellFade;
+			productName = UICollectionViewCellFade;
+			productReference = CA7F8E282584EC500045FA68 /* UICollectionViewCellFade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA7F8E3D2584EC520045FA68 /* UICollectionViewCellFadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7F8E552584EC520045FA68 /* Build configuration list for PBXNativeTarget "UICollectionViewCellFadeTests" */;
+			buildPhases = (
+				CA7F8E3A2584EC520045FA68 /* Sources */,
+				CA7F8E3B2584EC520045FA68 /* Frameworks */,
+				CA7F8E3C2584EC520045FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7F8E402584EC520045FA68 /* PBXTargetDependency */,
+			);
+			name = UICollectionViewCellFadeTests;
+			productName = UICollectionViewCellFadeTests;
+			productReference = CA7F8E3E2584EC520045FA68 /* UICollectionViewCellFadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA7F8E482584EC520045FA68 /* UICollectionViewCellFadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7F8E582584EC520045FA68 /* Build configuration list for PBXNativeTarget "UICollectionViewCellFadeUITests" */;
+			buildPhases = (
+				CA7F8E452584EC520045FA68 /* Sources */,
+				CA7F8E462584EC520045FA68 /* Frameworks */,
+				CA7F8E472584EC520045FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7F8E4B2584EC520045FA68 /* PBXTargetDependency */,
+			);
+			name = UICollectionViewCellFadeUITests;
+			productName = UICollectionViewCellFadeUITests;
+			productReference = CA7F8E492584EC520045FA68 /* UICollectionViewCellFadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA7F8E202584EC500045FA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CA7F8E272584EC500045FA68 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CA7F8E3D2584EC520045FA68 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CA7F8E272584EC500045FA68;
+					};
+					CA7F8E482584EC520045FA68 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CA7F8E272584EC500045FA68;
+					};
+				};
+			};
+			buildConfigurationList = CA7F8E232584EC500045FA68 /* Build configuration list for PBXProject "UICollectionViewCellFade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA7F8E1F2584EC500045FA68;
+			productRefGroup = CA7F8E292584EC500045FA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA7F8E272584EC500045FA68 /* UICollectionViewCellFade */,
+				CA7F8E3D2584EC520045FA68 /* UICollectionViewCellFadeTests */,
+				CA7F8E482584EC520045FA68 /* UICollectionViewCellFadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA7F8E262584EC500045FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F8E382584EC510045FA68 /* LaunchScreen.storyboard in Resources */,
+				CA7F8E352584EC510045FA68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F8E3C2584EC520045FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F8E472584EC520045FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA7F8E242584EC500045FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F8E302584EC500045FA68 /* ViewController.swift in Sources */,
+				CA7F8E652584ECA00045FA68 /* SubclassedCollectionViewCell.swift in Sources */,
+				CA7F8E2C2584EC500045FA68 /* AppDelegate.swift in Sources */,
+				CA7F8E2E2584EC500045FA68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F8E3A2584EC520045FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F8E432584EC520045FA68 /* UICollectionViewCellFadeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F8E452584EC520045FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F8E4E2584EC520045FA68 /* UICollectionViewCellFadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA7F8E402584EC520045FA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7F8E272584EC500045FA68 /* UICollectionViewCellFade */;
+			targetProxy = CA7F8E3F2584EC520045FA68 /* PBXContainerItemProxy */;
+		};
+		CA7F8E4B2584EC520045FA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7F8E272584EC500045FA68 /* UICollectionViewCellFade */;
+			targetProxy = CA7F8E4A2584EC520045FA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA7F8E362584EC510045FA68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA7F8E372584EC510045FA68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA7F8E502584EC520045FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA7F8E512584EC520045FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA7F8E532584EC520045FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = UICollectionViewCellFade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.UICollectionViewCellFade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA7F8E542584EC520045FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = UICollectionViewCellFade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.UICollectionViewCellFade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA7F8E562584EC520045FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = UICollectionViewCellFadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.UICollectionViewCellFadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionViewCellFade.app/UICollectionViewCellFade";
+			};
+			name = Debug;
+		};
+		CA7F8E572584EC520045FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = UICollectionViewCellFadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.UICollectionViewCellFadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionViewCellFade.app/UICollectionViewCellFade";
+			};
+			name = Release;
+		};
+		CA7F8E592584EC520045FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = UICollectionViewCellFadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.UICollectionViewCellFadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UICollectionViewCellFade;
+			};
+			name = Debug;
+		};
+		CA7F8E5A2584EC520045FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = UICollectionViewCellFadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.UICollectionViewCellFadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UICollectionViewCellFade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA7F8E232584EC500045FA68 /* Build configuration list for PBXProject "UICollectionViewCellFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F8E502584EC520045FA68 /* Debug */,
+				CA7F8E512584EC520045FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7F8E522584EC520045FA68 /* Build configuration list for PBXNativeTarget "UICollectionViewCellFade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F8E532584EC520045FA68 /* Debug */,
+				CA7F8E542584EC520045FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7F8E552584EC520045FA68 /* Build configuration list for PBXNativeTarget "UICollectionViewCellFadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F8E562584EC520045FA68 /* Debug */,
+				CA7F8E572584EC520045FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7F8E582584EC520045FA68 /* Build configuration list for PBXNativeTarget "UICollectionViewCellFadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F8E592584EC520045FA68 /* Debug */,
+				CA7F8E5A2584EC520045FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA7F8E202584EC500045FA68 /* Project object */;
+}

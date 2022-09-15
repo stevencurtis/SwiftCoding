@@ -41,7 +41,6 @@ class ViewController: UIViewController {
         print ("simpleLabel intrinsicContentSize: \(simpleLabel.intrinsicContentSize)")
         print ("containerView frame: \(containerView.frame)")
         print ("containerView intrinsicContentSize: \(containerView.intrinsicContentSize)")
-
     }
     
     func setupConstraints() {

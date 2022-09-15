@@ -10,7 +10,7 @@ intrinsicContentSize: The natural size for the receiving view, considering only 
 ## Prerequisites:
 There aren't any, although you will need to [set up a project](https://medium.com/swlh/your-first-ios-application-using-xcode-9983cf6efb71), although you might like to read through [subclassing a UIView](https://stevenpcurtis.medium.com/subclassing-uiview-in-swift-d372c67b7f3)
 
-# What is this about?
+## What is this about?
 Each view should have an idea amount of space that will display it's content. For example a `UILabel` has a width and height that is based on the size of the text it contains. This simplifies layouts, as rather than specifying the width and height of a component we can tell Auto Layout where to display the component and Auto Layout.
 
 ## The Theory
@@ -50,13 +50,13 @@ NSLayoutConstraint.activate([
 ])
 ```
 
-print the `intrinsicContentSize` and frame of the simpleLabel:
+print the `intrinsicContentSize` and frame of the `simpleLabel`, which gives the following console output:
 ```swift
 simpleLabel frame: (111.5, 40.0, 97.5, 20.5)
 simpleLabel intrinsicContentSize: (97.5, 20.5)
 ```
 
-Now it would be tempting to think that all `UIView` subclasses have their size defined by the `intrinsicContentSize`, however that is not true. If we print out the frame and intrinsicContentSize of the view we get another couple of facts"
+Now it would be tempting to think that all `UIView` subclasses have their size defined by the `intrinsicContentSize`, however that is not true. If we print out the frame and `intrinsicContentSize` of the view we get another couple of facts:
 
 ```swift
 view frame: (0.0, 0.0, 320.0, 568.0)
@@ -118,7 +118,7 @@ containerView frame: (160.0, 80.5, 0.0, 0.0)
 containerView intrinsicContentSize: (-1.0, -1.0)
 ```
 
-a natural solution to this would be to hardcode (in this instance at least) some constraints for the width and height of the view. Unfortunately this isn't an article about constraints, so we are going to override the `intrinsicContentSize` property. That is, we are going to add the following variable to the ContainerView code:
+a natural solution to this would be to hardcode (in this instance at least) some constraints for the width and height of the view. Unfortunately this isn't an article about constraints, so we are going to override the `intrinsicContentSize` property. That is, we are going to add the following variable to the `ContainerView` code:
 
 ```swift
 override var intrinsicContentSize: CGSize {
@@ -133,11 +133,11 @@ containerView frame: (60.0, 80.5, 200.0, 300.0)
 containerView intrinsicContentSize: (200.0, 300.0)
 ```
 
-(so incidently if you se the constraints on the view you will get the same frame, but `intrinsicContentSize` would then be (-1.0, -1.0)).
+(so incidentally if you se the constraints on the view you will get the same frame, but `intrinsicContentSize` would then be (-1.0, -1.0)).
 
 
 # What about the clash?
-Auto Layout can calculate the space that a component might need based on the intrinsicContentSize property, however in some circumstances a component may have more or less height than that specified and in this case Auto Layout will use the content compression resistance property and content hugging property to resolve the layout issues appropriately.
+Auto Layout can calculate the space that a component might need based on the `intrinsicContentSize` property, however in some circumstances a component may have more or less height than that specified and in this case Auto Layout will use the content compression resistance property and content hugging property to resolve the layout issues appropriately.
 
 # What about changes to the content
 If the content size changes we can call from the outside of the class, so something like:
@@ -146,11 +146,10 @@ If the content size changes we can call from the outside of the class, so someth
 containerView.invalidateIntrinsicContentSize()
 ```
 
-Marks the `instrinsicContentSize` as changed and that the frame should be updated. 
-
+Which marks the `instrinsicContentSize` as changed and that the frame should be updated. 
 
 # Conclusion
-`instrinsicContentSize` allows you to set a size for a view accorrding to their layout. Now it does go slightly deeper than this article has covered (and that might well be an article for the future), but I hope that this article has given you some idea of this important feature of the iOS SDK.
+`instrinsicContentSize` allows you to set a size for a view according to their layout. Now it does go slightly deeper than this article has covered (and that might well be an article for the future), but I hope that this article has given you some idea of this important feature of the iOS SDK.
 
 That is: I hope this helps!
 

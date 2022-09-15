@@ -6,8 +6,8 @@
 //  Copyright © 2020 Steven Curtis. All rights reserved.
 //
 
-import UIKit
 import RxSwift
+import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var personLabel: UILabel!
@@ -32,7 +32,6 @@ class ViewController: UIViewController {
         intent?.bind(to: self)
 
         bindButton()
-        
     }
     
     func bindButton() {
