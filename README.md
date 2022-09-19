@@ -221,6 +221,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [ERD Diagrams for Core Data in Your iOS App](https://github.com/stevencurtis/SwiftCoding/tree/master/ERDDiagram)<br>
 [Access Memory Directly in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AccessMemory)<br>
 [Fade the First and Last Elements in a UICollectionView](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewCellFade)<br>
+[Dynamic Row Heights for a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/AutomaticRowHeight)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
