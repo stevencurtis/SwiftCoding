@@ -223,6 +223,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Fade the First and Last Elements in a UICollectionView](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewCellFade)<br>
 [Dynamic Row Heights for a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/AutomaticRowHeight)<br>
 [Understanding Swift's Opaque Types](https://github.com/stevencurtis/SwiftCoding/tree/master/OpaqueTypes)<br>
+[Wrap a Model View in a UINavigationController](https://github.com/stevencurtis/SwiftCoding/tree/master/ModelNavigationBar)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
