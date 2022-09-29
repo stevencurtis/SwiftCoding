@@ -122,6 +122,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Unwrap an Array of Optional Values Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ArrayOptionalValues)<br>
 [Self or self in Swift Code](https://github.com/stevencurtis/SwiftCoding/tree/master/selfOrSelf)<br>
 [Animate a Bar Button Item using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AnimateBarButton)<br>
+[Create a UIKit UISegmented Control](https://github.com/stevencurtis/SwiftCoding/tree/master/SegmentedControl)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
