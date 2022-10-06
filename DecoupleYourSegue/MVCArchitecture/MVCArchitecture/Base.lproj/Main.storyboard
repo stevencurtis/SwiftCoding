@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qTZ-CE-esR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tightly Coupled-->
+        <scene sceneID="qKX-xG-qop">
+            <objects>
+                <viewController id="VEp-e7-De8" customClass="APIInViewController" customModule="MVCArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WJL-IU-dSd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9VZ-Qf-npb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="71"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API in VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0H-SB-lFk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpN-Ko-Sov">
+                                        <rect key="frame" x="0.0" y="20.5" width="414" height="30"/>
+                                        <state key="normal" title="Download and Traverse"/>
+                                        <connections>
+                                            <action selector="apiAction:" destination="VEp-e7-De8" eventType="touchUpInside" id="kg1-Eq-iff"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data items downloaded : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0jk-1g-Vge">
+                                        <rect key="frame" x="0.0" y="50.5" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FgZ-4o-vbq"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9VZ-Qf-npb" firstAttribute="top" secondItem="FgZ-4o-vbq" secondAttribute="top" id="Gad-ix-WDc"/>
+                            <constraint firstItem="9VZ-Qf-npb" firstAttribute="leading" secondItem="FgZ-4o-vbq" secondAttribute="leading" id="y0J-zk-Zx0"/>
+                            <constraint firstItem="9VZ-Qf-npb" firstAttribute="trailing" secondItem="FgZ-4o-vbq" secondAttribute="trailing" id="yq1-Vo-X7I"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tightly Coupled" id="tCS-7i-Vb8"/>
+                    <connections>
+                        <outlet property="dataDownloadedLabel" destination="0jk-1g-Vge" id="bAI-cO-Juy"/>
+                        <segue destination="7xd-Pf-HA1" kind="showDetail" identifier="detail" id="zsF-ft-Gf7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAs-fO-8ix" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823.1884057971015" y="-1032.5892857142858"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="FQz-Yc-VOa">
+            <objects>
+                <viewController id="7xd-Pf-HA1" customClass="DetailViewController" customModule="MVCArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hLV-qx-nNM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="D5w-Pu-Ach"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJx-Kh-Yig" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="387" y="-320"/>
+        </scene>
+        <!--Other Detail View Controller-->
+        <scene sceneID="3KI-af-KhL">
+            <objects>
+                <viewController id="Mq5-H3-yqo" customClass="OtherDetailViewController" customModule="MVCArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ago-id-JvP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hIT-2w-OiG"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GYj-lw-yql" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="387" y="400"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="KtG-L8-6P7">
+            <objects>
+                <tabBarController id="qTZ-CE-esR" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RcB-3z-6LJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VEp-e7-De8" kind="relationship" relationship="viewControllers" id="rbj-0Y-24O"/>
+                        <segue destination="ntb-aT-V9F" kind="relationship" relationship="viewControllers" id="5gw-PT-3t7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95p-Y1-BgK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1930" y="-320"/>
+        </scene>
+        <!--Loosely Coupled-->
+        <scene sceneID="zHA-Pn-E2Z">
+            <objects>
+                <viewController id="ntb-aT-V9F" customClass="APIInViewControllerWithProtocol" customModule="MVCArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IcC-ZW-Tsh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="amX-h1-EYi">
+                                <rect key="frame" x="0.0" y="44" width="414" height="71"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="API in VC Protocol" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndO-RA-SCN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aeq-ag-7sr">
+                                        <rect key="frame" x="0.0" y="20.5" width="414" height="30"/>
+                                        <state key="normal" title="Download and Traverse"/>
+                                        <connections>
+                                            <action selector="apiAction:" destination="ntb-aT-V9F" eventType="touchUpInside" id="G6L-Rb-WJG"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data items downloaded : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQF-o2-G71">
+                                        <rect key="frame" x="0.0" y="50.5" width="414" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pbc-o8-xs8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="amX-h1-EYi" firstAttribute="leading" secondItem="pbc-o8-xs8" secondAttribute="leading" id="GUf-vt-kJg"/>
+                            <constraint firstItem="amX-h1-EYi" firstAttribute="trailing" secondItem="pbc-o8-xs8" secondAttribute="trailing" id="bRl-f5-AGa"/>
+                            <constraint firstItem="amX-h1-EYi" firstAttribute="top" secondItem="pbc-o8-xs8" secondAttribute="top" id="jC2-Ko-4qe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Loosely Coupled" id="qgO-1H-uPq"/>
+                    <connections>
+                        <outlet property="dataDownloadedLabel" destination="zQF-o2-G71" id="tBE-Or-wh5"/>
+                        <segue destination="Mq5-H3-yqo" kind="showDetail" identifier="detail" id="HZV-zM-TxC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AFE-cq-2na" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-777" y="-320"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
