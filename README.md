@@ -278,6 +278,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Factory Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/FactoryPattern/)<br>
 [The Façade Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/FacadeDesignPattern)<br>
 [The Adaptor Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/AdaptorDesignPattern)<br>
+[The Iterator Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/IteratorDesignPattern)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
