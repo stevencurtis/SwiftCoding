@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CABDD6712631C51C00D4A0FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDD6702631C51C00D4A0FA /* AppDelegate.swift */; };
+		CABDD6732631C51C00D4A0FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDD6722631C51C00D4A0FA /* SceneDelegate.swift */; };
+		CABDD6752631C51C00D4A0FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDD6742631C51C00D4A0FA /* ViewController.swift */; };
+		CABDD67A2631C51F00D4A0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABDD6792631C51F00D4A0FA /* Assets.xcassets */; };
+		CABDD67D2631C51F00D4A0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABDD67B2631C51F00D4A0FA /* LaunchScreen.storyboard */; };
+		CABDD6882631C51F00D4A0FA /* PostcodeLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDD6872631C51F00D4A0FA /* PostcodeLookupTests.swift */; };
+		CABDD6932631C51F00D4A0FA /* PostcodeLookupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDD6922631C51F00D4A0FA /* PostcodeLookupUITests.swift */; };
+		CABDD6A72631C55D00D4A0FA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDD6A62631C55D00D4A0FA /* ViewModel.swift */; };
+		CABDD6AD2631CDDC00D4A0FA /* NetworkLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = CABDD6AC2631CDDC00D4A0FA /* NetworkLibrary */; };
+		CAE112DC2632A95D00B9A957 /* SearchResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE112DB2632A95D00B9A957 /* SearchResultsViewModel.swift */; };
+		CAE112E42632AF8C00B9A957 /* AutoComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE112E32632AF8C00B9A957 /* AutoComplete.swift */; };
+		CAE112E92632B64A00B9A957 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE112E82632B64A00B9A957 /* SearchResultsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CABDD6842631C51F00D4A0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABDD6652631C51C00D4A0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABDD66C2631C51C00D4A0FA;
+			remoteInfo = PostcodeLookup;
+		};
+		CABDD68F2631C51F00D4A0FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CABDD6652631C51C00D4A0FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABDD66C2631C51C00D4A0FA;
+			remoteInfo = PostcodeLookup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CABDD66D2631C51C00D4A0FA /* PostcodeLookup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostcodeLookup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABDD6702631C51C00D4A0FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CABDD6722631C51C00D4A0FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CABDD6742631C51C00D4A0FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CABDD6792631C51F00D4A0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CABDD67C2631C51F00D4A0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CABDD67E2631C51F00D4A0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABDD6832631C51F00D4A0FA /* PostcodeLookupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcodeLookupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABDD6872631C51F00D4A0FA /* PostcodeLookupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcodeLookupTests.swift; sourceTree = "<group>"; };
+		CABDD6892631C51F00D4A0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABDD68E2631C51F00D4A0FA /* PostcodeLookupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcodeLookupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CABDD6922631C51F00D4A0FA /* PostcodeLookupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcodeLookupUITests.swift; sourceTree = "<group>"; };
+		CABDD6942631C51F00D4A0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABDD6A62631C55D00D4A0FA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CAE112DB2632A95D00B9A957 /* SearchResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewModel.swift; sourceTree = "<group>"; };
+		CAE112E32632AF8C00B9A957 /* AutoComplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoComplete.swift; sourceTree = "<group>"; };
+		CAE112E82632B64A00B9A957 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CABDD66A2631C51C00D4A0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDD6AD2631CDDC00D4A0FA /* NetworkLibrary in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDD6802631C51F00D4A0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDD68B2631C51F00D4A0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CABDD6642631C51C00D4A0FA = {
+			isa = PBXGroup;
+			children = (
+				CABDD66F2631C51C00D4A0FA /* PostcodeLookup */,
+				CABDD6862631C51F00D4A0FA /* PostcodeLookupTests */,
+				CABDD6912631C51F00D4A0FA /* PostcodeLookupUITests */,
+				CABDD66E2631C51C00D4A0FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CABDD66E2631C51C00D4A0FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABDD66D2631C51C00D4A0FA /* PostcodeLookup.app */,
+				CABDD6832631C51F00D4A0FA /* PostcodeLookupTests.xctest */,
+				CABDD68E2631C51F00D4A0FA /* PostcodeLookupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CABDD66F2631C51C00D4A0FA /* PostcodeLookup */ = {
+			isa = PBXGroup;
+			children = (
+				CABDD6702631C51C00D4A0FA /* AppDelegate.swift */,
+				CABDD6722631C51C00D4A0FA /* SceneDelegate.swift */,
+				CABDD6742631C51C00D4A0FA /* ViewController.swift */,
+				CABDD6A62631C55D00D4A0FA /* ViewModel.swift */,
+				CAE112E82632B64A00B9A957 /* SearchResultsController.swift */,
+				CAE112DB2632A95D00B9A957 /* SearchResultsViewModel.swift */,
+				CAE112E32632AF8C00B9A957 /* AutoComplete.swift */,
+				CABDD6792631C51F00D4A0FA /* Assets.xcassets */,
+				CABDD67B2631C51F00D4A0FA /* LaunchScreen.storyboard */,
+				CABDD67E2631C51F00D4A0FA /* Info.plist */,
+			);
+			path = PostcodeLookup;
+			sourceTree = "<group>";
+		};
+		CABDD6862631C51F00D4A0FA /* PostcodeLookupTests */ = {
+			isa = PBXGroup;
+			children = (
+				CABDD6872631C51F00D4A0FA /* PostcodeLookupTests.swift */,
+				CABDD6892631C51F00D4A0FA /* Info.plist */,
+			);
+			path = PostcodeLookupTests;
+			sourceTree = "<group>";
+		};
+		CABDD6912631C51F00D4A0FA /* PostcodeLookupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CABDD6922631C51F00D4A0FA /* PostcodeLookupUITests.swift */,
+				CABDD6942631C51F00D4A0FA /* Info.plist */,
+			);
+			path = PostcodeLookupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CABDD66C2631C51C00D4A0FA /* PostcodeLookup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABDD6972631C51F00D4A0FA /* Build configuration list for PBXNativeTarget "PostcodeLookup" */;
+			buildPhases = (
+				CABDD6692631C51C00D4A0FA /* Sources */,
+				CABDD66A2631C51C00D4A0FA /* Frameworks */,
+				CABDD66B2631C51C00D4A0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostcodeLookup;
+			packageProductDependencies = (
+				CABDD6AC2631CDDC00D4A0FA /* NetworkLibrary */,
+			);
+			productName = PostcodeLookup;
+			productReference = CABDD66D2631C51C00D4A0FA /* PostcodeLookup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CABDD6822631C51F00D4A0FA /* PostcodeLookupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABDD69A2631C51F00D4A0FA /* Build configuration list for PBXNativeTarget "PostcodeLookupTests" */;
+			buildPhases = (
+				CABDD67F2631C51F00D4A0FA /* Sources */,
+				CABDD6802631C51F00D4A0FA /* Frameworks */,
+				CABDD6812631C51F00D4A0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABDD6852631C51F00D4A0FA /* PBXTargetDependency */,
+			);
+			name = PostcodeLookupTests;
+			productName = PostcodeLookupTests;
+			productReference = CABDD6832631C51F00D4A0FA /* PostcodeLookupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CABDD68D2631C51F00D4A0FA /* PostcodeLookupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CABDD69D2631C51F00D4A0FA /* Build configuration list for PBXNativeTarget "PostcodeLookupUITests" */;
+			buildPhases = (
+				CABDD68A2631C51F00D4A0FA /* Sources */,
+				CABDD68B2631C51F00D4A0FA /* Frameworks */,
+				CABDD68C2631C51F00D4A0FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CABDD6902631C51F00D4A0FA /* PBXTargetDependency */,
+			);
+			name = PostcodeLookupUITests;
+			productName = PostcodeLookupUITests;
+			productReference = CABDD68E2631C51F00D4A0FA /* PostcodeLookupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CABDD6652631C51C00D4A0FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CABDD66C2631C51C00D4A0FA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CABDD6822631C51F00D4A0FA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CABDD66C2631C51C00D4A0FA;
+					};
+					CABDD68D2631C51F00D4A0FA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CABDD66C2631C51C00D4A0FA;
+					};
+				};
+			};
+			buildConfigurationList = CABDD6682631C51C00D4A0FA /* Build configuration list for PBXProject "PostcodeLookup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CABDD6642631C51C00D4A0FA;
+			packageReferences = (
+				CABDD6AB2631CDDB00D4A0FA /* XCRemoteSwiftPackageReference "NetworkManager" */,
+			);
+			productRefGroup = CABDD66E2631C51C00D4A0FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CABDD66C2631C51C00D4A0FA /* PostcodeLookup */,
+				CABDD6822631C51F00D4A0FA /* PostcodeLookupTests */,
+				CABDD68D2631C51F00D4A0FA /* PostcodeLookupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CABDD66B2631C51C00D4A0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDD67D2631C51F00D4A0FA /* LaunchScreen.storyboard in Resources */,
+				CABDD67A2631C51F00D4A0FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDD6812631C51F00D4A0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDD68C2631C51F00D4A0FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CABDD6692631C51C00D4A0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDD6752631C51C00D4A0FA /* ViewController.swift in Sources */,
+				CAE112E42632AF8C00B9A957 /* AutoComplete.swift in Sources */,
+				CABDD6712631C51C00D4A0FA /* AppDelegate.swift in Sources */,
+				CAE112E92632B64A00B9A957 /* SearchResultsController.swift in Sources */,
+				CABDD6A72631C55D00D4A0FA /* ViewModel.swift in Sources */,
+				CABDD6732631C51C00D4A0FA /* SceneDelegate.swift in Sources */,
+				CAE112DC2632A95D00B9A957 /* SearchResultsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDD67F2631C51F00D4A0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDD6882631C51F00D4A0FA /* PostcodeLookupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABDD68A2631C51F00D4A0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABDD6932631C51F00D4A0FA /* PostcodeLookupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CABDD6852631C51F00D4A0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABDD66C2631C51C00D4A0FA /* PostcodeLookup */;
+			targetProxy = CABDD6842631C51F00D4A0FA /* PBXContainerItemProxy */;
+		};
+		CABDD6902631C51F00D4A0FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABDD66C2631C51C00D4A0FA /* PostcodeLookup */;
+			targetProxy = CABDD68F2631C51F00D4A0FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CABDD67B2631C51F00D4A0FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CABDD67C2631C51F00D4A0FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CABDD6952631C51F00D4A0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CABDD6962631C51F00D4A0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CABDD6982631C51F00D4A0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = PostcodeLookup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.PostcodeLookup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CABDD6992631C51F00D4A0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = PostcodeLookup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.PostcodeLookup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CABDD69B2631C51F00D4A0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = PostcodeLookupTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.PostcodeLookupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostcodeLookup.app/PostcodeLookup";
+			};
+			name = Debug;
+		};
+		CABDD69C2631C51F00D4A0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = PostcodeLookupTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.PostcodeLookupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostcodeLookup.app/PostcodeLookup";
+			};
+			name = Release;
+		};
+		CABDD69E2631C51F00D4A0FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = PostcodeLookupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.PostcodeLookupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostcodeLookup;
+			};
+			name = Debug;
+		};
+		CABDD69F2631C51F00D4A0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = PostcodeLookupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.PostcodeLookupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostcodeLookup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CABDD6682631C51C00D4A0FA /* Build configuration list for PBXProject "PostcodeLookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABDD6952631C51F00D4A0FA /* Debug */,
+				CABDD6962631C51F00D4A0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABDD6972631C51F00D4A0FA /* Build configuration list for PBXNativeTarget "PostcodeLookup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABDD6982631C51F00D4A0FA /* Debug */,
+				CABDD6992631C51F00D4A0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABDD69A2631C51F00D4A0FA /* Build configuration list for PBXNativeTarget "PostcodeLookupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABDD69B2631C51F00D4A0FA /* Debug */,
+				CABDD69C2631C51F00D4A0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CABDD69D2631C51F00D4A0FA /* Build configuration list for PBXNativeTarget "PostcodeLookupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CABDD69E2631C51F00D4A0FA /* Debug */,
+				CABDD69F2631C51F00D4A0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CABDD6AB2631CDDB00D4A0FA /* XCRemoteSwiftPackageReference "NetworkManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stevencurtis/NetworkManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CABDD6AC2631CDDC00D4A0FA /* NetworkLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CABDD6AB2631CDDB00D4A0FA /* XCRemoteSwiftPackageReference "NetworkManager" */;
+			productName = NetworkLibrary;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CABDD6652631C51C00D4A0FA /* Project object */;
+}

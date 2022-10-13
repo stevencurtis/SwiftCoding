@@ -227,6 +227,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Understanding Swift's Opaque Types](https://github.com/stevencurtis/SwiftCoding/tree/master/OpaqueTypes)<br>
 [Wrap a Model View in a UINavigationController](https://github.com/stevencurtis/SwiftCoding/tree/master/ModelNavigationBar)<br>
 [Decoupling The Segue In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecoupleYourSegue)<br>
+[Lookup UK Postcodes: Can We Use A UISearchBarDelegate?](https://github.com/stevencurtis/SwiftCoding/tree/master/PostcodeLookup)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
