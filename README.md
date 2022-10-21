@@ -228,6 +228,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Wrap a Model View in a UINavigationController](https://github.com/stevencurtis/SwiftCoding/tree/master/ModelNavigationBar)<br>
 [Decoupling The Segue In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecoupleYourSegue)<br>
 [Lookup UK Postcodes: Can We Use A UISearchBarDelegate?](https://github.com/stevencurtis/SwiftCoding/tree/master/PostcodeLookup)<br>
+[Pinch to Zoom a UICollectionViewCell in a UICollectionView](https://github.com/stevencurtis/SwiftCoding/tree/master/PinchToZoomUICollectionViewCell)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
