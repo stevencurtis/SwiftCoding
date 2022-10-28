@@ -24,7 +24,7 @@ We can compare an implementation of a timer updating at 1 / 60 with an implement
 
 Spoiler:
 
-![Screenshot 2020-12-07 at 11.27.42](Images/Screenshot 2020-12-07 at 11.27.42.png)
+![result.png](Images/result.png)
 
 One of these does not work as we expected it to! Before we look at the code, we can see what we *expect* to happen with both a `Timer` and a `CADisplayLink`.
 
