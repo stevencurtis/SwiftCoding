@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimateIconClick" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sMT-Af-FIl">
+                                <rect key="frame" x="71" y="303" width="272" height="300"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yya-VS-8jG">
+                                        <rect key="frame" x="0.0" y="0.0" width="272" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In UIViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLR-t6-0rj">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="100"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RedStar" translatesAutoresizingMaskIntoConstraints="NO" id="cbA-WU-Wij">
+                                                <rect key="frame" x="172" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="J5H-aI-7jN"/>
+                                                    <constraint firstAttribute="width" constant="100" id="Uf0-N8-t4x"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kgK-Pw-ejy">
+                                        <rect key="frame" x="0.0" y="100" width="272" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIView Separate Class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1q-O7-ONX">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="100"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RedStar" translatesAutoresizingMaskIntoConstraints="NO" id="DnO-Jo-SWD" customClass="StarImageView" customModule="AnimateIconClick" customModuleProvider="target">
+                                                <rect key="frame" x="172" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="BC2-Fu-lyo"/>
+                                                    <constraint firstAttribute="height" constant="100" id="xWy-gV-EAh"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Qb-Kc-1SZ">
+                                        <rect key="frame" x="0.0" y="200" width="272" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIButton Instance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y2X-pV-d0n">
+                                                <rect key="frame" x="0.0" y="0.0" width="172" height="100"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caT-fp-nJz" customClass="StarButton" customModule="AnimateIconClick" customModuleProvider="target">
+                                                <rect key="frame" x="172" y="0.0" width="100" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="hNw-xQ-CDf"/>
+                                                    <constraint firstAttribute="width" constant="100" id="qGT-gn-5G2"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="RedStar"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animate Icon On Click" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGG-xe-5sa">
+                                <rect key="frame" x="123.5" y="44" width="167.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sMT-Af-FIl" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="4pH-E1-hVV"/>
+                            <constraint firstItem="QGG-xe-5sa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5NX-5G-Sd0"/>
+                            <constraint firstItem="sMT-Af-FIl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Jx3-FB-Eyf"/>
+                            <constraint firstItem="QGG-xe-5sa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hbd-Sl-ueL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="separateStarImage" destination="DnO-Jo-SWD" id="lNb-DF-DhH"/>
+                        <outlet property="starButton" destination="caT-fp-nJz" id="KRY-79-SI8"/>
+                        <outlet property="starImage" destination="cbA-WU-Wij" id="fts-yU-0sD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="94"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="DnO-Jo-SWD">
+            <size key="intrinsicContentSize" width="100" height="100"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="RedStar" width="100" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
