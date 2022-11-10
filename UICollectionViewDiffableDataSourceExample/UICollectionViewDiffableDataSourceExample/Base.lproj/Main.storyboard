@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TwY-ZH-BFc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="swA-8H-H58">
+            <objects>
+                <viewController id="TwY-ZH-BFc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oGI-0l-sxC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lhf-4o-Adg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QU5-Yg-GhS">
+                                        <rect key="frame" x="188.5" y="0.0" width="37" height="448"/>
+                                        <state key="normal" title="Basic"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="0eH-yG-e07"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sm-w5-kGR">
+                                        <rect key="frame" x="183" y="448" width="48" height="448"/>
+                                        <state key="normal" title="Search"/>
+                                        <connections>
+                                            <segue destination="obh-bi-xbt" kind="show" id="AmG-Po-LIP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lhf-4o-Adg" firstAttribute="trailing" secondItem="yUg-uy-NKf" secondAttribute="trailing" id="IIH-lL-Aoe"/>
+                            <constraint firstAttribute="bottom" secondItem="lhf-4o-Adg" secondAttribute="bottom" id="THO-bf-MyS"/>
+                            <constraint firstItem="lhf-4o-Adg" firstAttribute="top" secondItem="oGI-0l-sxC" secondAttribute="top" id="bFZ-kp-f0m"/>
+                            <constraint firstItem="lhf-4o-Adg" firstAttribute="leading" secondItem="yUg-uy-NKf" secondAttribute="leading" id="wMs-Aa-VLg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yUg-uy-NKf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OoS-1Z-bJ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-668.11594202898561" y="110.49107142857143"/>
+        </scene>
+        <!--Basic View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BasicViewController" customModule="UICollectionViewDiffableDataSourceExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="etm-jK-wTV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="111"/>
+        </scene>
+        <!--Searchable View Controller-->
+        <scene sceneID="HHh-Ty-ZrM">
+            <objects>
+                <viewController id="obh-bi-xbt" customClass="SearchableViewController" customModule="UICollectionViewDiffableDataSourceExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bWT-94-TSs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="i4Z-hs-dW0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IiF-Xy-HDP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Oh-Cf-lVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="842"/>
+        </scene>
+    </scenes>
+</document>

@@ -231,6 +231,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Lookup UK Postcodes: Can We Use A UISearchBarDelegate?](https://github.com/stevencurtis/SwiftCoding/tree/master/PostcodeLookup)<br>
 [Pinch to Zoom a UICollectionViewCell in a UICollectionView](https://github.com/stevencurtis/SwiftCoding/tree/master/PinchToZoomUICollectionViewCell)<br>
 [Stop Using Swift Timers: Use CADisplayLink](https://github.com/stevencurtis/SwiftCoding/tree/master/CADisplayLinkExamples)<br>
+[https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDiffableDataSourceExample](Using UICollectionView and UICollectionViewDiffableDataSource)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
