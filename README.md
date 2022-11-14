@@ -125,6 +125,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Animate a Bar Button Item using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AnimateBarButton)<br>
 [Create a UIKit UISegmented Control](https://github.com/stevencurtis/SwiftCoding/tree/master/SegmentedControl)<br>
 [Animate an Icon in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AnimateIconClick)<br>
+[What the ZSH is ZSH, and what is BASH anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/BashOrzsh)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
