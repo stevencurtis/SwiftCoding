@@ -234,6 +234,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Pinch to Zoom a UICollectionViewCell in a UICollectionView](https://github.com/stevencurtis/SwiftCoding/tree/master/PinchToZoomUICollectionViewCell)<br>
 [Stop Using Swift Timers: Use CADisplayLink](https://github.com/stevencurtis/SwiftCoding/tree/master/CADisplayLinkExamples)<br>
 [Using UICollectionView and UICollectionViewDiffableDataSource](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewDiffableDataSourceExample)<br>
+[Adding Fields To A Backend Response. What Will Happen? Swift Edition.](https://github.com/stevencurtis/SwiftCoding/tree/master/AddFieldsToBackendResponse)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>

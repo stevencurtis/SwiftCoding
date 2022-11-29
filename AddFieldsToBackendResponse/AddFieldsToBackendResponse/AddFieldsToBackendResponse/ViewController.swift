@@ -11,9 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        basicFileCall()
     }
 
-
+    /// A basic decoding of a .json file
+    func basicFileCall() {
+        let people: [PeopleModel] = try! Bundle.main.decode([PeopleModel].self, from: "People.json")
+        print(people)
+    }
 }
 
