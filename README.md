@@ -127,6 +127,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Animate an Icon in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AnimateIconClick)<br>
 [What the ZSH is ZSH, and what is BASH anyway?](https://github.com/stevencurtis/SwiftCoding/tree/master/BashOrzsh)<br>
 [Subclassing a UIButton Using UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/SubclassUIButton)<br>
+[Did You See This? A Measurement Class In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Measurement)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
