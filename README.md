@@ -130,6 +130,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Did You See This? A Measurement Class In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Measurement)<br>
 [The Lazy Variables: What and Why in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyVariables)<br>
 [Create A Working UIScrollView Programmatically](https://github.com/stevencurtis/SwiftCoding/tree/master/ProgrammaticScrollView)<br>
+[Testing Location Dependent Swift Code](https://github.com/stevencurtis/SwiftCoding/tree/master/AppLocale)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
