@@ -285,6 +285,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [LinkedLists](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/LinkedList)<br>
 [KVO vs NotificationCenter](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/KVOvsNotificationCenter)<br>
 [The iOS App Development Process](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/iOSAppDevelopmentProcess)<br>
+[Linked Lists and LL Algorithms in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SwiftLinkedLists)<br>
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
