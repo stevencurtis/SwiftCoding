@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAAEFAF624C061EE00A15097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEFAF524C061EE00A15097 /* AppDelegate.swift */; };
+		CAAEFAF824C061EE00A15097 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEFAF724C061EE00A15097 /* SceneDelegate.swift */; };
+		CAAEFAFD24C061EE00A15097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAEFAFB24C061EE00A15097 /* Main.storyboard */; };
+		CAAEFAFF24C061F200A15097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAEFAFE24C061F200A15097 /* Assets.xcassets */; };
+		CAAEFB0224C061F200A15097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAEFB0024C061F200A15097 /* LaunchScreen.storyboard */; };
+		CAAEFB0D24C061F200A15097 /* GradientNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEFB0C24C061F200A15097 /* GradientNavigationControllerTests.swift */; };
+		CAAEFB1824C061F200A15097 /* GradientNavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEFB1724C061F200A15097 /* GradientNavigationControllerUITests.swift */; };
+		CAAEFB2824C0890000A15097 /* BackgroundNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAEFB2724C088FF00A15097 /* BackgroundNavigationController.swift */; };
+		CAB249F624C17B2700A5FFA1 /* InitialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB249F524C17B2700A5FFA1 /* InitialTableViewController.swift */; };
+		CAB249F824C17C1400A5FFA1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB249F724C17C1300A5FFA1 /* DetailViewController.swift */; };
+		CAB249FA24C1810F00A5FFA1 /* SmallTitlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB249F924C1810F00A5FFA1 /* SmallTitlesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAAEFB0924C061F200A15097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAAEFAEA24C061EE00A15097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAAEFAF124C061EE00A15097;
+			remoteInfo = GradientNavigationController;
+		};
+		CAAEFB1424C061F200A15097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAAEFAEA24C061EE00A15097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAAEFAF124C061EE00A15097;
+			remoteInfo = GradientNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAAEFAF224C061EE00A15097 /* GradientNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAEFAF524C061EE00A15097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAAEFAF724C061EE00A15097 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAAEFAFC24C061EE00A15097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAAEFAFE24C061F200A15097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAAEFB0124C061F200A15097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAAEFB0324C061F200A15097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAEFB0824C061F200A15097 /* GradientNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAEFB0C24C061F200A15097 /* GradientNavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNavigationControllerTests.swift; sourceTree = "<group>"; };
+		CAAEFB0E24C061F200A15097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAEFB1324C061F200A15097 /* GradientNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAEFB1724C061F200A15097 /* GradientNavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNavigationControllerUITests.swift; sourceTree = "<group>"; };
+		CAAEFB1924C061F200A15097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAEFB2724C088FF00A15097 /* BackgroundNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundNavigationController.swift; sourceTree = "<group>"; };
+		CAB249F524C17B2700A5FFA1 /* InitialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialTableViewController.swift; sourceTree = "<group>"; };
+		CAB249F724C17C1300A5FFA1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CAB249F924C1810F00A5FFA1 /* SmallTitlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTitlesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAAEFAEF24C061EE00A15097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAEFB0524C061F200A15097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAEFB1024C061F200A15097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAAEFAE924C061EE00A15097 = {
+			isa = PBXGroup;
+			children = (
+				CAAEFAF424C061EE00A15097 /* GradientNavigationController */,
+				CAAEFB0B24C061F200A15097 /* GradientNavigationControllerTests */,
+				CAAEFB1624C061F200A15097 /* GradientNavigationControllerUITests */,
+				CAAEFAF324C061EE00A15097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAAEFAF324C061EE00A15097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAAEFAF224C061EE00A15097 /* GradientNavigationController.app */,
+				CAAEFB0824C061F200A15097 /* GradientNavigationControllerTests.xctest */,
+				CAAEFB1324C061F200A15097 /* GradientNavigationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAAEFAF424C061EE00A15097 /* GradientNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CAAEFAF524C061EE00A15097 /* AppDelegate.swift */,
+				CAAEFAF724C061EE00A15097 /* SceneDelegate.swift */,
+				CAAEFB2724C088FF00A15097 /* BackgroundNavigationController.swift */,
+				CAB249F524C17B2700A5FFA1 /* InitialTableViewController.swift */,
+				CAB249F924C1810F00A5FFA1 /* SmallTitlesViewController.swift */,
+				CAB249F724C17C1300A5FFA1 /* DetailViewController.swift */,
+				CAAEFAFB24C061EE00A15097 /* Main.storyboard */,
+				CAAEFAFE24C061F200A15097 /* Assets.xcassets */,
+				CAAEFB0024C061F200A15097 /* LaunchScreen.storyboard */,
+				CAAEFB0324C061F200A15097 /* Info.plist */,
+			);
+			path = GradientNavigationController;
+			sourceTree = "<group>";
+		};
+		CAAEFB0B24C061F200A15097 /* GradientNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAAEFB0C24C061F200A15097 /* GradientNavigationControllerTests.swift */,
+				CAAEFB0E24C061F200A15097 /* Info.plist */,
+			);
+			path = GradientNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		CAAEFB1624C061F200A15097 /* GradientNavigationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAAEFB1724C061F200A15097 /* GradientNavigationControllerUITests.swift */,
+				CAAEFB1924C061F200A15097 /* Info.plist */,
+			);
+			path = GradientNavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAAEFAF124C061EE00A15097 /* GradientNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAEFB1C24C061F200A15097 /* Build configuration list for PBXNativeTarget "GradientNavigationController" */;
+			buildPhases = (
+				CAAEFAEE24C061EE00A15097 /* Sources */,
+				CAAEFAEF24C061EE00A15097 /* Frameworks */,
+				CAAEFAF024C061EE00A15097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientNavigationController;
+			productName = GradientNavigationController;
+			productReference = CAAEFAF224C061EE00A15097 /* GradientNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAAEFB0724C061F200A15097 /* GradientNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAEFB1F24C061F200A15097 /* Build configuration list for PBXNativeTarget "GradientNavigationControllerTests" */;
+			buildPhases = (
+				CAAEFB0424C061F200A15097 /* Sources */,
+				CAAEFB0524C061F200A15097 /* Frameworks */,
+				CAAEFB0624C061F200A15097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAAEFB0A24C061F200A15097 /* PBXTargetDependency */,
+			);
+			name = GradientNavigationControllerTests;
+			productName = GradientNavigationControllerTests;
+			productReference = CAAEFB0824C061F200A15097 /* GradientNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAAEFB1224C061F200A15097 /* GradientNavigationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAEFB2224C061F200A15097 /* Build configuration list for PBXNativeTarget "GradientNavigationControllerUITests" */;
+			buildPhases = (
+				CAAEFB0F24C061F200A15097 /* Sources */,
+				CAAEFB1024C061F200A15097 /* Frameworks */,
+				CAAEFB1124C061F200A15097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAAEFB1524C061F200A15097 /* PBXTargetDependency */,
+			);
+			name = GradientNavigationControllerUITests;
+			productName = GradientNavigationControllerUITests;
+			productReference = CAAEFB1324C061F200A15097 /* GradientNavigationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAAEFAEA24C061EE00A15097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Steven Curtis";
+				TargetAttributes = {
+					CAAEFAF124C061EE00A15097 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					CAAEFB0724C061F200A15097 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CAAEFAF124C061EE00A15097;
+					};
+					CAAEFB1224C061F200A15097 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CAAEFAF124C061EE00A15097;
+					};
+				};
+			};
+			buildConfigurationList = CAAEFAED24C061EE00A15097 /* Build configuration list for PBXProject "GradientNavigationController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAAEFAE924C061EE00A15097;
+			productRefGroup = CAAEFAF324C061EE00A15097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAAEFAF124C061EE00A15097 /* GradientNavigationController */,
+				CAAEFB0724C061F200A15097 /* GradientNavigationControllerTests */,
+				CAAEFB1224C061F200A15097 /* GradientNavigationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAAEFAF024C061EE00A15097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAEFB0224C061F200A15097 /* LaunchScreen.storyboard in Resources */,
+				CAAEFAFF24C061F200A15097 /* Assets.xcassets in Resources */,
+				CAAEFAFD24C061EE00A15097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAEFB0624C061F200A15097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAEFB1124C061F200A15097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAAEFAEE24C061EE00A15097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB249F624C17B2700A5FFA1 /* InitialTableViewController.swift in Sources */,
+				CAB249F824C17C1400A5FFA1 /* DetailViewController.swift in Sources */,
+				CAB249FA24C1810F00A5FFA1 /* SmallTitlesViewController.swift in Sources */,
+				CAAEFB2824C0890000A15097 /* BackgroundNavigationController.swift in Sources */,
+				CAAEFAF624C061EE00A15097 /* AppDelegate.swift in Sources */,
+				CAAEFAF824C061EE00A15097 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAEFB0424C061F200A15097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAEFB0D24C061F200A15097 /* GradientNavigationControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAEFB0F24C061F200A15097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAEFB1824C061F200A15097 /* GradientNavigationControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAAEFB0A24C061F200A15097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAAEFAF124C061EE00A15097 /* GradientNavigationController */;
+			targetProxy = CAAEFB0924C061F200A15097 /* PBXContainerItemProxy */;
+		};
+		CAAEFB1524C061F200A15097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAAEFAF124C061EE00A15097 /* GradientNavigationController */;
+			targetProxy = CAAEFB1424C061F200A15097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAAEFAFB24C061EE00A15097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAEFAFC24C061EE00A15097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAAEFB0024C061F200A15097 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAEFB0124C061F200A15097 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAAEFB1A24C061F200A15097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAAEFB1B24C061F200A15097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAAEFB1D24C061F200A15097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAAEFB1E24C061F200A15097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientNavigationController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAAEFB2024C061F200A15097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientNavigationControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientNavigationController.app/GradientNavigationController";
+			};
+			name = Debug;
+		};
+		CAAEFB2124C061F200A15097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientNavigationControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientNavigationController.app/GradientNavigationController";
+			};
+			name = Release;
+		};
+		CAAEFB2324C061F200A15097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientNavigationController;
+			};
+			name = Debug;
+		};
+		CAAEFB2424C061F200A15097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = GradientNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.GradientNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientNavigationController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAAEFAED24C061EE00A15097 /* Build configuration list for PBXProject "GradientNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAEFB1A24C061F200A15097 /* Debug */,
+				CAAEFB1B24C061F200A15097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAEFB1C24C061F200A15097 /* Build configuration list for PBXNativeTarget "GradientNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAEFB1D24C061F200A15097 /* Debug */,
+				CAAEFB1E24C061F200A15097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAEFB1F24C061F200A15097 /* Build configuration list for PBXNativeTarget "GradientNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAEFB2024C061F200A15097 /* Debug */,
+				CAAEFB2124C061F200A15097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAEFB2224C061F200A15097 /* Build configuration list for PBXNativeTarget "GradientNavigationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAAEFB2324C061F200A15097 /* Debug */,
+				CAAEFB2424C061F200A15097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAAEFAEA24C061EE00A15097 /* Project object */;
+}
