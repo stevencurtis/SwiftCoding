@@ -18,7 +18,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Delete Storyboard (Xcode 14 Edition)](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/StoryboardDelete)<br>
 
 ### Beginner
-[Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
+[Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/Beginner/UIViewSubclassXib)<br>
 [The Only UIStackView Guide You Will Ever Need](https://github.com/stevencurtis/SwiftCoding/tree/master/StackView)<br>
 [Imperative vs. Declarative Swift Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/ImperativeDeclarative)<br>
 [Default Arguments](https://github.com/stevencurtis/SwiftCoding/tree/master/DefaultArguments)<br>
