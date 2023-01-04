@@ -1,0 +1,10 @@
+let emptyString = """
+"""
+
+let peopleString = """
+[
+  {
+
+}
+]
+"""
