@@ -134,6 +134,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create A Working UIScrollView Programmatically](https://github.com/stevencurtis/SwiftCoding/tree/master/ProgrammaticScrollView)<br>
 [Testing Location Dependent Swift Code](https://github.com/stevencurtis/SwiftCoding/tree/master/AppLocale)<br>
 [Create a UINavigationController With a Gradient as a Background](https://github.com/stevencurtis/SwiftCoding/tree/master/GradientNavigationController)<br>
+[A StringBuilder for Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/StringBuilderSwift)
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
