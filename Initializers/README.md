@@ -1,5 +1,5 @@
-#Swift Initialization
-##A Simple(ish) guide
+# Swift Initialization
+## A Simple(ish) guide
 
 Initialization is hugely important in any modern language. This is not a full guide (Apple have provided a long guide, which is referenced below) but rather a shorter example-laden walk through initialization for Swift.
 
