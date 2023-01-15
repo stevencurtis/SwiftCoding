@@ -138,6 +138,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Breaking Down String Format Specifiers in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/StringFormatSpecifiers)<br>
 [Swift Initialization](https://github.com/stevencurtis/SwiftCoding/tree/master/Initializers)<br>
 [Benchmark Swift Code](https://github.com/stevencurtis/SwiftCoding/tree/master/BenchmarkSwiftPerformance)<br>
+[Which Thread Are You Using in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/WhichThread)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
