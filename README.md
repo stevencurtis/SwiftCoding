@@ -249,6 +249,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Adding Fields To A Backend Response. What Will Happen? Swift Edition.](https://github.com/stevencurtis/SwiftCoding/tree/master/AddFieldsToBackendResponse)<br>
 [Instruct Your View With A ViewModel: Should It Be A Class or a Struct?](https://github.com/stevencurtis/SwiftCoding/tree/master/StructViewModel)<br>
 [Advanced Codable: Missing Fields In Arrays (Swift)](https://github.com/stevencurtis/SwiftCoding/tree/master/AdvancedCodable)<br>
+[Count the Number of Properties in a Struct  ](https://github.com/stevencurtis/SwiftCoding/tree/master/CountPropertiesStruct)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
