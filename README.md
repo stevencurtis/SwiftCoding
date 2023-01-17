@@ -250,6 +250,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Instruct Your View With A ViewModel: Should It Be A Class or a Struct?](https://github.com/stevencurtis/SwiftCoding/tree/master/StructViewModel)<br>
 [Advanced Codable: Missing Fields In Arrays (Swift)](https://github.com/stevencurtis/SwiftCoding/tree/master/AdvancedCodable)<br>
 [Count the Number of Properties in a Struct  ](https://github.com/stevencurtis/SwiftCoding/tree/master/CountPropertiesStruct)<br>
+[Auto Mocking with Sourcery](https://github.com/stevencurtis/SwiftCoding/tree/master/GenerateMocks)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
