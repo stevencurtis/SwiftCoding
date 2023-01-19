@@ -309,6 +309,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Chain of Responsibility Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/ChainOfResponsibilityDesignPattern)<br>
 [The Decorator Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/DecoratorDesignPattern)<br>
 [The Builder Design Pattern In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/BuilderDesignPattern)<br>
+[The Visitor Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/VisitorDesignPattern)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
