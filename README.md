@@ -285,24 +285,27 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Shorthand Parameters in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/$0Swift)<br>
 
 ### Theory
-[Kruskal's Algorithm](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
+[Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
 [WWDC Notes: Keynote](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/WWDCNotes/Keynote)<br>
 [WWDC Notes: Platforms](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal/WWDCNotes/Platforms)<br>
 [Semantic Versioning](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/semver)<br>
-[SOLID principles](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SOLID)<br>
+[The SOLID Principles Applied to Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SOLID)<br>
 [Writing FIRST Swift Tests](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/FIRSTTests)<br>
-[Union Find](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/UnionFind)<br>
+[The Union-Find Data Structure in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/UnionFind)<br>
 [Favor composition over inheritance — in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/CompositionOverInheritence)<br>
-[Tries](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Trie)<br>
-[LinkedLists](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/LinkedList)<br>
+[Tries in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Trie)<br>
+[Data Structures: Linked Lists](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/LinkedList)<br>
 [KVO vs NotificationCenter](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/KVOvsNotificationCenter)<br>
 [The iOS App Development Process](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/iOSAppDevelopmentProcess)<br>
 [Linked Lists and LL Algorithms in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SwiftLinkedLists)<br>
 [Data Races in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DataRacesProgramming)<br>
+[The Boy Scout Rule in Coding](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/BoyScout)<br>
+[Finally! DevOps Explained](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DevOps)<br>
+[Scaling iOS Software Development](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Scaling)<br>
+[Single Responsibility Principle in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SingleResponsibilityPrinciple)<br>
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
-[The Single Responsibility Principle](https://github.com/stevencurtis/SwiftCoding/blob/master/Theory/SingleResponsibilityPrinciple/README.md)<br>
 [The Factory Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/FactoryPattern/)<br>
 [The Façade Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/FacadeDesignPattern)<br>
 [The Adaptor Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/AdaptorDesignPattern)<br>
