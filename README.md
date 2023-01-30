@@ -309,6 +309,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Finally! DevOps Explained](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DevOps)<br>
 [Scaling iOS Software Development](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Scaling)<br>
 [Single Responsibility Principle in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SingleResponsibilityPrinciple)<br>
+[How does Assembly work — A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Operations)<br>
+
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
