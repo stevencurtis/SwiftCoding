@@ -310,6 +310,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Scaling iOS Software Development](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Scaling)<br>
 [Single Responsibility Principle in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SingleResponsibilityPrinciple)<br>
 [How does Assembly work — A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Operations)<br>
+[Data Races in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DataRacesProgramming)<br>
 
 
 ### Design Patterns
