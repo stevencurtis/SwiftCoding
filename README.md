@@ -142,8 +142,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Which Thread Are You Using in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/WhichThread)<br>
 [Core Concepts of Combine](https://github.com/stevencurtis/SwiftCoding/tree/master/CoreConceptsOfCombine)<br>
 [Pass Data in iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/PassData)<br>
-[Lazy NavigationLink for SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/LazyNavigationLink)
-[SwiftUI MVVM with Networking](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/MVVMNetworking)
+[Lazy NavigationLink for SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/LazyNavigationLink)<br>
+[SwiftUI MVVM with Networking](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/MVVMNetworking)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
