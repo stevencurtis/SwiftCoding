@@ -286,6 +286,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [That little Swift Bug: Protocol Customization Points](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CustomizationPoints)<br>
 [Shorthand Parameters in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/$0Swift)<br>
 [Avoid Nesting Functions in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/Nesting)<br>
+[Can You Answer This Swift Question Correctly?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/AnswerQuestionCorrectly)<br>
+AnswerQuestionCorrectly
 
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
