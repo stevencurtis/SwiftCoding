@@ -257,6 +257,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Count the Number of Properties in a Struct  ](https://github.com/stevencurtis/SwiftCoding/tree/master/CountPropertiesStruct)<br>
 [Auto Mocking with Sourcery](https://github.com/stevencurtis/SwiftCoding/tree/master/GenerateMocks)<br>
 [Create a Circular Transition in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CircularTransition)<br>
+[Dependency Inversion - A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/DependencyInversion)
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
