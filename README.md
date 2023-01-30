@@ -142,6 +142,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Which Thread Are You Using in Swift?](https://github.com/stevencurtis/SwiftCoding/tree/master/WhichThread)<br>
 [Core Concepts of Combine](https://github.com/stevencurtis/SwiftCoding/tree/master/CoreConceptsOfCombine)<br>
 [Pass Data in iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/PassData)
+[Lazy NavigationLink for SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/LazyNavigationLink)
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -287,7 +288,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Shorthand Parameters in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/$0Swift)<br>
 [Avoid Nesting Functions in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/Nesting)<br>
 [Can You Answer This Swift Question Correctly?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/AnswerQuestionCorrectly)<br>
-AnswerQuestionCorrectly
 
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
