@@ -311,7 +311,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Single Responsibility Principle in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SingleResponsibilityPrinciple)<br>
 [How does Assembly work — A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Operations)<br>
 [Data Races in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DataRacesProgramming)<br>
-**Agile**
+**Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
 
 
