@@ -144,6 +144,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Pass Data in iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/PassData)<br>
 [Lazy NavigationLink for SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/LazyNavigationLink)<br>
 [SwiftUI MVVM with Networking](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/MVVMNetworking)<br>
+[File Persistence in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/FilePersistance)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -257,7 +258,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Count the Number of Properties in a Struct  ](https://github.com/stevencurtis/SwiftCoding/tree/master/CountPropertiesStruct)<br>
 [Auto Mocking with Sourcery](https://github.com/stevencurtis/SwiftCoding/tree/master/GenerateMocks)<br>
 [Create a Circular Transition in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CircularTransition)<br>
-[Dependency Inversion - A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/DependencyInversion)
+[Dependency Inversion - A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/DependencyInversion)<br>
+[Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -312,6 +314,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Single Responsibility Principle in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SingleResponsibilityPrinciple)<br>
 [How does Assembly work — A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Operations)<br>
 [Data Races in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DataRacesProgramming)<br>
+[Actors in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Actors)
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
 
