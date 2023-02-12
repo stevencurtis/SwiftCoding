@@ -293,6 +293,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Shorthand Parameters in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/$0Swift)<br>
 [Avoid Nesting Functions in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/Nesting)<br>
 [Can You Answer This Swift Question Correctly?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/AnswerQuestionCorrectly)<br>
+[Xcode: Not Using Source Control? Save Resources NOW](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/XcodeSource)<br>
 
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
@@ -315,10 +316,10 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Single Responsibility Principle in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SingleResponsibilityPrinciple)<br>
 [How does Assembly work — A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Operations)<br>
 [Data Races in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DataRacesProgramming)<br>
-[Actors in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Actors)
+[Actors in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Actors)<br>
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
-
+[Kanban or Scrum?](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/KanbanVsScrum)<br>
 
 ### Design Patterns
 [The Mediator Design Pattern](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/MediatorDesignPattern)<br>
