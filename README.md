@@ -260,6 +260,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create a Circular Transition in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CircularTransition)<br>
 [Dependency Inversion - A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/DependencyInversion)<br>
 [Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
+[AES for iOS Developers, Using Swift]((https://github.com/stevencurtis/SwiftCoding/tree/master/AES)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -273,6 +274,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Make All Your Swift UIKit Views a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/ViewsUITableView)<br>
 [Custom UIViewController Animations - EASY iOS Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/CustomizeTransitionAnimations)<br>
 [Use the Decorator Pattern for Repository Caching and Cache Invalidation](https://github.com/stevencurtis/SwiftCoding/tree/master/UseTheDecoratorPatternRepositories)<br>
+[Using Lenses in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Lenses)<br>
 
 **Core Data**<br>
 [The Core Data Stack: Persistent Store Types](https://medium.com/@stevenpcurtis.sc/the-core-data-stack-persistent-store-types-3a296be16e3e?source=friends_link&sk=327d229857f04e86f55a56082a0676c9)<br>
@@ -317,6 +319,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [How does Assembly work — A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Operations)<br>
 [Data Races in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DataRacesProgramming)<br>
 [Actors in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Actors)<br>
+[The Halting Problem](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/HaltingProblem)<br>
+[The Strange Case of Georg Cantor, the Diagonalization Argument and Closed Minds](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DiagonalizationAndGeorCantor)<br>
+
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
 [Kanban or Scrum?](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/KanbanVsScrum)<br>
