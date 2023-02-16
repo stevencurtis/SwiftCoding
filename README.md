@@ -260,7 +260,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create a Circular Transition in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CircularTransition)<br>
 [Dependency Inversion - A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/DependencyInversion)<br>
 [Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
-[AES for iOS Developers, Using Swift]((https://github.com/stevencurtis/SwiftCoding/tree/master/AES)<br>
+[AES for iOS Developers, Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AES)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
