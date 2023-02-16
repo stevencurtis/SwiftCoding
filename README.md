@@ -261,6 +261,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Dependency Inversion - A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/DependencyInversion)<br>
 [Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
 [AES for iOS Developers, Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AES)<br>
+[Transformable Core Data: UIColor](https://github.com/stevencurtis/SwiftCoding/tree/master/CoreDataTransformable)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -296,6 +297,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Avoid Nesting Functions in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/Nesting)<br>
 [Can You Answer This Swift Question Correctly?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/AnswerQuestionCorrectly)<br>
 [Xcode: Not Using Source Control? Save Resources NOW](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/XcodeSource)<br>
+[That One Method Dispatch Pitfall](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/MethodDispatchPitfall)<>
 
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
