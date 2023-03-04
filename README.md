@@ -301,6 +301,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Xcode: Not Using Source Control? Save Resources NOW](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/XcodeSource)<br>
 [That One Method Dispatch Pitfall](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/MethodDispatchPitfall)<br>
 [Can You Answer This Swift Dictionary Question?](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/DifferenceBetweenDictionaryCode)<br>
+[Mastering GitHub Copilot](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/GitHubAutopilot)<br>
 
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
