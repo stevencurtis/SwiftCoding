@@ -267,6 +267,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Transformable Core Data: UIColor](https://github.com/stevencurtis/SwiftCoding/tree/master/CoreDataTransformable)<br>
 [iOS Data Protection APIs, Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DataProtectionAPIs)<br>
 [Understanding Swift's ConvertPoint](https://github.com/stevencurtis/SwiftCoding/tree/master/UnderstandingConvertPoint)<br>
+[UICollectionViewLayoutGuide for Swift iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLayoutGuide)<br>
+
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
