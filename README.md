@@ -329,6 +329,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Actors in Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Actors)<br>
 [The Halting Problem](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/HaltingProblem)<br>
 [The Strange Case of Georg Cantor, the Diagonalization Argument and Closed Minds](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DiagonalizationAndGeorCantor)<br>
+[Turing Machines](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/TuringMachine)<br>
+
 
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
