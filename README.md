@@ -147,7 +147,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [SwiftUI MVVM with Networking](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/MVVMNetworking)<br>
 [File Persistence in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/FilePersistance)<br>
 [Fastlane: Simplify Deployment](https://github.com/stevencurtis/SwiftCoding/tree/master/Fastlane)<br>
-[Levelling up Swift Development with Test-Driven GitHub Copilot](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotTDD)<>
+[Levelling up Swift Development with Test-Driven GitHub Copilot](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotTDD)<br>
+[CALayers: A guide](https://github.com/stevencurtis/SwiftCoding/tree/master/LayersPerformance)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
