@@ -137,7 +137,7 @@ This means that it is mandatory for all conforming `Animal` objects to make that
 
 There are two types of dynamic dispatch, message dispatch and witness table dispatch.
 
-** Message dispatch **
+## Message dispatch
 The Cocoa frameworks make good use of message dispatch (Core Data and KVO are users of this technology), as well as enabling `method swizzling` which means that the functionality of a method can be changed at runtime (through modification of the message passing dictionary).
 
 This makes use of the Objective-C runtime, where the `dynamic` keyword is used (in conjunction with `@objc` making methods exposed to the Objective-C runtime.
