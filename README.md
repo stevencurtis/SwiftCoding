@@ -309,6 +309,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Mastering GitHub Copilot](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/CopilotMastering)<br>
 [GitHub Copilot: The AI-Powered iOS Programming Assistant You Need to Try](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/GitHubAutopilot)<br>
 [Which of these properties COULD cause a Swift Retain Cycle](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/WhichOfTheseCOULDCauseaRetainCycleinSwift)<br>
+[iOS Developers Should Avoid These 5 Common Mistakes](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/5CommoniOSmistakes)<br>
+
 
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
