@@ -355,6 +355,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 ### General iOS
 [Storing Payment Data On iOS: My Take](https://github.com/stevencurtis/SwiftCoding/tree/master/StoringPaymentDataOnMyTake)<br>
 [Should We Learn UIKit or SwiftUI in 2023?](https://github.com/stevencurtis/SwiftCoding/tree/master/UIKitOrSwiftUI)<br>
+[How I Blog Daily As An iOS Software Developer](https://github.com/stevencurtis/SwiftCoding/tree/master/HowIBlogDailyAsAniOSSoftwareDeveloper)<br>
+
 
 ### Concurrency
 [Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
