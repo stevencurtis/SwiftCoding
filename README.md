@@ -262,7 +262,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Auto Mocking with Sourcery](https://github.com/stevencurtis/SwiftCoding/tree/master/GenerateMocks)<br>
 [Create a Circular Transition in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CircularTransition)<br>
 [Dependency Inversion - A Swift guide](https://github.com/stevencurtis/SwiftCoding/tree/master/DependencyInversion)<br>
-[Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
 [AES for iOS Developers, Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AES)<br>
 [Transformable Core Data: UIColor](https://github.com/stevencurtis/SwiftCoding/tree/master/CoreDataTransformable)<br>
 [iOS Data Protection APIs, Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DataProtectionAPIs)<br>
@@ -354,6 +353,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 ### General iOS
 [Storing Payment Data On iOS: My Take](https://github.com/stevencurtis/SwiftCoding/tree/master/StoringPaymentDataOnMyTake)<br>
 
+### Concurrency
+[Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
+[Mutable State In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MutableState)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
