@@ -145,6 +145,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Lazy NavigationLink for SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/LazyNavigationLink)<br>
 [SwiftUI MVVM with Networking](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/MVVMNetworking)<br>
 [File Persistence in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/FilePersistance)<br>
+[Fastlane: Simplify Deployment](https://github.com/stevencurtis/SwiftCoding/tree/master/Fastlane)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
