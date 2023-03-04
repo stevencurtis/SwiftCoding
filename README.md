@@ -55,6 +55,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Avoid Swift's Optionals Through Laziness](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyClosure)<br>
 [Can You Answer This Swift Question Correctly?](https://github.com/stevencurtis/SwiftCoding/tree/master/AnswerQuestionCorrectly)<br>
 [Avoid Swift's Optionals Through Laziness](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyComponents)<br>
+[SwiftUI's AsyncImage](https://github.com/stevencurtis/SwiftCoding/tree/master/AsyncImage)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
