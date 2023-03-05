@@ -150,6 +150,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Fastlane: Simplify Deployment](https://github.com/stevencurtis/SwiftCoding/tree/master/Fastlane)<br>
 [Levelling up Swift Development with Test-Driven GitHub Copilot](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotTDD)<br>
 [CALayers: A guide](https://github.com/stevencurtis/SwiftCoding/tree/master/LayersPerformance)<br>
+[From Idea to App Store: How to Build an iOS App Using AI-Powered Development with OpenAI and ChatGPT Part 1](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotAppStore1)<br>
+
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
