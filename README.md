@@ -270,7 +270,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Transformable Core Data: UIColor](https://github.com/stevencurtis/SwiftCoding/tree/master/CoreDataTransformable)<br>
 [iOS Data Protection APIs, Using Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DataProtectionAPIs)<br>
 [Understanding Swift's ConvertPoint](https://github.com/stevencurtis/SwiftCoding/tree/master/UnderstandingConvertPoint)<br>
-[UICollectionViewLayoutGuide for Swift iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLayoutGuide)<br>
+[UICollectionViewLayoutGuide for Swift iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLayoutGuide/UICollectionViewLayoutGuide)<br>
 [Swift Threads: The Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftThreadsGuide)<br>
 
 
@@ -368,6 +368,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
 [Mutable State In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MutableState)<br>
 [Mastering Swift: Create Your Own Property Wrapper](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/CustomPropertyWrapper)<br>
+[Mastering Concurrency in Swift: Understanding Grand Central Dispatch Quality of Service](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/QoSLevelsforGCD)<br>
+[GCD Barriers in Swift: Synchronising Concurrent Tasks](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/GCDBarriers)<br>
+[Synchronizing Concurrent Tasks in Swift with NSLock](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/NSLock)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
