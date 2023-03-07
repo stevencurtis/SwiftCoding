@@ -152,6 +152,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [CALayers: A guide](https://github.com/stevencurtis/SwiftCoding/tree/master/LayersPerformance)<br>
 [From Idea to App Store: How to Build an iOS App Using AI-Powered Development with OpenAI and ChatGPT Part 1](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotAppStore1)<br>
 [From Idea to App Store: How to Build an iOS App Using AI-Powered Development with OpenAI and ChatGPT Part 2](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotAppStore2)<br>
+[From Idea to App Store: How to Build an iOS App Using AI-Powered Development with OpenAI and ChatGPT Part 3](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotAppStore3)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -272,6 +273,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Understanding Swift's ConvertPoint](https://github.com/stevencurtis/SwiftCoding/tree/master/UnderstandingConvertPoint)<br>
 [UICollectionViewLayoutGuide for Swift iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLayoutGuide/UICollectionViewLayoutGuide)<br>
 [Swift Threads: The Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftThreadsGuide)<br>
+[Using SQLite Directly with Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SQLiteManager)<br>
 
 
 ### Challenging
