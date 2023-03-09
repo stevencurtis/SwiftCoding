@@ -56,6 +56,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Can You Answer This Swift Question Correctly?](https://github.com/stevencurtis/SwiftCoding/tree/master/AnswerQuestionCorrectly)<br>
 [Avoid Swift's Optionals Through Laziness](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyComponents)<br>
 [SwiftUI's AsyncImage](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/AsyncImage)<br>
+[Metatypes in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Metatypes)<br>
+[What is a ProjectedValue in SwiftUI?](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/WhatIsProjectedValueSwiftUI)<br>
+[Space UITableViewCells in a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/SpaceUITableViewCells)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -153,6 +156,11 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [From Idea to App Store: How to Build an iOS App Using AI-Powered Development with OpenAI and ChatGPT Part 1](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotAppStore1)<br>
 [From Idea to App Store: How to Build an iOS App Using AI-Powered Development with OpenAI and ChatGPT Part 2](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotAppStore2)<br>
 [From Idea to App Store: How to Build an iOS App Using AI-Powered Development with OpenAI and ChatGPT Part 3](https://github.com/stevencurtis/SwiftCoding/tree/master/CopilotAppStore3)<br>
+[Make Your Swift Arrays Safe](https://github.com/stevencurtis/SwiftCoding/tree/master/MakeSwiftArraysSafe)<br>
+[Imperative vs. Functional Swift Programming](https://github.com/stevencurtis/SwiftCoding/tree/master/ImperativeVsFunctional)<br>
+[Offscreen Rendering in iOS](https://github.com/stevencurtis/SwiftCoding/tree/master/OffscreenRendering)<br>
+[Use an Enum to Decode JSON in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecodeEnumJson)<br>
+[Efficient UIKit Shadows](https://github.com/stevencurtis/SwiftCoding/tree/master/EfficientShadows)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -274,7 +282,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [UICollectionViewLayoutGuide for Swift iOS Apps](https://github.com/stevencurtis/SwiftCoding/tree/master/UICollectionViewLayoutGuide/UICollectionViewLayoutGuide)<br>
 [Swift Threads: The Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftThreadsGuide)<br>
 [Using SQLite Directly with Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SQLiteManager)<br>
-
+[Create a Stateful Loading Button in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/StatefulButtonSubclass)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -359,6 +367,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Decorator Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/DecoratorDesignPattern)<br>
 [The Builder Design Pattern In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/BuilderDesignPattern)<br>
 [The Visitor Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/VisitorDesignPattern)<br>
+[The Strategy Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/StrategyDesignPattern)<br>
 
 ### General iOS
 [Storing Payment Data On iOS: My Take](https://github.com/stevencurtis/SwiftCoding/tree/master/StoringPaymentDataOnMyTake)<br>
