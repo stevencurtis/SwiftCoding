@@ -59,6 +59,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Metatypes in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Metatypes)<br>
 [What is a ProjectedValue in SwiftUI?](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/WhatIsProjectedValueSwiftUI)<br>
 [Space UITableViewCells in a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/SpaceUITableViewCells)<br>
+[Understanding Swift's IndexPath](https://github.com/stevencurtis/SwiftCoding/tree/master/IndexPathExplanation)<br>
+[Mastering the Three Phases of iOS Layout with Auto Layout](https://github.com/stevencurtis/SwiftCoding/tree/master/LayoutProcess)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -283,6 +285,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift Threads: The Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftThreadsGuide)<br>
 [Using SQLite Directly with Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SQLiteManager)<br>
 [Create a Stateful Loading Button in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/StatefulButtonSubclass)<br>
+[Use UICollectionViewFlowLayout and Let It Rotate!](https://github.com/stevencurtis/SwiftCoding/tree/master/CollectionViewFlowRotate)<br>
+[Snapshot Individual Views in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SnapshotViews)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -398,6 +402,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Two Sum / Three Sum (draft)](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/TwoSum)<br>
 [Avoid Playgrounds, for Swift LeetCode challenges](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/LeetCodeWithTestingUsingSwift)<br>
 [URLify Create A URL From A String in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/LeetCodeWithTestingUsingSwift)<br>
+[Floyd's Cycle Detection Algorithm In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/SwiftLinkedListsFloydsCycleDetectionAlgorithm)<br>
 
 ## Get in touch
 I'm usually around on [Twitter](https://twitter.com/stevenpcurtis)
