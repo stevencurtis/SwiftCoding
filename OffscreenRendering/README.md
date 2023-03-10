@@ -62,7 +62,7 @@ cell.imageView?.image = UIImage(named: "PlaceholderImage")
 return cell
 ```
 
-Now when we turn on the `Color Offscreen-Rendered Yellow` (one a device, please!) you'll see a problem. 
+Now when we turn on the `Color Offscreen-Rendered Yellow` (on a device, please!) you'll see a problem. 
 
 ![YellowsResized](Images/YellowsResized.png)
 
