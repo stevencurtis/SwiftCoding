@@ -61,6 +61,11 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Space UITableViewCells in a UITableView](https://github.com/stevencurtis/SwiftCoding/tree/master/SpaceUITableViewCells)<br>
 [Understanding Swift's IndexPath](https://github.com/stevencurtis/SwiftCoding/tree/master/IndexPathExplanation)<br>
 [Mastering the Three Phases of iOS Layout with Auto Layout](https://github.com/stevencurtis/SwiftCoding/tree/master/LayoutProcess)<br>
+[Swift's Type annotations](https://github.com/stevencurtis/SwiftCoding/tree/master/TypeAnnotations)<br>
+[Type Properties in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/TypeProperties)<br>
+[Battle of the Data Structures: A Comparison of Set and Array in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NSSetorNSArray)<br>
+[Don't be Confused Between Reusable and Generic as a Swift Coder!](https://github.com/stevencurtis/SwiftCoding/tree/master/ReusabilityAndGenerics)<br>
+[High Cohesion SwiftUI Code](https://github.com/stevencurtis/SwiftCoding/tree/master/HighCohesionSwiftUI)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -386,6 +391,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Mastering Concurrency in Swift: Understanding Grand Central Dispatch Quality of Service](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/QoSLevelsforGCD)<br>
 [GCD Barriers in Swift: Synchronising Concurrent Tasks](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/GCDBarriers)<br>
 [Synchronizing Concurrent Tasks in Swift with NSLock](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/NSLock)<br>
+[How To Use Async let To Simplify Asynchronous Fetching in Your SwiftUI App](https://github.com/stevencurtis/SwiftCoding/tree/master/AsyncLet)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
