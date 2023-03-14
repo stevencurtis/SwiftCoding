@@ -392,6 +392,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [GCD Barriers in Swift: Synchronising Concurrent Tasks](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/GCDBarriers)<br>
 [Synchronizing Concurrent Tasks in Swift with NSLock](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/NSLock)<br>
 [How To Use Async let To Simplify Asynchronous Fetching in Your SwiftUI App](https://github.com/stevencurtis/SwiftCoding/tree/master/AsyncLet)<br>
+[Swift Concurrency: Working with MainActor to Manage Task Execution](https://github.com/stevencurtis/SwiftCoding/tree/master/MainActor)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
