@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  MainActorProject
+//  AsyncAwaitProject
 //
-//  Created by Steven Curtis on 14/03/2023.
+//  Created by Steven Curtis on 16/03/2023.
 //
 
 import SwiftUI
@@ -27,7 +27,7 @@ struct ContentView: View {
         }
         .onTapGesture {
             Task {
-                await viewModel.fetchJoke()
+                viewModel.fetchJoke()
             }
         }
     }

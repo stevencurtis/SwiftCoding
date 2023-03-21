@@ -67,11 +67,6 @@ final class JokeViewModel: ObservableObject {
         print(resultFour)
         print("resultFour complete")
         
-        Task { @MainActor in try await getJoke() }
-
-        // or better
-        Task { try await getJoke() }
-        
         state = .loading
         do {
             async let fetchedJoke = getJoke()
