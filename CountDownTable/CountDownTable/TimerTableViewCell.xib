@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="redraw" selectionStyle="default" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="TimerTableViewCell" customModule="CountDownTable" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="112"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BP2-8o-rlW">
+                        <rect key="frame" x="0.0" y="0.0" width="345" height="112"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="a1T-MO-hXm">
+                                <rect key="frame" x="0.0" y="0.0" width="115" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idl-0J-9y9">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-XZ-514" userLabel="Hours Padding View">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="112"/>
+                                        <subviews>
+                                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="bCG-gD-beZ" customClass="CountDown" customModule="CountDownTable" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="18.5" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="BfA-bC-eCK"/>
+                                                    <constraint firstAttribute="width" secondItem="bCG-gD-beZ" secondAttribute="height" multiplier="1:1" id="l86-Zi-EyN"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="bCG-gD-beZ" firstAttribute="centerX" secondItem="8ie-XZ-514" secondAttribute="centerX" id="VMf-4H-Qja"/>
+                                            <constraint firstItem="bCG-gD-beZ" firstAttribute="centerY" secondItem="8ie-XZ-514" secondAttribute="centerY" id="g7A-Mi-Ztc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="idB-zU-dbO">
+                                <rect key="frame" x="115" y="0.0" width="115" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6m-Px-gu4">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kdq-PE-TiJ" userLabel="Minutes Padding View">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="112"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V1Z-EV-gaS" customClass="CountDown" customModule="CountDownTable" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="18.5" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="aq6-yE-Zdm"/>
+                                                    <constraint firstAttribute="width" secondItem="V1Z-EV-gaS" secondAttribute="height" multiplier="1:1" id="s8N-qW-anx"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="V1Z-EV-gaS" firstAttribute="centerX" secondItem="kdq-PE-TiJ" secondAttribute="centerX" id="Bbz-aV-C6j"/>
+                                            <constraint firstItem="V1Z-EV-gaS" firstAttribute="centerY" secondItem="kdq-PE-TiJ" secondAttribute="centerY" id="gKF-78-0ms"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BUR-eJ-dWC">
+                                <rect key="frame" x="230" y="0.0" width="115" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seconds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQu-kH-Rby">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vad-MO-eFp" userLabel="Seconds Padding View">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="112"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cPO-os-lql" customClass="CountDown" customModule="CountDownTable" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="18.5" width="75" height="75"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="cPO-os-lql" secondAttribute="height" multiplier="1:1" id="7aq-Af-Ybn"/>
+                                                    <constraint firstAttribute="width" constant="75" id="imc-or-T1r"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="cPO-os-lql" firstAttribute="centerY" secondItem="Vad-MO-eFp" secondAttribute="centerY" id="3gx-GE-mP9"/>
+                                            <constraint firstItem="cPO-os-lql" firstAttribute="centerX" secondItem="Vad-MO-eFp" secondAttribute="centerX" id="P1z-TC-hjO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="BP2-8o-rlW" secondAttribute="trailing" id="JsN-yV-b2E"/>
+                    <constraint firstAttribute="bottom" secondItem="BP2-8o-rlW" secondAttribute="bottom" id="bqG-2A-O4y"/>
+                    <constraint firstItem="BP2-8o-rlW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cQN-vk-4we"/>
+                    <constraint firstItem="BP2-8o-rlW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cnm-Ti-2o7"/>
+                    <constraint firstItem="BP2-8o-rlW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="imb-uy-eMT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="hoursView" destination="bCG-gD-beZ" id="JgJ-7W-PtF"/>
+                <outlet property="minutesView" destination="V1Z-EV-gaS" id="dmf-Dn-YEB"/>
+                <outlet property="secondsView" destination="cPO-os-lql" id="Gnp-71-JYW"/>
+            </connections>
+            <point key="canvasLocation" x="152.89855072463769" y="147.99107142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
