@@ -66,6 +66,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Battle of the Data Structures: A Comparison of Set and Array in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/NSSetorNSArray)<br>
 [Don't be Confused Between Reusable and Generic as a Swift Coder!](https://github.com/stevencurtis/SwiftCoding/tree/master/ReusabilityAndGenerics)<br>
 [High Cohesion SwiftUI Code](https://github.com/stevencurtis/SwiftCoding/tree/master/HighCohesionSwiftUI)<br>
+[Use Inset for UITableViewCell](https://github.com/stevencurtis/SwiftCoding/tree/master/InsetUITableViewCell)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -168,6 +169,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Offscreen Rendering in iOS](https://github.com/stevencurtis/SwiftCoding/tree/master/OffscreenRendering)<br>
 [Use an Enum to Decode JSON in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecodeEnumJson)<br>
 [Efficient UIKit Shadows](https://github.com/stevencurtis/SwiftCoding/tree/master/EfficientShadows)<br>
+[How I Would Mock A Swift Timer](https://github.com/stevencurtis/SwiftCoding/tree/master/MockTimer)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -292,6 +294,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create a Stateful Loading Button in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/StatefulButtonSubclass)<br>
 [Use UICollectionViewFlowLayout and Let It Rotate!](https://github.com/stevencurtis/SwiftCoding/tree/master/CollectionViewFlowRotate)<br>
 [Snapshot Individual Views in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SnapshotViews)<br>
+[Data Races in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DataRacesSwift)<br>
+[Double Dispatch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DoubleDispatch)<br>
+[Create Loads of CountDown Timers in iOS Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CountDownTable)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -394,6 +399,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [How To Use Async let To Simplify Asynchronous Fetching in Your SwiftUI App](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/AsyncLet)<br>
 [Swift Concurrency: Working with MainActor to Manage Task Execution](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MainActor)<br>
 [Swift Concurrency for Beginners: Getting Started with Async/Await](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MainActor)<br>
+[The Power of Tasks in Swift: Concurrency Made Easy](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/Tasks)<br>
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>

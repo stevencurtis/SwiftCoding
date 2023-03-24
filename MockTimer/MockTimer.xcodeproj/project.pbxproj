@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA73E09E2518E7CD00FF0414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E09D2518E7CD00FF0414 /* AppDelegate.swift */; };
+		CA73E0A02518E7CD00FF0414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E09F2518E7CD00FF0414 /* SceneDelegate.swift */; };
+		CA73E0A22518E7CD00FF0414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E0A12518E7CD00FF0414 /* ViewController.swift */; };
+		CA73E0A52518E7CD00FF0414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA73E0A32518E7CD00FF0414 /* Main.storyboard */; };
+		CA73E0A72518E7D000FF0414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA73E0A62518E7D000FF0414 /* Assets.xcassets */; };
+		CA73E0AA2518E7D000FF0414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA73E0A82518E7D000FF0414 /* LaunchScreen.storyboard */; };
+		CA73E0B52518E7D000FF0414 /* MockTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E0B42518E7D000FF0414 /* MockTimerTests.swift */; };
+		CA73E0C02518E7D000FF0414 /* MockTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E0BF2518E7D000FF0414 /* MockTimerUITests.swift */; };
+		CA73E0D12518E7DA00FF0414 /* MockTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E0D02518E7DA00FF0414 /* MockTimer.swift */; };
+		CA73E0D62518E7EC00FF0414 /* ExchangeTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E0D52518E7EC00FF0414 /* ExchangeTimer.swift */; };
+		CA73E0DB2518E7F100FF0414 /* TimerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA73E0DA2518E7F100FF0414 /* TimerProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA73E0B12518E7D000FF0414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA73E0922518E7CD00FF0414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA73E0992518E7CD00FF0414;
+			remoteInfo = MockTimer;
+		};
+		CA73E0BC2518E7D000FF0414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA73E0922518E7CD00FF0414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA73E0992518E7CD00FF0414;
+			remoteInfo = MockTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA73E09A2518E7CD00FF0414 /* MockTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA73E09D2518E7CD00FF0414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA73E09F2518E7CD00FF0414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA73E0A12518E7CD00FF0414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA73E0A42518E7CD00FF0414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA73E0A62518E7D000FF0414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA73E0A92518E7D000FF0414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA73E0AB2518E7D000FF0414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA73E0B02518E7D000FF0414 /* MockTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA73E0B42518E7D000FF0414 /* MockTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTimerTests.swift; sourceTree = "<group>"; };
+		CA73E0B62518E7D000FF0414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA73E0BB2518E7D000FF0414 /* MockTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA73E0BF2518E7D000FF0414 /* MockTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTimerUITests.swift; sourceTree = "<group>"; };
+		CA73E0C12518E7D000FF0414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA73E0D02518E7DA00FF0414 /* MockTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTimer.swift; sourceTree = "<group>"; };
+		CA73E0D52518E7EC00FF0414 /* ExchangeTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeTimer.swift; sourceTree = "<group>"; };
+		CA73E0DA2518E7F100FF0414 /* TimerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA73E0972518E7CD00FF0414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73E0AD2518E7D000FF0414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73E0B82518E7D000FF0414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA73E0912518E7CD00FF0414 = {
+			isa = PBXGroup;
+			children = (
+				CA73E09C2518E7CD00FF0414 /* MockTimer */,
+				CA73E0B32518E7D000FF0414 /* MockTimerTests */,
+				CA73E0BE2518E7D000FF0414 /* MockTimerUITests */,
+				CA73E09B2518E7CD00FF0414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA73E09B2518E7CD00FF0414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA73E09A2518E7CD00FF0414 /* MockTimer.app */,
+				CA73E0B02518E7D000FF0414 /* MockTimerTests.xctest */,
+				CA73E0BB2518E7D000FF0414 /* MockTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA73E09C2518E7CD00FF0414 /* MockTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CA73E09D2518E7CD00FF0414 /* AppDelegate.swift */,
+				CA73E09F2518E7CD00FF0414 /* SceneDelegate.swift */,
+				CA73E0A12518E7CD00FF0414 /* ViewController.swift */,
+				CA73E0DF2518E7F900FF0414 /* Timer */,
+				CA73E0A32518E7CD00FF0414 /* Main.storyboard */,
+				CA73E0A62518E7D000FF0414 /* Assets.xcassets */,
+				CA73E0A82518E7D000FF0414 /* LaunchScreen.storyboard */,
+				CA73E0AB2518E7D000FF0414 /* Info.plist */,
+			);
+			path = MockTimer;
+			sourceTree = "<group>";
+		};
+		CA73E0B32518E7D000FF0414 /* MockTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA73E0B42518E7D000FF0414 /* MockTimerTests.swift */,
+				CA73E0D02518E7DA00FF0414 /* MockTimer.swift */,
+				CA73E0B62518E7D000FF0414 /* Info.plist */,
+			);
+			path = MockTimerTests;
+			sourceTree = "<group>";
+		};
+		CA73E0BE2518E7D000FF0414 /* MockTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA73E0BF2518E7D000FF0414 /* MockTimerUITests.swift */,
+				CA73E0C12518E7D000FF0414 /* Info.plist */,
+			);
+			path = MockTimerUITests;
+			sourceTree = "<group>";
+		};
+		CA73E0DF2518E7F900FF0414 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				CA73E0D52518E7EC00FF0414 /* ExchangeTimer.swift */,
+				CA73E0DA2518E7F100FF0414 /* TimerProtocol.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA73E0992518E7CD00FF0414 /* MockTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA73E0C42518E7D000FF0414 /* Build configuration list for PBXNativeTarget "MockTimer" */;
+			buildPhases = (
+				CA73E0962518E7CD00FF0414 /* Sources */,
+				CA73E0972518E7CD00FF0414 /* Frameworks */,
+				CA73E0982518E7CD00FF0414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockTimer;
+			productName = MockTimer;
+			productReference = CA73E09A2518E7CD00FF0414 /* MockTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA73E0AF2518E7D000FF0414 /* MockTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA73E0C72518E7D000FF0414 /* Build configuration list for PBXNativeTarget "MockTimerTests" */;
+			buildPhases = (
+				CA73E0AC2518E7D000FF0414 /* Sources */,
+				CA73E0AD2518E7D000FF0414 /* Frameworks */,
+				CA73E0AE2518E7D000FF0414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA73E0B22518E7D000FF0414 /* PBXTargetDependency */,
+			);
+			name = MockTimerTests;
+			productName = MockTimerTests;
+			productReference = CA73E0B02518E7D000FF0414 /* MockTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA73E0BA2518E7D000FF0414 /* MockTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA73E0CA2518E7D000FF0414 /* Build configuration list for PBXNativeTarget "MockTimerUITests" */;
+			buildPhases = (
+				CA73E0B72518E7D000FF0414 /* Sources */,
+				CA73E0B82518E7D000FF0414 /* Frameworks */,
+				CA73E0B92518E7D000FF0414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA73E0BD2518E7D000FF0414 /* PBXTargetDependency */,
+			);
+			name = MockTimerUITests;
+			productName = MockTimerUITests;
+			productReference = CA73E0BB2518E7D000FF0414 /* MockTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA73E0922518E7CD00FF0414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CA73E0992518E7CD00FF0414 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					CA73E0AF2518E7D000FF0414 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CA73E0992518E7CD00FF0414;
+					};
+					CA73E0BA2518E7D000FF0414 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = CA73E0992518E7CD00FF0414;
+					};
+				};
+			};
+			buildConfigurationList = CA73E0952518E7CD00FF0414 /* Build configuration list for PBXProject "MockTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA73E0912518E7CD00FF0414;
+			productRefGroup = CA73E09B2518E7CD00FF0414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA73E0992518E7CD00FF0414 /* MockTimer */,
+				CA73E0AF2518E7D000FF0414 /* MockTimerTests */,
+				CA73E0BA2518E7D000FF0414 /* MockTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA73E0982518E7CD00FF0414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73E0AA2518E7D000FF0414 /* LaunchScreen.storyboard in Resources */,
+				CA73E0A72518E7D000FF0414 /* Assets.xcassets in Resources */,
+				CA73E0A52518E7CD00FF0414 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73E0AE2518E7D000FF0414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73E0B92518E7D000FF0414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA73E0962518E7CD00FF0414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73E0A22518E7CD00FF0414 /* ViewController.swift in Sources */,
+				CA73E09E2518E7CD00FF0414 /* AppDelegate.swift in Sources */,
+				CA73E0DB2518E7F100FF0414 /* TimerProtocol.swift in Sources */,
+				CA73E0D62518E7EC00FF0414 /* ExchangeTimer.swift in Sources */,
+				CA73E0A02518E7CD00FF0414 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73E0AC2518E7D000FF0414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73E0B52518E7D000FF0414 /* MockTimerTests.swift in Sources */,
+				CA73E0D12518E7DA00FF0414 /* MockTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA73E0B72518E7D000FF0414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA73E0C02518E7D000FF0414 /* MockTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA73E0B22518E7D000FF0414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA73E0992518E7CD00FF0414 /* MockTimer */;
+			targetProxy = CA73E0B12518E7D000FF0414 /* PBXContainerItemProxy */;
+		};
+		CA73E0BD2518E7D000FF0414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA73E0992518E7CD00FF0414 /* MockTimer */;
+			targetProxy = CA73E0BC2518E7D000FF0414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA73E0A32518E7CD00FF0414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA73E0A42518E7CD00FF0414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA73E0A82518E7D000FF0414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA73E0A92518E7D000FF0414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA73E0C22518E7D000FF0414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA73E0C32518E7D000FF0414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA73E0C52518E7D000FF0414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA73E0C62518E7D000FF0414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA73E0C82518E7D000FF0414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockTimer.app/MockTimer";
+			};
+			name = Debug;
+		};
+		CA73E0C92518E7D000FF0414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockTimerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockTimer.app/MockTimer";
+			};
+			name = Release;
+		};
+		CA73E0CB2518E7D000FF0414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockTimer;
+			};
+			name = Debug;
+		};
+		CA73E0CC2518E7D000FF0414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = MockTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.MockTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA73E0952518E7CD00FF0414 /* Build configuration list for PBXProject "MockTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73E0C22518E7D000FF0414 /* Debug */,
+				CA73E0C32518E7D000FF0414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA73E0C42518E7D000FF0414 /* Build configuration list for PBXNativeTarget "MockTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73E0C52518E7D000FF0414 /* Debug */,
+				CA73E0C62518E7D000FF0414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA73E0C72518E7D000FF0414 /* Build configuration list for PBXNativeTarget "MockTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73E0C82518E7D000FF0414 /* Debug */,
+				CA73E0C92518E7D000FF0414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA73E0CA2518E7D000FF0414 /* Build configuration list for PBXNativeTarget "MockTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA73E0CB2518E7D000FF0414 /* Debug */,
+				CA73E0CC2518E7D000FF0414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA73E0922518E7CD00FF0414 /* Project object */;
+}
