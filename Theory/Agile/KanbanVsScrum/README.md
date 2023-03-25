@@ -18,7 +18,7 @@ This isn't the limit of the the differences between Scrum and Kanban, but here a
 
 And in a diagram:
 
-!Comparison(Images/Comparison.png)<br/>
+![Comparison](Images/Comparison.png)<br/>
 
 ## So..
 Scrum is a structured agile approach. Nobody gets fired for choosing scrum, yet in the background there is Kanban.
