@@ -67,6 +67,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Don't be Confused Between Reusable and Generic as a Swift Coder!](https://github.com/stevencurtis/SwiftCoding/tree/master/ReusabilityAndGenerics)<br>
 [High Cohesion SwiftUI Code](https://github.com/stevencurtis/SwiftCoding/tree/master/HighCohesionSwiftUI)<br>
 [Use Inset for UITableViewCell](https://github.com/stevencurtis/SwiftCoding/tree/master/InsetUITableViewCell)<br>
+[Using JSON in Swift code (++ Testing)](https://github.com/stevencurtis/SwiftCoding/tree/master/JSONBasics)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -170,6 +171,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Use an Enum to Decode JSON in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecodeEnumJson)<br>
 [Efficient UIKit Shadows](https://github.com/stevencurtis/SwiftCoding/tree/master/EfficientShadows)<br>
 [How I Would Mock A Swift Timer](https://github.com/stevencurtis/SwiftCoding/tree/master/MockTimer)<br>
+[Decouple Your Classes in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecoupleClasses)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -297,6 +299,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Data Races in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DataRacesSwift)<br>
 [Double Dispatch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DoubleDispatch)<br>
 [Create Loads of CountDown Timers in iOS Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CountDownTable)<br>
+[Sign in with Apple: Swift Coding](https://github.com/stevencurtis/SwiftCoding/tree/master/SignInApple)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -339,7 +342,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Which of these properties COULD cause a Swift Retain Cycle](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/WhichOfTheseCOULDCauseaRetainCycleinSwift)<br>
 [iOS Developers Should Avoid These 5 Common Mistakes](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/5CommoniOSmistakes)<br>
 
-
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
 [WWDC Notes: Keynote](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/WWDCNotes/Keynote)<br>
@@ -365,7 +367,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Halting Problem](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/HaltingProblem)<br>
 [The Strange Case of Georg Cantor, the Diagonalization Argument and Closed Minds](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DiagonalizationAndGeorCantor)<br>
 [Turing Machines](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/TuringMachine)<br>
-
 
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
