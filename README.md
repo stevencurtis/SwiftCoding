@@ -172,6 +172,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Efficient UIKit Shadows](https://github.com/stevencurtis/SwiftCoding/tree/master/EfficientShadows)<br>
 [How I Would Mock A Swift Timer](https://github.com/stevencurtis/SwiftCoding/tree/master/MockTimer)<br>
 [Decouple Your Classes in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecoupleClasses)<br>
+[Implement Polling in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PollingSwift)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -300,6 +301,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Double Dispatch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DoubleDispatch)<br>
 [Create Loads of CountDown Timers in iOS Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/CountDownTable)<br>
 [Sign in with Apple: Swift Coding](https://github.com/stevencurtis/SwiftCoding/tree/master/SignInApple)<br>
+[Reachability for iOS Swift Applications](https://github.com/stevencurtis/SwiftCoding/tree/master/Reachability)<br>
+[Unit Test Gesture Recognizers](https://github.com/stevencurtis/SwiftCoding/tree/master/UnitTestGestureRecognizers)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -341,6 +344,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [GitHub Copilot: The AI-Powered iOS Programming Assistant You Need to Try](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/GitHubAutopilot)<br>
 [Which of these properties COULD cause a Swift Retain Cycle](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/WhichOfTheseCOULDCauseaRetainCycleinSwift)<br>
 [iOS Developers Should Avoid These 5 Common Mistakes](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/5CommoniOSmistakes)<br>
+[Running Shell Commands from Breakpoints](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/BPShellCommand)<br>
+
 
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
@@ -367,6 +372,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Halting Problem](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/HaltingProblem)<br>
 [The Strange Case of Georg Cantor, the Diagonalization Argument and Closed Minds](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/DiagonalizationAndGeorCantor)<br>
 [Turing Machines](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/TuringMachine)<br>
+[Merge Sort in Swift](https://medium.com/@stevenpcurtis/merge-sort-in-swift-2f58d10aced7)<br>
+[Insertion Sort in Swift](https://medium.com/@stevenpcurtis/insertion-sort-in-swift-cabf448f1a9e)<br>
+[Selection Sort in Swift](https://medium.com/@stevenpcurtis/selection-sort-in-swift-fb9051f221eb)<br>
 
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
