@@ -68,6 +68,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [High Cohesion SwiftUI Code](https://github.com/stevencurtis/SwiftCoding/tree/master/HighCohesionSwiftUI)<br>
 [Use Inset for UITableViewCell](https://github.com/stevencurtis/SwiftCoding/tree/master/InsetUITableViewCell)<br>
 [Using JSON in Swift code (++ Testing)](https://github.com/stevencurtis/SwiftCoding/tree/master/JSONBasics)<br>
+[Adding a UITabBarController](https://github.com/stevencurtis/SwiftCoding/tree/master/TabBarController)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -173,6 +174,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [How I Would Mock A Swift Timer](https://github.com/stevencurtis/SwiftCoding/tree/master/MockTimer)<br>
 [Decouple Your Classes in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DecoupleClasses)<br>
 [Implement Polling in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PollingSwift)<br>
+[Testing the Sandwiches SwiftUI WWDC Code](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/TestingSandwiches)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
