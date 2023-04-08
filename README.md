@@ -69,6 +69,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Use Inset for UITableViewCell](https://github.com/stevencurtis/SwiftCoding/tree/master/InsetUITableViewCell)<br>
 [Using JSON in Swift code (++ Testing)](https://github.com/stevencurtis/SwiftCoding/tree/master/JSONBasics)<br>
 [Adding a UITabBarController](https://github.com/stevencurtis/SwiftCoding/tree/master/TabBarController)<br>
+[Extract A Swift Prototype Cell](https://github.com/stevencurtis/SwiftCoding/tree/master/ExtractProtocolCell)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>

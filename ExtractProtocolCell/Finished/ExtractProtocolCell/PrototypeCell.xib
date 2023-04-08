@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrototypeCell" customModule="ExtractProtocolCell" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="95R-4r-BHT" customClass="PrototypeCell" customModule="ExtractProtocolCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="95R-4r-BHT" id="dy0-ap-hcy">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqA-Xd-wzk">
+                        <rect key="frame" x="20" y="11.666666666666664" width="353" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EqA-Xd-wzk" firstAttribute="centerY" secondItem="dy0-ap-hcy" secondAttribute="centerY" id="9YV-q1-94R"/>
+                    <constraint firstItem="EqA-Xd-wzk" firstAttribute="leading" secondItem="dy0-ap-hcy" secondAttribute="leading" constant="20" symbolic="YES" id="ja7-AK-Cm3"/>
+                    <constraint firstAttribute="trailing" secondItem="EqA-Xd-wzk" secondAttribute="trailing" constant="20" symbolic="YES" id="maR-ZP-V7z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="EqA-Xd-wzk" id="MsI-qE-joX"/>
+            </connections>
+            <point key="canvasLocation" x="-407" y="-112"/>
+        </tableViewCell>
+    </objects>
+</document>
