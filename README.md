@@ -307,6 +307,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Sign in with Apple: Swift Coding](https://github.com/stevencurtis/SwiftCoding/tree/master/SignInApple)<br>
 [Reachability for iOS Swift Applications](https://github.com/stevencurtis/SwiftCoding/tree/master/Reachability)<br>
 [Unit Test Gesture Recognizers](https://github.com/stevencurtis/SwiftCoding/tree/master/UnitTestGestureRecognizers)<br>
+[Mocking NWPathMonitor for Swift UI Testing: Overcoming Connectivity Challenges](https://github.com/stevencurtis/SwiftCoding/tree/master/NetworkPathMock)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -378,7 +379,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Turing Machines](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/TuringMachine)<br>
 [Merge Sort in Swift](https://medium.com/@stevenpcurtis/merge-sort-in-swift-2f58d10aced7)<br>
 [Insertion Sort in Swift](https://medium.com/@stevenpcurtis/insertion-sort-in-swift-cabf448f1a9e)<br>
-[Selection Sort in Swift](https://medium.com/@stevenpcurtis/selection-sort-in-swift-fb9051f221eb)<br>
+[The Readers-Writers Problem](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/ReadersWriters)<br>
+[Should I Learn UIKit or SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/UIKitvsSwiftUI)<br>
 
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
