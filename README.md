@@ -71,6 +71,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Adding a UITabBarController](https://github.com/stevencurtis/SwiftCoding/tree/master/TabBarController)<br>
 [Extract A Swift Prototype Cell](https://github.com/stevencurtis/SwiftCoding/tree/master/ExtractProtocolCell)<br>
 [Use AttributedString in SwiftUI Before iOS 15](https://github.com/stevencurtis/SwiftCoding/tree/master/TextAttributedString)<br>
+[Swift Actors: Manage Concurrency and Prevent Data Races](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/Actor)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
