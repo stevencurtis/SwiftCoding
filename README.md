@@ -72,6 +72,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Extract A Swift Prototype Cell](https://github.com/stevencurtis/SwiftCoding/tree/master/ExtractProtocolCell)<br>
 [Use AttributedString in SwiftUI Before iOS 15](https://github.com/stevencurtis/SwiftCoding/tree/master/TextAttributedString)<br>
 [Swift Actors: Manage Concurrency and Prevent Data Races](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/Actor)<br>
+[Set up an Xcode development certificate](https://github.com/stevencurtis/SwiftCoding/tree/master/AutomaticSigning)<br>
+[Harnessing the Power of Tab Bars in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/TabBarSwiftUI)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
