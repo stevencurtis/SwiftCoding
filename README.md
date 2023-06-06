@@ -74,6 +74,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift Actors: Manage Concurrency and Prevent Data Races](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/Actor)<br>
 [Set up an Xcode development certificate](https://github.com/stevencurtis/SwiftCoding/tree/master/AutomaticSigning)<br>
 [Harnessing the Power of Tab Bars in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/TabBarSwiftUI)<br>
+[New in Swift 5.9](https://github.com/stevencurtis/SwiftCoding/tree/master/NewInSwift)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
