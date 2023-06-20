@@ -77,6 +77,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [New in Swift 5.9 (WWDC 2023)](https://github.com/stevencurtis/SwiftCoding/tree/master/NewInSwift)<br>
 [New in UIKit (WWDC 2023)](https://github.com/stevencurtis/SwiftCoding/tree/master/NewInUIKit)<br>
 [WWDC 2023: Discover Observation in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/ObservationSwiftUI)<br>
+[WWDC 2023: Discover String Catalogs](https://github.com/stevencurtis/SwiftCoding/tree/master/StringCatalog)<br>
 [The @Environment && @EnvironmentProperty SwiftUI Property Wrappers](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/EnvironmentPropertyWrapper)<br>
 [The @State Property Wrapper](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/StateExample)<br>
 
