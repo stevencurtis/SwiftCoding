@@ -320,6 +320,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Reachability for iOS Swift Applications](https://github.com/stevencurtis/SwiftCoding/tree/master/Reachability)<br>
 [Unit Test Gesture Recognizers](https://github.com/stevencurtis/SwiftCoding/tree/master/UnitTestGestureRecognizers)<br>
 [Mocking NWPathMonitor for Swift UI Testing: Overcoming Connectivity Challenges](https://github.com/stevencurtis/SwiftCoding/tree/master/NetworkPathMock)<br>
+[Mastering ObjectIdentifier in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ObjectIdentifier)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
