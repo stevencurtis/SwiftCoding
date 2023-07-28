@@ -410,6 +410,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Builder Design Pattern In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/BuilderDesignPattern)<br>
 [The Visitor Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/VisitorDesignPattern)<br>
 [The Strategy Design Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/StrategyDesignPattern)<br>
+[The Prototype Pattern in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DesignPatterns/PrototypeDesignPattern)<br>
 
 ### General iOS
 [Storing Payment Data On iOS: My Take](https://github.com/stevencurtis/SwiftCoding/tree/master/StoringPaymentDataOnMyTake)<br>
