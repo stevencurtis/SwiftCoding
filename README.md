@@ -83,6 +83,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 ](https://github.com/stevencurtis/SwiftCoding/tree/master/MeetSwiftData)<br>
 [The @Environment && @EnvironmentProperty SwiftUI Property Wrappers](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/EnvironmentPropertyWrapper)<br>
 [The @State Property Wrapper](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/StateExample)<br>
+[Use IBSegueAction To Make Storyboards Less Awful](https://github.com/stevencurtis/SwiftCoding/tree/master/IBSegueAction)<br>
+[The @Binding property wrapper](https://github.com/stevencurtis/SwiftCoding/tree/master/BindingPropertyWrapper)<br>
+[Global actors in Swift Concurrency](https://github.com/stevencurtis/SwiftCoding/tree/master/GlobalActors)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
