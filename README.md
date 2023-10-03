@@ -193,6 +193,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Implement Polling in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PollingSwift)<br>
 [Testing the Sandwiches SwiftUI WWDC Code](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/TestingSandwiches)<br>
 [The ViewBuilder Attribute](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/ViewBuilder)<br>
+[SwiftUI's Namespace](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/Namespace)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
