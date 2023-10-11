@@ -326,6 +326,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Unit Test Gesture Recognizers](https://github.com/stevencurtis/SwiftCoding/tree/master/UnitTestGestureRecognizers)<br>
 [Mocking NWPathMonitor for Swift UI Testing: Overcoming Connectivity Challenges](https://github.com/stevencurtis/SwiftCoding/tree/master/NetworkPathMock)<br>
 [Mastering ObjectIdentifier in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ObjectIdentifier)<br>
+[View Reparenting in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIViewReparenting)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
