@@ -86,6 +86,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The @Binding property wrapper](https://github.com/stevencurtis/SwiftCoding/tree/master/BindingPropertyWrapper)<br>
 [Global actors in Swift Concurrency](https://github.com/stevencurtis/SwiftCoding/tree/master/GlobalActors)<br>
 [Swift's Result Builders](https://github.com/stevencurtis/SwiftCoding/tree/master/ResultBuilder)<br>
+[An Accordion View in Swift and UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/AppearView)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
