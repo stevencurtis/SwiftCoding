@@ -371,7 +371,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [iOS Developers Should Avoid These 5 Common Mistakes](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/5CommoniOSmistakes)<br>
 [Running Shell Commands from Breakpoints](https://github.com/stevencurtis/SwiftCoding/tree/master/Tips/BPShellCommand)<br>
 
-
 ### Theory
 [Kruskal’s Algorithm in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Kruskal)<br>
 [WWDC Notes: Keynote](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/WWDCNotes/Keynote)<br>
