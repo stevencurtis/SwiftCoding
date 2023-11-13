@@ -329,6 +329,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Mocking NWPathMonitor for Swift UI Testing: Overcoming Connectivity Challenges](https://github.com/stevencurtis/SwiftCoding/tree/master/NetworkPathMock)<br>
 [Mastering ObjectIdentifier in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ObjectIdentifier)<br>
 [View Reparenting in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIViewReparenting)<br>
+[Swift's Sendable and @Sendable closures](https://github.com/stevencurtis/SwiftCoding/tree/master/SendableProtocol)<br>
+[Modularizing SwiftUI Projects](https://github.com/stevencurtis/SwiftCoding/tree/master/Modularization)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
