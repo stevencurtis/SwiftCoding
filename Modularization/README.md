@@ -10,16 +10,14 @@ This article has been developed using Xcode 12.4, and Swift 5.7.2
 You need to be able to code in Swift, perhaps using
 [Playgrounds](https://medium.com/@stevenpcurtis.sc/coding-in-swift-playgrounds-1a5563efa089) and be able to use SwiftUI
 
-
-
 # Don't bore us, get to it!
 ## Create a new project
 
-[newproject.png](Images/newproject.png)
+![newproject.png](Images/newproject.png)
 
 Name the main module
 
-[mainmodule.png](Images/mainmodule.png)
+![mainmodule.png](Images/mainmodule.png)
 
 This is the entry point to the App and will contain the other modules. Typically this would contain things like modules responsible for networking and shared components (etc.).
 
@@ -28,11 +26,11 @@ This is the entry point to the App and will contain the other modules. Typically
 I'm going to create a new project for my components. The idea here is that I can create some buttons and views that can be used anywhere within my fun App!
 This time rather than creating a new project I'll create a new framework.
 
-[framework.png](Images/framework.png)
+![framework.png](Images/framework.png)
 
 I then call fill out the following fields for the component library:
 
-[componentlibrary.png](Images/componentlibrary.png)
+![componentlibrary.png](Images/componentlibrary.png)
 
 I don't need tests for this one as it's goig to be UI only (discuss this choice in the comments).
 I'm going to setup a simple button in the framework. Here is the code for my button. Note that the initializer needs to be public so it is accessible from outside it's containing module.
@@ -63,11 +61,11 @@ public struct SimpleButtonView: View {
 
 So I'll create a new file.
 
-[newfile.png](Images/newfile.png)
+![newfile.png](Images/newfile.png)
 
 I'll call it `SimpleButtonView` and place it into the root of the `ComponentLibrary`. I can copy pasta my code into the file. That's nice.
 
-[simplebuttonview.png](Images/simplebuttonview.png)
+![simplebuttonview.png](Images/simplebuttonview.png)
 
 The project builds but I can't see anything. That's not ideal. Let's fix this. I want to combine these two modules into one workspace. How hard can it be?
 
