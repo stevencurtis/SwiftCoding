@@ -331,6 +331,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [View Reparenting in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIViewReparenting)<br>
 [Swift's Sendable and @Sendable closures](https://github.com/stevencurtis/SwiftCoding/tree/master/SendableProtocol)<br>
 [Modularizing SwiftUI Projects](https://github.com/stevencurtis/SwiftCoding/tree/master/Modularization)<br>
+[The SwiftUI View Lifecycle](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIViewLifecycle)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
