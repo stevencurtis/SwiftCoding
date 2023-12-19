@@ -88,6 +88,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift's Result Builders](https://github.com/stevencurtis/SwiftCoding/tree/master/ResultBuilder)<br>
 [An Accordion View in Swift and UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/AppearView)<br>
 [Create a telephone call in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/OpenCallSwiftUI)<br>
+[Create emails in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/OpenEmailSwiftUI)<br>
+[Shared Initialization for AppDelegate and SceneDelegate](https://github.com/stevencurtis/SwiftCoding/tree/master/SharedAppDelegateSceneDelegate)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
