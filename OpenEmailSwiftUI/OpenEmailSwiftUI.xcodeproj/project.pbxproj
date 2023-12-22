@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6CF3122AFA95E700A3E459 /* OpenEmailSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF3112AFA95E700A3E459 /* OpenEmailSwiftUIApp.swift */; };
+		CA6CF3142AFA95E700A3E459 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF3132AFA95E700A3E459 /* ContentView.swift */; };
+		CA6CF3162AFA95E900A3E459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6CF3152AFA95E900A3E459 /* Assets.xcassets */; };
+		CA6CF3192AFA95E900A3E459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6CF3182AFA95E900A3E459 /* Preview Assets.xcassets */; };
+		CA6CF3232AFA95E900A3E459 /* OpenEmailSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF3222AFA95E900A3E459 /* OpenEmailSwiftUITests.swift */; };
+		CA6CF32D2AFA95E900A3E459 /* OpenEmailSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF32C2AFA95E900A3E459 /* OpenEmailSwiftUIUITests.swift */; };
+		CA6CF32F2AFA95E900A3E459 /* OpenEmailSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF32E2AFA95E900A3E459 /* OpenEmailSwiftUIUITestsLaunchTests.swift */; };
+		CA6CF33D2AFA95F400A3E459 /* OpenURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF33B2AFA95F400A3E459 /* OpenURLProtocol.swift */; };
+		CA6CF33E2AFA95F400A3E459 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CF33C2AFA95F400A3E459 /* ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6CF31F2AFA95E900A3E459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6CF3062AFA95E700A3E459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6CF30D2AFA95E700A3E459;
+			remoteInfo = OpenEmailSwiftUI;
+		};
+		CA6CF3292AFA95E900A3E459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6CF3062AFA95E700A3E459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6CF30D2AFA95E700A3E459;
+			remoteInfo = OpenEmailSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA6CF30E2AFA95E700A3E459 /* OpenEmailSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEmailSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6CF3112AFA95E700A3E459 /* OpenEmailSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEmailSwiftUIApp.swift; sourceTree = "<group>"; };
+		CA6CF3132AFA95E700A3E459 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA6CF3152AFA95E900A3E459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6CF3182AFA95E900A3E459 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA6CF31E2AFA95E900A3E459 /* OpenEmailSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEmailSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6CF3222AFA95E900A3E459 /* OpenEmailSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEmailSwiftUITests.swift; sourceTree = "<group>"; };
+		CA6CF3282AFA95E900A3E459 /* OpenEmailSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEmailSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6CF32C2AFA95E900A3E459 /* OpenEmailSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEmailSwiftUIUITests.swift; sourceTree = "<group>"; };
+		CA6CF32E2AFA95E900A3E459 /* OpenEmailSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEmailSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA6CF33B2AFA95F400A3E459 /* OpenURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenURLProtocol.swift; sourceTree = "<group>"; };
+		CA6CF33C2AFA95F400A3E459 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6CF30B2AFA95E700A3E459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6CF31B2AFA95E900A3E459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6CF3252AFA95E900A3E459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6CF3052AFA95E700A3E459 = {
+			isa = PBXGroup;
+			children = (
+				CA6CF3102AFA95E700A3E459 /* OpenEmailSwiftUI */,
+				CA6CF3212AFA95E900A3E459 /* OpenEmailSwiftUITests */,
+				CA6CF32B2AFA95E900A3E459 /* OpenEmailSwiftUIUITests */,
+				CA6CF30F2AFA95E700A3E459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6CF30F2AFA95E700A3E459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6CF30E2AFA95E700A3E459 /* OpenEmailSwiftUI.app */,
+				CA6CF31E2AFA95E900A3E459 /* OpenEmailSwiftUITests.xctest */,
+				CA6CF3282AFA95E900A3E459 /* OpenEmailSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6CF3102AFA95E700A3E459 /* OpenEmailSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CA6CF3112AFA95E700A3E459 /* OpenEmailSwiftUIApp.swift */,
+				CA6CF3132AFA95E700A3E459 /* ContentView.swift */,
+				CA6CF33B2AFA95F400A3E459 /* OpenURLProtocol.swift */,
+				CA6CF33C2AFA95F400A3E459 /* ViewModel.swift */,
+				CA6CF3152AFA95E900A3E459 /* Assets.xcassets */,
+				CA6CF3172AFA95E900A3E459 /* Preview Content */,
+			);
+			path = OpenEmailSwiftUI;
+			sourceTree = "<group>";
+		};
+		CA6CF3172AFA95E900A3E459 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA6CF3182AFA95E900A3E459 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA6CF3212AFA95E900A3E459 /* OpenEmailSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6CF3222AFA95E900A3E459 /* OpenEmailSwiftUITests.swift */,
+			);
+			path = OpenEmailSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CA6CF32B2AFA95E900A3E459 /* OpenEmailSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6CF32C2AFA95E900A3E459 /* OpenEmailSwiftUIUITests.swift */,
+				CA6CF32E2AFA95E900A3E459 /* OpenEmailSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = OpenEmailSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6CF30D2AFA95E700A3E459 /* OpenEmailSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6CF3322AFA95E900A3E459 /* Build configuration list for PBXNativeTarget "OpenEmailSwiftUI" */;
+			buildPhases = (
+				CA6CF30A2AFA95E700A3E459 /* Sources */,
+				CA6CF30B2AFA95E700A3E459 /* Frameworks */,
+				CA6CF30C2AFA95E700A3E459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenEmailSwiftUI;
+			productName = OpenEmailSwiftUI;
+			productReference = CA6CF30E2AFA95E700A3E459 /* OpenEmailSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6CF31D2AFA95E900A3E459 /* OpenEmailSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6CF3352AFA95E900A3E459 /* Build configuration list for PBXNativeTarget "OpenEmailSwiftUITests" */;
+			buildPhases = (
+				CA6CF31A2AFA95E900A3E459 /* Sources */,
+				CA6CF31B2AFA95E900A3E459 /* Frameworks */,
+				CA6CF31C2AFA95E900A3E459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6CF3202AFA95E900A3E459 /* PBXTargetDependency */,
+			);
+			name = OpenEmailSwiftUITests;
+			productName = OpenEmailSwiftUITests;
+			productReference = CA6CF31E2AFA95E900A3E459 /* OpenEmailSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA6CF3272AFA95E900A3E459 /* OpenEmailSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6CF3382AFA95E900A3E459 /* Build configuration list for PBXNativeTarget "OpenEmailSwiftUIUITests" */;
+			buildPhases = (
+				CA6CF3242AFA95E900A3E459 /* Sources */,
+				CA6CF3252AFA95E900A3E459 /* Frameworks */,
+				CA6CF3262AFA95E900A3E459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6CF32A2AFA95E900A3E459 /* PBXTargetDependency */,
+			);
+			name = OpenEmailSwiftUIUITests;
+			productName = OpenEmailSwiftUIUITests;
+			productReference = CA6CF3282AFA95E900A3E459 /* OpenEmailSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6CF3062AFA95E700A3E459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CA6CF30D2AFA95E700A3E459 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CA6CF31D2AFA95E900A3E459 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CA6CF30D2AFA95E700A3E459;
+					};
+					CA6CF3272AFA95E900A3E459 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CA6CF30D2AFA95E700A3E459;
+					};
+				};
+			};
+			buildConfigurationList = CA6CF3092AFA95E700A3E459 /* Build configuration list for PBXProject "OpenEmailSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6CF3052AFA95E700A3E459;
+			productRefGroup = CA6CF30F2AFA95E700A3E459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6CF30D2AFA95E700A3E459 /* OpenEmailSwiftUI */,
+				CA6CF31D2AFA95E900A3E459 /* OpenEmailSwiftUITests */,
+				CA6CF3272AFA95E900A3E459 /* OpenEmailSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6CF30C2AFA95E700A3E459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6CF3192AFA95E900A3E459 /* Preview Assets.xcassets in Resources */,
+				CA6CF3162AFA95E900A3E459 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6CF31C2AFA95E900A3E459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6CF3262AFA95E900A3E459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6CF30A2AFA95E700A3E459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6CF3142AFA95E700A3E459 /* ContentView.swift in Sources */,
+				CA6CF33D2AFA95F400A3E459 /* OpenURLProtocol.swift in Sources */,
+				CA6CF33E2AFA95F400A3E459 /* ViewModel.swift in Sources */,
+				CA6CF3122AFA95E700A3E459 /* OpenEmailSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6CF31A2AFA95E900A3E459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6CF3232AFA95E900A3E459 /* OpenEmailSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6CF3242AFA95E900A3E459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6CF32D2AFA95E900A3E459 /* OpenEmailSwiftUIUITests.swift in Sources */,
+				CA6CF32F2AFA95E900A3E459 /* OpenEmailSwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA6CF3202AFA95E900A3E459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6CF30D2AFA95E700A3E459 /* OpenEmailSwiftUI */;
+			targetProxy = CA6CF31F2AFA95E900A3E459 /* PBXContainerItemProxy */;
+		};
+		CA6CF32A2AFA95E900A3E459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6CF30D2AFA95E700A3E459 /* OpenEmailSwiftUI */;
+			targetProxy = CA6CF3292AFA95E900A3E459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA6CF3302AFA95E900A3E459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA6CF3312AFA95E900A3E459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6CF3332AFA95E900A3E459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenEmailSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.OpenEmailSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6CF3342AFA95E900A3E459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenEmailSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.OpenEmailSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA6CF3362AFA95E900A3E459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.OpenEmailSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEmailSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenEmailSwiftUI";
+			};
+			name = Debug;
+		};
+		CA6CF3372AFA95E900A3E459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.OpenEmailSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEmailSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenEmailSwiftUI";
+			};
+			name = Release;
+		};
+		CA6CF3392AFA95E900A3E459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.OpenEmailSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenEmailSwiftUI;
+			};
+			name = Debug;
+		};
+		CA6CF33A2AFA95E900A3E459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.OpenEmailSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenEmailSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6CF3092AFA95E700A3E459 /* Build configuration list for PBXProject "OpenEmailSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6CF3302AFA95E900A3E459 /* Debug */,
+				CA6CF3312AFA95E900A3E459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6CF3322AFA95E900A3E459 /* Build configuration list for PBXNativeTarget "OpenEmailSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6CF3332AFA95E900A3E459 /* Debug */,
+				CA6CF3342AFA95E900A3E459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6CF3352AFA95E900A3E459 /* Build configuration list for PBXNativeTarget "OpenEmailSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6CF3362AFA95E900A3E459 /* Debug */,
+				CA6CF3372AFA95E900A3E459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6CF3382AFA95E900A3E459 /* Build configuration list for PBXNativeTarget "OpenEmailSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6CF3392AFA95E900A3E459 /* Debug */,
+				CA6CF33A2AFA95E900A3E459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6CF3062AFA95E700A3E459 /* Project object */;
+}
