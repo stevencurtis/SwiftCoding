@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF8638825B3315500834EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8638725B3315500834EB2 /* AppDelegate.swift */; };
+		CAF8638A25B3315500834EB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8638925B3315500834EB2 /* SceneDelegate.swift */; };
+		CAF8638C25B3315500834EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8638B25B3315500834EB2 /* ViewController.swift */; };
+		CAF8638F25B3315500834EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF8638D25B3315500834EB2 /* Main.storyboard */; };
+		CAF8639125B3315800834EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF8639025B3315800834EB2 /* Assets.xcassets */; };
+		CAF8639425B3315800834EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF8639225B3315800834EB2 /* LaunchScreen.storyboard */; };
+		CAF8639F25B3315800834EB2 /* HapticsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF8639E25B3315800834EB2 /* HapticsProjectTests.swift */; };
+		CAF863AA25B3315800834EB2 /* HapticsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF863A925B3315800834EB2 /* HapticsProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF8639B25B3315800834EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF8637C25B3315400834EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF8638325B3315400834EB2;
+			remoteInfo = HapticsProject;
+		};
+		CAF863A625B3315800834EB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF8637C25B3315400834EB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF8638325B3315400834EB2;
+			remoteInfo = HapticsProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF8638425B3315400834EB2 /* HapticsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF8638725B3315500834EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF8638925B3315500834EB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAF8638B25B3315500834EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAF8638E25B3315500834EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF8639025B3315800834EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF8639325B3315800834EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF8639525B3315800834EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF8639A25B3315800834EB2 /* HapticsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF8639E25B3315800834EB2 /* HapticsProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsProjectTests.swift; sourceTree = "<group>"; };
+		CAF863A025B3315800834EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF863A525B3315800834EB2 /* HapticsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HapticsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF863A925B3315800834EB2 /* HapticsProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsProjectUITests.swift; sourceTree = "<group>"; };
+		CAF863AB25B3315800834EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF8638125B3315400834EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8639725B3315800834EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF863A225B3315800834EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF8637B25B3315400834EB2 = {
+			isa = PBXGroup;
+			children = (
+				CAF8638625B3315500834EB2 /* HapticsProject */,
+				CAF8639D25B3315800834EB2 /* HapticsProjectTests */,
+				CAF863A825B3315800834EB2 /* HapticsProjectUITests */,
+				CAF8638525B3315400834EB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF8638525B3315400834EB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8638425B3315400834EB2 /* HapticsProject.app */,
+				CAF8639A25B3315800834EB2 /* HapticsProjectTests.xctest */,
+				CAF863A525B3315800834EB2 /* HapticsProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF8638625B3315500834EB2 /* HapticsProject */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8638725B3315500834EB2 /* AppDelegate.swift */,
+				CAF8638925B3315500834EB2 /* SceneDelegate.swift */,
+				CAF8638B25B3315500834EB2 /* ViewController.swift */,
+				CAF8638D25B3315500834EB2 /* Main.storyboard */,
+				CAF8639025B3315800834EB2 /* Assets.xcassets */,
+				CAF8639225B3315800834EB2 /* LaunchScreen.storyboard */,
+				CAF8639525B3315800834EB2 /* Info.plist */,
+			);
+			path = HapticsProject;
+			sourceTree = "<group>";
+		};
+		CAF8639D25B3315800834EB2 /* HapticsProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF8639E25B3315800834EB2 /* HapticsProjectTests.swift */,
+				CAF863A025B3315800834EB2 /* Info.plist */,
+			);
+			path = HapticsProjectTests;
+			sourceTree = "<group>";
+		};
+		CAF863A825B3315800834EB2 /* HapticsProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF863A925B3315800834EB2 /* HapticsProjectUITests.swift */,
+				CAF863AB25B3315800834EB2 /* Info.plist */,
+			);
+			path = HapticsProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF8638325B3315400834EB2 /* HapticsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF863AE25B3315800834EB2 /* Build configuration list for PBXNativeTarget "HapticsProject" */;
+			buildPhases = (
+				CAF8638025B3315400834EB2 /* Sources */,
+				CAF8638125B3315400834EB2 /* Frameworks */,
+				CAF8638225B3315400834EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HapticsProject;
+			productName = HapticsProject;
+			productReference = CAF8638425B3315400834EB2 /* HapticsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF8639925B3315800834EB2 /* HapticsProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF863B125B3315800834EB2 /* Build configuration list for PBXNativeTarget "HapticsProjectTests" */;
+			buildPhases = (
+				CAF8639625B3315800834EB2 /* Sources */,
+				CAF8639725B3315800834EB2 /* Frameworks */,
+				CAF8639825B3315800834EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF8639C25B3315800834EB2 /* PBXTargetDependency */,
+			);
+			name = HapticsProjectTests;
+			productName = HapticsProjectTests;
+			productReference = CAF8639A25B3315800834EB2 /* HapticsProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF863A425B3315800834EB2 /* HapticsProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF863B425B3315800834EB2 /* Build configuration list for PBXNativeTarget "HapticsProjectUITests" */;
+			buildPhases = (
+				CAF863A125B3315800834EB2 /* Sources */,
+				CAF863A225B3315800834EB2 /* Frameworks */,
+				CAF863A325B3315800834EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF863A725B3315800834EB2 /* PBXTargetDependency */,
+			);
+			name = HapticsProjectUITests;
+			productName = HapticsProjectUITests;
+			productReference = CAF863A525B3315800834EB2 /* HapticsProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF8637C25B3315400834EB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CAF8638325B3315400834EB2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CAF8639925B3315800834EB2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CAF8638325B3315400834EB2;
+					};
+					CAF863A425B3315800834EB2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = CAF8638325B3315400834EB2;
+					};
+				};
+			};
+			buildConfigurationList = CAF8637F25B3315400834EB2 /* Build configuration list for PBXProject "HapticsProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF8637B25B3315400834EB2;
+			productRefGroup = CAF8638525B3315400834EB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF8638325B3315400834EB2 /* HapticsProject */,
+				CAF8639925B3315800834EB2 /* HapticsProjectTests */,
+				CAF863A425B3315800834EB2 /* HapticsProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF8638225B3315400834EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8639425B3315800834EB2 /* LaunchScreen.storyboard in Resources */,
+				CAF8639125B3315800834EB2 /* Assets.xcassets in Resources */,
+				CAF8638F25B3315500834EB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8639825B3315800834EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF863A325B3315800834EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF8638025B3315400834EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8638C25B3315500834EB2 /* ViewController.swift in Sources */,
+				CAF8638825B3315500834EB2 /* AppDelegate.swift in Sources */,
+				CAF8638A25B3315500834EB2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF8639625B3315800834EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF8639F25B3315800834EB2 /* HapticsProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF863A125B3315800834EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF863AA25B3315800834EB2 /* HapticsProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF8639C25B3315800834EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF8638325B3315400834EB2 /* HapticsProject */;
+			targetProxy = CAF8639B25B3315800834EB2 /* PBXContainerItemProxy */;
+		};
+		CAF863A725B3315800834EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF8638325B3315400834EB2 /* HapticsProject */;
+			targetProxy = CAF863A625B3315800834EB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF8638D25B3315500834EB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF8638E25B3315500834EB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF8639225B3315800834EB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF8639325B3315800834EB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF863AC25B3315800834EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF863AD25B3315800834EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF863AF25B3315800834EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = HapticsProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.HapticsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF863B025B3315800834EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = HapticsProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.HapticsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF863B225B3315800834EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = HapticsProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.HapticsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticsProject.app/HapticsProject";
+			};
+			name = Debug;
+		};
+		CAF863B325B3315800834EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = HapticsProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.HapticsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HapticsProject.app/HapticsProject";
+			};
+			name = Release;
+		};
+		CAF863B525B3315800834EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = HapticsProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.HapticsProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticsProject;
+			};
+			name = Debug;
+		};
+		CAF863B625B3315800834EB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				INFOPLIST_FILE = HapticsProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.HapticsProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HapticsProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF8637F25B3315400834EB2 /* Build configuration list for PBXProject "HapticsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF863AC25B3315800834EB2 /* Debug */,
+				CAF863AD25B3315800834EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF863AE25B3315800834EB2 /* Build configuration list for PBXNativeTarget "HapticsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF863AF25B3315800834EB2 /* Debug */,
+				CAF863B025B3315800834EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF863B125B3315800834EB2 /* Build configuration list for PBXNativeTarget "HapticsProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF863B225B3315800834EB2 /* Debug */,
+				CAF863B325B3315800834EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF863B425B3315800834EB2 /* Build configuration list for PBXNativeTarget "HapticsProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF863B525B3315800834EB2 /* Debug */,
+				CAF863B625B3315800834EB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF8637C25B3315400834EB2 /* Project object */;
+}

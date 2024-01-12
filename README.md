@@ -198,6 +198,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Testing the Sandwiches SwiftUI WWDC Code](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/TestingSandwiches)<br>
 [The ViewBuilder Attribute](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/ViewBuilder)<br>
 [SwiftUI's Namespace](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/Namespace)<br>
+[Creating a collapsible UITableViewCell in Swift: A Step-by-Step Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/CollapsibleTableViewCellProject)<br>
+[Haptics in UIKit: A Simple Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/HapticsProject)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
