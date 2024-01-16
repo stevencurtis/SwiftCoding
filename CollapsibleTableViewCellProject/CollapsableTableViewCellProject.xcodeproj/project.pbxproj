@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0D070D2B519079001542AD /* CollapsibleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D070C2B519079001542AD /* CollapsibleCell.swift */; };
+		CAD1B7E22B20D6B100279ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1B7E12B20D6B100279ABB /* AppDelegate.swift */; };
+		CAD1B7E42B20D6B100279ABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1B7E32B20D6B100279ABB /* SceneDelegate.swift */; };
+		CAD1B7E62B20D6B100279ABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1B7E52B20D6B100279ABB /* ViewController.swift */; };
+		CAD1B7E92B20D6B100279ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD1B7E72B20D6B100279ABB /* Main.storyboard */; };
+		CAD1B7EB2B20D6B300279ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD1B7EA2B20D6B300279ABB /* Assets.xcassets */; };
+		CAD1B7EE2B20D6B300279ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD1B7EC2B20D6B300279ABB /* LaunchScreen.storyboard */; };
+		CAD1B7F92B20D6B400279ABB /* CollapsableTableViewCellProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1B7F82B20D6B400279ABB /* CollapsableTableViewCellProjectTests.swift */; };
+		CAD1B8032B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1B8022B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.swift */; };
+		CAD1B8052B20D6B400279ABB /* CollapsableTableViewCellProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1B8042B20D6B400279ABB /* CollapsableTableViewCellProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD1B7F52B20D6B400279ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD1B7D62B20D6B100279ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD1B7DD2B20D6B100279ABB;
+			remoteInfo = CollapsableTableViewCellProject;
+		};
+		CAD1B7FF2B20D6B400279ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD1B7D62B20D6B100279ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD1B7DD2B20D6B100279ABB;
+			remoteInfo = CollapsableTableViewCellProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA0D070C2B519079001542AD /* CollapsibleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleCell.swift; sourceTree = "<group>"; };
+		CAD1B7DE2B20D6B100279ABB /* CollapsableTableViewCellProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsableTableViewCellProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD1B7E12B20D6B100279ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD1B7E32B20D6B100279ABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAD1B7E52B20D6B100279ABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD1B7E82B20D6B100279ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD1B7EA2B20D6B300279ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD1B7ED2B20D6B300279ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD1B7EF2B20D6B300279ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD1B7F42B20D6B400279ABB /* CollapsableTableViewCellProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableTableViewCellProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD1B7F82B20D6B400279ABB /* CollapsableTableViewCellProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableTableViewCellProjectTests.swift; sourceTree = "<group>"; };
+		CAD1B7FE2B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableTableViewCellProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD1B8022B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableTableViewCellProjectUITests.swift; sourceTree = "<group>"; };
+		CAD1B8042B20D6B400279ABB /* CollapsableTableViewCellProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableTableViewCellProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD1B7DB2B20D6B100279ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1B7F12B20D6B400279ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1B7FB2B20D6B400279ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD1B7D52B20D6B100279ABB = {
+			isa = PBXGroup;
+			children = (
+				CAD1B7E02B20D6B100279ABB /* CollapsableTableViewCellProject */,
+				CAD1B7F72B20D6B400279ABB /* CollapsableTableViewCellProjectTests */,
+				CAD1B8012B20D6B400279ABB /* CollapsableTableViewCellProjectUITests */,
+				CAD1B7DF2B20D6B100279ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD1B7DF2B20D6B100279ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1B7DE2B20D6B100279ABB /* CollapsableTableViewCellProject.app */,
+				CAD1B7F42B20D6B400279ABB /* CollapsableTableViewCellProjectTests.xctest */,
+				CAD1B7FE2B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD1B7E02B20D6B100279ABB /* CollapsableTableViewCellProject */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1B7E12B20D6B100279ABB /* AppDelegate.swift */,
+				CAD1B7E32B20D6B100279ABB /* SceneDelegate.swift */,
+				CAD1B7E52B20D6B100279ABB /* ViewController.swift */,
+				CA0D070C2B519079001542AD /* CollapsibleCell.swift */,
+				CAD1B7E72B20D6B100279ABB /* Main.storyboard */,
+				CAD1B7EA2B20D6B300279ABB /* Assets.xcassets */,
+				CAD1B7EC2B20D6B300279ABB /* LaunchScreen.storyboard */,
+				CAD1B7EF2B20D6B300279ABB /* Info.plist */,
+			);
+			path = CollapsableTableViewCellProject;
+			sourceTree = "<group>";
+		};
+		CAD1B7F72B20D6B400279ABB /* CollapsableTableViewCellProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1B7F82B20D6B400279ABB /* CollapsableTableViewCellProjectTests.swift */,
+			);
+			path = CollapsableTableViewCellProjectTests;
+			sourceTree = "<group>";
+		};
+		CAD1B8012B20D6B400279ABB /* CollapsableTableViewCellProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1B8022B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.swift */,
+				CAD1B8042B20D6B400279ABB /* CollapsableTableViewCellProjectUITestsLaunchTests.swift */,
+			);
+			path = CollapsableTableViewCellProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD1B7DD2B20D6B100279ABB /* CollapsableTableViewCellProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD1B8082B20D6B400279ABB /* Build configuration list for PBXNativeTarget "CollapsableTableViewCellProject" */;
+			buildPhases = (
+				CAD1B7DA2B20D6B100279ABB /* Sources */,
+				CAD1B7DB2B20D6B100279ABB /* Frameworks */,
+				CAD1B7DC2B20D6B100279ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsableTableViewCellProject;
+			productName = CollapsableTableViewCellProject;
+			productReference = CAD1B7DE2B20D6B100279ABB /* CollapsableTableViewCellProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD1B7F32B20D6B400279ABB /* CollapsableTableViewCellProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD1B80B2B20D6B400279ABB /* Build configuration list for PBXNativeTarget "CollapsableTableViewCellProjectTests" */;
+			buildPhases = (
+				CAD1B7F02B20D6B400279ABB /* Sources */,
+				CAD1B7F12B20D6B400279ABB /* Frameworks */,
+				CAD1B7F22B20D6B400279ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD1B7F62B20D6B400279ABB /* PBXTargetDependency */,
+			);
+			name = CollapsableTableViewCellProjectTests;
+			productName = CollapsableTableViewCellProjectTests;
+			productReference = CAD1B7F42B20D6B400279ABB /* CollapsableTableViewCellProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD1B7FD2B20D6B400279ABB /* CollapsableTableViewCellProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD1B80E2B20D6B400279ABB /* Build configuration list for PBXNativeTarget "CollapsableTableViewCellProjectUITests" */;
+			buildPhases = (
+				CAD1B7FA2B20D6B400279ABB /* Sources */,
+				CAD1B7FB2B20D6B400279ABB /* Frameworks */,
+				CAD1B7FC2B20D6B400279ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD1B8002B20D6B400279ABB /* PBXTargetDependency */,
+			);
+			name = CollapsableTableViewCellProjectUITests;
+			productName = CollapsableTableViewCellProjectUITests;
+			productReference = CAD1B7FE2B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD1B7D62B20D6B100279ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CAD1B7DD2B20D6B100279ABB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CAD1B7F32B20D6B400279ABB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAD1B7DD2B20D6B100279ABB;
+					};
+					CAD1B7FD2B20D6B400279ABB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAD1B7DD2B20D6B100279ABB;
+					};
+				};
+			};
+			buildConfigurationList = CAD1B7D92B20D6B100279ABB /* Build configuration list for PBXProject "CollapsableTableViewCellProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD1B7D52B20D6B100279ABB;
+			productRefGroup = CAD1B7DF2B20D6B100279ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD1B7DD2B20D6B100279ABB /* CollapsableTableViewCellProject */,
+				CAD1B7F32B20D6B400279ABB /* CollapsableTableViewCellProjectTests */,
+				CAD1B7FD2B20D6B400279ABB /* CollapsableTableViewCellProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD1B7DC2B20D6B100279ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD1B7EE2B20D6B300279ABB /* LaunchScreen.storyboard in Resources */,
+				CAD1B7EB2B20D6B300279ABB /* Assets.xcassets in Resources */,
+				CAD1B7E92B20D6B100279ABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1B7F22B20D6B400279ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1B7FC2B20D6B400279ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD1B7DA2B20D6B100279ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD1B7E62B20D6B100279ABB /* ViewController.swift in Sources */,
+				CAD1B7E22B20D6B100279ABB /* AppDelegate.swift in Sources */,
+				CA0D070D2B519079001542AD /* CollapsibleCell.swift in Sources */,
+				CAD1B7E42B20D6B100279ABB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1B7F02B20D6B400279ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD1B7F92B20D6B400279ABB /* CollapsableTableViewCellProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1B7FA2B20D6B400279ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD1B8032B20D6B400279ABB /* CollapsableTableViewCellProjectUITests.swift in Sources */,
+				CAD1B8052B20D6B400279ABB /* CollapsableTableViewCellProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD1B7F62B20D6B400279ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD1B7DD2B20D6B100279ABB /* CollapsableTableViewCellProject */;
+			targetProxy = CAD1B7F52B20D6B400279ABB /* PBXContainerItemProxy */;
+		};
+		CAD1B8002B20D6B400279ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD1B7DD2B20D6B100279ABB /* CollapsableTableViewCellProject */;
+			targetProxy = CAD1B7FF2B20D6B400279ABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD1B7E72B20D6B100279ABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD1B7E82B20D6B100279ABB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD1B7EC2B20D6B300279ABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD1B7ED2B20D6B300279ABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD1B8062B20D6B400279ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD1B8072B20D6B400279ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD1B8092B20D6B400279ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollapsableTableViewCellProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CollapsableTableViewCellProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD1B80A2B20D6B400279ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollapsableTableViewCellProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CollapsableTableViewCellProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD1B80C2B20D6B400279ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CollapsableTableViewCellProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableTableViewCellProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollapsableTableViewCellProject";
+			};
+			name = Debug;
+		};
+		CAD1B80D2B20D6B400279ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CollapsableTableViewCellProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableTableViewCellProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollapsableTableViewCellProject";
+			};
+			name = Release;
+		};
+		CAD1B80F2B20D6B400279ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CollapsableTableViewCellProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollapsableTableViewCellProject;
+			};
+			name = Debug;
+		};
+		CAD1B8102B20D6B400279ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.CollapsableTableViewCellProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollapsableTableViewCellProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD1B7D92B20D6B100279ABB /* Build configuration list for PBXProject "CollapsableTableViewCellProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD1B8062B20D6B400279ABB /* Debug */,
+				CAD1B8072B20D6B400279ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD1B8082B20D6B400279ABB /* Build configuration list for PBXNativeTarget "CollapsableTableViewCellProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD1B8092B20D6B400279ABB /* Debug */,
+				CAD1B80A2B20D6B400279ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD1B80B2B20D6B400279ABB /* Build configuration list for PBXNativeTarget "CollapsableTableViewCellProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD1B80C2B20D6B400279ABB /* Debug */,
+				CAD1B80D2B20D6B400279ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD1B80E2B20D6B400279ABB /* Build configuration list for PBXNativeTarget "CollapsableTableViewCellProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD1B80F2B20D6B400279ABB /* Debug */,
+				CAD1B8102B20D6B400279ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD1B7D62B20D6B100279ABB /* Project object */;
+}
