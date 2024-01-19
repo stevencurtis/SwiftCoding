@@ -336,6 +336,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift's Sendable and @Sendable closures](https://github.com/stevencurtis/SwiftCoding/tree/master/SendableProtocol)<br>
 [Modularizing SwiftUI Projects](https://github.com/stevencurtis/SwiftCoding/tree/master/Modularization)<br>
 [The SwiftUI View Lifecycle](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIViewLifecycle)<br>
+[Objective-C keywords in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ObjectiveCDynamicSynthesize)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
