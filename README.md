@@ -200,6 +200,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [SwiftUI's Namespace](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUI/Namespace)<br>
 [Creating a collapsible UITableViewCell in Swift: A Step-by-Step Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/CollapsibleTableViewCellProject)<br>
 [Haptics in UIKit: A Simple Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/HapticsProject)<br>
+[How I Might Implement A Spacing System in A Design Library](https://github.com/stevencurtis/SwiftCoding/tree/master/ImplementSpacingDesignLibrary)<br>
+[Mastering instantiateInitialViewController: A Guide to Efficient iOS Storyboard Navigation](https://github.com/stevencurtis/SwiftCoding/tree/master/StoryboardInstantiateProperties)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
