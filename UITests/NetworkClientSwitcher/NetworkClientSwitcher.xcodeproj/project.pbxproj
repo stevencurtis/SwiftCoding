@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF634892B74D49A00685CA4 /* NetworkClientSwitcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634882B74D49A00685CA4 /* NetworkClientSwitcherApp.swift */; };
+		CAF6348B2B74D49A00685CA4 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF6348A2B74D49A00685CA4 /* UserListView.swift */; };
+		CAF6348D2B74D49C00685CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF6348C2B74D49C00685CA4 /* Assets.xcassets */; };
+		CAF634902B74D49C00685CA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF6348F2B74D49C00685CA4 /* Preview Assets.xcassets */; };
+		CAF634A42B74D49C00685CA4 /* NetworkClientSwitcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634A32B74D49C00685CA4 /* NetworkClientSwitcherUITests.swift */; };
+		CAF634A62B74D49C00685CA4 /* NetworkClientSwitcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634A52B74D49C00685CA4 /* NetworkClientSwitcherUITestsLaunchTests.swift */; };
+		CAF634B42B74D98A00685CA4 /* NetworkClient in Frameworks */ = {isa = PBXBuildFile; productRef = CAF634B32B74D98A00685CA4 /* NetworkClient */; };
+		CAF634B62B74D9A900685CA4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634B52B74D9A900685CA4 /* API.swift */; };
+		CAF634B82B74D9E600685CA4 /* APIFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634B72B74D9E600685CA4 /* APIFactory.swift */; };
+		CAF634BA2B74D9F700685CA4 /* NetworkClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634B92B74D9F700685CA4 /* NetworkClientConfiguration.swift */; };
+		CAF634BC2B74DA1B00685CA4 /* NetworkClientSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634BB2B74DA1B00685CA4 /* NetworkClientSelector.swift */; };
+		CAF634BF2B74E33100685CA4 /* MockNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634BE2B74E33100685CA4 /* MockNetworkClient.swift */; };
+		CAF634C12B74E35F00685CA4 /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634C02B74E35F00685CA4 /* UserDTO.swift */; };
+		CAF634C52B74E53700685CA4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634C42B74E53700685CA4 /* APIService.swift */; };
+		CAF634C92B74E61800685CA4 /* UserAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634C82B74E61800685CA4 /* UserAPIService.swift */; };
+		CAF634CB2B74EE3F00685CA4 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634CA2B74EE3F00685CA4 /* UserListViewModel.swift */; };
+		CAF634CE2B7515F100685CA4 /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634CD2B7515F100685CA4 /* APIServiceTests.swift */; };
+		CAF634D02B7516B100685CA4 /* APIFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634CF2B7516B100685CA4 /* APIFactoryTests.swift */; };
+		CAF634D22B7516EA00685CA4 /* UserAPIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634D12B7516EA00685CA4 /* UserAPIServiceTests.swift */; };
+		CAF634D42B751A1500685CA4 /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634D32B751A1500685CA4 /* APITests.swift */; };
+		CAF634D62B751AD800685CA4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634D52B751AD800685CA4 /* User.swift */; };
+		CAF634D82B751C9F00685CA4 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634D72B751C9F00685CA4 /* UserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF634962B74D49C00685CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF6347D2B74D49A00685CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF634842B74D49A00685CA4;
+			remoteInfo = NetworkClientSwitcher;
+		};
+		CAF634A02B74D49C00685CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF6347D2B74D49A00685CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF634842B74D49A00685CA4;
+			remoteInfo = NetworkClientSwitcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF634852B74D49A00685CA4 /* NetworkClientSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkClientSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF634882B74D49A00685CA4 /* NetworkClientSwitcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientSwitcherApp.swift; sourceTree = "<group>"; };
+		CAF6348A2B74D49A00685CA4 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		CAF6348C2B74D49C00685CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF6348F2B74D49C00685CA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF634952B74D49C00685CA4 /* NetworkClientSwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkClientSwitcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF6349F2B74D49C00685CA4 /* NetworkClientSwitcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkClientSwitcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF634A32B74D49C00685CA4 /* NetworkClientSwitcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientSwitcherUITests.swift; sourceTree = "<group>"; };
+		CAF634A52B74D49C00685CA4 /* NetworkClientSwitcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientSwitcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAF634B52B74D9A900685CA4 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CAF634B72B74D9E600685CA4 /* APIFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFactory.swift; sourceTree = "<group>"; };
+		CAF634B92B74D9F700685CA4 /* NetworkClientConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientConfiguration.swift; sourceTree = "<group>"; };
+		CAF634BB2B74DA1B00685CA4 /* NetworkClientSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientSelector.swift; sourceTree = "<group>"; };
+		CAF634BE2B74E33100685CA4 /* MockNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkClient.swift; sourceTree = "<group>"; };
+		CAF634C02B74E35F00685CA4 /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
+		CAF634C42B74E53700685CA4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CAF634C82B74E61800685CA4 /* UserAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIService.swift; sourceTree = "<group>"; };
+		CAF634CA2B74EE3F00685CA4 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		CAF634CD2B7515F100685CA4 /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
+		CAF634CF2B7516B100685CA4 /* APIFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFactoryTests.swift; sourceTree = "<group>"; };
+		CAF634D12B7516EA00685CA4 /* UserAPIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIServiceTests.swift; sourceTree = "<group>"; };
+		CAF634D32B751A1500685CA4 /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
+		CAF634D52B751AD800685CA4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CAF634D72B751C9F00685CA4 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF634822B74D49A00685CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634B42B74D98A00685CA4 /* NetworkClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634922B74D49C00685CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF6349C2B74D49C00685CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF6347C2B74D49A00685CA4 = {
+			isa = PBXGroup;
+			children = (
+				CAF634872B74D49A00685CA4 /* NetworkClientSwitcher */,
+				CAF634982B74D49C00685CA4 /* NetworkClientSwitcherTests */,
+				CAF634A22B74D49C00685CA4 /* NetworkClientSwitcherUITests */,
+				CAF634862B74D49A00685CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF634862B74D49A00685CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634852B74D49A00685CA4 /* NetworkClientSwitcher.app */,
+				CAF634952B74D49C00685CA4 /* NetworkClientSwitcherTests.xctest */,
+				CAF6349F2B74D49C00685CA4 /* NetworkClientSwitcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF634872B74D49A00685CA4 /* NetworkClientSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634882B74D49A00685CA4 /* NetworkClientSwitcherApp.swift */,
+				CAF634BD2B74E32400685CA4 /* Supporting Files */,
+				CAF634C22B74E3D700685CA4 /* Networking */,
+				CAF634C32B74E3F500685CA4 /* Data */,
+				CAF6348A2B74D49A00685CA4 /* UserListView.swift */,
+				CAF634CA2B74EE3F00685CA4 /* UserListViewModel.swift */,
+				CAF6348C2B74D49C00685CA4 /* Assets.xcassets */,
+				CAF6348E2B74D49C00685CA4 /* Preview Content */,
+			);
+			path = NetworkClientSwitcher;
+			sourceTree = "<group>";
+		};
+		CAF6348E2B74D49C00685CA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAF6348F2B74D49C00685CA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAF634982B74D49C00685CA4 /* NetworkClientSwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634CD2B7515F100685CA4 /* APIServiceTests.swift */,
+				CAF634CF2B7516B100685CA4 /* APIFactoryTests.swift */,
+				CAF634D72B751C9F00685CA4 /* UserTests.swift */,
+				CAF634D12B7516EA00685CA4 /* UserAPIServiceTests.swift */,
+				CAF634D32B751A1500685CA4 /* APITests.swift */,
+			);
+			path = NetworkClientSwitcherTests;
+			sourceTree = "<group>";
+		};
+		CAF634A22B74D49C00685CA4 /* NetworkClientSwitcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634A32B74D49C00685CA4 /* NetworkClientSwitcherUITests.swift */,
+				CAF634A52B74D49C00685CA4 /* NetworkClientSwitcherUITestsLaunchTests.swift */,
+			);
+			path = NetworkClientSwitcherUITests;
+			sourceTree = "<group>";
+		};
+		CAF634BD2B74E32400685CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634BE2B74E33100685CA4 /* MockNetworkClient.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAF634C22B74E3D700685CA4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634C72B74E5F000685CA4 /* Services */,
+				CAF634C62B74E5E600685CA4 /* API */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CAF634C32B74E3F500685CA4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634C02B74E35F00685CA4 /* UserDTO.swift */,
+				CAF634D52B751AD800685CA4 /* User.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CAF634C62B74E5E600685CA4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634BB2B74DA1B00685CA4 /* NetworkClientSelector.swift */,
+				CAF634B52B74D9A900685CA4 /* API.swift */,
+				CAF634B72B74D9E600685CA4 /* APIFactory.swift */,
+				CAF634B92B74D9F700685CA4 /* NetworkClientConfiguration.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CAF634C72B74E5F000685CA4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634C42B74E53700685CA4 /* APIService.swift */,
+				CAF634C82B74E61800685CA4 /* UserAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF634842B74D49A00685CA4 /* NetworkClientSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF634A92B74D49C00685CA4 /* Build configuration list for PBXNativeTarget "NetworkClientSwitcher" */;
+			buildPhases = (
+				CAF634812B74D49A00685CA4 /* Sources */,
+				CAF634822B74D49A00685CA4 /* Frameworks */,
+				CAF634832B74D49A00685CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkClientSwitcher;
+			packageProductDependencies = (
+				CAF634B32B74D98A00685CA4 /* NetworkClient */,
+			);
+			productName = NetworkClientSwitcher;
+			productReference = CAF634852B74D49A00685CA4 /* NetworkClientSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF634942B74D49C00685CA4 /* NetworkClientSwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF634AC2B74D49C00685CA4 /* Build configuration list for PBXNativeTarget "NetworkClientSwitcherTests" */;
+			buildPhases = (
+				CAF634912B74D49C00685CA4 /* Sources */,
+				CAF634922B74D49C00685CA4 /* Frameworks */,
+				CAF634932B74D49C00685CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF634972B74D49C00685CA4 /* PBXTargetDependency */,
+			);
+			name = NetworkClientSwitcherTests;
+			productName = NetworkClientSwitcherTests;
+			productReference = CAF634952B74D49C00685CA4 /* NetworkClientSwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF6349E2B74D49C00685CA4 /* NetworkClientSwitcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF634AF2B74D49C00685CA4 /* Build configuration list for PBXNativeTarget "NetworkClientSwitcherUITests" */;
+			buildPhases = (
+				CAF6349B2B74D49C00685CA4 /* Sources */,
+				CAF6349C2B74D49C00685CA4 /* Frameworks */,
+				CAF6349D2B74D49C00685CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF634A12B74D49C00685CA4 /* PBXTargetDependency */,
+			);
+			name = NetworkClientSwitcherUITests;
+			productName = NetworkClientSwitcherUITests;
+			productReference = CAF6349F2B74D49C00685CA4 /* NetworkClientSwitcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF6347D2B74D49A00685CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CAF634842B74D49A00685CA4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CAF634942B74D49C00685CA4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAF634842B74D49A00685CA4;
+					};
+					CAF6349E2B74D49C00685CA4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAF634842B74D49A00685CA4;
+					};
+				};
+			};
+			buildConfigurationList = CAF634802B74D49A00685CA4 /* Build configuration list for PBXProject "NetworkClientSwitcher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF6347C2B74D49A00685CA4;
+			packageReferences = (
+				CAF634B22B74D98900685CA4 /* XCRemoteSwiftPackageReference "NetworkClient" */,
+			);
+			productRefGroup = CAF634862B74D49A00685CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF634842B74D49A00685CA4 /* NetworkClientSwitcher */,
+				CAF634942B74D49C00685CA4 /* NetworkClientSwitcherTests */,
+				CAF6349E2B74D49C00685CA4 /* NetworkClientSwitcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF634832B74D49A00685CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634902B74D49C00685CA4 /* Preview Assets.xcassets in Resources */,
+				CAF6348D2B74D49C00685CA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634932B74D49C00685CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF6349D2B74D49C00685CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF634812B74D49A00685CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634BC2B74DA1B00685CA4 /* NetworkClientSelector.swift in Sources */,
+				CAF634CB2B74EE3F00685CA4 /* UserListViewModel.swift in Sources */,
+				CAF6348B2B74D49A00685CA4 /* UserListView.swift in Sources */,
+				CAF634B82B74D9E600685CA4 /* APIFactory.swift in Sources */,
+				CAF634B62B74D9A900685CA4 /* API.swift in Sources */,
+				CAF634892B74D49A00685CA4 /* NetworkClientSwitcherApp.swift in Sources */,
+				CAF634BF2B74E33100685CA4 /* MockNetworkClient.swift in Sources */,
+				CAF634C12B74E35F00685CA4 /* UserDTO.swift in Sources */,
+				CAF634D62B751AD800685CA4 /* User.swift in Sources */,
+				CAF634C92B74E61800685CA4 /* UserAPIService.swift in Sources */,
+				CAF634C52B74E53700685CA4 /* APIService.swift in Sources */,
+				CAF634BA2B74D9F700685CA4 /* NetworkClientConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634912B74D49C00685CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634D82B751C9F00685CA4 /* UserTests.swift in Sources */,
+				CAF634CE2B7515F100685CA4 /* APIServiceTests.swift in Sources */,
+				CAF634D22B7516EA00685CA4 /* UserAPIServiceTests.swift in Sources */,
+				CAF634D02B7516B100685CA4 /* APIFactoryTests.swift in Sources */,
+				CAF634D42B751A1500685CA4 /* APITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF6349B2B74D49C00685CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634A42B74D49C00685CA4 /* NetworkClientSwitcherUITests.swift in Sources */,
+				CAF634A62B74D49C00685CA4 /* NetworkClientSwitcherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF634972B74D49C00685CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF634842B74D49A00685CA4 /* NetworkClientSwitcher */;
+			targetProxy = CAF634962B74D49C00685CA4 /* PBXContainerItemProxy */;
+		};
+		CAF634A12B74D49C00685CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF634842B74D49A00685CA4 /* NetworkClientSwitcher */;
+			targetProxy = CAF634A02B74D49C00685CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAF634A72B74D49C00685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF634A82B74D49C00685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF634AA2B74D49C00685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkClientSwitcher/Preview Content\"";
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.NetworkClientSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF634AB2B74D49C00685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkClientSwitcher/Preview Content\"";
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.NetworkClientSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF634AD2B74D49C00685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.NetworkClientSwitcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkClientSwitcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkClientSwitcher";
+			};
+			name = Debug;
+		};
+		CAF634AE2B74D49C00685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.NetworkClientSwitcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkClientSwitcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkClientSwitcher";
+			};
+			name = Release;
+		};
+		CAF634B02B74D49C00685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.NetworkClientSwitcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkClientSwitcher;
+			};
+			name = Debug;
+		};
+		CAF634B12B74D49C00685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.NetworkClientSwitcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkClientSwitcher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF634802B74D49A00685CA4 /* Build configuration list for PBXProject "NetworkClientSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF634A72B74D49C00685CA4 /* Debug */,
+				CAF634A82B74D49C00685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF634A92B74D49C00685CA4 /* Build configuration list for PBXNativeTarget "NetworkClientSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF634AA2B74D49C00685CA4 /* Debug */,
+				CAF634AB2B74D49C00685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF634AC2B74D49C00685CA4 /* Build configuration list for PBXNativeTarget "NetworkClientSwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF634AD2B74D49C00685CA4 /* Debug */,
+				CAF634AE2B74D49C00685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF634AF2B74D49C00685CA4 /* Build configuration list for PBXNativeTarget "NetworkClientSwitcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF634B02B74D49C00685CA4 /* Debug */,
+				CAF634B12B74D49C00685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAF634B22B74D98900685CA4 /* XCRemoteSwiftPackageReference "NetworkClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stevencurtis/NetworkClient";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAF634B32B74D98A00685CA4 /* NetworkClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAF634B22B74D98900685CA4 /* XCRemoteSwiftPackageReference "NetworkClient" */;
+			productName = NetworkClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CAF6347D2B74D49A00685CA4 /* Project object */;
+}
