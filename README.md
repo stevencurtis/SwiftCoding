@@ -340,6 +340,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The SwiftUI View Lifecycle](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIViewLifecycle)<br>
 [Objective-C keywords in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/ObjectiveCDynamicSynthesize)<br>
 [Leveraging Launch Arguments for Effective UI Testing in iOS](https://github.com/stevencurtis/SwiftCoding/tree/master/UITests)<br>
+[Crafting SwiftUI Custom Checkboxes for User Agreements](https://github.com/stevencurtis/SwiftCoding/tree/master/CheckboxComponent)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
