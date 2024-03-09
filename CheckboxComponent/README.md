@@ -1,7 +1,7 @@
 # Crafting SwiftUI Custom Checkboxes for User Agreements
 ## This can work
 
-This article uses code from my simple design library system. Take a look at (https://github.com/stevencurtis/DesignLibrary/tree/main)[https://github.com/stevencurtis/DesignLibrary/tree/main] to see how that works.
+This article uses code from my simple design library system. Take a look at [https://github.com/stevencurtis/DesignLibrary/tree/main](https://github.com/stevencurtis/DesignLibrary/tree/main) to see how that works.
 
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 15.0, and Swift 5.9
@@ -243,7 +243,6 @@ struct TermsConditions: Identifiable {
 # Conclusion
 
 Creating custom checkboxes in SwiftUI not only makes your code more reusable and maintainable but also provides a better user experience by aligning with modern design trends. By following this guide, you can implement interactive and visually consistent checkboxes in your SwiftUI applications, improving your app's onboarding process and legal compliance.
-
 
 Thanks for reading!
 
