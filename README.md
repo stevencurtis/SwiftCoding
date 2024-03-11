@@ -344,7 +344,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Enhancing Accessibility in SwiftUI: Effective Strategies](https://github.com/stevencurtis/SwiftCoding/tree/master/ManageAccessibility)<br>
 
 ### Challenging
-[TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
+[TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/TypeErasure)<br>
 [TwoWayBinding](https://github.com/stevencurtis/SwiftCoding/tree/master/TwoWayBinding)<br>
 [Track My Movement: A RxSwift Project](https://github.com/stevencurtis/SwiftCoding/tree/master/TrackMyMovement)<br>
 [Secure iOS Apps Through App Pinning](https://github.com/stevencurtis/SwiftCoding/tree/master/SecureiOSAppsthroughAppPinning)<br>
