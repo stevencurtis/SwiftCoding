@@ -3,7 +3,7 @@ import SwiftUI
 
 final class TermsViewModel: ObservableObject {
     @Published var termsConditions: [TermsConditions] = [
-        TermsConditions(label: "Terms One", isChecked: false),
+        TermsConditions(label: "Terms One", isChecked: true),
         TermsConditions(label: "Terms Two", isChecked: false),
     ] {
         didSet {
@@ -13,7 +13,6 @@ final class TermsViewModel: ObservableObject {
     @Published var buttonState: ButtonState = .disabled
     private var cancellables: Set<AnyCancellable> = []
 }
-
 
 struct TermsConditions: Identifiable {
     var id = UUID()
