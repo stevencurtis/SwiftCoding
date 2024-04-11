@@ -90,6 +90,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create a telephone call in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/OpenCallSwiftUI)<br>
 [Create emails in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/OpenEmailSwiftUI)<br>
 [Shared Initialization for AppDelegate and SceneDelegate](https://github.com/stevencurtis/SwiftCoding/tree/master/SharedAppDelegateSceneDelegate)<br>
+[SwiftUI's LazyVStack vs. VStack](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyVStackComponent)<br>
+[Swift's Reduce Function](https://github.com/stevencurtis/SwiftCoding/tree/master/Reduce)<br>
+[The Defer Keyword in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DeferDispatch)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -342,6 +345,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Leveraging Launch Arguments for Effective UI Testing in iOS](https://github.com/stevencurtis/SwiftCoding/tree/master/UITests)<br>
 [Crafting SwiftUI Custom Checkboxes for User Agreements](https://github.com/stevencurtis/SwiftCoding/tree/master/CheckboxComponent)<br>
 [Enhancing Accessibility in SwiftUI: Effective Strategies](https://github.com/stevencurtis/SwiftCoding/tree/master/ManageAccessibility)<br>
+[Crafting Custom Image Sequences Animation in SwiftUI: A Frame-by-Frame Approach](https://github.com/stevencurtis/SwiftCoding/tree/master/ImageSequence)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
