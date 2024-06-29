@@ -200,7 +200,8 @@ extension ListAPIService: ListAPIServiceProtocol {
 
 This works! As before we retrieve the `User` objects from the endpoint, the server is valid and the sun is shining!
 
-```[CertificatePinning.User(username: "Bret"), CertificatePinning.User(username: "Antonette"), CertificatePinning.User(username: "Samantha"), CertificatePinning.User(username: "Karianne"), CertificatePinning.User(username: "Kamren"), CertificatePinning.User(username: "Leopoldo_Corkery"), CertificatePinning.User(username: "Elwyn.Skiles"), CertificatePinning.User(username: "Maxime_Nienow"), CertificatePinning.User(username: "Delphine"), CertificatePinning.User(username: "Moriah.Stanton")]
+```swift
+[CertificatePinning.User(username: "Bret"), CertificatePinning.User(username: "Antonette"), CertificatePinning.User(username: "Samantha"), CertificatePinning.User(username: "Karianne"), CertificatePinning.User(username: "Kamren"), CertificatePinning.User(username: "Leopoldo_Corkery"), CertificatePinning.User(username: "Elwyn.Skiles"), CertificatePinning.User(username: "Maxime_Nienow"), CertificatePinning.User(username: "Delphine"), CertificatePinning.User(username: "Moriah.Stanton")]
 ```
 
 # Conclusion
