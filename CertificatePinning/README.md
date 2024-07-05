@@ -7,7 +7,7 @@ Source: https://www.researchgate.net/figure/Illustration-of-a-Man-in-the-Middle-
 Difficulty: Beginner | Easy | **Normal** | Challenging<br/>
 This article has been developed using Xcode 15.0, and Swift 5.9
 
-So I thought it would be great to implement certificate pinning (SSL pinning or app pinning)in iOS. 
+So I thought it would be great to implement certificate pinning (SSL pinning or app pinning) in iOS. 
 
 This provides protection against ‘man-in-the-middle’ (MITM) attacks, which can only be a good thing and enhance the security of your app. These types of attacks occur when a malicious actor intercepts communication between a user and the server they intend to connect to, rerouting the traffic to a different server controlled by the attacker for their own purposes (identity theft, stealing data or identities).
 
@@ -84,20 +84,19 @@ So I'll need a certificate for the website (I'll use the Mac for this, as I'm an
 
 # The Implementation
 ## Getting the certificate
-Open Terminal 
+    1. Open Terminal 
 
-    1.    Capture the Certificate Output:
+    2.    Capture the Certificate Output:
 Run the openssl s_client command and save the certificate output to a file (in PEM format).
 
 openssl s_client -connect jsonplaceholder.typicode.com:443 -servername jsonplaceholder.typicode.com -showcerts < /dev/null > cert.pem
 
-    2.    Extract the Certificate:
+    3.    Extract the Certificate:
 Use the sed command to extract the certificate from cert.pem.
 
 sed -n '/-----BEGIN CERTIFICATE-----/,/-----END CERTIFICATE-----/p' cert.pem > extracted_cert.pem
 
-
-    3.    Convert PEM to DER:
+    4.    Convert PEM to DER:
 Use the openssl command to convert the PEM file to DER format.
 
 openssl x509 -outform der -in extracted_cert.pem -out certificate.der
