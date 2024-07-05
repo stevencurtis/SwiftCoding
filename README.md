@@ -346,6 +346,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Crafting SwiftUI Custom Checkboxes for User Agreements](https://github.com/stevencurtis/SwiftCoding/tree/master/CheckboxComponent)<br>
 [Enhancing Accessibility in SwiftUI: Effective Strategies](https://github.com/stevencurtis/SwiftCoding/tree/master/ManageAccessibility)<br>
 [Crafting Custom Image Sequences Animation in SwiftUI: A Frame-by-Frame Approach](https://github.com/stevencurtis/SwiftCoding/tree/master/ImageSequence)<br>
+[Certificate Pinning in iOS (Implementation)](https://github.com/stevencurtis/SwiftCoding/tree/master/CertificatePinning)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
