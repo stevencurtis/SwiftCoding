@@ -205,7 +205,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Haptics in UIKit: A Simple Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/HapticsProject)<br>
 [How I Might Implement A Spacing System in A Design Library](https://github.com/stevencurtis/SwiftCoding/tree/master/ImplementSpacingDesignLibrary)<br>
 [Mastering instantiateInitialViewController: A Guide to Efficient iOS Storyboard Navigation](https://github.com/stevencurtis/SwiftCoding/tree/master/StoryboardInstantiateProperties)<br>
-[Using Enum Separation for Better Swift Code Organization](https://github.com/stevencurtis/SwiftCoding/tree/master/EnumSeparation)<br<
+[Using Enum Separation for Better Swift Code Organization](https://github.com/stevencurtis/SwiftCoding/tree/master/EnumSeparation)<br>
+[Understanding Intrinsic Content Size in iOS Development](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSize)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
