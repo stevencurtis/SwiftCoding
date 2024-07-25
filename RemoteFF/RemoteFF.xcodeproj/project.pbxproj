@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA10D1D22C47F5440073E11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D1D12C47F5440073E11B /* AppDelegate.swift */; };
+		CA10D1D42C47F5440073E11B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D1D32C47F5440073E11B /* SceneDelegate.swift */; };
+		CA10D1D62C47F5440073E11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D1D52C47F5440073E11B /* ViewController.swift */; };
+		CA10D1D92C47F5440073E11B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CA10D1D82C47F5440073E11B /* Base */; };
+		CA10D1DB2C47F5450073E11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA10D1DA2C47F5450073E11B /* Assets.xcassets */; };
+		CA10D1DE2C47F5450073E11B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CA10D1DD2C47F5450073E11B /* Base */; };
+		CA10D1E92C47F5450073E11B /* RemoteFFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D1E82C47F5450073E11B /* RemoteFFTests.swift */; };
+		CA10D1F32C47F5450073E11B /* RemoteFFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D1F22C47F5450073E11B /* RemoteFFUITests.swift */; };
+		CA10D1F52C47F5450073E11B /* RemoteFFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D1F42C47F5450073E11B /* RemoteFFUITestsLaunchTests.swift */; };
+		CA10D2052C47FE4D0073E11B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA10D2042C47FE4D0073E11B /* GoogleService-Info.plist */; };
+		CA10D2082C48001A0073E11B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CA10D2072C48001A0073E11B /* FirebaseAnalytics */; };
+		CA10D20F2C4804640073E11B /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = CA10D20E2C4804640073E11B /* FirebaseRemoteConfig */; };
+		CA10D2112C4805B10073E11B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D2102C4805B10073E11B /* ViewModel.swift */; };
+		CA10D2132C4810130073E11B /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D2122C4810120073E11B /* Features.swift */; };
+		CA10D2152C48102A0073E11B /* RemoteFeatureSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA10D2142C48102A0073E11B /* RemoteFeatureSwitch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA10D1E52C47F5450073E11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA10D1C62C47F5440073E11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA10D1CD2C47F5440073E11B;
+			remoteInfo = RemoteFF;
+		};
+		CA10D1EF2C47F5450073E11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA10D1C62C47F5440073E11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA10D1CD2C47F5440073E11B;
+			remoteInfo = RemoteFF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA10D1CE2C47F5440073E11B /* RemoteFF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteFF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA10D1D12C47F5440073E11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA10D1D32C47F5440073E11B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA10D1D52C47F5440073E11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA10D1D82C47F5440073E11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA10D1DA2C47F5450073E11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA10D1DD2C47F5450073E11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA10D1DF2C47F5450073E11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA10D1E42C47F5450073E11B /* RemoteFFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteFFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA10D1E82C47F5450073E11B /* RemoteFFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFFTests.swift; sourceTree = "<group>"; };
+		CA10D1EE2C47F5450073E11B /* RemoteFFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteFFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA10D1F22C47F5450073E11B /* RemoteFFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFFUITests.swift; sourceTree = "<group>"; };
+		CA10D1F42C47F5450073E11B /* RemoteFFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA10D2042C47FE4D0073E11B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA10D2102C4805B10073E11B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CA10D2122C4810120073E11B /* Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features.swift; sourceTree = "<group>"; };
+		CA10D2142C48102A0073E11B /* RemoteFeatureSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeatureSwitch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA10D1CB2C47F5440073E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA10D2082C48001A0073E11B /* FirebaseAnalytics in Frameworks */,
+				CA10D20F2C4804640073E11B /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA10D1E12C47F5450073E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA10D1EB2C47F5450073E11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA10D1C52C47F5440073E11B = {
+			isa = PBXGroup;
+			children = (
+				CA10D1D02C47F5440073E11B /* RemoteFF */,
+				CA10D1E72C47F5450073E11B /* RemoteFFTests */,
+				CA10D1F12C47F5450073E11B /* RemoteFFUITests */,
+				CA10D1CF2C47F5440073E11B /* Products */,
+				CA10D20D2C4804640073E11B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA10D1CF2C47F5440073E11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA10D1CE2C47F5440073E11B /* RemoteFF.app */,
+				CA10D1E42C47F5450073E11B /* RemoteFFTests.xctest */,
+				CA10D1EE2C47F5450073E11B /* RemoteFFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA10D1D02C47F5440073E11B /* RemoteFF */ = {
+			isa = PBXGroup;
+			children = (
+				CA10D1D12C47F5440073E11B /* AppDelegate.swift */,
+				CA10D1D32C47F5440073E11B /* SceneDelegate.swift */,
+				CA10D1D52C47F5440073E11B /* ViewController.swift */,
+				CA10D2102C4805B10073E11B /* ViewModel.swift */,
+				CA10D2122C4810120073E11B /* Features.swift */,
+				CA10D2142C48102A0073E11B /* RemoteFeatureSwitch.swift */,
+				CA10D1D72C47F5440073E11B /* Main.storyboard */,
+				CA10D1DA2C47F5450073E11B /* Assets.xcassets */,
+				CA10D1DC2C47F5450073E11B /* LaunchScreen.storyboard */,
+				CA10D2042C47FE4D0073E11B /* GoogleService-Info.plist */,
+				CA10D1DF2C47F5450073E11B /* Info.plist */,
+			);
+			path = RemoteFF;
+			sourceTree = "<group>";
+		};
+		CA10D1E72C47F5450073E11B /* RemoteFFTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA10D1E82C47F5450073E11B /* RemoteFFTests.swift */,
+			);
+			path = RemoteFFTests;
+			sourceTree = "<group>";
+		};
+		CA10D1F12C47F5450073E11B /* RemoteFFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA10D1F22C47F5450073E11B /* RemoteFFUITests.swift */,
+				CA10D1F42C47F5450073E11B /* RemoteFFUITestsLaunchTests.swift */,
+			);
+			path = RemoteFFUITests;
+			sourceTree = "<group>";
+		};
+		CA10D20D2C4804640073E11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA10D1CD2C47F5440073E11B /* RemoteFF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA10D1F82C47F5450073E11B /* Build configuration list for PBXNativeTarget "RemoteFF" */;
+			buildPhases = (
+				CA10D1CA2C47F5440073E11B /* Sources */,
+				CA10D1CB2C47F5440073E11B /* Frameworks */,
+				CA10D1CC2C47F5440073E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteFF;
+			packageProductDependencies = (
+				CA10D2072C48001A0073E11B /* FirebaseAnalytics */,
+				CA10D20E2C4804640073E11B /* FirebaseRemoteConfig */,
+			);
+			productName = RemoteFF;
+			productReference = CA10D1CE2C47F5440073E11B /* RemoteFF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA10D1E32C47F5450073E11B /* RemoteFFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA10D1FB2C47F5450073E11B /* Build configuration list for PBXNativeTarget "RemoteFFTests" */;
+			buildPhases = (
+				CA10D1E02C47F5450073E11B /* Sources */,
+				CA10D1E12C47F5450073E11B /* Frameworks */,
+				CA10D1E22C47F5450073E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA10D1E62C47F5450073E11B /* PBXTargetDependency */,
+			);
+			name = RemoteFFTests;
+			productName = RemoteFFTests;
+			productReference = CA10D1E42C47F5450073E11B /* RemoteFFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA10D1ED2C47F5450073E11B /* RemoteFFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA10D1FE2C47F5450073E11B /* Build configuration list for PBXNativeTarget "RemoteFFUITests" */;
+			buildPhases = (
+				CA10D1EA2C47F5450073E11B /* Sources */,
+				CA10D1EB2C47F5450073E11B /* Frameworks */,
+				CA10D1EC2C47F5450073E11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA10D1F02C47F5450073E11B /* PBXTargetDependency */,
+			);
+			name = RemoteFFUITests;
+			productName = RemoteFFUITests;
+			productReference = CA10D1EE2C47F5450073E11B /* RemoteFFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA10D1C62C47F5440073E11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CA10D1CD2C47F5440073E11B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CA10D1E32C47F5450073E11B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CA10D1CD2C47F5440073E11B;
+					};
+					CA10D1ED2C47F5450073E11B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CA10D1CD2C47F5440073E11B;
+					};
+				};
+			};
+			buildConfigurationList = CA10D1C92C47F5440073E11B /* Build configuration list for PBXProject "RemoteFF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA10D1C52C47F5440073E11B;
+			packageReferences = (
+				CA10D2062C48001A0073E11B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CA10D1CF2C47F5440073E11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA10D1CD2C47F5440073E11B /* RemoteFF */,
+				CA10D1E32C47F5450073E11B /* RemoteFFTests */,
+				CA10D1ED2C47F5450073E11B /* RemoteFFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA10D1CC2C47F5440073E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA10D1DB2C47F5450073E11B /* Assets.xcassets in Resources */,
+				CA10D2052C47FE4D0073E11B /* GoogleService-Info.plist in Resources */,
+				CA10D1DE2C47F5450073E11B /* Base in Resources */,
+				CA10D1D92C47F5440073E11B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA10D1E22C47F5450073E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA10D1EC2C47F5450073E11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA10D1CA2C47F5440073E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA10D1D62C47F5440073E11B /* ViewController.swift in Sources */,
+				CA10D1D22C47F5440073E11B /* AppDelegate.swift in Sources */,
+				CA10D2152C48102A0073E11B /* RemoteFeatureSwitch.swift in Sources */,
+				CA10D2112C4805B10073E11B /* ViewModel.swift in Sources */,
+				CA10D1D42C47F5440073E11B /* SceneDelegate.swift in Sources */,
+				CA10D2132C4810130073E11B /* Features.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA10D1E02C47F5450073E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA10D1E92C47F5450073E11B /* RemoteFFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA10D1EA2C47F5450073E11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA10D1F52C47F5450073E11B /* RemoteFFUITestsLaunchTests.swift in Sources */,
+				CA10D1F32C47F5450073E11B /* RemoteFFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA10D1E62C47F5450073E11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA10D1CD2C47F5440073E11B /* RemoteFF */;
+			targetProxy = CA10D1E52C47F5450073E11B /* PBXContainerItemProxy */;
+		};
+		CA10D1F02C47F5450073E11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA10D1CD2C47F5440073E11B /* RemoteFF */;
+			targetProxy = CA10D1EF2C47F5450073E11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA10D1D72C47F5440073E11B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA10D1D82C47F5440073E11B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA10D1DC2C47F5450073E11B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA10D1DD2C47F5450073E11B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA10D1F62C47F5450073E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA10D1F72C47F5450073E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA10D1F92C47F5450073E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteFF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.RemoteFF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA10D1FA2C47F5450073E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemoteFF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.RemoteFF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA10D1FC2C47F5450073E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.RemoteFFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteFF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RemoteFF";
+			};
+			name = Debug;
+		};
+		CA10D1FD2C47F5450073E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.RemoteFFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteFF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RemoteFF";
+			};
+			name = Release;
+		};
+		CA10D1FF2C47F5450073E11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.RemoteFFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteFF;
+			};
+			name = Debug;
+		};
+		CA10D2002C47F5450073E11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.RemoteFFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteFF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA10D1C92C47F5440073E11B /* Build configuration list for PBXProject "RemoteFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA10D1F62C47F5450073E11B /* Debug */,
+				CA10D1F72C47F5450073E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA10D1F82C47F5450073E11B /* Build configuration list for PBXNativeTarget "RemoteFF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA10D1F92C47F5450073E11B /* Debug */,
+				CA10D1FA2C47F5450073E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA10D1FB2C47F5450073E11B /* Build configuration list for PBXNativeTarget "RemoteFFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA10D1FC2C47F5450073E11B /* Debug */,
+				CA10D1FD2C47F5450073E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA10D1FE2C47F5450073E11B /* Build configuration list for PBXNativeTarget "RemoteFFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA10D1FF2C47F5450073E11B /* Debug */,
+				CA10D2002C47F5450073E11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA10D2062C48001A0073E11B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA10D2072C48001A0073E11B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA10D2062C48001A0073E11B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CA10D20E2C4804640073E11B /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA10D2062C48001A0073E11B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CA10D1C62C47F5440073E11B /* Project object */;
+}
