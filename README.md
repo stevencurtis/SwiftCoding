@@ -207,6 +207,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Mastering instantiateInitialViewController: A Guide to Efficient iOS Storyboard Navigation](https://github.com/stevencurtis/SwiftCoding/tree/master/StoryboardInstantiateProperties)<br>
 [Using Enum Separation for Better Swift Code Organization](https://github.com/stevencurtis/SwiftCoding/tree/master/EnumSeparation)<br>
 [Understanding Intrinsic Content Size in iOS Development](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSize)<br>
+[Deciding Between RunLoop.main and the Main Thread with Combine in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RunLoopAndMainThread)<br>
+[Using Structs and Classes for Effective Management and Testing in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/EffectiveStructAndClasses)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -350,6 +352,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Crafting Custom Image Sequences Animation in SwiftUI: A Frame-by-Frame Approach](https://github.com/stevencurtis/SwiftCoding/tree/master/ImageSequence)<br>
 [Certificate Pinning in iOS (Implementation)](https://github.com/stevencurtis/SwiftCoding/tree/master/CertificatePinning)<br>
 [Implementing iOS Feature Flags Using Firebase](https://github.com/stevencurtis/SwiftCoding/tree/master/RemoteFF)<br>
+[Understanding Indirect Enums in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/IndirectEnum)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
