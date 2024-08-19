@@ -7,33 +7,35 @@
 
 import UIKit
 
-class FullExampleViewController: UIViewController {
+final class FullExampleViewController: UIViewController {
 
-    @IBOutlet weak var startButton: UIButton!
-    @IBOutlet weak var resetButton: UIButton!
-    @IBOutlet weak var timerLabel: UILabel!
-    
-    @IBAction func segmentedAction(_ sender: UISegmentedControl) {
-        resetAll()
-    }
-    
-    @IBOutlet weak var semgentedControl: UISegmentedControl!
+    @IBOutlet private weak var startButton: UIButton!
+    @IBOutlet private weak var resetButton: UIButton!
+    @IBOutlet private weak var timerLabel: UILabel!
+    @IBOutlet weak private var segmentedControl: UISegmentedControl!
+
+    private var lastUpdate: TimeInterval = 0
+    private var elapsedTime: TimeInterval = 0
     
     // seconds for the time, 60th of a second for CADisplayLink
-    var seconds = 0
+    private var seconds = 0
     
     // the timer instance
-    var timer = Timer()
+    private var timer = Timer()
     
     // set up the CADisplayLink
-    var displayLink: CADisplayLink?
-
+    private var displayLink: CADisplayLink?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-    @IBAction func startAction(_ sender: UIButton) {
-        switch semgentedControl.selectedSegmentIndex {
+    @IBAction private func segmentedAction(_ sender: UISegmentedControl) {
+        resetAll()
+    }
+
+    @IBAction private func startAction(_ sender: UIButton) {
+        switch segmentedControl.selectedSegmentIndex {
         case 0:
             runTimer()
         default:
@@ -42,12 +44,12 @@ class FullExampleViewController: UIViewController {
         startButton.isEnabled = false
     }
     
-    @IBAction func resetAction(_ sender: UIButton) {
+    @IBAction private func resetAction(_ sender: UIButton) {
         resetAll()
     }
     
     // invalidate the timers and reset the time
-    func resetAll() {
+    private func resetAll() {
         // invalidate displayLink
         displayLink?.invalidate()
         // invalidate the timer
@@ -60,39 +62,66 @@ class FullExampleViewController: UIViewController {
         startButton.isEnabled = true
     }
     
-    func runCADisplay() {
+    private func runCADisplay() {
         // setup the displaylink
         displayLink = CADisplayLink(target: self, selector: #selector(updateCADisplayLink))
-        // preferred framerate, the default is 0 which is the device's maximum
-        displayLink?.preferredFramesPerSecond = 0
+        // preferred preferredFrameRateRange - ios15 only
+        displayLink?.preferredFrameRateRange = CAFrameRateRange(minimum: 8, maximum: 15, __preferred: 0)
         // register the displayLink with a runLoop. Common is the mode to use for timers
         displayLink?.add(to: .current, forMode: .common)
     }
     
-    func runTimer() {
+    private func runTimer() {
         // set up the timer to run updateTimer every second
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(FullExampleViewController.updateTimer)), userInfo: nil, repeats: true)
     }
     
     // the function that the CADisplayLink will fire
-    @objc func updateCADisplayLink() {
-        // increment the number of seconds, actually a screen refresh here
-        seconds += 1
-        // each "second" here is actually a screen refresh, so /60 of a second
-        // we can use mod and / to convert to seconds
-        if seconds % 60 == 0 {
-            // update the timerLabel
-            timerLabel.text = Double(seconds / 60).asTime(style: .positional)
+//    @objc func updateCADisplayLink(displayLink: CADisplayLink) {
+//        // only currently works for 60 frames a second.
+//        let actualFramesPerSecond = 1 / (displayLink.targetTimestamp - displayLink.timestamp)
+//        print(actualFramesPerSecond)
+//        // increment the number of seconds, actually a screen refresh here
+//        seconds += 1
+//        // each "second" here is actually a screen refresh, so /60 of a second
+//        // we can use mod and / to convert to seconds
+//        if seconds % 60 == 0 {
+//            // update the timerLabel
+//            timerLabel.text = Double(seconds / 60).asTime(style: .positional)
+//        }
+//    }
+    
+    @objc private func updateCADisplayLink(displayLink: CADisplayLink) {
+        // Check if this is the first frame
+        if lastUpdate == 0 {
+            lastUpdate = displayLink.timestamp
+            return
+        }
+        
+        // Calculate the elapsed time between frames
+        let timestamp = displayLink.timestamp
+        let frameDuration = timestamp - lastUpdate
+        lastUpdate = timestamp
+        elapsedTime += frameDuration
+        
+        if elapsedTime >= 1.0 {
+            // Update every second
+            seconds += 1
+            
+            // Update the timerLabel
+            timerLabel.text = Double(
+                seconds
+            ).asTime(
+                style: .positional
+            )
+            elapsedTime -= 1.0  // Subtract the second to start counting the next second
         }
     }
     
-    @objc func updateTimer() {
+    @objc private func updateTimer() {
         // increment the number of seconds, actually a screen refresh here
         seconds += 1
         // update the timerLabel
         timerLabel.text = Double(seconds).asTime(style: .positional)
     }
 }
-
-
-

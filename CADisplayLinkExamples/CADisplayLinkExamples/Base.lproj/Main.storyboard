@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVw-pD-MyA">
-                                <rect key="frame" x="164" y="438" width="86" height="30"/>
+                                <rect key="frame" x="164" y="440" width="86" height="30"/>
                                 <state key="normal" title="Full Example"/>
                                 <connections>
                                     <action selector="goToExample:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQE-7T-Gxe"/>
@@ -42,17 +42,17 @@
             <objects>
                 <viewController id="GMM-sn-paM" customClass="FullExampleViewController" customModule="CADisplayLinkExamples" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qd2-mk-3JP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6m6-Qs-lEg">
-                                <rect key="frame" x="128" y="381.5" width="158" height="45.5"/>
+                                <rect key="frame" x="128" y="420.5" width="158" height="45.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y8S-xl-w5j">
-                                <rect key="frame" x="41.5" y="461.5" width="331" height="61"/>
+                                <rect key="frame" x="41.5" y="500.5" width="331" height="61"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pO2-iy-AOi">
                                         <rect key="frame" x="0.0" y="0.0" width="331" height="30"/>
@@ -99,7 +99,7 @@
                     <navigationItem key="navigationItem" id="4JY-6J-kc1"/>
                     <connections>
                         <outlet property="resetButton" destination="rvD-NR-NiT" id="Wc5-zS-imV"/>
-                        <outlet property="semgentedControl" destination="3hW-OQ-Z88" id="eoa-1j-6K4"/>
+                        <outlet property="segmentedControl" destination="3hW-OQ-Z88" id="eoa-1j-6K4"/>
                         <outlet property="startButton" destination="MqH-Sn-HmP" id="VtX-WT-Cla"/>
                         <outlet property="timerLabel" destination="6m6-Qs-lEg" id="2LR-le-yZ4"/>
                     </connections>
