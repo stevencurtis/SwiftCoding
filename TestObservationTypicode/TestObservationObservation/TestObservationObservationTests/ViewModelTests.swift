@@ -3,31 +3,41 @@ import XCTest
 
 final class ViewModelTests: XCTestCase {
     func testGetPostsSuccess() async {
-        let mockPosts = [PostDTO(title: "test")]
-        let mockPostService = MockPostService()
-        mockPostService.posts = mockPosts
-        let viewModel = ViewModel(service: mockPostService)
-        await viewModel.getPosts()
+        let expectation = XCTestExpectation(description: "Posts updated")
 
-        XCTAssertEqual(viewModel.posts, mockPosts.map { $0.toDomain() } )
+        let mockPost = [PostDTO(title: "test")]
+        let mockPostService = MockPostService()
+        mockPostService.posts = .posts(mockPost)
+        let viewModel = ViewModel(service: mockPostService)
+        
+        withObservationTracking {
+            _ = viewModel.posts
+        } onChange: {
+            expectation.fulfill()
+        }
+
+        await viewModel.getPosts()
+        await fulfillment(of: [expectation], timeout: 0.1)
+        XCTAssertEqual(viewModel.posts, mockPost.map { $0.toDomain() } )
     }
     
     func testGetPostsError() async {
+        let expectation = XCTestExpectation(description: "Posts updated")
+
+        let mockError = PostError.invalidURL
+        let mockPostService = MockPostService()
+        mockPostService.posts = .error(mockError)
+        let viewModel = ViewModel(service: mockPostService)
         
+        withObservationTracking {
+            _ = viewModel.error
+        } onChange: {
+            expectation.fulfill()
+        }
+        
+        await viewModel.getPosts()
+        await fulfillment(of: [expectation], timeout: 0.1)
+
+        XCTAssertEqual(viewModel.error, mockError)
     }
 }
-
-
-final class MockPostService: PostServiceProtocol {
-    var posts: [PostDTO] = []
-    func getPosts() async throws -> [PostDTO] {
-        return posts
-    }
-}
-
-extension Post: Equatable {
-    static public func == (lhs: Post, rhs: Post) -> Bool {
-        lhs.title == rhs.title
-    }
-}
-
