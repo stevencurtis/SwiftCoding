@@ -209,6 +209,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Understanding Intrinsic Content Size in iOS Development](https://github.com/stevencurtis/SwiftCoding/tree/master/IntrinsicContentSize)<br>
 [Deciding Between RunLoop.main and the Main Thread with Combine in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RunLoopAndMainThread)<br>
 [Using Structs and Classes for Effective Management and Testing in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/EffectiveStructAndClasses)<br>
+[An Introduction to SwiftUI's ScrollViewReader](https://github.com/stevencurtis/SwiftCoding/tree/master/ScrollViewProxyProject)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
