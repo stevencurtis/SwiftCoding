@@ -210,6 +210,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Deciding Between RunLoop.main and the Main Thread with Combine in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/RunLoopAndMainThread)<br>
 [Using Structs and Classes for Effective Management and Testing in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/EffectiveStructAndClasses)<br>
 [An Introduction to SwiftUI's ScrollViewReader](https://github.com/stevencurtis/SwiftCoding/tree/master/ScrollViewProxyProject)<br>
+[Common Dynamic Type Pitfalls in SwiftUI and How to Avoid Them](https://github.com/stevencurtis/SwiftCoding/tree/master/DynamicTypeSwiftUI)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
