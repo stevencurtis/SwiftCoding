@@ -16,6 +16,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Create a UITableViewCell programmatically](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/ProgrammaticUITableViewCell)<br>
 [Zap the SceneDelegate in iOS 12 and just use the AppDelegate](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/SceneDelegateRemoved)<br>
 [Delete Storyboard (Xcode 14 Edition)](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/StoryboardDelete)<br>
+[8 Quick Tips for Performant SwiftUI)](https://github.com/stevencurtis/SwiftCoding/tree/master/QuickGuide/PerformantSwiftUI)<br>
 
 ### Beginner
 [Using a XIB File with a UIView Subclass](https://github.com/stevencurtis/SwiftCoding/tree/master/UIViewSubclassXib)<br>
@@ -93,6 +94,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [SwiftUI's LazyVStack vs. VStack](https://github.com/stevencurtis/SwiftCoding/tree/master/LazyVStackComponent)<br>
 [Swift's Reduce Function](https://github.com/stevencurtis/SwiftCoding/tree/master/Reduce)<br>
 [The Defer Keyword in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/DeferDispatch)<br>
+[What is Swift's @ObservedObject Property Wrapper?](https://github.com/stevencurtis/SwiftCoding/tree/master/ObservedObject)<br>
+[SwiftUI's State Management](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIStateManagement)<br>
+[Getting Started with NavigationStack in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/BeginnerNavigationStack)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -211,6 +215,12 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Using Structs and Classes for Effective Management and Testing in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/EffectiveStructAndClasses)<br>
 [An Introduction to SwiftUI's ScrollViewReader](https://github.com/stevencurtis/SwiftCoding/tree/master/ScrollViewProxyProject)<br>
 [Common Dynamic Type Pitfalls in SwiftUI and How to Avoid Them](https://github.com/stevencurtis/SwiftCoding/tree/master/DynamicTypeSwiftUI)<br>
+[SwiftUI Modifiers and Custom Modifiers](https://github.com/stevencurtis/SwiftCoding/tree/master/ModifiersProject)<br>
+[Swift Property Wrappers vs. Macros](https://github.com/stevencurtis/SwiftCoding/tree/master/PropertyWrappersMacros)<br>
+[Mastering OptionSet in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/OptionSet)<br>
+[The Ultimate Type Eraser: Swift's Any](https://github.com/stevencurtis/SwiftCoding/tree/master/AnyType)<br>
+[A Beginners Guide to Views in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/BeginnersViews)<br>
+[Understanding Any and Opaque Types in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AnyOpaque)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -356,6 +366,12 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Implementing iOS Feature Flags Using Firebase](https://github.com/stevencurtis/SwiftCoding/tree/master/RemoteFF)<br>
 [Understanding Indirect Enums in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/IndirectEnum)<br>
 [Learning to Unit Test The Observable Macro](https://github.com/stevencurtis/SwiftCoding/tree/master/TestObservationTypicode)<br>
+[Using Swift Package Manager to Structure Test-Only Code in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/SPMTestCode)<br>
+[Simplifying State Management in SwiftUI with @Environment: A Practical Guide](https://github.com/stevencurtis/SwiftCoding/tree/master/UsingEnvironmentVariables)<br>
+[An Introduction to AsyncStream in Swift: A Practical Example with a Timer](https://github.com/stevencurtis/SwiftCoding/tree/master/UsingAsyncStream)<br>
+[Swift Configuration Objects For Testability](https://github.com/stevencurtis/SwiftCoding/tree/master/ConfigurationObjects)<br>
+[Understanding and Using Phantom Types in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PhantomTypes)<br>
+[Practical MVVM-C in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMCNavigationStack)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
@@ -427,8 +443,13 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Merge Sort in Swift](https://medium.com/@stevenpcurtis/merge-sort-in-swift-2f58d10aced7)<br>
 [Insertion Sort in Swift](https://medium.com/@stevenpcurtis/insertion-sort-in-swift-cabf448f1a9e)<br>
 [The Readers-Writers Problem](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/ReadersWriters)<br>
-[Should I Learn UIKit or SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/MethodDispatch)<br>
-[Understanding Method Dispatch in Swift]()
+[Should I Learn UIKit or SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/UIKitOrSwiftUI)<br>
+[Understanding Method Dispatch in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/MethodDispatch)<br>
+[Binary Trees in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Tree)<br>
+[Clean Architecture layers for iOS Swift apps](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/CleanArchitectureLayers)<br>
+[OAuth for iOS Applications](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/OAuth)<br>
+[Organizing iOS Files Based on the Clean Architecture](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/SRP)<br>
+[Swift Queues](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Queues)<br>
 
 **Agile**<br>
 [Run Agile from Home: The Sprint Retrospective](https://github.com/stevencurtis/SwiftCoding/tree/master/Theory/Agile/SprintRetrospective)<br>
