@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAF634E62B7529E000685CA4 /* StickyButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634E52B7529E000685CA4 /* StickyButtonApp.swift */; };
+		CAF634E82B7529E000685CA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634E72B7529E000685CA4 /* ContentView.swift */; };
+		CAF634EA2B7529E100685CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF634E92B7529E100685CA4 /* Assets.xcassets */; };
+		CAF634ED2B7529E100685CA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF634EC2B7529E100685CA4 /* Preview Assets.xcassets */; };
+		CAF634F72B7529E100685CA4 /* StickyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF634F62B7529E100685CA4 /* StickyButtonTests.swift */; };
+		CAF635012B7529E200685CA4 /* StickyButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF635002B7529E200685CA4 /* StickyButtonUITests.swift */; };
+		CAF635032B7529E200685CA4 /* StickyButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF635022B7529E200685CA4 /* StickyButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF634F32B7529E100685CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF634DA2B7529DF00685CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF634E12B7529E000685CA4;
+			remoteInfo = StickyButton;
+		};
+		CAF634FD2B7529E200685CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF634DA2B7529DF00685CA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF634E12B7529E000685CA4;
+			remoteInfo = StickyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAF634E22B7529E000685CA4 /* StickyButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickyButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF634E52B7529E000685CA4 /* StickyButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyButtonApp.swift; sourceTree = "<group>"; };
+		CAF634E72B7529E000685CA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAF634E92B7529E100685CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF634EC2B7529E100685CA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF634F22B7529E100685CA4 /* StickyButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF634F62B7529E100685CA4 /* StickyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyButtonTests.swift; sourceTree = "<group>"; };
+		CAF634FC2B7529E200685CA4 /* StickyButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF635002B7529E200685CA4 /* StickyButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyButtonUITests.swift; sourceTree = "<group>"; };
+		CAF635022B7529E200685CA4 /* StickyButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF634DF2B7529E000685CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634EF2B7529E100685CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634F92B7529E200685CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAF634D92B7529DF00685CA4 = {
+			isa = PBXGroup;
+			children = (
+				CAF634E42B7529E000685CA4 /* StickyButton */,
+				CAF634F52B7529E100685CA4 /* StickyButtonTests */,
+				CAF634FF2B7529E200685CA4 /* StickyButtonUITests */,
+				CAF634E32B7529E000685CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF634E32B7529E000685CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634E22B7529E000685CA4 /* StickyButton.app */,
+				CAF634F22B7529E100685CA4 /* StickyButtonTests.xctest */,
+				CAF634FC2B7529E200685CA4 /* StickyButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF634E42B7529E000685CA4 /* StickyButton */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634E52B7529E000685CA4 /* StickyButtonApp.swift */,
+				CAF634E72B7529E000685CA4 /* ContentView.swift */,
+				CAF634E92B7529E100685CA4 /* Assets.xcassets */,
+				CAF634EB2B7529E100685CA4 /* Preview Content */,
+			);
+			path = StickyButton;
+			sourceTree = "<group>";
+		};
+		CAF634EB2B7529E100685CA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634EC2B7529E100685CA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAF634F52B7529E100685CA4 /* StickyButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF634F62B7529E100685CA4 /* StickyButtonTests.swift */,
+			);
+			path = StickyButtonTests;
+			sourceTree = "<group>";
+		};
+		CAF634FF2B7529E200685CA4 /* StickyButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF635002B7529E200685CA4 /* StickyButtonUITests.swift */,
+				CAF635022B7529E200685CA4 /* StickyButtonUITestsLaunchTests.swift */,
+			);
+			path = StickyButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF634E12B7529E000685CA4 /* StickyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF635062B7529E200685CA4 /* Build configuration list for PBXNativeTarget "StickyButton" */;
+			buildPhases = (
+				CAF634DE2B7529E000685CA4 /* Sources */,
+				CAF634DF2B7529E000685CA4 /* Frameworks */,
+				CAF634E02B7529E000685CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickyButton;
+			productName = StickyButton;
+			productReference = CAF634E22B7529E000685CA4 /* StickyButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF634F12B7529E100685CA4 /* StickyButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF635092B7529E200685CA4 /* Build configuration list for PBXNativeTarget "StickyButtonTests" */;
+			buildPhases = (
+				CAF634EE2B7529E100685CA4 /* Sources */,
+				CAF634EF2B7529E100685CA4 /* Frameworks */,
+				CAF634F02B7529E100685CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF634F42B7529E100685CA4 /* PBXTargetDependency */,
+			);
+			name = StickyButtonTests;
+			productName = StickyButtonTests;
+			productReference = CAF634F22B7529E100685CA4 /* StickyButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF634FB2B7529E200685CA4 /* StickyButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF6350C2B7529E200685CA4 /* Build configuration list for PBXNativeTarget "StickyButtonUITests" */;
+			buildPhases = (
+				CAF634F82B7529E200685CA4 /* Sources */,
+				CAF634F92B7529E200685CA4 /* Frameworks */,
+				CAF634FA2B7529E200685CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF634FE2B7529E200685CA4 /* PBXTargetDependency */,
+			);
+			name = StickyButtonUITests;
+			productName = StickyButtonUITests;
+			productReference = CAF634FC2B7529E200685CA4 /* StickyButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF634DA2B7529DF00685CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CAF634E12B7529E000685CA4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CAF634F12B7529E100685CA4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAF634E12B7529E000685CA4;
+					};
+					CAF634FB2B7529E200685CA4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CAF634E12B7529E000685CA4;
+					};
+				};
+			};
+			buildConfigurationList = CAF634DD2B7529DF00685CA4 /* Build configuration list for PBXProject "StickyButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF634D92B7529DF00685CA4;
+			productRefGroup = CAF634E32B7529E000685CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF634E12B7529E000685CA4 /* StickyButton */,
+				CAF634F12B7529E100685CA4 /* StickyButtonTests */,
+				CAF634FB2B7529E200685CA4 /* StickyButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF634E02B7529E000685CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634ED2B7529E100685CA4 /* Preview Assets.xcassets in Resources */,
+				CAF634EA2B7529E100685CA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634F02B7529E100685CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634FA2B7529E200685CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF634DE2B7529E000685CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634E82B7529E000685CA4 /* ContentView.swift in Sources */,
+				CAF634E62B7529E000685CA4 /* StickyButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634EE2B7529E100685CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF634F72B7529E100685CA4 /* StickyButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF634F82B7529E200685CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF635012B7529E200685CA4 /* StickyButtonUITests.swift in Sources */,
+				CAF635032B7529E200685CA4 /* StickyButtonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF634F42B7529E100685CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF634E12B7529E000685CA4 /* StickyButton */;
+			targetProxy = CAF634F32B7529E100685CA4 /* PBXContainerItemProxy */;
+		};
+		CAF634FE2B7529E200685CA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF634E12B7529E000685CA4 /* StickyButton */;
+			targetProxy = CAF634FD2B7529E200685CA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAF635042B7529E200685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF635052B7529E200685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF635072B7529E200685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyButton/Preview Content\"";
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.StickyButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF635082B7529E200685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StickyButton/Preview Content\"";
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.StickyButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF6350A2B7529E200685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.StickyButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickyButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StickyButton";
+			};
+			name = Debug;
+		};
+		CAF6350B2B7529E200685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.StickyButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StickyButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StickyButton";
+			};
+			name = Release;
+		};
+		CAF6350D2B7529E200685CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.StickyButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StickyButton;
+			};
+			name = Debug;
+		};
+		CAF6350E2B7529E200685CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UW69ZFFDZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studeapps.StickyButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StickyButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF634DD2B7529DF00685CA4 /* Build configuration list for PBXProject "StickyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF635042B7529E200685CA4 /* Debug */,
+				CAF635052B7529E200685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF635062B7529E200685CA4 /* Build configuration list for PBXNativeTarget "StickyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF635072B7529E200685CA4 /* Debug */,
+				CAF635082B7529E200685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF635092B7529E200685CA4 /* Build configuration list for PBXNativeTarget "StickyButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF6350A2B7529E200685CA4 /* Debug */,
+				CAF6350B2B7529E200685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF6350C2B7529E200685CA4 /* Build configuration list for PBXNativeTarget "StickyButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF6350D2B7529E200685CA4 /* Debug */,
+				CAF6350E2B7529E200685CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF634DA2B7529DF00685CA4 /* Project object */;
+}
