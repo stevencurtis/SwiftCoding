@@ -1,8 +1,16 @@
-//
-//  TimerViewModel.swift
-//  UsingAsyncStream
-//
-//  Created by Steven Curtis on 28/10/2024.
-//
+import Observation
 
-import Foundation
+@Observable
+final class TimerViewModel {
+    private(set) var time: String = "default"
+    private let timerService: TimerServiceProtocol
+    init(timerService: TimerServiceProtocol = TimerService()) {
+        self.timerService = timerService
+    }
+
+    func initializer() async {
+        for await newTime in timerService.timeStream() {
+            time = newTime
+        }
+    }
+}
