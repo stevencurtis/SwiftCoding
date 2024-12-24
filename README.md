@@ -97,6 +97,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [What is Swift's @ObservedObject Property Wrapper?](https://github.com/stevencurtis/SwiftCoding/tree/master/ObservedObject)<br>
 [SwiftUI's State Management](https://github.com/stevencurtis/SwiftCoding/tree/master/SwiftUIStateManagement)<br>
 [Getting Started with NavigationStack in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/BeginnerNavigationStack)<br>
+[A Sticky Button in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/StickyButton)<br>
+[Transactions in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/Transaction)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
@@ -221,6 +223,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [The Ultimate Type Eraser: Swift's Any](https://github.com/stevencurtis/SwiftCoding/tree/master/AnyType)<br>
 [A Beginners Guide to Views in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/BeginnersViews)<br>
 [Understanding Any and Opaque Types in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/AnyOpaque)<br>
+[Mastering SwiftUI's FocusState](https://github.com/stevencurtis/SwiftCoding/tree/master/FocusState)<br>
 
 ### Normal
 [Semaphores](https://github.com/stevencurtis/SwiftCoding/tree/master/Semaphores)<br>
@@ -473,7 +476,6 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Should We Learn UIKit or SwiftUI in 2023?](https://github.com/stevencurtis/SwiftCoding/tree/master/UIKitOrSwiftUI)<br>
 [How I Blog Daily As An iOS Software Developer](https://github.com/stevencurtis/SwiftCoding/tree/master/HowIBlogDailyAsAniOSSoftwareDeveloper)<br>
 
-
 ### Concurrency
 [Swift's Future Class](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/FuturesBasic)<br>
 [Mutable State In Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MutableState)<br>
@@ -485,6 +487,9 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift Concurrency: Working with MainActor to Manage Task Execution](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MainActor)<br>
 [Swift Concurrency for Beginners: Getting Started with Async/Await](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MainActor)<br>
 [The Power of Tasks in Swift: Concurrency Made Easy](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/Tasks)<br>
+
+### Configuration
+[Crafting a Robust .zshrc for Developer Productivity](https://github.com/stevencurtis/SwiftCoding/tree/master/Configuration/zshrcconfiguration)
 
 ### LeetCode
 [Leetcode Weekly Contest 194 Swift solutions](https://github.com/stevencurtis/SwiftCoding/tree/master/LeetCode/Contests/194)<br>
