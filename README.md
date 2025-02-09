@@ -99,6 +99,7 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Getting Started with NavigationStack in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/BeginnerNavigationStack)<br>
 [A Sticky Button in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/StickyButton)<br>
 [Transactions in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/Transaction)<br>
+[Mastering UITableView Content Insets](https://github.com/stevencurtis/SwiftCoding/tree/master/DemoContentInserts)<br>
 
 ### Easy
 [SEE Retain Cycles in Xcode](https://github.com/stevencurtis/SwiftCoding/tree/master/VisualMemoryDebugger)<br>
