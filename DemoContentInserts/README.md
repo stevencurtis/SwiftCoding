@@ -33,7 +33,7 @@ Which is done with something like the following:
 tableView.contentOffset = CGPoint(x: 0, y: -100)
 ```
 
-![Demo Screenshot](https://raw.githubusercontent.com/stevencurtis/SwiftCoding/master/Images/top.png)
+![Demo Screenshot](https://github.com/stevencurtis/SwiftCoding/blob/master/DemoContentInserts/Images/top.png)
 
 ## A Practical Example:
 
