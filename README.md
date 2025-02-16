@@ -489,6 +489,10 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Swift Concurrency for Beginners: Getting Started with Async/Await](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/MainActor)<br>
 [The Power of Tasks in Swift: Concurrency Made Easy](https://github.com/stevencurtis/SwiftCoding/tree/master/Concurrency/Tasks)<br>
 
+
+### Flexbox
+[How to Set Up a Simple HTML File to Experiment with Flexbox in Chrome](https://github.com/stevencurtis/SwiftCoding/tree/master/Flexbox/SimpleHTML)<br>
+
 ### Configuration
 [Crafting a Robust .zshrc for Developer Productivity](https://github.com/stevencurtis/SwiftCoding/tree/master/Configuration/zshrcconfiguration)
 
