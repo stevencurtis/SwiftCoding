@@ -377,6 +377,8 @@ For the best free guide for Swift coding use [CS193p](https://cs193p.sites.stanf
 [Understanding and Using Phantom Types in Swift](https://github.com/stevencurtis/SwiftCoding/tree/master/PhantomTypes)<br>
 [Practical MVVM-C in SwiftUI](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMCNavigationStack)<br>
 [How to Keep Your API Key Secret in a Swift Tech Test (and Still Use GitHub)](https://github.com/stevencurtis/SwiftCoding/tree/master/HideAPIKey)<br>
+[How to Keep Your API Key Secret in a Swift Tech Test (and Still Use GitHub)](https://github.com/stevencurtis/SwiftCoding/tree/master/HideAPIKey)<br>
+[Getting Started with Deep Linking in UIKit](https://github.com/stevencurtis/SwiftCoding/tree/master/DeepLinks)<br>
 
 ### Challenging
 [TypeErasure](https://github.com/stevencurtis/SwiftCoding/tree/master/MVVMDependencyInjection)<br>
